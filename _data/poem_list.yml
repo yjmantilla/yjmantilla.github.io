@@ -1,0 +1,9 @@
+poems_list_title: Poems
+poems:
+
+- title: Color
+  url: /poems/color.html
+
+- title: La Bailarina
+  url: /poems/bailarina.html
+
