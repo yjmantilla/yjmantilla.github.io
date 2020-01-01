@@ -6,3 +6,10 @@
       <li><a href="{{ item.url }}">{{ item.title }}</a></li>
    {% endfor %}
 </ul>
+
+<h2>{{ site.data.song_list.songs_list_title }}</h2>
+<ul>
+   {% for item in site.data.song_list.songs %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+   {% endfor %}
+</ul>
