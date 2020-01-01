@@ -1,6 +1,6 @@
 # Bailarina
 
-![Ballerina](https://yjmantilla.github.com/images/ballerina.jpg)
+![Ballerina](https://yjmantilla.github.io/images/ballerina.jpg)
 
 
 Ella bailaba bajo el cielo y las estrellas,<br/>
