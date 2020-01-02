@@ -1,0 +1,6 @@
+sims_list_title: Simulations
+sims:
+
+- title: Random Walkers
+  url: /sims/random_walkers.html
+
