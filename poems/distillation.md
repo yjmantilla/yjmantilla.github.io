@@ -1,13 +1,13 @@
 # Distillation
 
-So it has been a really really bumpy road<br/>
-that of distilling my feelings<br/>
+So it has been a really really bumpy road,<br/>
+that of distilling my feelings.<br/>
 I tried to dissect my emotional being<br/>
-little by little<br/>
-feeling by feeling<br/>
+little by little,<br/>
+feeling by feeling,<br/>
 to unmask those who are fake<br/>
-and those who are not mutual<br/>
-those who are selfish<br/>
+and those who are not mutual,<br/>
+those who are selfish,<br/>
 and those who are purely<br/>
 my gift to you.<br/>
 
