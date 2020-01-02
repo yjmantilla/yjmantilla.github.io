@@ -8,17 +8,21 @@ var bass;
 var sliderRate;
 var sliderPan;
 var button;
+var h;
+var w;
 var volhistory_sax = [];
 var vol_sax;
 
 
 function preload(){
   sax = loadSound("/audio/venezuela_sax.mp3", loaded);
-  bass =  loadSound("/audio/venezuela_noSax.mp3", loaded2);
+  bass =  loadSound("/audio/venezuela_bass.mp3", loaded2);
 
 }
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  h = 640;
+  w = 640;
+  createCanvas(h, w);
   angleMode(DEGREES);
   sax.setVolume(1);
   bass.setVolume(1);
@@ -61,17 +65,17 @@ function draw() {
   //fill(255, 0, 255);
   //ellipse(width / 2, height / 2, diam, diam);
 
-  background(255,255,0)
+  background(0);
   //var vol_sax = amp_sax.getLevel();
   var vol_bass = amp_bass.getLevel();
   
-  var diam_bass = 2*(map(vol_bass,0,0.5,1,height));
+  var diam_bass = 3*(map(vol_bass,0,0.5,1,height));
   //var diam_sax = 5*(map(vol_sax,0,0.5,1,height));
   fill(0, 0, 255);
   ellipse(width / 2, height / 2, diam_bass, diam_bass);
 
   
-  stroke(255,0,0);
+  stroke(255);
 
   noFill();
   //code for linear graph
@@ -155,9 +159,4 @@ function togglePlaying() {
   else{
     bass.pause();
   }
-}
-
-
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
 }
