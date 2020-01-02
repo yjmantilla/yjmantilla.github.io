@@ -136,6 +136,17 @@ function draw() {
    //map(vol_piano, 0, 1, height, 0)
   
   //ellipseDrum(vol_others,cfg_ellipseDrum_others);
+  
+  if (mode_visuals){
+	buffer = 360;
+  } else{
+	  buffer = width;
+  }
+  
+  cleanSignal(volHistory_sax,buffer);
+  cleanSignal(volHistory_bass,buffer);
+  cleanSignal(volHistory_piano,buffer);
+  cleanSignal(volHistory_others,buffer);
 }
 
 function mouseClicked(){
@@ -268,5 +279,11 @@ function keyPressed() {
   }
   else if (keyCode == 77){
 	mode_visuals = !mode_visuals;
+  }
+}
+
+function cleanSignal(signal,buffer){
+	while (signal.length > buffer) {
+    signal.splice(0, 1);
   }
 }
