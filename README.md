@@ -1,6 +1,8 @@
-## Probably Wrong Hub
+# Probably Wrong Hub
 
-![Spectrum Banner](/images/spectrum_banner.png)
+![Spectrum Banner](/images/spectrum_banner.png)<br/>
+
+## Links
 
 <h2>{{ site.data.simsList.simsList_title }}</h2>
 <ul>
