@@ -69,6 +69,6 @@ function keyPressed() {
   }
   
   strokeWeight(walkerSize);
-  console.log(walkerSpeed);
+  //console.log(walkerSpeed);
 }
 //mycar = new Car("Ford");
