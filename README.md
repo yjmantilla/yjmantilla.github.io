@@ -2,8 +2,6 @@
 
 ![Spectrum Banner](/images/spectrum_banner.png)<br/>
 
-## Links
-
 <h2>{{ site.data.simsList.simsList_title }}</h2>
 <ul>
    {% for item in site.data.simsList.sims %}

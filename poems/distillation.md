@@ -2,7 +2,7 @@
 
 So it has been a really really bumpy road,<br/>
 that of distilling my feelings.<br/>
-I tried to dissect my emotional being<br/>
+I tried to dissect my emotional being,<br/>
 little by little,<br/>
 feeling by feeling,<br/>
 to unmask those who are fake<br/>
