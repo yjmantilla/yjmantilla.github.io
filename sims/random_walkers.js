@@ -46,6 +46,11 @@ for (var i = 0; i < walkerSystem.numberOfWalkers;i++){
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
   background(walkerSystem.background); // for some reason it restarts everything on window resize
+  for (var i = 0; i < walkerSystem.numberOfWalkers;i++){
+    walkers[i].xPos = random(width);
+    walkers[i].yPos = random(height);
+  }
+  
 }
 
 class Walker {
