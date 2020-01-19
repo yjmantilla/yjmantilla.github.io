@@ -1,7 +1,13 @@
 var walkers = new Array();
+
+
 walkerSystem = {numberOfWalkers : 1000,
   walkerSize : 1,
-  walkerSpeed : 1}
+  walkerSpeed : 1,
+  restart: function(){background(this.background);},
+  background : [0,0,0]
+}
+
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -9,9 +15,8 @@ for (var i=0;i < walkerSystem.numberOfWalkers;i++){
   //walkers.push( new Walker(random(width),random(height),randomColor(),random(1,20)));
   walkers.push( new Walker(random(width),random(height),randomColor(),walkerSystem.walkerSize));
 }
-background(color('black'));
+background(walkerSystem.background);
 strokeWeight(5);
-
 let gui = new dat.GUI({ autoPlace: true, width: 450 });
 //gui.add(text, 'growthSpeed', -5, 5); // Min and max
 //var obj = { add:function(){ console.log("clicked") }};
@@ -19,6 +24,12 @@ let gui = new dat.GUI({ autoPlace: true, width: 450 });
 //gui.add(walkerSystem,'numberOfWalkers',0,10000).step(1);
 gui.add(walkerSystem,'walkerSize',1,50).step(1).name('Size (also left/right arrow)');
 gui.add(walkerSystem,'walkerSpeed',0,50).step(1).name('Speed (also up/down arrow)');
+gui.add(walkerSystem,'restart').name('restart background');
+var back = gui.addColor(walkerSystem,'background');
+
+back.onChange(function(){background(walkerSystem.background);})
+
+
 }
 
 
