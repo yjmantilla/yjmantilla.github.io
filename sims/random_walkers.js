@@ -1,21 +1,30 @@
-var numberOfWalkers = 1000;
 var walkers = new Array();
-var walkerSize = 1;
-var walkerSpeed = 1;
+walkerSystem = {numberOfWalkers : 1000,
+  walkerSize : 1,
+  walkerSpeed : 1}
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
-for (var i=0;i < numberOfWalkers;i++){
+for (var i=0;i < walkerSystem.numberOfWalkers;i++){
   //walkers.push( new Walker(random(width),random(height),randomColor(),random(1,20)));
-  walkers.push( new Walker(random(width),random(height),randomColor(),walkerSize));
+  walkers.push( new Walker(random(width),random(height),randomColor(),walkerSystem.walkerSize));
 }
 background(color('black'));
 strokeWeight(5);
 
+let gui = new dat.GUI();
+//gui.add(text, 'growthSpeed', -5, 5); // Min and max
+//var obj = { add:function(){ console.log("clicked") }};
+//gui.add(obj, 'add').name('Custom Label');
+//gui.add(walkerSystem,'numberOfWalkers',0,10000).step(1);
+gui.add(walkerSystem,'walkerSize',1,50).step(1);
+gui.add(walkerSystem,'walkerSpeed',0,50).step(1);
 }
 
 
 function draw() {
-for (var i = 0; i < numberOfWalkers;i++){
+  strokeWeight(walkerSystem.walkerSize);
+for (var i = 0; i < walkerSystem.numberOfWalkers;i++){
   walkers[i].step();
   walkers[i].display();
 }
@@ -37,7 +46,7 @@ class Walker {
   
   step(){
     var choices = [-1,0,1];
-    choices = choices.map(x => x * walkerSpeed);
+    choices = choices.map(x => x * walkerSystem.walkerSpeed);
     this.xPos += (random(choices));//upper limit is not included
     this.yPos += (random(choices));//playing with theses limits gives bias
   }
@@ -55,20 +64,20 @@ function randomColor(){
   return color(random(255),random(255),random(255))
 }
 
-function keyPressed() {
-  if (keyCode === LEFT_ARROW) {
-    walkerSize -=1;
-  } else if (keyCode === RIGHT_ARROW) {
-    walkerSize+=1;
-  }
-  else if (keyCode === UP_ARROW){
-      walkerSpeed+=1;
-  }
-  else if (keyCode === DOWN_ARROW){
-      walkerSpeed-=1;
-  }
+// function keyPressed() {
+//   if (keyCode === LEFT_ARROW) {
+//     walkerSystem.walkerSize -=1;
+//   } else if (keyCode === RIGHT_ARROW) {
+//     walkerSystem.walkerSize+=1;
+//   }
+//   else if (keyCode === UP_ARROW){
+//       walkerSystem.walkerSpeed+=1;
+//   }
+//   else if (keyCode === DOWN_ARROW){
+//       walkerSystem.walkerSpeed-=1;
+//   }
   
-  strokeWeight(walkerSize);
-  //console.log(walkerSpeed);
-}
+//   strokeWeight(walkerSystem.walkerSize);
+//   //console.log(walkerSystem.walkerSpeed);
+// }
 //mycar = new Car("Ford");
