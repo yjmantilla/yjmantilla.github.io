@@ -12,13 +12,13 @@ for (var i=0;i < walkerSystem.numberOfWalkers;i++){
 background(color('black'));
 strokeWeight(5);
 
-let gui = new dat.GUI();
+let gui = new dat.GUI({ autoPlace: true, width: 450 });
 //gui.add(text, 'growthSpeed', -5, 5); // Min and max
 //var obj = { add:function(){ console.log("clicked") }};
 //gui.add(obj, 'add').name('Custom Label');
 //gui.add(walkerSystem,'numberOfWalkers',0,10000).step(1);
-gui.add(walkerSystem,'walkerSize',1,50).step(1);
-gui.add(walkerSystem,'walkerSpeed',0,50).step(1);
+gui.add(walkerSystem,'walkerSize',1,50).step(1).name('Size (also left/right arrow)');
+gui.add(walkerSystem,'walkerSpeed',0,50).step(1).name('Speed (also up/down arrow)');
 }
 
 
@@ -64,20 +64,20 @@ function randomColor(){
   return color(random(255),random(255),random(255))
 }
 
-// function keyPressed() {
-//   if (keyCode === LEFT_ARROW) {
-//     walkerSystem.walkerSize -=1;
-//   } else if (keyCode === RIGHT_ARROW) {
-//     walkerSystem.walkerSize+=1;
-//   }
-//   else if (keyCode === UP_ARROW){
-//       walkerSystem.walkerSpeed+=1;
-//   }
-//   else if (keyCode === DOWN_ARROW){
-//       walkerSystem.walkerSpeed-=1;
-//   }
+function keyPressed() {
+  if (keyCode === LEFT_ARROW) {
+    walkerSystem.walkerSize -=1;
+  } else if (keyCode === RIGHT_ARROW) {
+    walkerSystem.walkerSize+=1;
+  }
+  else if (keyCode === UP_ARROW){
+      walkerSystem.walkerSpeed+=1;
+  }
+  else if (keyCode === DOWN_ARROW){
+      walkerSystem.walkerSpeed-=1;
+  }
   
 //   strokeWeight(walkerSystem.walkerSize);
 //   //console.log(walkerSystem.walkerSpeed);
-// }
+}
 //mycar = new Car("Ford");

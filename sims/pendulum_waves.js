@@ -48,16 +48,16 @@ function setup(){
   pendulumWave.yOffset = 0;
   pendulumWave.xOffset = width/2;
   angleMode(RADIANS); 
-  let gui = new dat.GUI();
+  let gui = new dat.GUI({ autoPlace: true, width: 450 });
   //gui.add(text, 'growthSpeed', -5, 5); // Min and max
   //var obj = { add:function(){ console.log("clicked") }};
   //gui.add(obj, 'add').name('Custom Label');
-  var timeFolder = gui.addFolder('Time');
+  var timeFolder = gui.addFolder('Time (also +/- keys)');
   timeFolder.add(pendulumWave,'faster');
   timeFolder.add(pendulumWave,'slower');
   var pendulumFolder = gui.addFolder('Pendulum');
-  pendulumFolder.add(pendulumWave, 'numberOfParticles', 1, 256).name('# of particles').step(1);
-  pendulumFolder.add(pendulumWave, 'fStep', -10, 10).step(1).name('freq step');
+  pendulumFolder.add(pendulumWave, 'numberOfParticles', 1, 256).name('# of particles (also left/right arrow)').step(1);
+  pendulumFolder.add(pendulumWave, 'fStep', -10, 10).step(1).name('freq step (also up/down arrow)');
   pendulumFolder.addColor(pendulumWave,'particleColor');
   var positionFolder = gui.addFolder('Position');
   positionFolder.add(pendulumWave,'xOffset',-1*width,width);
@@ -79,25 +79,25 @@ function windowResized() {
   pendulumWave.height = height;
 }
 
-// function keyPressed() {
-//   if (keyCode === LEFT_ARROW) {
-//     numberOfParticles-=1;
-//   } else if (keyCode === RIGHT_ARROW) {
-//     numberOfParticles+=1;
-//   }
-//   else if (keyCode === UP_ARROW){
-//       fStep+=1;
-//   }
-//   else if (keyCode === DOWN_ARROW){
-//       fStep-=1;
-//   }
-//   else if (keyCode === 107){
-//       step=step*2;
-//   }
-//   else if (keyCode === 109){
-//       step=step/2;
-//   }
-// }
+function keyPressed() {
+  if (keyCode === LEFT_ARROW) {
+    pendulumWave.numberOfParticles-=1;
+  } else if (keyCode === RIGHT_ARROW) {
+    pendulumWave.numberOfParticles+=1;
+  }
+  else if (keyCode === UP_ARROW){
+      pendulumWave.fStep+=1;
+  }
+  else if (keyCode === DOWN_ARROW){
+      pendulumWave.fStep-=1;
+  }
+  else if (keyCode === 107){
+      pendulumWave.step=pendulumWave.step*2;
+  }
+  else if (keyCode === 109){
+      pendulumWave.step=pendulumWave.step/2;
+  }
+}
 
 function randomColor(){
   return color(random(255),random(255),random(255))
