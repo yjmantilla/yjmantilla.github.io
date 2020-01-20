@@ -57,7 +57,9 @@ function setup(){
   timeFolder.add(pendulumWave,'slower');
   var pendulumFolder = gui.addFolder('Pendulum');
   pendulumFolder.add(pendulumWave, 'numberOfParticles', 1, 256).name('# of particles (also left/right arrow)').step(1);
-  pendulumFolder.add(pendulumWave, 'fStep', -10, 10).step(1).name('freq step (also up/down arrow)');
+  pendulumFolder.add(pendulumWave, 'fStep', -100, 100).step(1).name('freq step (also up/down arrow)');
+  pendulumFolder.add(pendulumWave, 'f0', -100, 100).step(1).name('1st particle oscillations in 1 period');
+  pendulumFolder.add(pendulumWave, 'period', 0, 100).step(1).name('period');
   pendulumFolder.addColor(pendulumWave,'particleColor');
   var positionFolder = gui.addFolder('Position');
   positionFolder.add(pendulumWave,'xOffset',-1*width,width);
