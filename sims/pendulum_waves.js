@@ -15,6 +15,7 @@ var pendulumWave = {
     height : 480,
     particleColor: [0,255,0],
     background : [0,0,0],
+    play : true,
     updateFrac :function(){this.frac=2*this.numberOfParticles;},
     addParticle:function(){this.numberOfParticles+=1;this.updateFrac()},
     deleteParticle:function(){this.numberOfParticles-=1;this.updateFrac()},
@@ -24,6 +25,7 @@ var pendulumWave = {
     slower:function(){this.step/=2;},
     display:function(){
       this.y=this.yOffset;
+      //this.updateFrac();
       for(var i =0; i <=this.numberOfParticles;i++)
       {
       ellipse(cos(this.time*TWO_PI*(this.f0+i*this.fStep)/this.period)*this.width/2 + this.xOffset, this.y,this.leastDim/this.frac,this.leastDim/this.frac);
@@ -32,10 +34,12 @@ var pendulumWave = {
       fill(color(this.particleColor));//color(this.color)
       }
       //one could actually superimpose two different of this for to see the difference
+      if (this.play){
       if (this.time <= this.period){
       this.time+=this.step;
       }
       else {this.time = 0;}
+      }
       //console.log(this.time)
     }
   }
@@ -55,12 +59,15 @@ function setup(){
   var timeFolder = gui.addFolder('Time (also +/- keys)');
   timeFolder.add(pendulumWave,'faster');
   timeFolder.add(pendulumWave,'slower');
+  timeFolder.add(pendulumWave,'play');
   var pendulumFolder = gui.addFolder('Pendulum');
-  pendulumFolder.add(pendulumWave, 'numberOfParticles', 1, 256).name('# of particles (also left/right arrow)').step(1);
+  const max = 1000;
+  pendulumFolder.add(pendulumWave, 'numberOfParticles', 1, max).name('# of particles (also left/right arrow)').step(1);
   pendulumFolder.add(pendulumWave, 'fStep', -100, 100).step(1).name('freq step (also up/down arrow)');
   pendulumFolder.add(pendulumWave, 'f0', -100, 100).step(1).name('1st particle oscillations in 1 period');
   pendulumFolder.add(pendulumWave, 'period', 0, 100).step(1).name('period');
   pendulumFolder.addColor(pendulumWave,'particleColor');
+  pendulumFolder.add(pendulumWave,'frac',1,max/2).name('particleSize');
   var positionFolder = gui.addFolder('Position');
   positionFolder.add(pendulumWave,'xOffset',-1*width,width);
   positionFolder.add(pendulumWave,'yOffset',-1*height,height);
