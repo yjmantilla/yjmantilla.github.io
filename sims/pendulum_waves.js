@@ -16,6 +16,8 @@ var pendulumWave = {
     particleColor: [0,255,0],
     background : [0,0,0],
     play : true,
+    type:'cos',
+    xMod:0,
     updateFrac :function(){this.frac=2*this.numberOfParticles;},
     addParticle:function(){this.numberOfParticles+=1;this.updateFrac()},
     deleteParticle:function(){this.numberOfParticles-=1;this.updateFrac()},
@@ -28,8 +30,35 @@ var pendulumWave = {
       //this.updateFrac();
       for(var i =0; i <=this.numberOfParticles;i++)
       {
-      ellipse(cos(this.time*TWO_PI*(this.f0+i*this.fStep)/this.period)*this.width/2 + this.xOffset, this.y,this.leastDim/this.frac,this.leastDim/this.frac);
-      this.y=this.y+this.height/(this.numberOfParticles);
+        phase = this.time*TWO_PI*(this.f0+i*this.fStep)/this.period;
+        // maybe use https://github.com/scijs/periodic-function
+        switch(this.type) {
+          case 'sin':
+            this.xMod = sin(phase);
+          break;
+          case 'cos':
+            this.xMod = cos(phase);
+          break;
+          case 'tan':
+            this.xMod = tan(phase);
+            break;
+          case 'random':
+            this.xMod = Math.random()*2;
+            this.xOffset = 0; // to restart xOffset just resize the window
+            break;
+          case 'fourier':
+            this.xMod = sin(phase) + cos(phase);
+            break;
+          case 'add':
+            //this.xMod = sin(phase) + sin(2*phase);
+            this.xMod = sin(phase) + cos(3*phase);
+            break;
+          default:
+            this.xMod = cos(phase);// code block
+        }
+        // idea : instead of it being a switch case that it is a boolean or integer for each type and xMod sums the value by running along the chain of functions
+        ellipse(this.xMod*this.width/2 + this.xOffset, this.y,this.leastDim/this.frac,this.leastDim/this.frac);
+        this.y=this.y+this.height/(this.numberOfParticles);
       //console.log(this.y);
       fill(color(this.particleColor));//color(this.color)
       }
@@ -60,14 +89,17 @@ function setup(){
   timeFolder.add(pendulumWave,'faster');
   timeFolder.add(pendulumWave,'slower');
   timeFolder.add(pendulumWave,'play');
+  const maxPeriod = 100;
+  timeFolder.add(pendulumWave,'time',-2*maxPeriod,2*maxPeriod);
   var pendulumFolder = gui.addFolder('Pendulum');
-  const max = 1000;
-  pendulumFolder.add(pendulumWave, 'numberOfParticles', 1, max).name('# of particles (also left/right arrow)').step(1);
+  const maxNumberOfParticles = 1000;
+  pendulumFolder.add(pendulumWave, 'type', [ 'sin', 'cos','tan','random','fourier','add'] );
+  pendulumFolder.add(pendulumWave, 'numberOfParticles', 1, maxNumberOfParticles).name('# of particles (also left/right arrow)').step(1);
   pendulumFolder.add(pendulumWave, 'fStep', -100, 100).step(1).name('freq step (also up/down arrow)');
   pendulumFolder.add(pendulumWave, 'f0', -100, 100).step(1).name('1st particle oscillations in 1 period');
-  pendulumFolder.add(pendulumWave, 'period', 0, 100).step(1).name('period');
+  pendulumFolder.add(pendulumWave, 'period', 0, maxPeriod).step(1).name('period');
   pendulumFolder.addColor(pendulumWave,'particleColor');
-  pendulumFolder.add(pendulumWave,'frac',1,max/2).name('particleSize');
+  pendulumFolder.add(pendulumWave,'frac',1,maxNumberOfParticles/2).name('particleSize');
   var positionFolder = gui.addFolder('Position');
   positionFolder.add(pendulumWave,'xOffset',-1*width,width);
   positionFolder.add(pendulumWave,'yOffset',-1*height,height);
