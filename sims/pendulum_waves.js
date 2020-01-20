@@ -99,6 +99,7 @@ function setup(){
   pendulumFolder.add(pendulumWave, 'f0', -100, 100).step(1).name('1st particle oscillations in 1 period');
   pendulumFolder.add(pendulumWave, 'period', 0, maxPeriod).step(1).name('period');
   pendulumFolder.addColor(pendulumWave,'particleColor');
+  // idea : boolean for random color for each ball, or for all balls?
   pendulumFolder.add(pendulumWave,'frac',1,maxNumberOfParticles/2).name('particleSize');
   var positionFolder = gui.addFolder('Position');
   positionFolder.add(pendulumWave,'xOffset',-1*width,width);
