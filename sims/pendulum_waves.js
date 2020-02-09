@@ -1,6 +1,6 @@
 var pendulumWave = {
-    numberOfParticles : 15,
-    frac : 30,
+    numberOfParticles : 12,
+    frac : 25,
     period : 60,
     f0 : 51,
     fStep : 1,//frequency step (increase) for succesive particles
@@ -18,7 +18,7 @@ var pendulumWave = {
     play : true,
     type:'cos',
     xMod:0,
-    updateFrac :function(){this.frac=2*this.numberOfParticles;},
+    updateFrac :function(){this.frac=2*this.numberOfParticles+1;},
     addParticle:function(){this.numberOfParticles+=1;this.updateFrac()},
     deleteParticle:function(){this.numberOfParticles-=1;this.updateFrac()},
     increasefStep:function(){this.fStep+=1;},
@@ -28,7 +28,7 @@ var pendulumWave = {
     display:function(){
       this.y=this.yOffset;
       //this.updateFrac();
-      for(var i =0; i <=this.numberOfParticles;i++)
+      for(var i =0; i <this.numberOfParticles;i++)
       {
         phase = this.time*TWO_PI*(this.f0+i*this.fStep)/this.period;
         // maybe use https://github.com/scijs/periodic-function
@@ -57,8 +57,8 @@ var pendulumWave = {
             this.xMod = cos(phase);// code block
         }
         // idea : instead of it being a switch case that it is a boolean or integer for each type and xMod sums the value by running along the chain of functions
-        ellipse(this.xMod*this.width/2 + this.xOffset, this.y,this.leastDim/this.frac,this.leastDim/this.frac);
-        this.y=this.y+this.height/(this.numberOfParticles);
+        ellipse(this.xMod*(-this.yOffset+ this.width/2) + this.xOffset, this.y,this.leastDim/this.frac,this.leastDim/this.frac);
+        this.y=this.y+this.height/(this.numberOfParticles + 1);
       //console.log(this.y);
       fill(color(this.particleColor));//color(this.color)
       }
@@ -78,7 +78,7 @@ function setup(){
   pendulumWave.leastDim=Math.min(width,height); //width not defined until setup
   pendulumWave.width = width;
   pendulumWave.height = height;
-  pendulumWave.yOffset = 0;
+  pendulumWave.yOffset = 2*pendulumWave.leastDim/pendulumWave.frac;
   pendulumWave.xOffset = width/2;
   angleMode(RADIANS); 
   let gui = new dat.GUI({ autoPlace: true, width: 450 });
@@ -117,15 +117,18 @@ function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
   pendulumWave.leastDim = Math.min(width,height);
   pendulumWave.xOffset = width/2;
+  pendulumWave.yOffset = 2*pendulumWave.leastDim/pendulumWave.frac;
   pendulumWave.width = width;
   pendulumWave.height = height;
 }
 
 function keyPressed() {
   if (keyCode === LEFT_ARROW) {
-    pendulumWave.numberOfParticles-=1;
+    //pendulumWave.numberOfParticles-=1;
+    pendulumWave.time-=pendulumWave.step*50 //pendulumWave.period/100
   } else if (keyCode === RIGHT_ARROW) {
-    pendulumWave.numberOfParticles+=1;
+    //pendulumWave.numberOfParticles+=1;
+    pendulumWave.time+=pendulumWave.step*50//pendulumWave.period/100
   }
   else if (keyCode === UP_ARROW){
       pendulumWave.fStep+=1;
