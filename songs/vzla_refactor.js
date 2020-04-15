@@ -21,6 +21,16 @@ var radial_step = 1;
 
 var s = 'Try pressing M,Y,B,R,W!\nSounds weird? Try pausing (may desync)\nBetter experienced in chrome\nMay be too slow in some devices (ie mobile)';
 
+cfg_radial_sax={};
+cfg_linear_sax = {};
+cfg_radial_bass={};
+cfg_linear_bass = {};
+cfg_ellipseDrum_bass = {};
+cfg_linear_piano={};
+cfg_radial_piano={};
+cfg_radial_others={};
+cfg_ellipseDrum_others = {};
+cfg_linear_others = {};
 
 
 function preload(){
@@ -63,17 +73,8 @@ function setup() {
   if (getAudioContext().state !== 'running') {
     getAudioContext().resume();
   }
-
-cfg_radial_sax={c : color('yellow'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/8,mapArray:[0,1,10,height]}
-cfg_linear_sax = {offset:height/3,c:color('yellow')}
-cfg_radial_bass={c : color('blue'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/8,mapArray:[0,1,1,height/2]}
-cfg_linear_bass = {offset:2*height/3,c:color('blue')}
-cfg_ellipseDrum_bass = {center : [width / 2,height / 2],scale : 2, c : color(0, 255, 0),mapArray : [0,0.5,1,height]};
-cfg_linear_piano={offset:2.7*height/3,c:color('red')}
-cfg_radial_piano={c : color('red'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/16,mapArray:[0,1,1,height/4]}
-cfg_radial_others={c : color('white'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/12,mapArray:[0,1,1,height/3]}
-cfg_ellipseDrum_others = {center : [width / 2,height / 2],scale : 2, c : color("white"),mapArray : [0,0.5,1,height]};
-cfg_linear_others = {offset:1.7*height/3,c:color('white')}
+  
+  set_cfgs();
 
 }
 
@@ -208,16 +209,7 @@ function togglePlaying() {
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
-  cfg_radial_sax={c : color('yellow'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/8,mapArray:[0,1,10,height]}
-  cfg_linear_sax = {offset:height/3,c:color('yellow')}
-  cfg_radial_bass={c : color('blue'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/8,mapArray:[0,1,1,height/2]}
-  cfg_linear_bass = {offset:2*height/3,c:color('blue')}
-  cfg_ellipseDrum_bass = {center : [width / 2,height / 2],scale : 2, c : color(0, 255, 0),mapArray : [0,0.5,1,height]};
-  cfg_linear_piano={offset:2.7*height/3,c:color('red')}
-  cfg_radial_piano={c : color('red'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/16,mapArray:[0,1,1,height/4]}
-  cfg_radial_others={c : color('white'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/12,mapArray:[0,1,1,height/3]}
-  cfg_ellipseDrum_others = {center : [width / 2,height / 2],scale : 2, c : color("white"),mapArray : [0,0.5,1,height]};
-  cfg_linear_others = {offset:1.7*height/3,c:color('white')}
+  set_cfgs();
 }
 
 function ellipseDrum(signal,cfg = {center : [width / 2,height / 2],scale : 2, c : color(0, 0, 255),mapArray : [0,0.5,1,height]}){
@@ -316,4 +308,18 @@ function cleanSignal(signal,buffer){
 	while (signal.length > buffer) {
     signal.splice(0, 1);
   }
+}
+
+function set_cfgs(){
+cfg_radial_sax={c : color('yellow'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/8,mapArray:[0,1,10,height]}
+cfg_linear_sax = {offset:height/3,c:color('yellow')}
+cfg_radial_bass={c : color('blue'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/8,mapArray:[0,1,1,height/2]}
+cfg_linear_bass = {offset:2*height/3,c:color('blue')}
+cfg_ellipseDrum_bass = {center : [width / 2,height / 2],scale : 2, c : color(0, 255, 0),mapArray : [0,0.5,1,height]};
+cfg_linear_piano={offset:2.7*height/3,c:color('red')}
+cfg_radial_piano={c : color('red'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/16,mapArray:[0,1,1,height/4]}
+cfg_radial_others={c : color('white'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/12,mapArray:[0,1,1,height/3]}
+cfg_ellipseDrum_others = {center : [width / 2,height / 2],scale : 2, c : color("white"),mapArray : [0,0.5,1,height]};
+cfg_linear_others = {offset:1.7*height/3,c:color('white')}
+
 }

@@ -16,7 +16,12 @@ var mode_no_sax = true;
 var mode_visuals = true;
 var radial_step = 1;
 
-var s = 'Try pressing M,Y,B!\nSounds weird? Try pausing (may desync)\nBetter experienced in chrome\nMay be too slow in some devices (ie mobile)';
+var s = 'Try pressing M,Y,R!\nSounds weird? Try pausing (may desync)\nBetter experienced in chrome\nMay be too slow in some devices (ie mobile)';
+cfg_radial_sax={};
+cfg_linear_sax ={};
+cfg_radial_no_sax={};
+cfg_linear_no_sax ={};
+cfg_ellipseDrum_no_sax = {};
 
 
 
@@ -50,11 +55,7 @@ function setup() {
     getAudioContext().resume();
   }
 
-cfg_radial_sax={c : color('yellow'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/8,mapArray:[0,1,10,height]}
-cfg_linear_sax = {offset:height/3,c:color('yellow')}
-cfg_radial_no_sax={c : color('red'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/8,mapArray:[0,1,1,height/2]}
-cfg_linear_no_sax = {offset:2*height/3,c:color('red')}
-cfg_ellipseDrum_no_sax = {center : [width / 2,height / 2],scale : 2, c : color(0, 255, 0),mapArray : [0,0.5,1,height]};
+  set_cfgs()
 
 }
 
@@ -145,10 +146,14 @@ function togglePlaying() {
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
+  set_cfgs()
+}
+
+function set_cfgs(){
   cfg_radial_sax={c : color('yellow'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/8,mapArray:[0,1,10,height]}
   cfg_linear_sax = {offset:height/3,c:color('yellow')}
-  cfg_radial_no_sax={c : color('blue'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/8,mapArray:[0,1,1,height/2]}
-  cfg_linear_no_sax = {offset:2*height/3,c:color('blue')}
+  cfg_radial_no_sax={c : color('red'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/8,mapArray:[0,1,1,height/2]}
+  cfg_linear_no_sax = {offset:2*height/3,c:color('red')}
   cfg_ellipseDrum_no_sax = {center : [width / 2,height / 2],scale : 2, c : color(0, 255, 0),mapArray : [0,0.5,1,height]};
 }
 
@@ -223,7 +228,7 @@ function keyPressed() {
     mode_sax = !mode_sax;
     if(mode_sax){  sax.setVolume(1);}
     else {sax.setVolume(0);}
-  } else if (keyCode == 66) {
+  } else if (keyCode == 82) {
     mode_no_sax = !mode_no_sax;
     if (mode_no_sax){no_sax.setVolume(1);}
     else {no_sax.setVolume(0)}
