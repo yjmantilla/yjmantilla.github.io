@@ -121,7 +121,9 @@ function setup() {
     getAudioContext().resume();
   }
   
+  windowResized()
   set_cfgs();
+
 
 }
 
