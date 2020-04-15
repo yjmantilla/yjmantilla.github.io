@@ -4,3 +4,6 @@ songs:
 - title: Venezuela
   url: /songs/vzla.html
 
+- title: Venezuela (Low)
+  url: /songs/vzla_low.html
+
