@@ -89,6 +89,7 @@ function setup() {
 
 }
 
+windowResized()
 
 function draw() {
   
