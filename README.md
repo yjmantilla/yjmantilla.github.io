@@ -8,7 +8,6 @@
       <li><a href="{{ item.url }}">{{ item.title }}</a></li>
    {% endfor %}
 </ul>
-Note: for mobile if display is weird try switching between landscape and portrait.
 
 <h2>{{ site.data.poemsList.poemsList_title }}</h2>
 <ul>
@@ -23,4 +22,3 @@ Note: for mobile if display is weird try switching between landscape and portrai
       <li><a href="{{ item.url }}">{{ item.title }}</a></li>
    {% endfor %}
 </ul>
-Note: for mobile if display is weird try switching between landscape and portrait.
