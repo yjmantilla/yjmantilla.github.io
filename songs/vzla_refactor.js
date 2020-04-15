@@ -20,6 +20,8 @@ var mode_piano = true;
 var mode_others = true;
 var mode_visuals = true;
 var radial_step = 1;
+var warning = 'Tips:\nSounds weird? Try pausing (may desync)\nBetter experienced in chrome\nMay be too slow in some devices (ie mobile)\nweird display on mobile?\n(ie controls dont show completely)\nTry switching back and forth between landscape and portrait\nEnjoy!';
+
 
 var cfg = {
 
@@ -55,7 +57,7 @@ var cfg = {
   }
   }
 
-var s = 'Try pressing M,Y,B,R,W!\nSounds weird? Try pausing (may desync)\nBetter experienced in chrome\nMay be too slow in some devices (ie mobile)\nOn mobile if display is weird try switching between landscape and portrait';
+var s = 'Try pressing M,Y,B,R,W!'
 
 cfg_radial_sax={};
 cfg_linear_sax = {};
@@ -81,12 +83,12 @@ function setup() {
   //gui.add(text, 'growthSpeed', -5, 5); // Min and max
   //var obj = { add:function(){ console.log("clicked") }};
   //gui.add(obj, 'add').name('Custom Label');
-  var cfgFolder = gui.addFolder('Play with this!');
-  cfgFolder.add(cfg, 'change_visuals');
-  cfgFolder.add(cfg, 'toggle_sax');
-  cfgFolder.add(cfg, 'toggle_bass');
-  cfgFolder.add(cfg, 'toggle_piano');
-  cfgFolder.add(cfg, 'toggle_others');
+  var cfgFolder = gui.addFolder('Click Here!');
+  cfgFolder.add(cfg, 'change_visuals').name('change visuals');
+  cfgFolder.add(cfg, 'toggle_sax').name('toggle sax');
+  cfgFolder.add(cfg, 'toggle_bass').name('toggle bass');
+  cfgFolder.add(cfg, 'toggle_piano').name('toggle piano');
+  cfgFolder.add(cfg, 'toggle_others').name('toggle others');
 
   button = createButton("play");
   button.mousePressed(togglePlaying);
@@ -123,6 +125,7 @@ function setup() {
   
   windowResized()
   set_cfgs();
+  window.alert(warning);
 
 
 }

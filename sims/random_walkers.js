@@ -1,6 +1,6 @@
 var walkers = new Array();
 
-var s = 'weird display on mobile?\nTry switching between landscape and portrait'
+var s = 'Tips:\nweird display on mobile?\n(ie controls dont show completely)\nTry switching back and forth between landscape and portrait\nEnjoy!'
 walkerSystem = {numberOfWalkers : 1000,
   walkerSize : 1,
   walkerSpeed : 1,

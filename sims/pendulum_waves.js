@@ -1,5 +1,4 @@
-var weird = 'weird display?';
-var s = 'weird display on mobile?\nTry switching between landscape and portrait'
+var s = 'Tips:\nweird display on mobile?\n(ie controls dont show completely)\nTry switching back and forth between landscape and portrait\nExplore!\nie put tan in type and increase the # of particles'
 
 var pendulumWave = {
     message:'switch between landscape and portrait',
