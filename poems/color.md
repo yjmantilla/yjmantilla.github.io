@@ -1,19 +1,16 @@
 # Color 
 
-## I
 Yo sé que a vos te gusta<br/>
 dar color a las paredes<br/>
 y a los rostros de la gente<br/>
 mientras cantas a la luna.<br/>
 
-## II
 Y es que la luz con que tú alumbras<br/>
 da calor, sonrisa y juegos<br/>
 y -no sé amor-, se para el tiempo<br/>
 mientras pintas el espacio<br/>
 del color que a mí me gusta.<br/>
 
-## III
 Y yo que de la raya me salía<br/>
 cuando niño...y es que<br/>
 de verdad -amor- yo de pintar<br/>
@@ -23,8 +20,6 @@ reconozco tres colores<br/>
 el amarillo, azul y rojo<br/>
 de dos banderas y mil flores.<br/>
 
-
-## IV
 Aún así estoy tratando<br/>
 de pintarte algunos versos.<br/>
 Combino azul y amarillo<br/>
@@ -38,7 +33,6 @@ no sé si da blanco <br/>
 o si da negro...<br/>
 
 
-## V
 Y es que cuando niño<br/>
 me salía de la raya<br/>
 la verdad amor, de pintar<br/>
@@ -49,7 +43,6 @@ el amarillo, azul y rojo<br/>
 de mis banderas y naciones.<br/>
 
 
-## VI
 Y es que ( sí ), la verdad cariño <br/>
 yo... <br/>
 ....( ¿no? ) tengo miedo<br/>
@@ -68,7 +61,7 @@ y de que no pueda <br/>
 amor decirte...<br/>
 
 
-## VII
+
 que te cielo.<br/>
 
 ## License
