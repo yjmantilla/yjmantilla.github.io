@@ -13,7 +13,7 @@ var volHistory_no_sax = [];
 var vol_sax;
 var mode_sax = true;
 var mode_no_sax = true;
-var mode_visuals = false;
+var mode_visuals = true;
 var radial_step = 1;
 
 var s = 'Try pressing M,Y,B!\nSounds weird? Try pausing (may desync)\nBetter experienced in chrome\nMay be too slow in some devices (ie mobile)';
@@ -52,8 +52,8 @@ function setup() {
 
 cfg_radial_sax={c : color('yellow'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/8,mapArray:[0,1,10,height]}
 cfg_linear_sax = {offset:height/3,c:color('yellow')}
-cfg_radial_no_sax={c : color('blue'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/8,mapArray:[0,1,1,height/2]}
-cfg_linear_no_sax = {offset:2*height/3,c:color('blue')}
+cfg_radial_no_sax={c : color('red'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/8,mapArray:[0,1,1,height/2]}
+cfg_linear_no_sax = {offset:2*height/3,c:color('red')}
 cfg_ellipseDrum_no_sax = {center : [width / 2,height / 2],scale : 2, c : color(0, 255, 0),mapArray : [0,0.5,1,height]};
 
 }
@@ -73,7 +73,7 @@ function draw() {
   //fill(255, 0, 255);
   //ellipse(width / 2, height / 2, diam, diam);
   strokeWeight(2);
-  background(0,0,0);
+  background(0,0,37);
   text(s, 10, 10, 250, 250);
   fill(255, 255, 255, 255);
   
