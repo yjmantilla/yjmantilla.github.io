@@ -4,30 +4,25 @@
 // Code for: https://youtu.be/Pn1g1wjxl_0
 
 var sax;
-var bass;
+var no_sax;
 var sliderRate;
 var sliderPan;
 var button;
 var volHistory_sax = [];
-var volHistory_bass = [];
-var volHistory_piano = [];
+var volHistory_no_sax = [];
 var vol_sax;
 var mode_sax = true;
-var mode_bass = true;
-var mode_piano = true;
-var mode_others = true;
+var mode_no_sax = true;
 var mode_visuals = false;
 var radial_step = 1;
 
-var s = 'Try pressing M,Y,B,R,W!\nSounds weird? Try pausing (may desync)\nBetter experienced in desktop chrome\nMay be too slow in some browsers- CPUs';
+var s = 'Try pressing M,Y,B!\nSounds weird? Try pausing (may desync)\nBetter experienced in chrome\nMay be too slow in some devices (ie mobile)';
 
 
 
 function preload(){
   sax = loadSound("/audio/venezuela_sax.mp3");
-  bass =  loadSound("/audio/venezuela_bass.mp3");
-  piano = loadSound("/audio/venezuela_piano.mp3");
-  others = loadSound("/audio/venezuela_percussion_cuatro.mp3");
+  no_sax = loadSound("/audio/venezuela_no_sax.mp3");
   console.log("loaded");
 }
 function setup() {
@@ -36,29 +31,20 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   
   volHistory_sax = new Array(360).fill(0);
-  volHistory_bass = new Array(360).fill(0);
-  volHistory_piano = new Array(360).fill(0); //windowWidth for linearGraph
-  volHistory_others = new Array(360).fill(0);
+  volHistory_no_sax = new Array(360).fill(0);
   angleMode(DEGREES);
   
   sax.setVolume(1);
-  bass.setVolume(1);
-  piano.setVolume(1);
-  others.setVolume(1);
+  no_sax.setVolume(1);
   
   //sliderRate = createSlider(0, 1.5, 1, 0.01);
   //sliderPan = createSlider(-1, 1, 0, 0.01);
   
   amp_sax = new p5.Amplitude();
-  amp_bass = new p5.Amplitude();
-  amp_piano = new p5.Amplitude();
-  amp_others = new p5.Amplitude();
+  amp_no_sax = new p5.Amplitude();
   
   amp_sax.setInput(sax);
-  amp_bass.setInput(bass);
-  amp_piano.setInput(piano);
-  amp_others.setInput(others);
-  
+  amp_no_sax.setInput(no_sax);  
   
   if (getAudioContext().state !== 'running') {
     getAudioContext().resume();
@@ -66,14 +52,9 @@ function setup() {
 
 cfg_radial_sax={c : color('yellow'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/8,mapArray:[0,1,10,height]}
 cfg_linear_sax = {offset:height/3,c:color('yellow')}
-cfg_radial_bass={c : color('blue'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/8,mapArray:[0,1,1,height/2]}
-cfg_linear_bass = {offset:2*height/3,c:color('blue')}
-cfg_ellipseDrum_bass = {center : [width / 2,height / 2],scale : 2, c : color(0, 255, 0),mapArray : [0,0.5,1,height]};
-cfg_linear_piano={offset:2.7*height/3,c:color('red')}
-cfg_radial_piano={c : color('red'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/16,mapArray:[0,1,1,height/4]}
-cfg_radial_others={c : color('white'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/12,mapArray:[0,1,1,height/3]}
-cfg_ellipseDrum_others = {center : [width / 2,height / 2],scale : 2, c : color("white"),mapArray : [0,0.5,1,height]};
-cfg_linear_others = {offset:1.7*height/3,c:color('white')}
+cfg_radial_no_sax={c : color('blue'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/8,mapArray:[0,1,1,height/2]}
+cfg_linear_no_sax = {offset:2*height/3,c:color('blue')}
+cfg_ellipseDrum_no_sax = {center : [width / 2,height / 2],scale : 2, c : color(0, 255, 0),mapArray : [0,0.5,1,height]};
 
 }
 
@@ -108,46 +89,20 @@ function draw() {
   linearGraph(volHistory_sax,cfg_linear_sax);
   }
   }
-  var vol_bass = amp_bass.getLevel();
+  var vol_no_sax = amp_no_sax.getLevel();
   
-  //ellipseDrum(vol_bass,cfg_ellipseDrum_bass);  
-  volHistory_bass.push(vol_bass);
+  //ellipseDrum(vol_no_sax,cfg_ellipseDrum_no_sax);  
+  volHistory_no_sax.push(vol_no_sax);
   
     
 
-  if (mode_bass){
+  if (mode_no_sax){
   if (mode_visuals){
-  radialGraph(volHistory_bass,cfg_radial_bass);
+  radialGraph(volHistory_no_sax,cfg_radial_no_sax);
   }else{
-  linearGraph(volHistory_bass,cfg_linear_bass);
+  linearGraph(volHistory_no_sax,cfg_linear_no_sax);
   }
   }
-  var vol_piano = amp_piano.getLevel();
-  volHistory_piano.push(vol_piano);
-  
-  if (mode_piano){
-  if (mode_visuals){
-  radialGraph(volHistory_piano,cfg_radial_piano);
-  }
-  else{
-  linearGraph(volHistory_piano,cfg_linear_piano);
-  }  //map(vol_piano, 0, 1, height, 0)
-  //
-  }
-  vol_others = amp_others.getLevel();
-  volHistory_others.push(vol_others);
-  
-  if (mode_others){
-  if (mode_visuals){
-	  radialGraph(volHistory_others,cfg_radial_others);
-  }
-  else{
-	  linearGraph(volHistory_others,cfg_linear_others);
-  }
-  }
-   //map(vol_piano, 0, 1, height, 0)
-  
-  //ellipseDrum(vol_others,cfg_ellipseDrum_others);
   
   if (mode_visuals){
 	buffer = 360;
@@ -156,9 +111,7 @@ function draw() {
   }
   
   cleanSignal(volHistory_sax,buffer);
-  cleanSignal(volHistory_bass,buffer);
-  cleanSignal(volHistory_piano,buffer);
-  cleanSignal(volHistory_others,buffer);
+  cleanSignal(volHistory_no_sax,buffer);
 }
 
 function mouseClicked(){
@@ -180,28 +133,12 @@ function togglePlaying() {
     button.html("play");
   }
 
-  if(!bass.isPlaying())
+  if(!no_sax.isPlaying())
   {
-    bass.play();
+    no_sax.play();
   }
   else{
-    bass.pause();
-  }
-  
-  if(!piano.isPlaying())
-  {
-    piano.play();
-  }
-  else{
-    piano.pause();
-  }
-  
-  if(!others.isPlaying())
-  {
-    others.play();
-  }
-  else{
-    others.pause();
+    no_sax.pause();
   }
 }
 
@@ -210,14 +147,9 @@ function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
   cfg_radial_sax={c : color('yellow'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/8,mapArray:[0,1,10,height]}
   cfg_linear_sax = {offset:height/3,c:color('yellow')}
-  cfg_radial_bass={c : color('blue'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/8,mapArray:[0,1,1,height/2]}
-  cfg_linear_bass = {offset:2*height/3,c:color('blue')}
-  cfg_ellipseDrum_bass = {center : [width / 2,height / 2],scale : 2, c : color(0, 255, 0),mapArray : [0,0.5,1,height]};
-  cfg_linear_piano={offset:2.7*height/3,c:color('red')}
-  cfg_radial_piano={c : color('red'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/16,mapArray:[0,1,1,height/4]}
-  cfg_radial_others={c : color('white'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/12,mapArray:[0,1,1,height/3]}
-  cfg_ellipseDrum_others = {center : [width / 2,height / 2],scale : 2, c : color("white"),mapArray : [0,0.5,1,height]};
-  cfg_linear_others = {offset:1.7*height/3,c:color('white')}
+  cfg_radial_no_sax={c : color('blue'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/8,mapArray:[0,1,1,height/2]}
+  cfg_linear_no_sax = {offset:2*height/3,c:color('blue')}
+  cfg_ellipseDrum_no_sax = {center : [width / 2,height / 2],scale : 2, c : color(0, 255, 0),mapArray : [0,0.5,1,height]};
 }
 
 function ellipseDrum(signal,cfg = {center : [width / 2,height / 2],scale : 2, c : color(0, 0, 255),mapArray : [0,0.5,1,height]}){
@@ -292,20 +224,9 @@ function keyPressed() {
     if(mode_sax){  sax.setVolume(1);}
     else {sax.setVolume(0);}
   } else if (keyCode == 66) {
-    mode_bass = !mode_bass;
-    if (mode_bass){bass.setVolume(1);}
-    else {bass.setVolume(0)}
-  }
-  else if (keyCode == 82){
-  mode_piano = !mode_piano;
-  if (mode_piano){piano.setVolume(1);}
-  else {piano.setVolume(0);}
-  }
-  else if (keyCode == 87)
-  {
-  mode_others = !mode_others;
-  if (mode_others){others.setVolume(1);}
-  else {others.setVolume(0);}
+    mode_no_sax = !mode_no_sax;
+    if (mode_no_sax){no_sax.setVolume(1);}
+    else {no_sax.setVolume(0)}
   }
   else if (keyCode == 77){
 	mode_visuals = !mode_visuals;

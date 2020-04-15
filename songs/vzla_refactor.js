@@ -19,7 +19,7 @@ var mode_others = true;
 var mode_visuals = true;
 var radial_step = 1;
 
-var s = 'Try pressing M,Y,B,R,W!\nSounds weird? Try pausing (may desync)\nBetter experienced in desktop chrome\nMay be too slow in some browsers- CPUs';
+var s = 'Try pressing M,Y,B,R,W!\nSounds weird? Try pausing (may desync)\nBetter experienced in chrome\nMay be too slow in some devices (ie mobile)';
 
 
 
