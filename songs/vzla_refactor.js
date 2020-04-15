@@ -5,6 +5,8 @@
 
 var sax;
 var bass;
+var piano;
+var others;
 var sliderRate;
 var sliderPan;
 var button;
@@ -18,6 +20,40 @@ var mode_piano = true;
 var mode_others = true;
 var mode_visuals = true;
 var radial_step = 1;
+
+var cfg = {
+
+  mode_sax : true,
+  mode_bass : true,
+  mode_piano: true,
+  mode_others: true,
+  mode_visuals : true,
+  radial_step : 1,
+  toggle_sax: function(){
+    this.mode_sax = !this.mode_sax;
+    if(this.mode_sax){  sax.setVolume(1);}
+    else {sax.setVolume(0);}
+  }
+  ,
+  toggle_bass:function (){
+    this.mode_bass = !this.mode_bass;
+    if(this.mode_bass){bass.setVolume(1);}
+    else {bass.setVolume(0);}
+  },
+  toggle_piano:function (){
+    this.mode_piano = !this.mode_piano;
+    if(this.mode_piano){piano.setVolume(1);}
+    else {piano.setVolume(0);}
+  },
+  toggle_others:function (){
+    this.mode_others = !this.mode_others;
+    if(this.mode_others){others.setVolume(1);}
+    else {others.setVolume(0);}
+  },
+  change_visuals:function(){
+    this.mode_visuals = !this.mode_visuals;
+  }
+  }
 
 var s = 'Try pressing M,Y,B,R,W!\nSounds weird? Try pausing (may desync)\nBetter experienced in chrome\nMay be too slow in some devices (ie mobile)';
 
@@ -41,6 +77,17 @@ function preload(){
   console.log("loaded");
 }
 function setup() {
+  let gui = new dat.GUI({ autoPlace: true, width: 450 });
+  //gui.add(text, 'growthSpeed', -5, 5); // Min and max
+  //var obj = { add:function(){ console.log("clicked") }};
+  //gui.add(obj, 'add').name('Custom Label');
+  var cfgFolder = gui.addFolder('Play with this!');
+  cfgFolder.add(cfg, 'change_visuals');
+  cfgFolder.add(cfg, 'toggle_sax');
+  cfgFolder.add(cfg, 'toggle_bass');
+  cfgFolder.add(cfg, 'toggle_piano');
+  cfgFolder.add(cfg, 'toggle_others');
+
   button = createButton("play");
   button.mousePressed(togglePlaying);
   createCanvas(windowWidth, windowHeight);
@@ -101,8 +148,8 @@ function draw() {
   vol_sax = amp_sax.getLevel();
   volHistory_sax.push(vol_sax);
 
-  if (mode_sax){
-    if(mode_visuals){
+  if (cfg.mode_sax){
+    if(cfg.mode_visuals){
     radialGraph(volHistory_sax,cfg_radial_sax);
   }
   else{
@@ -116,8 +163,8 @@ function draw() {
   
     
 
-  if (mode_bass){
-  if (mode_visuals){
+  if (cfg.mode_bass){
+  if (cfg.mode_visuals){
   radialGraph(volHistory_bass,cfg_radial_bass);
   }else{
   linearGraph(volHistory_bass,cfg_linear_bass);
@@ -126,8 +173,8 @@ function draw() {
   var vol_piano = amp_piano.getLevel();
   volHistory_piano.push(vol_piano);
   
-  if (mode_piano){
-  if (mode_visuals){
+  if (cfg.mode_piano){
+  if (cfg.mode_visuals){
   radialGraph(volHistory_piano,cfg_radial_piano);
   }
   else{
@@ -138,8 +185,8 @@ function draw() {
   vol_others = amp_others.getLevel();
   volHistory_others.push(vol_others);
   
-  if (mode_others){
-  if (mode_visuals){
+  if (cfg.mode_others){
+  if (cfg.mode_visuals){
 	  radialGraph(volHistory_others,cfg_radial_others);
   }
   else{
@@ -150,7 +197,7 @@ function draw() {
   
   //ellipseDrum(vol_others,cfg_ellipseDrum_others);
   
-  if (mode_visuals){
+  if (cfg.mode_visuals){
 	buffer = 360;
   } else{
 	  buffer = width;
@@ -280,27 +327,19 @@ function radialGraph(signal,cfg={c : color(255,0,0),center : [width/2,height/2],
 
 function keyPressed() {
   if (keyCode == 89) {
-    mode_sax = !mode_sax;
-    if(mode_sax){  sax.setVolume(1);}
-    else {sax.setVolume(0);}
+    cfg.toggle_sax()
   } else if (keyCode == 66) {
-    mode_bass = !mode_bass;
-    if (mode_bass){bass.setVolume(1);}
-    else {bass.setVolume(0)}
+    cfg.toggle_bass()
   }
   else if (keyCode == 82){
-  mode_piano = !mode_piano;
-  if (mode_piano){piano.setVolume(1);}
-  else {piano.setVolume(0);}
+    cfg.toggle_piano()
   }
   else if (keyCode == 87)
   {
-  mode_others = !mode_others;
-  if (mode_others){others.setVolume(1);}
-  else {others.setVolume(0);}
+    cfg.toggle_others()
   }
   else if (keyCode == 77){
-	mode_visuals = !mode_visuals;
+	cfg.mode_visuals = !cfg.mode_visuals;
   }
 }
 
@@ -321,5 +360,4 @@ cfg_radial_piano={c : color('red'),center : [width/2,height/2],step:radial_step,
 cfg_radial_others={c : color('white'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/12,mapArray:[0,1,1,height/3]}
 cfg_ellipseDrum_others = {center : [width / 2,height / 2],scale : 2, c : color("white"),mapArray : [0,0.5,1,height]};
 cfg_linear_others = {offset:1.7*height/3,c:color('white')}
-
 }
