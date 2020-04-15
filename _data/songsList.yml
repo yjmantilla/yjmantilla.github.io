@@ -4,6 +4,6 @@ songs:
 - title: Venezuela
   url: /songs/vzla.html
 
-- title: Venezuela (lower requirements)
+- title: Venezuela lower requirements (ie for mobile)
   url: /songs/vzla_low.html
 
