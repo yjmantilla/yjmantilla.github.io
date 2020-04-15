@@ -55,7 +55,7 @@ var cfg = {
   }
   }
 
-var s = 'Try pressing M,Y,B,R,W!\nSounds weird? Try pausing (may desync)\nBetter experienced in chrome\nMay be too slow in some devices (ie mobile)';
+var s = 'Try pressing M,Y,B,R,W!\nSounds weird? Try pausing (may desync)\nBetter experienced in chrome\nMay be too slow in some devices (ie mobile)\nOn mobile if display is weird try switching between landscape and portrait';
 
 cfg_radial_sax={};
 cfg_linear_sax = {};

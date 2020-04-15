@@ -35,7 +35,7 @@ change_visuals:function(){
 }
 }
 
-var s = 'Try pressing M,Y,R!\nSounds weird? Try pausing (may desync)\nBetter experienced in chrome\nMay be too slow in some devices (ie mobile)';
+var s = 'Try pressing M,Y,R!\nSounds weird? Try pausing (may desync)\nBetter experienced in chrome\nMay be too slow in some devices (ie mobile)\nOn mobile if display is weird try switching between landscape and portrait';
 cfg_radial_sax={};
 cfg_linear_sax ={};
 cfg_radial_others={};
@@ -84,12 +84,11 @@ function setup() {
     getAudioContext().resume();
   }
 
-  windowResized()
+  resizeCanvas(windowWidth, windowHeight);
   set_cfgs()
 
 }
 
-windowResized()
 
 function draw() {
   

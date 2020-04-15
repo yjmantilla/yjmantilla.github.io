@@ -1,4 +1,6 @@
+var weird = 'weird display?';
 var pendulumWave = {
+    message:'switch between landscape and portrait',
     numberOfParticles : 12,
     frac : 25,
     period : 60,
@@ -84,7 +86,8 @@ function setup(){
   let gui = new dat.GUI({ autoPlace: true, width: 450 });
   //gui.add(text, 'growthSpeed', -5, 5); // Min and max
   //var obj = { add:function(){ console.log("clicked") }};
-  //gui.add(obj, 'add').name('Custom Label');
+  //gui.add(obj, 'add')name('Custom Label');
+  //gui.add(pendulumWave, 'message').name( weird );
   var timeFolder = gui.addFolder('Time (also +/- keys)');
   timeFolder.add(pendulumWave,'faster');
   timeFolder.add(pendulumWave,'slower');
