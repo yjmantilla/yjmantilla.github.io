@@ -1,6 +1,6 @@
 var walkers = new Array();
 
-
+var s = 'weird display on mobile?\nTry switching between landscape and portrait'
 walkerSystem = {numberOfWalkers : 1000,
   walkerSize : 1,
   walkerSpeed : 1,
@@ -29,7 +29,7 @@ var back = gui.addColor(walkerSystem,'background');
 
 back.onChange(function(){background(walkerSystem.background);})
 
-
+window.alert(s);
 }
 
 
@@ -39,7 +39,6 @@ for (var i = 0; i < walkerSystem.numberOfWalkers;i++){
   walkers[i].step();
   walkers[i].display();
 }
-
   }
 
 

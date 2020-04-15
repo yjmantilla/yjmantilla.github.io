@@ -1,4 +1,6 @@
 var weird = 'weird display?';
+var s = 'weird display on mobile?\nTry switching between landscape and portrait'
+
 var pendulumWave = {
     message:'switch between landscape and portrait',
     numberOfParticles : 12,
@@ -75,6 +77,7 @@ var pendulumWave = {
     }
   }
 function setup(){
+
   createCanvas(windowWidth, windowHeight);
   //ellipseMode(CENTER);
   pendulumWave.leastDim=Math.min(width,height); //width not defined until setup
@@ -108,7 +111,10 @@ function setup(){
   positionFolder.add(pendulumWave,'xOffset',-1*width,width);
   positionFolder.add(pendulumWave,'yOffset',-1*height,height);
   gui.addColor(pendulumWave,'background');
+  window.alert(s);
 }
+
+
 
 function draw(){
   background(pendulumWave.background);
