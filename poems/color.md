@@ -1,4 +1,4 @@
-# Color 
+# Color
 
 Yo sé que a vos te gusta<br/>
 dar color a las paredes<br/>
@@ -12,11 +12,11 @@ mientras pintas el espacio<br/>
 del color que a mí me gusta.<br/>
 
 Y yo que de la raya me salía<br/>
-cuando niño...y es que<br/>
+cuando niño... es que<br/>
 de verdad -amor- yo de pintar<br/>
 no sé nada, te lo admito.<br/>
-Tan solo y a lo mucho<br/>
-reconozco tres colores<br/>
+Tan solo reconozco<br/>
+a lo mucho tres colores<br/>
 el amarillo, azul y rojo<br/>
 de dos banderas y mil flores.<br/>
 
