@@ -1,9 +1,8 @@
 # Delusional Ashes
 
-Let's say then, that between you and me<br/>
-there is no difference,<br/>
+Let's say then, that between you and me there is no difference,<br/>
 that we are both children of the same universe,<br/>
-and that the wind caressing your face<br/>
+and that the wind that blew... caressing your face<br/>
 was the same wind that took away my sighs;<br/>
 and hopefully these verses...<br/>
 <br/>
@@ -12,20 +11,11 @@ But what gives...<br/>
 What do I really know of air?<br/>
 What do I really know of oxygen?<br/>
 of carbon dioxide...<br/>
-and of the myelin surrounding your nerves.<br/>
-<br/>
-<br/>
+and of the myelin surrounding your nerves;<br/>
 I can only suppose they exist;<br/>
-but I cannot prove it<br/>
-if I dont get outside of my own self.<br/>
-<br/>
-<br/>
-and then you come,<br/>
-and startle me with a kiss,<br/>
-and I get out of myself.<br/>
-<br/>
-<br/>
-I leap into you<br/>
+but I cannot prove it if I dont get outside of my own self...<br/>
+and then you come, and startle me with a kiss,<br/>
+and I get out of myself, leaping into you<br/>
 and I venture into your mouth.<br/>
 I build the bridge at the same time that I cross it.<br/>
 I now know that you exist,<br/>
@@ -36,37 +26,29 @@ but because I leapt into you<br/>
 <br/>
 <br/>
 We could then<br/>
-stand side by side<br/>
-in front of a mirror,<br/>
+stand side by side in front of a mirror,<br/>
 suddenly smile;<br/>
-and in the reflection<br/>
-we won't know<br/>
+and in the reflection we won't really know<br/>
 who is who.<br/>
 <br/>
 <br/>
-So I go by<br/>
-creating writings<br/>
+So I go by creating writings<br/>
 -before they were for someone, now they are for a ghost-.<br/>
-Null purpose.<br/>
-<br/>
-<br/>
-I write because I'm text myself.<br/>
-I am a book<br/>
-which is written and read by itself.<br/>
+Null purpose. I write because I'm text myself.<br/>
+I am a book which is written and read by itself.<br/>
 I am a paradox divided by 0 without knowing the existence of limits.<br/>
-I go and make logical mistakes,<br/>
-and the ashes of that becomes music<br/>
+I go and make logical mistakes, and the ashes of that becomes music<br/>
 <br/>
 <br/>
 The ashes,<br/>
-&emsp;&emsp;&emsp;&emsp;The ashes,<br/>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Only the ashes<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;The ashes,<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Only the ashes<br/>
 
-## Spanish
+## Cenizas Delirantes
 
 Digamos pues que entre tú y yo no hay diferencia alguna,<br/>
 que ambos somos hijos del mismo universo<br/>
-y que el viento que pasó rozándote el rostro,<br/>
+y que el viento que pasó... rozándote el rostro,<br/>
 es el mismo viento que recogió mis suspiros<br/>
 y espero también estos versos.<br/>
 <br/>
@@ -102,11 +84,11 @@ propósito nulo,escribo porque yo mismo soy texto,<br/>
 soy un libro, que se escribe y se lee a si mismo,<br/>
 soy una paradoja divida entre cero sin conocer la existencia de los limites,<br/>
 voy y cometo errores logicos y la ceniza de eso se convierte en música.<br/>
-
-
+<br/>
+<br/>
 La ceniza,<br/>
-&emsp;&emsp;&emsp;&emsp;La ceniza,<br/>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Tan sólo la ceniza.<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;La ceniza,<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Tan sólo la ceniza.<br/>
 
 ## License
 
