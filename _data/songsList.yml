@@ -1,41 +1,34 @@
 songsList_title: Songs
 songs:
 
-- title: Venezuela (Gaita Cover) (Visualization)
+- title: Venezuela (Gaita Cover)
   url: /songs/vzla.html
 
-- title: Venezuela (Gaita Cover) (Visualization) lower requirements (ie for mobile)
+- title: Venezuela (Gaita Cover) lower requirements (ie for mobile)
   url: /songs/vzla_low.html
 
 soundcloud:
 
+- title: A Cruel Angel Thesis (Piano Latin Jazzy Cover)
+  url: https://soundcloud.com/yogimgurt/a-cruel-angel-thesis-cover-latin-vibe-keyboard
 
 - title: La piragua (Gaita Cover)
   url: https://soundcloud.com/yogimgurt/la-piragua
 
-- title: Venezuela (Soundcloud, no visuals)
+- title: Venezuela (Gaita Cover)
   url: https://soundcloud.com/yogimgurt/venezuela-cover-gaita
 
-- title: Himno de la Alegría - La Lechuza (Piano Latin Jazzy Cover)
-  url: https://soundcloud.com/yogimgurt/himno-de-la-alegria-la-lechuza-cover
+- title: The Crying Universe
+  url: https://soundcloud.com/yogimgurt/the-crying-universe
 
-- title: A Cruel Angel Thesis (Piano Latin Jazzy Cover)
-  url: https://soundcloud.com/yogimgurt/a-cruel-angel-thesis-cover-latin-vibe-keyboard
-
-- title: Random Party (Earsketch Randomness Exploration)
-  url: https://soundcloud.com/yogimgurt/random-party
-
-- title: Latin Homesick
-  url: https://soundcloud.com/yogimgurt/latin-homesick
-
-- title: Untitled 2
-  url: https://soundcloud.com/yogimgurt/midi-and-audio
-
-- title: Coloring Noise
-  url: https://soundcloud.com/yogimgurt/noise-assignment
+- title: Calle Luna, Calle Sol (Rock Cover)
+  url: https://soundcloud.com/yogimgurt/tributo-a-calle-luna-calle-sol
 
 - title: Lost Sounds
   url: https://soundcloud.com/yogimgurt/assignment-2
+
+- title: Himno de la Alegría - La Lechuza (Piano Latin Jazzy Cover)
+  url: https://soundcloud.com/yogimgurt/himno-de-la-alegria-la-lechuza-cover
 
 - title: Amor y Fantasías
   url: https://soundcloud.com/yogimgurt/la-vida-es-amor-y-fantasias
@@ -49,11 +42,17 @@ soundcloud:
 - title: Dreams aren't true
   url: https://soundcloud.com/yogimgurt/dreams-arent-true
 
-- title: The Crying Universe
-  url: https://soundcloud.com/yogimgurt/the-crying-universe
+- title: Random Party (Earsketch Randomness Exploration)
+  url: https://soundcloud.com/yogimgurt/random-party
 
-- title: Calle Luna, Calle Sol (Rock Cover)
-  url: https://soundcloud.com/yogimgurt/tributo-a-calle-luna-calle-sol
+- title: Coloring Noise
+  url: https://soundcloud.com/yogimgurt/noise-assignment
+
+- title: Latin Homesick
+  url: https://soundcloud.com/yogimgurt/latin-homesick
+
+- title: Untitled 2
+  url: https://soundcloud.com/yogimgurt/midi-and-audio
 
 - title: Untitled 1 (Electronic)
   url: https://soundcloud.com/yogimgurt/first
