@@ -6,6 +6,7 @@
 > feminista no vegana es en realidad una feminista "falsa". Es preocupante la denostación del feminismo
 > de otras mujeres en pos del "purismo" que ellas defienden.
 
+<p style='text-align: justify;'>
 Siendo honesto creo que nunca había procrastinado tanto al hacer un ensayo; y digo ensayo ya que realmente no
 me interesa hacer un texto expositivo en este caso. En ese sentido me he concentrado más en la reflexión y
 análisis personal. Durante los últimos tres días he estado leyendo acerca de estos movimientos, he hecho alguno
@@ -21,9 +22,11 @@ representados; otras separaciones derivan de disonancias más filosóficas: ¿Cu
 debería resolverse? ¿En qué términos se define la igualdad y la equidad? ¿Qué posición moral se adopta
 respecto a X acción? ¿Es el "hombre" oprimido junto con la "mujer" o este representa meramente un papel de
 opresor? Tal variedad de matices hace sin duda difícil la exploración conceptual del mundo del feminismo.
+</p>
 
 ## El camino del macho: de héroe a dragón
 
+<p style='text-align: justify;'>
 En efecto, sería una simplificación muy burda por ejemplo tratar de caracterizar el feminismo mediante un
 himno como lo es "un violador en tu camino" ya que analizando la letra es fácil darse cuenta de que proviene de
 una posición feminista-radical de elementos que existen todavía en el mundo: la violación y el homicidio de
@@ -35,10 +38,12 @@ colación de esta autora es la idea del "mandato de masculinidad" \[2\], que es 
 nombrar el rol masculino, lo que es ser "macho". Dicho elemento también se ve reflejado implícitamente en "un
 violador en tu camino"; si bien sus creadoras citan al himno de los carabineros de Chile de forma irónica \[3\], el
 himno original de los carabineros en sí contiene lo que constituye para mí un mito fundacional de lo masculino:
+</p>
 
 > Duerme tranquila, niña inocente, sin preocuparte del bandolero, que por tu sueño dulce y sonriente vela
 > tu amante carabinero.
 
+<p style='text-align: justify;'>
 Kipnis en \[4\] reflexiona acerca del arquetipo fragmentado de Héroe (hombre generalmente), Dragón-Victimario
 (hombre también) y la Princesa-Victima (mujer generalmente). Según su análisis todos estos personajes se
 encuentran en todas las personas y que generan aún repercusiones en el inconsciente colectivo moderno
@@ -73,9 +78,11 @@ explica en parte la asimetría de las tasas de suicidio según el género, donde
 veces más propensos a cometerlo \[8\]. A nivel contemporáneo es curioso ver la necesidad de incluir la aclaración
 de "no-homo" cada vez que se hace alguna acción que atenta contra la masculinidad, en particular con el
 intercambio emocional entre amigos \[9\].
+</p>
 
 ## El camino de la bruja: de princesa a prostituta
 
+<p style='text-align: justify;'>
 Las brujas de Zugarramurdi por otra parte también ofrece el trío Héroe/Dragón/Princesa en su narrativa con una
 ligera variación en cuanto a los géneros. El Héroe se representa de forma más constante en el Padre del Niño,
 mientras que la Princesa en este caso es el Niño. Digamos la subversión más clara es el Dragón al verse
@@ -128,15 +135,18 @@ lo "natural". Por ejemplo, si se desliga de la mujer el rol de madre y el concep
 reproductivo de ella no estuviera ligado con nociones de escoger "al mejor" y aún más sería un sin-sentido en
 este contexto ya que no se tendría sexo "por reproducirse"; en ese caso ¿se juzgaría la promiscuidad de la mujer
 de la misma forma?
+</p>
 
 ## Conclusión
 
+<p style='text-align: justify;'>
 El feminismo es un mundo muy diverso y con disonancias entre sus continentes. Para mi este ensayo fue un
 experimento donde embarque desde el himno de "un violador en tu camino", es decir desde una expresión del
 feminismo radical; sin saber realmente a donde llegaría pero partiendo del material que absorbí del feminismo y
 de los roles de género. En eso me he encontrado con la influencia de los arquetipos/mitos
 fundacionales/personajes en nuestra construcción de la identidad, de los roles y de cómo se juzgan las acciones
 de acuerdo al rol que "deberíamos cumplir".
+</p>
 
 ## Referencias
 
