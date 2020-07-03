@@ -140,17 +140,17 @@ de acuerdo al rol que "deberíamos cumplir".
 
 ## Referencias
 
-\[1\]:https://latfem.org/nada-mas-patriarcal-que-comerse-un-animal
-\[2\]:https://www.bbc.com/mundo/noticias-50735010
-\[3\]:https://www.bbc.com/mundo/noticias-america-latina-50690475
-\[4\]:Aaron Kipnis (1994) Men, movies, & monsters: Heroic masculinity as a crucible of male violence.
-\[5\]:https://www.eldesconcierto.cl/2018/12/17/rita-segato-el-feminismo-no-puede-y-no-debe-construir-a-los-hombres-como-sus-enemigos-naturales/
-\[6\]:https://www.lahaine.org/mundo.php/segato-por-que-la-masculinidad
-\[7\]:https://es.wikipedia.org/wiki/Sororidad
-\[8\]:https://en.wikipedia.org/wiki/Gender_differences_in_suicide
-\[9\]:https://around.uoregon.edu/content/study-men-often-use-homophobic-tweets-protect-masculinity
+\[1\]:https://latfem.org/nada-mas-patriarcal-que-comerse-un-animal<br/>
+\[2\]:https://www.bbc.com/mundo/noticias-50735010<br/>
+\[3\]:https://www.bbc.com/mundo/noticias-america-latina-50690475<br/>
+\[4\]:Aaron Kipnis (1994) Men, movies, & monsters: Heroic masculinity as a crucible of male violence.<br/>
+\[5\]:https://www.eldesconcierto.cl/2018/12/17/rita-segato-el-feminismo-no-puede-y-no-debe-construir-a-los-hombres-como-sus-enemigos-naturales/<br/>
+\[6\]:https://www.lahaine.org/mundo.php/segato-por-que-la-masculinidad<br/>
+\[7\]:https://es.wikipedia.org/wiki/Sororidad<br/>
+\[8\]:https://en.wikipedia.org/wiki/Gender_differences_in_suicide<br/>
+\[9\]:https://around.uoregon.edu/content/study-men-often-use-homophobic-tweets-protect-masculinity<br/>
 \[10\]: Sommers, Christina (1995). "The gender wardens". Who stole feminism?: how women have betrayed
-women. pp. 264–265. según https://en.wikipedia.org/wiki/Sexual_objectification
+women. pp. 264–265. según https://en.wikipedia.org/wiki/Sexual_objectification<br/>
 \[11\]: Wolf, Naomi (1994). Fire with fire: the new female power and how to use it. New York: Fawcett
-Columbine. pp. 225–228. según https://en.wikipedia.org/wiki/Sexual_objectification
-\[12\]:https://en.wikipedia.org/wiki/Bateman%27s_principle
+Columbine. pp. 225–228. según https://en.wikipedia.org/wiki/Sexual_objectification<br/>
+\[12\]:https://en.wikipedia.org/wiki/Bateman%27s_principle<br/>
