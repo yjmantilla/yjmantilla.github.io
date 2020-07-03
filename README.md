@@ -2,7 +2,7 @@
 
 ![Spectrum Banner](/images/spectrum_banner.png)<br/>
 
-![Bird](/images/bird.png)<br/>
+
 
 <h2>{{ site.data.simsList.simsList_title }}</h2>
 <ul>
@@ -31,3 +31,5 @@
       <li><a href="{{ item.url }}">{{ item.title }}</a></li>
    {% endfor %}
 </ul>
+
+<li><a href="about_me.html">about me</a></li>
