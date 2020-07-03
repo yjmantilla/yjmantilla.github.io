@@ -1,5 +1,17 @@
-# Probably Wrong Hub
+# Probably Wrong Hub, Prototype Wave Height
 
 ![Bird](/images/bird.png)<br/>
-aka prototype wave height
-<li><a href="https://tapas.io/episode/954630">Original image from False Knees</a></li>
+
+```markdown
+aka Yorguin José Mantilla Ramos
+Music
+Dancing
+Philosophy
+Math
+Science
+Engineering
+Code
+Poetry
+```
+
+[Original image from False Knees](https://tapas.io/episode/954630)
