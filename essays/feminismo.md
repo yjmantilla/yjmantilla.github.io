@@ -14,7 +14,7 @@ vídeos de "un violador en tu camino". Por ahí en el segundo día se me ocurri�
 pensaban mis contactos de Facebook acerca del feminismo; la cita previa es perteneciente a uno de ellos.
 Me remito a dicha cita para ilustrar que alguien desinformado -como yo al comenzar el semestre- puede pensar
 erróneamente que el feminismo es homogéneo entorno a sus postulados y posiciones. El hecho de que exista un
-feminismo anti-especista\[1\] y de que haya gente feminista con opiniones como las de mi contacto deja en claro
+feminismo anti-especista \[1\] y de que haya gente feminista con opiniones como las de mi contacto deja en claro
 de que hay mucho debate en torno a que debería ser el feminismo y qué es lo esencial de este. Muchos de los
 roces entre distintas corrientes feministas derivan de diferencias culturales y étnicas entre los grupos
 representados; otras separaciones derivan de disonancias más filosóficas: ¿Cuál es el problema en sí? ¿Cómo
@@ -29,9 +29,9 @@ himno como lo es "un violador en tu camino" ya que analizando la letra es fácil
 una posición feminista-radical de elementos que existen todavía en el mundo: la violación y el homicidio de
 mujeres. Uno puede tomar dichos problemas y estudiarlos bajo la lente de cada forma de feminismo. En
 particular el himno se inspira de los escritos de Rita Segato, quien ha tratado el tema de violencia de género
-desde un punto de vista teórico\[2\], planteando que la violación no es un asunto sexual sino de ejercer poder
+desde un punto de vista teórico \[2\], planteando que la violación no es un asunto sexual sino de ejercer poder
 político sobre un género, en este caso perpetrado por el patriarcado. Otro de los conceptos que es bueno traer a
-colación de esta autora es la idea del "mandato de masculinidad"\[2\], que es en mi opinión otra forma de
+colación de esta autora es la idea del "mandato de masculinidad" \[2\], que es en mi opinión otra forma de
 nombrar el rol masculino, lo que es ser "macho". Dicho elemento también se ve reflejado implícitamente en "un
 violador en tu camino"; si bien sus creadoras citan al himno de los carabineros de Chile de forma irónica \[3\], el
 himno original de los carabineros en sí contiene lo que constituye para mí un mito fundacional de lo masculino:
@@ -140,17 +140,17 @@ de acuerdo al rol que "deberíamos cumplir".
 
 ## Referencias
 
-\[1\]:https://latfem.org/nada-mas-patriarcal-que-comerse-un-animal </br>
-\[2\]:https://www.bbc.com/mundo/noticias-50735010 </br>
-\[3\]:https://www.bbc.com/mundo/noticias-america-latina-50690475 </br>
-\[4\]:Aaron Kipnis (1994) Men, movies, & monsters: Heroic masculinity as a crucible of male violence. </br>
-\[5\]:https://www.eldesconcierto.cl/2018/12/17/rita-segato-el-feminismo-no-puede-y-no-debe-construir-a-los-hombres-como-sus-enemigos-naturales/ </br>
-\[6\]:https://www.lahaine.org/mundo.php/segato-por-que-la-masculinidad </br>
-\[7\]:https://es.wikipedia.org/wiki/Sororidad </br>
-\[8\]:https://en.wikipedia.org/wiki/Gender_differences_in_suicide </br>
-\[9\]:https://around.uoregon.edu/content/study-men-often-use-homophobic-tweets-protect-masculinity </br>
+\[1\]:https://latfem.org/nada-mas-patriarcal-que-comerse-un-animal
+\[2\]:https://www.bbc.com/mundo/noticias-50735010
+\[3\]:https://www.bbc.com/mundo/noticias-america-latina-50690475
+\[4\]:Aaron Kipnis (1994) Men, movies, & monsters: Heroic masculinity as a crucible of male violence.
+\[5\]:https://www.eldesconcierto.cl/2018/12/17/rita-segato-el-feminismo-no-puede-y-no-debe-construir-a-los-hombres-como-sus-enemigos-naturales/
+\[6\]:https://www.lahaine.org/mundo.php/segato-por-que-la-masculinidad
+\[7\]:https://es.wikipedia.org/wiki/Sororidad
+\[8\]:https://en.wikipedia.org/wiki/Gender_differences_in_suicide
+\[9\]:https://around.uoregon.edu/content/study-men-often-use-homophobic-tweets-protect-masculinity
 \[10\]: Sommers, Christina (1995). "The gender wardens". Who stole feminism?: how women have betrayed
-women. pp. 264–265. según https://en.wikipedia.org/wiki/Sexual_objectification </br>
+women. pp. 264–265. según https://en.wikipedia.org/wiki/Sexual_objectification
 \[11\]: Wolf, Naomi (1994). Fire with fire: the new female power and how to use it. New York: Fawcett
-Columbine. pp. 225–228. según https://en.wikipedia.org/wiki/Sexual_objectification </br>
-\[12\]:https://en.wikipedia.org/wiki/Bateman%27s_principle </br>
+Columbine. pp. 225–228. según https://en.wikipedia.org/wiki/Sexual_objectification
+\[12\]:https://en.wikipedia.org/wiki/Bateman%27s_principle
