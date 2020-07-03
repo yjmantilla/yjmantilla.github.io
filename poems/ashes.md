@@ -28,7 +28,7 @@ and I get out of myself.<br/>
 I leap into you<br/>
 and I venture into your mouth.<br/>
 I build the bridge at the same time that I cross it.<br/>
-I know now that you exist,<br/>
+I now know that you exist,<br/>
 not because of your lips,<br/>
 not because of your eyes,<br/>
 but because I leapt into you<br/>
@@ -40,7 +40,7 @@ stand side by side<br/>
 in front of a mirror,<br/>
 suddenly smile;<br/>
 and in the reflection<br/>
-we wont know<br/>
+we won't know<br/>
 who is who.<br/>
 <br/>
 <br/>
@@ -58,9 +58,55 @@ I go and make logical mistakes,<br/>
 and the ashes of that becomes music<br/>
 <br/>
 <br/>
-The ashes,
-&emsp;&emsp;&emsp;&emsp;The ashes,
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Only the ashes
+The ashes,<br/>
+&emsp;&emsp;&emsp;&emsp;The ashes,<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Only the ashes<br/>
+
+## Spanish
+
+Digamos pues que entre tú y yo no hay diferencia alguna,<br/>
+que ambos somos hijos del mismo universo<br/>
+y que el viento que pasó rozándote el rostro,<br/>
+es el mismo viento que recogió mis suspiros<br/>
+y espero también estos versos.<br/>
+<br/>
+<br/>
+Pero que más da,<br/>
+que sé yo realmente del aire,<br/>
+que sé yo realmente del oxigeno,<br/>
+del dióxido de carbono<br/>
+y de la mielina que rodea tus neuronas;<br/>
+solo supongo que existen,<br/>
+no lo puedo comprobar si no salgo de mi mismo;<br/>
+y entonces vienes y me das un beso<br/>
+y salgo yo de mi mismo, salto en ti,<br/>
+me adentro en tu boca,<br/>
+trazo el puente a la par de que lo cruzo,<br/>
+sé entonces que existes,<br/>
+no por tus labios,<br/>
+no por tus ojos,<br/>
+sino porque salte en ti,<br/>
+y me encontré.<br/>
+<br/>
+<br/>
+Podemos pues,<br/>
+pararnos ambos frente a un espejo,<br/>
+de repente sonreir,<br/>
+y en el reflejo no saber realmente<br/>
+quién es quién.<br/>
+<br/>
+<br/>
+Voy pues creando escritos<br/>
+-antes eran para alguien ,ahora son para un fantasma-,<br/>
+propósito nulo,escribo porque yo mismo soy texto,<br/>
+soy un libro, que se escribe y se lee a si mismo,<br/>
+soy una paradoja divida entre cero sin conocer la existencia de los limites,<br/>
+voy y cometo errores logicos y la ceniza de eso se convierte en música.<br/>
+
+
+La ceniza,<br/>
+&emsp;&emsp;&emsp;&emsp;La ceniza,<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Tan sólo la ceniza.<br/>
 
 ## License
 
