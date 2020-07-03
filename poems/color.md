@@ -1,68 +1,70 @@
 # Color
 
-Yo sé que a vos te gusta<br/>
-dar color a las paredes<br/>
-y a los rostros de la gente<br/>
-mientras cantas a la luna.<br/>
+```markdown
+Yo sé que a vos te gusta
+dar color a las paredes
+y a los rostros de la gente
+mientras cantas a la luna.
 
-Y es que la luz con que tú alumbras<br/>
-da calor, sonrisa y juegos<br/>
-y -no sé amor-, se para el tiempo<br/>
-mientras pintas el espacio<br/>
-del color que a mí me gusta.<br/>
+Y es que la luz con que tú alumbras
+da calor, sonrisa y juegos
+y -no sé amor-, se para el tiempo
+mientras pintas el espacio
+del color que a mí me gusta.
 
-Y yo que de la raya me salía<br/>
-cuando niño... es que<br/>
-de verdad -amor- yo de pintar<br/>
-no sé nada, te lo admito.<br/>
-Tan solo reconozco<br/>
-a lo mucho tres colores<br/>
-el amarillo, azul y rojo<br/>
-de dos banderas y mil flores.<br/>
+Y yo que de la raya me salía
+cuando niño... es que
+de verdad -amor- yo de pintar
+no sé nada, te lo admito.
+Tan solo reconozco
+a lo mucho tres colores
+el amarillo, azul y rojo
+de dos banderas y mil flores.
 
-Aún así estoy tratando<br/>
-de pintarte algunos versos.<br/>
-Combino azul y amarillo<br/>
-Según vos: verde esperanza.<br/>
-Mezclando amarillo y rojo<br/>
-Según tú: naranja fuego.<br/>
-Combinando azul y rojo: <br/>
-quizás el violeta qué te calma.<br/>
-Y combinándolos todos<br/>
-no sé si da blanco <br/>
-o si da negro...<br/>
-
-
-Y es que cuando niño<br/>
-me salía de la raya<br/>
-la verdad amor, de pintar<br/>
-... yo sé es nada.<br/>
-Tan solo distingo <br/>
-a lo mucho tres colores<br/>
-el amarillo, azul y rojo<br/>
-de mis banderas y naciones.<br/>
+Aún así estoy tratando
+de pintarte algunos versos.
+Combino azul y amarillo
+Según vos: verde esperanza.
+Mezclando amarillo y rojo
+Según tú: naranja fuego.
+Combinando azul y rojo:
+quizás el violeta qué te calma.
+Y combinándolos todos
+no sé si da blanco
+o si da negro...
 
 
-Y es que ( sí ), la verdad cariño <br/>
-yo... <br/>
-....( ¿no? ) tengo miedo<br/>
-de pintarte una sonrisa<br/>
-de decirte que te espero<br/>
-de escribirte tristes poesías<br/>
-de perdernos ambos en el tiempo<br/>
-de qué no tenga un buen pincel<br/>
-y de qué este lienzo donde pinto <br/>
-no es eterno.<br/>
-De no poder pintarte el futuro que tú quieres<br/>
--y es que todavía no sé <br/>
-con qué color pintar <br/>
-todos tus sueños-<br/>
-y de que no pueda <br/>
-amor decirte...<br/>
+Y es que cuando niño
+me salía de la raya
+la verdad amor, de pintar
+... yo sé es nada.
+Tan solo distingo
+a lo mucho tres colores
+el amarillo, azul y rojo
+de mis banderas y naciones.
+
+
+Y es que ( sí ), la verdad cariño
+yo...
+....( ¿no? ) tengo miedo
+de pintarte una sonrisa
+de decirte que te espero
+de escribirte tristes poesías
+de perdernos ambos en el tiempo
+de qué no tenga un buen pincel
+y de qué este lienzo donde pinto
+no es eterno.
+De no poder pintarte el futuro que tú quieres
+-y es que todavía no sé
+con qué color pintar
+todos tus sueños-
+y de que no pueda
+amor decirte...
 
 
 
-que te cielo.<br/>
+que te cielo.
+```
 
 ## License
 

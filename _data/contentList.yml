@@ -2,3 +2,12 @@ content:
 
 - title: Poems
   url: poems.html
+
+- title: Simulations
+  url: sims.html
+
+- title: Music
+  url: music.html
+
+- title: About Me
+  url: about_me.html
