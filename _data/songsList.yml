@@ -1,11 +1,56 @@
 songsList_title: Songs
 songs:
 
-- title: Venezuela
+- title: Venezuela (Gaita Cover) (Visualization)
   url: /songs/vzla.html
 
-- title: Venezuela lower requirements (ie for mobile)
+- title: Venezuela (Gaita Cover) (Visualization) lower requirements (ie for mobile)
   url: /songs/vzla_low.html
 
 - title: La piragua (Gaita Cover)
   url: https://soundcloud.com/yogimgurt/la-piragua
+
+- title: Venezuela (Soundcloud, no visuals)
+  url: https://soundcloud.com/yogimgurt/venezuela-cover-gaita
+
+- title: Himno de la Alegría - La Lechuza (Piano Latin Jazzy Cover)
+  url: https://soundcloud.com/yogimgurt/himno-de-la-alegria-la-lechuza-cover
+
+- title: A Cruel Angel Thesis (Piano Latin Jazzy Cover)
+  url: https://soundcloud.com/yogimgurt/a-cruel-angel-thesis-cover-latin-vibe-keyboard
+
+- title: Random Party (Earsketch Randomness Exploration)
+  url: https://soundcloud.com/yogimgurt/random-party
+
+- title: Latin Homesick
+  url: https://soundcloud.com/yogimgurt/latin-homesick
+
+- title: Untitled 2
+  url: https://soundcloud.com/yogimgurt/midi-and-audio
+
+- title: Coloring Noise
+  url: https://soundcloud.com/yogimgurt/noise-assignment
+
+- title: Lost Sounds
+  url: https://soundcloud.com/yogimgurt/assignment-2
+
+- title: Amor y Fantasías
+  url: https://soundcloud.com/yogimgurt/la-vida-es-amor-y-fantasias
+
+- title: Wolfs and Tigers
+  url: https://soundcloud.com/yogimgurt/wolfs-and-tigers
+
+- title: They were not made for that
+  url: https://soundcloud.com/yogimgurt/they-were-not-made-for-that
+
+- title: Dreams aren't true
+  url: https://soundcloud.com/yogimgurt/dreams-arent-true
+
+- title: The Crying Universe
+  url: https://soundcloud.com/yogimgurt/the-crying-universe
+
+- title: Calle Luna, Calle Sol (Rock Cover)
+  url: https://soundcloud.com/yogimgurt/tributo-a-calle-luna-calle-sol
+
+- title: Untitled 1 (Electronic)
+  url: https://soundcloud.com/yogimgurt/first
