@@ -50,11 +50,11 @@ encuentran en todas las personas y que generan aún repercusiones en el inconsci
 respecto al género. En esa estrofa en particular es evidente que personaje es cada quien. Curiosamente
 encuentro palabras de Segato acerca de este modelo cuando habla de que el "el victimismo no es una buena
 política para las mujeres" [5]:
-Lo que los medios deberían destacar y repetir sin reserva y hasta con exceso es que quien rescata a
-Thelma es un grupo de mujeres, son sus pares, sus colegas, sus amigas, sus hermanas en el proceso
-político que estamos viviendo en Argentina y en el continente: mujer salva mujer y muestra al mundo
-lo que tiene que cambiar. No hay un príncipe valiente. Hay política, que es más lindo, más heroico y
-más verdadero. La mano salvadora viene de nuestra amistad y alianza.
+</p>
+
+> Lo que los medios deberían destacar y repetir sin reserva y hasta con exceso es que quien rescata a Thelma es un grupo de mujeres, son sus pares, sus > colegas, sus amigas, sus hermanas en el proceso político que estamos viviendo en Argentina y en el continente: **mujer salva mujer y muestra al mundo lo que tiene que cambiar. No hay un príncipe valiente. Hay política, que es más lindo, más heroico y más verdadero. La mano salvadora viene de nuestra amistad y alianza.**
+
+<p style='text-align: justify;'>
 Kipnis menciona que surgen problemas cuando alguno de estos "personajes" nos domina, y que mientras los
 efectos nocivos de la sobre-identificación con el arquetipo de Princesa se han vuelto claros a través de los años
 para las mujeres, los efectos nocivos de la sobre-identificación con el Héroe no son obvios para los hombres. La
