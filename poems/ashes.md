@@ -82,7 +82,7 @@ quién es quién.
 
 
 Voy pues creando escritos
--antes eran para alguien ,ahora son para un fantasma-,
+-antes eran para alguien, ahora son para un fantasma-,
 propósito nulo,escribo porque yo mismo soy texto,
 soy un libro, que se escribe y se lee a si mismo,
 soy una paradoja divida entre cero sin conocer la existencia de los limites,

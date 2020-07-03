@@ -9,5 +9,11 @@ content:
 - title: Music
   url: music.html
 
+- title: Essays
+  url: essays.html
+
+- title: Tutorials
+  url: tutorials.html
+
 - title: About Me
   url: about_me.html

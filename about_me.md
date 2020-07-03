@@ -1,9 +1,9 @@
-# Probably Wrong Hub, Prototype Wave Height
+# Probably Wrong Hub
 
 ![Bird](/images/bird.png)<br/>
 
 ```markdown
-aka Yorguin José Mantilla Ramos
+Yorguin José Mantilla Ramos
 Music
 Dancing
 Philosophy
@@ -12,6 +12,8 @@ Science
 Engineering
 Code
 Poetry
-```
 
+You can find me on yjmantilla@gmail.com
+```
+<!-- Prototype Wave Height -->
 [Original image from False Knees](https://tapas.io/episode/954630)
