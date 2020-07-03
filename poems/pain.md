@@ -1,14 +1,15 @@
 # Pain
 
-maybe for example<br/>
+Maybe for example<br/>
 one should decompose<br/>
 pain into pieces<br/>
-eat it 3 times a day and no more,except<br/> 
+eat it 3 times a day and no more,
+except...<br/> 
 that you find yourself eating snacks of it<br/>
 everytime you are not distracted<br/>
 <br/>
 <br/>
-probably you would find your pain<br/>
+Probably you would find your pain<br/>
 becoming friends with your pulse<br/>
 
 ## License

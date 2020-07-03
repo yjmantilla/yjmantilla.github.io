@@ -57,10 +57,12 @@ y lo imbailable será tan sólo<br/>
 ficción.<br/>
 
 ## License
+
 ![license](https://i.creativecommons.org/l/by/4.0/88x31.png)<br/>
 This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
 ## References
+
 La imagen no es mía. Es de Stewart Jones, la pueden  encontrar [aquí](https://500px.com/photo/4885082/prima-ballerina-by-stewart-jones).<br/>
 
 Bueno este es un poema que hice en el 2013 aproximadamente, pero cuando lo fui a publicar aquí (para tener un bendito primer post) se me ocurrieron unas cuantas maneras de modificarlo (y mejorar su consistencia). La versión original la pueden encontrar [aquí](http://yogimgurt.deviantart.com/art/Ella-bailaba-374000649).
