@@ -1,16 +1,18 @@
 # Pain
 
-Maybe for example<br/>
-one should decompose<br/>
-pain into pieces<br/>
+```markdown
+Maybe for example
+one should decompose
+pain into pieces
 eat it 3 times a day and no more,
-except...<br/> 
-that you find yourself eating snacks of it<br/>
-everytime you are not distracted<br/>
-<br/>
-<br/>
-Probably you would find your pain<br/>
-becoming friends with your pulse<br/>
+except...
+that you find yourself eating snacks of it
+everytime you are not distracted
+
+
+Probably you would find your pain
+becoming friends with your pulse
+```
 
 ## License
 

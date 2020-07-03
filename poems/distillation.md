@@ -1,16 +1,16 @@
 # Distillation
 
 ```markdown
-So it has been a really really bumpy road,<br/>
-that of distilling my feelings.<br/>
-I tried to dissect my emotional being,<br/>
-little by little,<br/>
-feeling by feeling,<br/>
-to unmask those who are fake<br/>
-and those who are not mutual,<br/>
-those who are selfish,<br/>
-and those who are purely<br/>
-my gift to you.<br/>
+So it has been a really really bumpy road,
+that of distilling my feelings.
+I tried to dissect my emotional being,
+little by little,
+feeling by feeling,
+to unmask those who are fake
+and those who are not mutual,
+those who are selfish,
+and those who are purely
+my gift to you.
 ```
 
 ## License
