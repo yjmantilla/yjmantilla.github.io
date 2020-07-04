@@ -1,0 +1,46 @@
+# Descomponerte
+
+```markdown
+Descomponerte en tus partes más simples
+Convertirte en sueño, transformarte en lágrima
+Despertarme y ver tus párpados, de repente ríes.
+Y después de tu risa, tu mirada.
+
+Descomponerte, descomponerte.
+Desentrelazarte el alma.
+Desvestirte hasta el pasado.
+Desvestirte hasta los sueños.
+Morir en tu pecho.
+Transformarte en lágrima.
+Devolverte al cielo
+a donde perteneces.
+Convertirte en sueño.
+Devorarte el alma.
+
+Desnudarte hasta el pasado,
+que te viste todo el tiempo.
+Acariciarte los recuerdos,
+arrancarlos de tus labios,
+removerlos de tu cuerpo.
+Desnudarte hasta los sueños
+que te desvisten todo el tiempo.
+Ver tus ojos como si los sueños
+se contagiaran con la mirada,
+Como si vibraran en la luz.
+
+Descomponerte y componerte.
+Desentrelazarte el alma.
+Desvestirte hasta el pasado.
+Desvestirte hasta los sueños.
+Dormir en tu pecho.
+Transformarte en lágrima.
+Devolverte al cielo,
+a donde perteneces
+Convertirte en verso.
+Y empezar de nuevo.
+```
+
+## License
+
+![license](https://i.creativecommons.org/l/by/4.0/88x31.png)<br/>
+This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
