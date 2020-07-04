@@ -16,3 +16,10 @@ Dicha historia se repitió en 999 iteraciones y de 1024 maneras. Alguna vez un i
 # Anotaciones
 
 Esta vaina fue hecha en 10 minutos en una clase, así que no espere mucho de ella.
+
+# Autores
+
+- Yorguin José Mantilla
+- Maury Marmolejo Din
+- Juan Esteban Gutiérrez
+- Raúl Arcila
