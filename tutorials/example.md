@@ -74,6 +74,8 @@ A--&gt;B
       B --> D[Server2]
     </div>
 
+    This doesnt work...
+    
     And here is another:
     <div class="mermaid">
       graph TD

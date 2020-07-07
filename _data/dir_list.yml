@@ -1,19 +1,22 @@
-content:
+dirs:
+
+- title: Index
+  url: README.md
 
 - title: Poems
-  url: poems.html
+  url: /dirs/poems.html
 
 - title: Simulations
-  url: sims.html
+  url: /dirs/sims.html
 
 - title: Music
-  url: music.html
+  url: /dirs/music.html
 
 - title: Essays
-  url: essays.html
+  url: /dirs/essays.html
 
 - title: Tutorials
-  url: tutorials.html
+  url: /dirs/tutorials.html
 
 - title: About Me
-  url: about_me.html
+  url: /dirs/about_me.html
