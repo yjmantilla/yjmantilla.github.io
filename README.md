@@ -2,9 +2,10 @@
 
 ![Spectrum Banner](/images/spectrum_banner.png)<br/>
 
-<h2>Site Map</h2>
+## Site Map
+
 <ul>
-   {% for item in site.data.contentList.content %}
+   {% for item in site.data.dir_list.content %}
       <li><a href="{{ item.url }}">{{ item.title }}</a></li>
    {% endfor %}
 </ul>

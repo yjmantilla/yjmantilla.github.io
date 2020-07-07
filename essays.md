@@ -1,8 +1,7 @@
 # Essays
 
-<h2>Essays</h2>
 <ul>
-   {% for item in site.data.essaysList.essays %}
+   {% for item in site.data.essay_list.essays %}
       <li><a href="{{ item.url }}">{{ item.title }}</a></li>
    {% endfor %}
 </ul>

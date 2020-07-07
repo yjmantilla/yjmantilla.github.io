@@ -1,6 +1,7 @@
-<h2>Poems</h2>
+# Cringe Worthy Poems
+
 <ul>
-   {% for item in site.data.poemsList.poems %}
+   {% for item in site.data.poem_list.poems %}
       <li><a href="{{ item.url }}">{{ item.title }}</a></li>
    {% endfor %}
 </ul>

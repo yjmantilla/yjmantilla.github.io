@@ -1,13 +1,15 @@
-<h2>Music Visualizations</h2>
+# Music Visualizations
+
 <ul>
-   {% for item in site.data.songsList.songs %}
+   {% for item in site.data.song_list.songs %}
       <li><a href="{{ item.url }}">{{ item.title }}</a></li>
    {% endfor %}
 </ul>
 
-<h2>Soundcloud</h2>
+# Soundcloud
+
 <ul>
-   {% for item in site.data.songsList.soundcloud %}
+   {% for item in site.data.song_list.soundcloud %}
       <li><a href="{{ item.url }}">{{ item.title }}</a></li>
    {% endfor %}
 </ul>
