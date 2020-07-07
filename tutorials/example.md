@@ -84,6 +84,7 @@ A--&gt;B
 </body>
 
 ### Math
+you can use an inline formula $$\forall x \in R$$ like this one
 
 $$
 M = \left( \begin{array}{ccc}
