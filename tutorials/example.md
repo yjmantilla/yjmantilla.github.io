@@ -3,7 +3,7 @@ title:  "Example"
 ---
 
 {% include mermaid.html %}
-
+{% include mathjax.html %}
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/yjmantilla/yjmantilla.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
@@ -82,3 +82,13 @@ A--&gt;B
       B -->|tcp_456| D[Server2]
     </div>
 </body>
+
+### Math
+
+$$
+M = \left( \begin{array}{ccc}
+x_{11} & x_{12} & \ldots \\
+x_{21} & x_{22} & \ldots \\
+\vdots & \vdots & \ldots \\
+\end{array} \right)
+$$
