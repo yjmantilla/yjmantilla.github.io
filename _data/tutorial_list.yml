@@ -2,3 +2,6 @@ tutorials:
 
 - title: Github Pages
   url: /tutorials/example.html
+
+- title: Mermaid
+  url: /tutorials/mermaid.html
