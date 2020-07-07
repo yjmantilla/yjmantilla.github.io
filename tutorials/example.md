@@ -56,3 +56,10 @@ A--&gt;B
 <div class="mermaid">graph LR
 A--&gt;B
 </div>
+
+<div class="mermaid">graph LR
+    graph TD
+    A[Client] --> B[Load Balancer]
+    B --> C[Server1]
+    B --> D[Server2]
+</div>
