@@ -1,7 +1,7 @@
 dirs:
 
-- title: Index
-  url: README.md
+- title: Home
+  url: index.html
 
 - title: Poems
   url: /dirs/poems.html
