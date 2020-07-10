@@ -11,7 +11,7 @@ Math
 Science
 Engineering
 Code
-Poetry
+(Bad) Poetry
 
 You can find me on yjmantilla@gmail.com
 ```

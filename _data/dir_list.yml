@@ -3,7 +3,7 @@ dirs:
 - title: Home
   url: index.html
 
-- title: Poems
+- title: (Bad) Poems
   url: /dirs/poems.html
 
 - title: Simulations
