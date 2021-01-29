@@ -21,7 +21,50 @@ var mode_others = true;
 var mode_visuals = true;
 var radial_step = 1;
 var warning = 'Tips:\nSounds weird? Try pausing (may desync)\nBetter experienced in chrome\nMay be too slow in some devices (ie mobile)\nweird display on mobile?\n(ie controls dont show completely)\nTry switching back and forth between landscape and portrait\nEnjoy!';
+var capture = false;
+// the frame rate
+var fps = 60;
 
+// the canvas capturer instance
+var capturer = new CCapture({ format: 'png', framerate: fps });
+var play = false;
+
+function togglePlaying(play) {
+  if (!play){//!sax.isPlaying() ||!bass.isPlaying() ||!piano.isPlaying() ||!others.isPlaying()) {
+    //if (capture) {
+      //console.log('starting recording.');
+    //}
+    sax.play();
+    bass.play();
+    piano.play();
+    others.play();
+    button.html("play");
+    if (capture){
+    capturer.start();
+    console.log('starting recording.');
+
+  }
+    return true;
+  }
+
+  else {
+    //sax.pause();
+    //bass.pause();
+    //piano.pause();
+    //others.pause();
+
+    //button.html("play");
+    if (capture){
+    console.log('finished recording.');
+    capturer.stop();
+    capturer.save();
+    }
+  }
+
+}
+  function play_wrapper(){
+    play = togglePlaying(play)
+  }
 
 var cfg = {
 
@@ -31,6 +74,8 @@ var cfg = {
   mode_others: true,
   mode_visuals : true,
   radial_step : 1,
+  'dummy':function(){return},
+  'toggle_play': play_wrapper,
   toggle_sax: function(){
     this.mode_sax = !this.mode_sax;
     if(this.mode_sax){  sax.setVolume(1);}
@@ -79,20 +124,25 @@ function preload(){
   console.log("loaded");
 }
 function setup() {
+  //button = createButton("play");
+  //button.mousePressed(togglePlaying);
+  createCanvas(windowWidth, windowHeight);
+
+  frameRate(fps);
   let gui = new dat.GUI({ autoPlace: true, width: 450 });
   //gui.add(text, 'growthSpeed', -5, 5); // Min and max
   //var obj = { add:function(){ console.log("clicked") }};
   //gui.add(obj, 'add').name('Custom Label');
-  var cfgFolder = gui.addFolder('Click Here!');
+  var cfgFolder = gui.addFolder('CLICK HERE TO PLAY!');
+  cfgFolder.add(cfg, 'toggle_play').name('GOOD,NOW HERE TO PLAY')
+  cfgFolder.add(cfg,'dummy').name(s)
   cfgFolder.add(cfg, 'change_visuals').name('change visuals');
   cfgFolder.add(cfg, 'toggle_sax').name('toggle sax');
   cfgFolder.add(cfg, 'toggle_bass').name('toggle bass');
   cfgFolder.add(cfg, 'toggle_piano').name('toggle piano');
   cfgFolder.add(cfg, 'toggle_others').name('toggle others');
+  
 
-  button = createButton("play");
-  button.mousePressed(togglePlaying);
-  createCanvas(windowWidth, windowHeight);
   
   volHistory_sax = new Array(360).fill(0);
   volHistory_bass = new Array(360).fill(0);
@@ -127,12 +177,10 @@ function setup() {
   set_cfgs();
   window.alert(warning);
 
-
 }
 
 
 function draw() {
-  
   //background(random(255));
   //sax.pan(sliderPan.value());
   //sax.rate(sliderRate.value());
@@ -146,7 +194,9 @@ function draw() {
   //ellipse(width / 2, height / 2, diam, diam);
   strokeWeight(2);
   background(0,0,0);
+  if (!capture){
   text(s, 10, 10, 250, 250);
+  }
   fill(255, 255, 255, 255);
   
 
@@ -212,50 +262,16 @@ function draw() {
   cleanSignal(volHistory_bass,buffer);
   cleanSignal(volHistory_piano,buffer);
   cleanSignal(volHistory_others,buffer);
+  if (play && capture){
+  console.log('capturing frame');
+  capturer.capture(document.getElementById('defaultCanvas0'));
+  }
 }
 
 function mouseClicked(){
   if (getAudioContext().state !== 'running') {
    getAudioContext().resume();
  }
-}
-
-
-function togglePlaying() {
-  if (!sax.isPlaying() ) {
-    sax.play();
-    button.html("pause");
-  }
-
-  else {
-    sax.pause();
-    
-    button.html("play");
-  }
-
-  if(!bass.isPlaying())
-  {
-    bass.play();
-  }
-  else{
-    bass.pause();
-  }
-  
-  if(!piano.isPlaying())
-  {
-    piano.play();
-  }
-  else{
-    piano.pause();
-  }
-  
-  if(!others.isPlaying())
-  {
-    others.play();
-  }
-  else{
-    others.pause();
-  }
 }
 
 
@@ -365,4 +381,5 @@ cfg_radial_piano={c : color('red'),center : [width/2,height/2],step:radial_step,
 cfg_radial_others={c : color('white'),center : [width/2,height/2],step:radial_step,scale:2,offset:height/12,mapArray:[0,1,1,height/3]}
 cfg_ellipseDrum_others = {center : [width / 2,height / 2],scale : 2, c : color("white"),mapArray : [0,0.5,1,height]};
 cfg_linear_others = {offset:1.7*height/3,c:color('white')}
+
 }
