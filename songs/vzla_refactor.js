@@ -13,6 +13,7 @@ var button;
 var volHistory_sax = [];
 var volHistory_bass = [];
 var volHistory_piano = [];
+var volHistory_others =[];
 var vol_sax;
 var mode_sax = true;
 var mode_bass = true;
