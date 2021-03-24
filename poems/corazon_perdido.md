@@ -10,7 +10,7 @@ donde será que esta metido.
 Quizás este debajo de la almohada,
 o entre las cobijas y sabanas escondido.
 Lo he buscado hasta debajo de la cama,
-y ni un recuerdo donde de lo he visto.
+y ni un recuerdo de donde lo he visto.
 
 No lo encuentro, no lo encuentro
 ni entre tecla y tecla de mi piano,
