@@ -1,3 +1,4 @@
+from typing import Text
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
@@ -7,16 +8,17 @@ import numpy as np
 from scipy.fft import fft, fftfreq
 from scipy import signal
 from dash.dependencies import Output, Input
+from scipy.signal import hilbert
 fs = 2048
+N_REPS = 100
+ENVELOPE_TYPE = 'moving_average' # 'moving_average','hilbert'
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 app.layout = html.Div([
-    html.H1(children='Hello Dash'),
-    html.Div(children='''
-            Dash: A web application framework for Python.
-        '''),
+    html.H1(children='Spectrum based on spike frequency'),
+    html.H3(children='Spike train of 1 second'),
     html.Div(id='spike_slider_text'),
     dcc.Slider(
         id='slider',
@@ -26,6 +28,27 @@ app.layout = html.Div([
         value=100,
         marks={ str(i):{'label':str(i)} for i in np.linspace(1,200,10).astype(int)},
     ),
+    dcc.Graph(
+    id='spike_train',
+    #style={'width': '100vh', 'height': '100vh'}
+    ),
+    html.H3(children='Consecutive spike trains'),
+    html.Div(id='rep_sep_slider_text',style ={'justify': 'center'}),
+    dcc.Slider(
+        id='slider-rep-sep',
+        min=1,
+        max=fs, #<fs
+        step=10,
+        value=256,
+        marks={ str(i):{'label':str(i)} for i in np.linspace(1,fs,10).astype(int)},
+    ),
+    dcc.Graph(
+    id='spike_train2',
+    #style={'width': '100vh', 'height': '100vh'}
+    ),
+    html.H3(children='Envelope to produce the EPSP'),
+    html.H4(children='What really happens depends on this. If low/high spike freq is given what should the envelope be?'),
+    html.Div(children='If no envelope when there is a low spike frequency then there is just DC or no projected EPSP???'),
     html.Div(id='MoAv_slider_text'),
     dcc.Slider(
         id='slider-l',
@@ -35,59 +58,11 @@ app.layout = html.Div([
         value=256,
         marks={ str(i):{'label':str(i)} for i in np.linspace(2,int(fs/2),10).astype(int)},
     ),
-    html.Div(id='t_slider_text',style ={'justify': 'center'}),
-
-    dcc.Slider(
-        id='slider-t',
-        min=1,
-        max=10, #<fs
-        step=1,
-        value=10,
-        marks={ str(i):{'label':str(i)} for i in np.linspace(1,10,10).astype(int)},
-    ),
-    html.Div(id='sep_slider_text',style ={'justify': 'center'}),
-
-    dcc.Slider(
-        id='slider-sep',
-        min=1,
-        max=int(fs/8), #<fs
-        step=1,
-        value=10,
-        marks={ str(i):{'label':str(i)} for i in np.linspace(1,int(fs/8),10).astype(int)},
-    ),
-    html.Div(id='rep_slider_text',style ={'justify': 'center'}),
-
-    dcc.Slider(
-        id='slider-rep',
-        min=1,
-        max=50, #<fs
-        step=1,
-        value=5,
-        marks={ str(i):{'label':str(i)} for i in np.linspace(1,50,10).astype(int)},
-    ),
-    html.Div(id='rep_sep_slider_text',style ={'justify': 'center'}),
-
-    dcc.Slider(
-        id='slider-rep-sep',
-        min=1,
-        max=fs, #<fs
-        step=10,
-        value=256,
-        marks={ str(i):{'label':str(i)} for i in np.linspace(1,fs,10).astype(int)},
-    ),
-
-    dcc.Graph(
-        id='spike_train',
-        #style={'width': '100vh', 'height': '100vh'}
-    ),
-    dcc.Graph(
-        id='spike_train2',
-        #style={'width': '100vh', 'height': '100vh'}
-    ),
     dcc.Graph(
         id="epsp",
         #style={'width': '100vh', 'height': '100vh'}
     ),
+    html.H3(children='Fourier Transform of the repeated EPSP'),
     dcc.Graph(
         id="epsp_fft",
         #style={'width': '100vh', 'height': '100vh'}
@@ -161,9 +136,6 @@ def find_support(x):
 @app.callback(
     [Output('spike_slider_text', 'children'),
     Output('MoAv_slider_text', 'children'),
-    Output('t_slider_text', 'children'),
-    Output('sep_slider_text', 'children'),
-    Output('rep_slider_text', 'children'),
     Output('rep_sep_slider_text', 'children'),
     Output('spike_train', 'figure'),
     Output('epsp', 'figure'),
@@ -171,12 +143,9 @@ def find_support(x):
     Output('spike_train2', 'figure')],
     [Input('slider', 'value'),
     Input('slider-l','value'),
-    Input('slider-t','value'),
-    Input('slider-sep','value'),
-    Input('slider-rep','value'),
     Input('slider-rep-sep','value')
     ])
-def update_output(num_spikes,l,stop,sep,n_reps,rep_sep):
+def update_output(num_spikes,l,rep_sep):
     
     start = 0
 
@@ -184,22 +153,28 @@ def update_output(num_spikes,l,stop,sep,n_reps,rep_sep):
     y = spike_train(x,num_spikes)
     fig1 = px.line(None, x=x, y=y)
 
+    single_shot_len = y.shape[0]+np.zeros(rep_sep).shape[0]
+    stop = N_REPS*single_shot_len*1/fs
     x = np.arange(start,stop,1/fs)
-    y = [y,np.zeros(rep_sep)]*n_reps
+    y = [y,np.zeros(rep_sep)]*N_REPS
     y = np.hstack(y)
     if len(x) <= len(y):
         y = y[:len(x)]
     else:
         y = np.hstack([y,np.zeros(len(x)-len(y))])
-    figN = px.line(None,x=x,y=y)
+    figN = px.line(None,x=x,y=y,range_x=(0,single_shot_len/fs))
 
     coefs,num,den = get_moving_average_filter(l)
-    epsp = np.convolve(y, coefs, mode='same')
-    epsp = np.convolve(epsp, coefs, mode='same')
+    
+    if ENVELOPE_TYPE == 'moving_average':
+        epsp = np.convolve(y, coefs, mode='same')
+        epsp = np.convolve(epsp, coefs, mode='same')
+    else: #'hilbert'
+        epsp = np.imag(hilbert(y))
     epsp = epsp/np.max(np.abs(epsp))
-    support = epsp#find_support(epsp)
+    support = epsp-np.mean(epsp)#find_support(epsp)
     x2 = np.arange(0,len(support)*1/fs,1/fs)
-    fig2 = px.line(None, x=x2, y=support)
+    fig2 = px.line(None, x=x2, y=support,range_x=(0,single_shot_len/fs))
     
 
     #print(len(find_support(epsp)))
@@ -211,7 +186,7 @@ def update_output(num_spikes,l,stop,sep,n_reps,rep_sep):
     last_idx = np.where((np.abs(xf-50))==np.min(np.abs(xf-50)))[0][0]#-1#np.where((f-50)==np.min(f-50))[0][0]
     #fig3 = px.line(None,labels={"x":"freq","y":"power"},x=xf[:last_idx],y=yf[:last_idx])
     fig3 = px.line(None,labels={"x":"freq","y":"power"},x=xf[zero_idx:last_idx],y=yf[zero_idx:last_idx])
-    return 'NUM_SPIKES "{}"'.format(num_spikes),'MoAv_POINTS "{}"'.format(l),'TIME "{}"'.format(stop),'SEP "{}"'.format(sep),'REP "{}"'.format(n_reps),'REPSEP "{}"'.format(rep_sep),fig1,fig2,fig3,figN
+    return '# of spikes in 1 second: {}'.format(num_spikes),'# of points of moving average : {}'.format(l),'# of points of separation between repetitions of the spike train: {}'.format(rep_sep),fig1,fig2,fig3,figN
 
 if __name__ == '__main__':
     app.run_server(debug=True)
