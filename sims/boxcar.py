@@ -1,6 +1,8 @@
 import plotly.graph_objects as go
 import numpy as np
 from plotly.subplots import make_subplots
+import plotly.io as pio
+
 def boxcar(t,T=1):
     def foo(t):
         if -1*T/2 <= t and t <= T/2:
@@ -70,5 +72,8 @@ fig.update_layout(
 )
 
 
-fig.show()
+#fig.show()
+
+pio.write_html(fig, file='sims/boxcar.html', auto_open=True)
+
 #fig2.show()
