@@ -17,9 +17,9 @@ def sinc(w,T):
 # Create figure
 fig = make_subplots(rows=2, cols=1)#go.Figure()
 #fig2 = go.Figure()
-x = np.arange(-10, 10, 0.01)
-Ts = np.arange(0, 10, 0.1)
-w = np.arange(-10, 10, 0.01)
+x = np.arange(-10, 10, 0.5)
+Ts = np.arange(0, 10, 0.5)
+w = np.arange(-10, 10, 0.5)
 
 # Add traces, one for each slider step
 for step in Ts:
