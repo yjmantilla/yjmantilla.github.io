@@ -1,0 +1,154 @@
+<script src="https://d3js.org/d3.v6.js"></script>
+<script src="https://unpkg.com/d3-simple-slider"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/nicolaspanel/numjs@0.15.1/dist/numjs.min.js"></script>
+<title>Spectrum based on Spike Frequency</title>
+<h1>Spectrum based on Spike Frequency</h1>
+
+<h2>Spikes Packet of 1 Second</h2>
+<h3># of spikes in 1 second: <span id="num_spikes"></span></h3>
+<div id="num_spikes_slider" style="width:80%;height:10%;"></div>
+<div id="spikes_packet" style="width:90%;height:40%;"></div>
+
+<h2>Spike Train</h2>
+<h3># of points of separation between repetitions of the spike train: <span id="train_separation"></span></h3>
+<div id="train_separation_slider" style="width:80%;height:10%;"></div>
+<div id="train" style="width:90%;height:40%;"></div>
+
+<h2>Envelope to produce the EPSP</h2>
+<p>What really happens depends on this. If low/high spike freq is given what should the envelope be?</p>
+<p>If no envelope when there is a low spike frequency then there is just DC or no projected EPSP???</p>
+<h3># of points of moving average: <span id="mov_av_points"></span></h3>
+<div id="mov_av_points_slider" style="width:80%;height:10%;"></div>
+<div id="epsp" style="width:90%;height:40%;"></div>
+
+<h2>Fourier Transform of the repeated EPSP</h2>
+<div id="fourier" style="width:90%;height:40%;"></div>
+
+<script>
+    var SFREQ = 2048;
+    var N_REPS = 100;
+    var ENVELOPE_TYPE = 'moving_average' //'moving_average','hilbert'
+    var SPIKES_STEP = 1;
+    var num_spikes_vector = nj.arange(1,200,SPIKES_STEP).tolist();
+    var SEPARATION_STEP = 10;
+    var separation_vector = nj.arange(1,SFREQ,SEPARATION_STEP).tolist();
+    var MOV_AV_LENGTH_STEP = 1;
+    var mov_av_vector = nj.arange(2,SFREQ/2,MOV_AV_LENGTH_STEP).tolist();
+
+    function charge(t,A=1,tau=1e-3){
+        return A*(1-Math.exp(-1*t/tau));
+    }
+
+    function closest_with_tol(list, x,tol) {
+        var min,
+            chosen = 0;
+        for (var i in list) {
+            if (Math.abs(list[i] - x) < tol) {
+                chosen = i;
+                return chosen;
+            }
+        }
+        return chosen;
+            }
+
+    function fire(t,A=1,tau=[1e-5,1e-4]){
+        charging = charge(t,A,tau[0]);
+        charged_idx = closest(charging,A,1e-3);
+        discharging = discharge(t[charged_idx+1:],A,tau[1])
+        
+    }
+  var T_STEP = 0.1;
+  var X_STEP = 0.01;
+  var W_STEP = 0.01;
+  var Ts = nj.arange(0,10,T_STEP).tolist()
+  var time = nj.arange(-10,10,X_STEP).tolist()
+  var ws = nj.arange(-10, 10, W_STEP).tolist()
+  var T_DEFAULT = 5;
+  var current_T = T_DEFAULT;
+  function set_T(val){
+    current_T = val;
+  }
+  function get_boxcar(t){
+    let boxcar =  time.map(function (t) 
+          {
+            if (-1*current_T/2 <= t && t <= current_T/2)
+              {
+                return 1
+              }
+            else
+              {
+                return 0
+              }
+          })
+
+    return boxcar
+  }
+
+  function get_fourier(w){
+    let sinc =  ws.map(function (w) 
+          {
+            if (w == 0)
+            {
+              return 1*current_T
+            }
+            else
+            {
+              return current_T*Math.sin(w*current_T/2)/(w*current_T/2);
+            }
+          })
+
+    return sinc
+  }
+  
+  boxcar_plot = Plotly.newPlot('boxcar', 
+        [{
+        x: time,
+        y: get_boxcar(time)
+        }]);
+
+  fourier_plot = Plotly.newPlot('fourier', 
+        [{
+        x: ws,
+        y: get_fourier(time)
+        }]);
+
+  var slider = d3
+    .sliderHorizontal()
+    .min(nj.min(Ts))
+    .max(nj.max(Ts))
+    .step(T_STEP)
+    .width(0.8*window.innerWidth)
+    .displayValue(true)
+    .default(5)
+    .on('onchange', (val) => {
+      set_T(val);
+      //console.log(current_T);
+      Plotly.react(
+        'boxcar', 
+        [{
+        x: time,
+        y: get_boxcar(time)
+        }]
+      );
+      Plotly.react(
+        'fourier', 
+        [{
+        x: ws,
+        y: get_fourier(ws)
+        }]
+      );
+
+      d3.select('#value').text(val);
+
+    })
+  
+  d3.select('#slider')
+    .append('svg')
+    .attr('width', 1*window.innerWidth)
+    .attr('height', 0.1*window.innerHeight)
+    .append('g')
+    .attr('transform', 'translate(70,30)')
+    .call(slider);
+
+</script> 
