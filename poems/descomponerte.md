@@ -45,3 +45,4 @@ Y empezar de nuevo.
 ```
 
 {% include license.md %}
+{% include home.md %}

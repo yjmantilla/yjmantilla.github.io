@@ -1,7 +1,15 @@
 tutorials:
 
-- title: Github Pages
+- title: Run Local Jekyll to preview github-pages
+  url: /tutorials/local_jekyll.html
+
+- title: ICA Music Decomposition Example
+  url: https://colab.research.google.com/drive/1O2iRh4E9X_ATGFgRrSEfZwubI7Hcxtpz?usp=sharing
+  frame: /images/music_ica.png
+
+- title: Github Pages Example
   url: /tutorials/example.html
 
-- title: Mermaid
+- title: Mermaid Example
   url: /tutorials/mermaid.html
+

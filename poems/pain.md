@@ -19,3 +19,4 @@ becoming friends with your pulse.
 ```
 
 {% include license.md %}
+{% include home.md %}

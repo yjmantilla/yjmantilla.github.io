@@ -2,6 +2,8 @@
 
 ![Spectrum Banner](/images/spectrum_banner.png)<br/>
 
+> crear y errar tienen la misma naturaleza.
+
 ## Site Map
 
 <ul>

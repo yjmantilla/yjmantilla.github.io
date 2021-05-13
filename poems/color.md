@@ -71,3 +71,4 @@ que te cielo.
 ```
 
 {% include license.md %}
+{% include home.md %}

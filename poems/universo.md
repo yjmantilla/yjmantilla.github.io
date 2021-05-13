@@ -146,3 +146,4 @@ Oh! The intentions of existence
 ```
 
 {% include license.md %}
+{% include home.md %}

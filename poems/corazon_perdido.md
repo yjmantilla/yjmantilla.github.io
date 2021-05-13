@@ -50,3 +50,4 @@ y si quieres seguimos conversando.
 ```
 
 {% include license.md %}
+{% include home.md %}

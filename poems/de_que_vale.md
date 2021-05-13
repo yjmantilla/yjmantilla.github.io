@@ -76,3 +76,4 @@ algo es algo.
 ```
 
 {% include license.md %}
+{% include home.md %}

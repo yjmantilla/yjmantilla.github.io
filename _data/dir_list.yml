@@ -1,12 +1,9 @@
 dirs:
 
-- title: Home
-  url: index.html
-
 - title: (Bad) Poems
   url: /dirs/poems.html
 
-- title: Simulations
+- title: Interactive Content
   url: /dirs/sims.html
 
 - title: Music
@@ -14,6 +11,9 @@ dirs:
 
 - title: Essays
   url: /dirs/essays.html
+
+- title: Research
+  url: /dirs/research.html
 
 - title: Tutorials
   url: /dirs/tutorials.html

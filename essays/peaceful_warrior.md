@@ -103,3 +103,5 @@ Aún así nuestros valores están modulados por las experiencias que vamos obten
 <p style='text-align: justify;'>
 Pero entonces, ¿cómo respondemos la pregunta de cómo definirnos correctamente? Ya vimos que no hay forma certera de hacerlo y entonces la única opción es estar abiertos a la posibilidad de redefinición personal. Este es el ideal de “lo único constante es el cambio” que mencione al inicio. <b>Si uno es capaz de redefinirse no debe tener miedo ante la adversidad ya que sabe que hallará al menos una manera.</b>
 </p>
+
+{% include home.md %}

@@ -1,4 +1,21 @@
-songs:
+youtube:
+- title: A Cruel Angel Thesis (Piano Latin Jazzy Cover)
+  frame: https://img.youtube.com/vi/GLRPbdVJ82I/1.jpg
+  url: https://www.youtube.com/watch?v=GLRPbdVJ82I
+- title: Venezuela (Gaita Cover)
+  frame: https://img.youtube.com/vi/52_sTVznLHk/1.jpg
+  url: https://www.youtube.com/watch?v=52_sTVznLHk
+- title: Focus (Musica Experimental y Digital, UdeA, Colaborativo con un compa de la U)
+  frame: https://img.youtube.com/vi/mrjxGVZ-ibE/1.jpg
+  url: https://www.youtube.com/watch?v=mrjxGVZ-ibE
+- title: Wolfs and Tigers
+  frame: https://img.youtube.com/vi/4jhNHBfUcvU/1.jpg
+  url: https://www.youtube.com/watch?v=4jhNHBfUcvU
+- title: La piragua (Gaita Cover)
+  frame: https://img.youtube.com/vi/6nf3X3gznaU/1.jpg
+  url: https://www.youtube.com/watch?v=6nf3X3gznaU
+
+interactive:
 
 - title: Venezuela (Gaita Cover)
   url: /songs/vzla.html
@@ -58,3 +75,6 @@ soundcloud:
 
 - title: Untitled 1 (Electronic)
   url: https://soundcloud.com/yogimgurt/first
+
+- title: Focus (Musica Experimental y Digital, UdeA, Colaborativo con un compa de la U)
+  url: https://soundcloud.com/yogimgurt/proyecto-focus

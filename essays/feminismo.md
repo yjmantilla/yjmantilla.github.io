@@ -160,3 +160,5 @@ women. pp. 264–265. según <https://en.wikipedia.org/wiki/Sexual_objectificati
 \[11\]: Wolf, Naomi (1994). Fire with fire: the new female power and how to use it. New York: Fawcett
 Columbine. pp. 225–228. según <https://en.wikipedia.org/wiki/Sexual_objectification><br/>
 \[12\]:<https://en.wikipedia.org/wiki/Bateman%27s_principle><br/>
+
+{% include home.md %}

@@ -42,3 +42,5 @@ Esta vaina fue hecha en 10 minutos en una clase, así que no espere mucho de ell
 - Maury Marmolejo Din
 - Juan Esteban Gutiérrez
 - Raúl Arcila
+
+{% include home.md %}

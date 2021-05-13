@@ -99,3 +99,4 @@ La ceniza,
 ```
 
 {% include license.md %}
+{% include home.md %}
