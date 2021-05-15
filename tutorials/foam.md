@@ -13,3 +13,5 @@ Podrían usarse [tags](https://foambubble.github.io/foam/features/tags). Esto po
 Para empezar ver el [menú de recetas](https://foambubble.github.io/foam/recipes/recipes)
 
 Se pueden incluir facilmente imagenes con [esto](https://foambubble.github.io/foam/recipes/add-images-to-notes)
+
+![](2021-05-15-03-25-31.png)

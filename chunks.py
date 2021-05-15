@@ -3,7 +3,8 @@ from os.path import isfile, join
 import re
 import json
 mypath = 'chunks'
-onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
+extension = '.md' # gotta filter by extension since assets may be in the folder (images ie)
+onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f)) and extension in f]
 
 sources = []
 targets = []
