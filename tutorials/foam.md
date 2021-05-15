@@ -11,3 +11,5 @@ Idealmente los chunks deberían tener nombre único y siguiendo el [kebab case](
 Podrían usarse [tags](https://foambubble.github.io/foam/features/tags). Esto podría aprovecharse para organizar poemas con base en tematicas?. O quizás la idea de categorías de jekyll.
 
 Para empezar ver el [menú de recetas](https://foambubble.github.io/foam/recipes/recipes)
+
+Se pueden incluir facilmente imagenes con [esto](https://foambubble.github.io/foam/recipes/add-images-to-notes)
