@@ -1,5 +1,5 @@
 <head>
-    <style> body { margin: 0; } </style>
+    <style> body { margin: 5; } </style>
   
     <script src="//unpkg.com/force-graph"></script>
     <!--<script src="../../dist/force-graph.js"></script>-->
@@ -34,7 +34,7 @@
         const elem = document.getElementById('graph');
         const Graph = ForceGraph()(elem)
           .graphData(data)
-          .nodeRelSize(NODE_R)
+          //.nodeRelSize(NODE_R)
           .onNodeHover(node => {
             highlightNodes.clear();
             highlightLinks.clear();
