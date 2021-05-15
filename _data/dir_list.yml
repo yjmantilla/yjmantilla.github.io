@@ -18,5 +18,8 @@ dirs:
 - title: Tutorials
   url: /dirs/tutorials.html
 
+- title: Chunks
+  url: /dirs/chunks.html
+
 - title: About Me
   url: /dirs/about_me.html
