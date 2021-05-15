@@ -32,15 +32,15 @@ Solo quedaban así en el mundo la nación de "los diferentes", la nación de lo 
 Dicha historia se repitió en 999 iteraciones y de 1024 maneras. Alguna vez un individuo o la propia colmena (o tal vez ambos) pensó que "todo era un paradójico péndulo". Entre la colmena y el individuo existe la necesidad de pertenecer y de individualidad. En aquella paradoja se crea y se descrea la sociedad. En ella nace lo anárquico y lo sistemático, lo democrático y lo autoritario. Ya nadie esta seguro de nada pero sin duda se entretienen bastante.
 </p>
 
-# Anotaciones
-
-Esta vaina fue hecha en 10 minutos en una clase, así que no espere mucho de ella.
-
 # Autores
 
 - Yorguin José Mantilla
 - Maury Marmolejo Din
 - Juan Esteban Gutiérrez
 - Raúl Arcila
+
+# Anotaciones
+
+Esta vaina fue hecha en 10 minutos en una clase, así que no espere mucho de ella.
 
 {% include home.md %}
