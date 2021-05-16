@@ -9,20 +9,28 @@
             "url": ".././chunks/outliers.html"
         },
         {
-            "id": "colmenas_individuos",
-            "url": ".././essays/colmenas_individuos.html"
+            "id": "soft-vs-hard-computing",
+            "url": ".././chunks/soft-vs-hard-computing.html"
+        },
+        {
+            "id": "stub",
+            "url": ".././chunks/stub.html"
+        },
+        {
+            "id": "colmenas-individuos",
+            "url": ".././essays/colmenas-individuos.html"
         },
         {
             "id": "feminismo",
             "url": ".././essays/feminismo.html"
         },
         {
-            "id": "peaceful_warrior",
-            "url": ".././essays/peaceful_warrior.html"
+            "id": "peaceful-warrior",
+            "url": ".././essays/peaceful-warrior.html"
         },
         {
-            "id": "amor_y_fantasias",
-            "url": ".././poems/amor_y_fantasias.html"
+            "id": "amor-y-fantasias",
+            "url": ".././poems/amor-y-fantasias.html"
         },
         {
             "id": "ashes",
@@ -41,16 +49,16 @@
             "url": ".././poems/color.html"
         },
         {
-            "id": "corazon_perdido",
-            "url": ".././poems/corazon_perdido.html"
+            "id": "corazon-perdido",
+            "url": ".././poems/corazon-perdido.html"
+        },
+        {
+            "id": "de-que-vale",
+            "url": ".././poems/de-que-vale.html"
         },
         {
             "id": "descomponerte",
             "url": ".././poems/descomponerte.html"
-        },
-        {
-            "id": "de_que_vale",
-            "url": ".././poems/de_que_vale.html"
         },
         {
             "id": "distillation",
@@ -61,8 +69,8 @@
             "url": ".././poems/pain.html"
         },
         {
-            "id": "pausas_del_baile",
-            "url": ".././poems/pausas_del_baile.html"
+            "id": "pausas-del-baile",
+            "url": ".././poems/pausas-del-baile.html"
         },
         {
             "id": "universo",
@@ -77,12 +85,12 @@
             "url": ".././research/umbrales.html"
         },
         {
-            "id": "1random_walkers",
-            "url": ".././sims/1random_walkers.html"
+            "id": "1random-walkers",
+            "url": ".././sims/1random-walkers.html"
         },
         {
-            "id": "2pendulum_waves",
-            "url": ".././sims/2pendulum_waves.html"
+            "id": "2pendulum-waves",
+            "url": ".././sims/2pendulum-waves.html"
         },
         {
             "id": "3boxcar",
@@ -93,8 +101,12 @@
             "url": ".././sims/4campong.html"
         },
         {
-            "id": "5not_air_hockey",
-            "url": ".././sims/5not_air_hockey.html"
+            "id": "5not-air-hockey",
+            "url": ".././sims/5not-air-hockey.html"
+        },
+        {
+            "id": "conda-and-vs-code",
+            "url": ".././tutorials/conda-and-vs-code.html"
         },
         {
             "id": "example",
@@ -109,24 +121,40 @@
             "url": ".././tutorials/foam.html"
         },
         {
-            "id": "ica_music",
-            "url": ".././tutorials/ica_music.html"
+            "id": "git-for-linux-with-conda",
+            "url": ".././tutorials/git-for-linux-with-conda.html"
         },
         {
-            "id": "local_jekyll",
-            "url": ".././tutorials/local_jekyll.html"
+            "id": "ica-music",
+            "url": ".././tutorials/ica-music.html"
+        },
+        {
+            "id": "local-jekyll",
+            "url": ".././tutorials/local-jekyll.html"
         },
         {
             "id": "mermaid",
             "url": ".././tutorials/mermaid.html"
         },
         {
-            "id": "naming_md_docs",
-            "url": ".././tutorials/naming_md_docs.html"
+            "id": "naming-md-docs",
+            "url": ".././tutorials/naming-md-docs.html"
         },
         {
             "id": "",
             "url": ".//.html"
+        },
+        {
+            "id": "poems",
+            "url": ".//poems.html"
+        },
+        {
+            "id": "sims",
+            "url": ".//sims.html"
+        },
+        {
+            "id": "tutorials",
+            "url": ".//tutorials.html"
         },
         {
             "id": "research",
@@ -137,16 +165,8 @@
             "url": ".//essays.html"
         },
         {
-            "id": "tutorials",
-            "url": ".//tutorials.html"
-        },
-        {
-            "id": "sims",
-            "url": ".//sims.html"
-        },
-        {
-            "id": "poems",
-            "url": ".//poems.html"
+            "id": "computation",
+            "url": ".././chunks/stub.html"
         }
     ],
     "links": [
@@ -159,7 +179,11 @@
             "target": "notetaking"
         },
         {
-            "source": "colmenas_individuos",
+            "source": "soft-vs-hard-computing",
+            "target": "computation"
+        },
+        {
+            "source": "colmenas-individuos",
             "target": "essays"
         },
         {
@@ -167,11 +191,11 @@
             "target": "essays"
         },
         {
-            "source": "peaceful_warrior",
+            "source": "peaceful-warrior",
             "target": "essays"
         },
         {
-            "source": "amor_y_fantasias",
+            "source": "amor-y-fantasias",
             "target": "poems"
         },
         {
@@ -191,15 +215,15 @@
             "target": "poems"
         },
         {
-            "source": "corazon_perdido",
+            "source": "corazon-perdido",
+            "target": "poems"
+        },
+        {
+            "source": "de-que-vale",
             "target": "poems"
         },
         {
             "source": "descomponerte",
-            "target": "poems"
-        },
-        {
-            "source": "de_que_vale",
             "target": "poems"
         },
         {
@@ -211,7 +235,7 @@
             "target": "poems"
         },
         {
-            "source": "pausas_del_baile",
+            "source": "pausas-del-baile",
             "target": "poems"
         },
         {
@@ -227,11 +251,11 @@
             "target": "research"
         },
         {
-            "source": "1random_walkers",
+            "source": "1random-walkers",
             "target": "sims"
         },
         {
-            "source": "2pendulum_waves",
+            "source": "2pendulum-waves",
             "target": "sims"
         },
         {
@@ -243,8 +267,12 @@
             "target": "sims"
         },
         {
-            "source": "5not_air_hockey",
+            "source": "5not-air-hockey",
             "target": "sims"
+        },
+        {
+            "source": "conda-and-vs-code",
+            "target": "tutorials"
         },
         {
             "source": "example",
@@ -259,19 +287,23 @@
             "target": "tutorials"
         },
         {
-            "source": "ica_music",
+            "source": "git-for-linux-with-conda",
             "target": "tutorials"
         },
         {
-            "source": "local_jekyll",
+            "source": "ica-music",
+            "target": "tutorials"
+        },
+        {
+            "source": "local-jekyll",
             "target": "foam"
         },
         {
-            "source": "local_jekyll",
+            "source": "local-jekyll",
             "target": "notetaking"
         },
         {
-            "source": "local_jekyll",
+            "source": "local-jekyll",
             "target": "tutorials"
         },
         {
@@ -279,7 +311,7 @@
             "target": "tutorials"
         },
         {
-            "source": "naming_md_docs",
+            "source": "naming-md-docs",
             "target": "tutorials"
         }
     ]

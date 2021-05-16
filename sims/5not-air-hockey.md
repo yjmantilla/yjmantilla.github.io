@@ -1,7 +1,7 @@
 ---
   title: (Not) Air Hockey!
   link: https://www.youtube.com/watch?v=meLD5UZH6Qk
-  frame: /images/not_air_hockey.png
+  frame: /images/not-air-hockey.png
 ---
 
 <html>

@@ -118,10 +118,10 @@ cfg_linear_others = {};
 
 
 function preload(){
-  sax = loadSound("/audio/venezuela_sax.mp3");
-  bass =  loadSound("/audio/venezuela_bass.mp3");
-  piano = loadSound("/audio/venezuela_piano.mp3");
-  others = loadSound("/audio/venezuela_percussion_cuatro.mp3");
+  sax = loadSound("/audio/venezuela-sax.mp3");
+  bass =  loadSound("/audio/venezuela-bass.mp3");
+  piano = loadSound("/audio/venezuela-piano.mp3");
+  others = loadSound("/audio/venezuela-percussion-cuatro.mp3");
   console.log("loaded");
 }
 function setup() {

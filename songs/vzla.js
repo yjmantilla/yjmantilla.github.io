@@ -13,8 +13,8 @@ var vol_sax;
 
 
 function preload(){
-  sax = loadSound("/audio/venezuela_sax.mp3", loaded);
-  bass =  loadSound("/audio/venezuela_noSax.mp3", loaded2);
+  sax = loadSound("/audio/venezuela-sax.mp3", loaded);
+  bass =  loadSound("/audio/venezuela-noSax.mp3", loaded2);
 
 }
 function setup() {

@@ -19,9 +19,9 @@ This jekyll sites uses 3 possible naming configurations:
 ## Through the file name
 
 ```markdown
-the_title.md
+the-title.md
 ```
 
-The collector (gen_static_data.py) will try to get the above in the same order as presented here; being the worst case the filename.
+The collector (gen-static-data.py) will try to get the above in the same order as presented here; being the worst case the filename.
 
 For files inside the knowledge graph though the filename will always be chosen. This is to be able to generate the urls easily and avoid duplicate names.

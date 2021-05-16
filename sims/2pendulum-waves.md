@@ -1,7 +1,7 @@
 ---
   title: Pendulum Waves
-  link: /sims/pendulum_waves.html
-  frame: /images/pendulum_waves.png
+  link: /sims/pendulum-waves.html
+  frame: /images/pendulum-waves.png
 ---
 
 <html>

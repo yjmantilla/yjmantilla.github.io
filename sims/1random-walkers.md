@@ -1,7 +1,7 @@
 ---
   title: Random Walkers
-  link: /sims/random_walkers.html
-  frame: /images/random_walkers.png
+  link: /sims/random-walkers.html
+  frame: /images/random-walkers.png
 ---
 
 <html>

@@ -1,7 +1,7 @@
 ---
   title: Boxcar Spectrum
   link: /sims/boxcar.html
-  frame: /images/boxcar_spectrum.png
+  frame: /images/boxcar-spectrum.png
 ---
 
 <html>

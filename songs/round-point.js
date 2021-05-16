@@ -18,7 +18,7 @@ function toggleSong() {
 }
 
 function preload() {
-  song = loadSound("/audio/venezuela_sax.mp3");
+  song = loadSound("/audio/venezuela-sax.mp3");
 }
 
 function setup() {

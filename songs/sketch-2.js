@@ -8,8 +8,6 @@ var bass;
 var sliderRate;
 var sliderPan;
 var button;
-var h;
-var w;
 var volhistory_sax = [];
 var volhistory_bass = [];
 var vol_sax;
@@ -17,14 +15,12 @@ var vol_bass;
 
 
 function preload(){
-  sax = loadSound("/audio/venezuela_sax.mp3", loaded);
-  bass =  loadSound("/audio/venezuela_bass.mp3", loaded2);
+  sax = loadSound("/audio/venezuela-sax.mp3", loaded);
+  bass =  loadSound("/audio/venezuela-bass.mp3", loaded2);
 
 }
 function setup() {
-  h = 640;
-  w = 640;
-  createCanvas(h, w);
+  createCanvas(windowWidth, windowHeight);
   angleMode(DEGREES);
   sax.setVolume(1);
   bass.setVolume(1);
@@ -103,7 +99,7 @@ function draw() {
 
 
   translate(width / 2, height / 2);
-  step = 0.5;
+  step = 2;
 
   vol_sax = amp_sax.getLevel();
   volhistory_sax.push(vol_sax);
@@ -118,7 +114,7 @@ function draw() {
 
   beginShape();
   for (var i = 0; i < 360; i=i+step) {
-    var r = 2*map(volhistory_sax[i], 0, 1, 100, height);
+    var r = 2*map(volhistory_sax[i], 0, 1, 10, height);
 
     //r = height/2 - r;
     r = height /8 + r;
@@ -127,6 +123,12 @@ function draw() {
     var y = r * sin(i);
 
     vertex(x, y);
+
+  }
+  endShape();
+
+  beginShape();
+  for (var i = 0; i < 360; i=i+step) {
 
     var r2 = 2*map(volhistory_bass[i], 0, 1, 1, height/2);
     //r = height/2 - r;
@@ -137,10 +139,8 @@ function draw() {
     var y2 = r2 * sin(i);
 
     vertex(x2, y2);
-
   }
   endShape();
-
 
   if (volhistory_sax.length > 360) {
     volhistory_sax.splice(0, 1);
@@ -180,4 +180,8 @@ function togglePlaying() {
   else{
     bass.pause();
   }
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
