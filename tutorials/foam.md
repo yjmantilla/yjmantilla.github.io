@@ -1,3 +1,6 @@
+---
+title : "Foam"
+---
 # Foam
 
 Se pueden hacer referencias de hypertexto al estilo [wiki](https://foambubble.github.io/foam/wiki-links)

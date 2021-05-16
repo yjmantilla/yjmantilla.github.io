@@ -40,8 +40,10 @@
             highlightLinks.clear();
             if (node) {
               highlightNodes.add(node);
+              if (typeof node.neighbors !== 'undefined'){
               node.neighbors.forEach(neighbor => highlightNodes.add(neighbor));
               node.links.forEach(link => highlightLinks.add(link));
+              }
             }
             hoverNode = node || null;
             elem.style.cursor = node ? '-webkit-grab' : null;

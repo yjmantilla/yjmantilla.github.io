@@ -1,3 +1,6 @@
+---
+title : About Me
+---
 # Probably Wrong Hub
 
 ![Bird](/images/bird.png)<br/>

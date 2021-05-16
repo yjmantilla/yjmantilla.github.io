@@ -7,7 +7,7 @@
 ## Site Map
 
 <ul>
-   {% for item in site.data.dir_list.dirs %}
+   {% for item in site.data.dirs_list %}
       <li><a href="{{ item.url }}">{{ item.title }}</a></li>
    {% endfor %}
 </ul>

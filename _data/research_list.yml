@@ -1,8 +1,9 @@
-research:
-- title: Inferencia automática de umbrales para la detección de épocas artefactuales en señales EEG - Un enfoque estadístico centrado en los conjuntos de datos
-  frame: https://img.youtube.com/vi/w_RDcBSt1S8/0.jpg
-  url: https://youtu.be/w_RDcBSt1S8
-- title: Efectos de la normalización por “constante específica del registro” en la calidad de separación del ICA grupal de señales EEG.
-  frame: https://img.youtube.com/vi/sQ5tkBgxo5U/0.jpg
+---
+- frame: https://img.youtube.com/vi/sQ5tkBgxo5U/0.jpg
+  title: Efectos de la normalización por “constante específica del registro” en la
+    calidad de separación del ICA grupal de señales EEG.
   url: https://youtu.be/sQ5tkBgxo5U
-  
+- frame: https://img.youtube.com/vi/w_RDcBSt1S8/0.jpg
+  title: Inferencia automática de umbrales para la detección de épocas artefactuales
+    en señales EEG - Un enfoque estadístico centrado en los conjuntos de datos
+  url: https://youtu.be/w_RDcBSt1S8

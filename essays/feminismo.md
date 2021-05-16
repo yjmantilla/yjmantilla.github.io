@@ -1,3 +1,6 @@
+---
+  title : Feminismo - Una primera exploración a propósito de la película "Las brujas de Zugarramurdi" de Aléx de la Iglesia
+---
 # Feminismo: Una primera exploración a propósito de la película "Las brujas de Zugarramurdi" de Aléx de la Iglesia
 
 > Me preocupa mil que el feminismo de redes sociales esté tan lleno de veganas antiespecistas militantes. No porque me desagrade el veganismo y el antiespecismo, que me parecen posturas super interesantes, sino porque ellas ven sus ideas como consecuencia necesaria del feminismo. Ergo, una feminista no vegana es en realidad una feminista "falsa". Es preocupante la denostación del feminismo de otras mujeres en pos del "purismo" que ellas defienden.

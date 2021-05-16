@@ -1,0 +1,17 @@
+---
+- title: About Me
+  url: /dirs/about_me.html
+- title: Knowledge Graph
+  url: /dirs/chunks.html
+- title: Essays
+  url: /dirs/essays.html
+- title: Music
+  url: /dirs/music.html
+- title: Poems
+  url: /dirs/poems.html
+- title: Research
+  url: /dirs/research.html
+- title: Interactive Content
+  url: /dirs/sims.html
+- title: Tutorials
+  url: /dirs/tutorials.html

@@ -1,0 +1,12 @@
+---
+- title: Github Pages Example
+  url: /tutorials/example.html
+- title: Foam
+  url: /tutorials/foam.html
+- frame: /images/music_ica.png
+  title: ICA Music Decomposition Example
+  url: https://colab.research.google.com/drive/1O2iRh4E9X_ATGFgRrSEfZwubI7Hcxtpz?usp=sharing
+- title: Run Local Jekyll to preview github-pages
+  url: /tutorials/local_jekyll.html
+- title: Mermaid Example
+  url: /tutorials/mermaid.html

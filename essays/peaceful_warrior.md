@@ -1,3 +1,6 @@
+---
+  title : El camino del guerrero (Peaceful Warrior)
+---
 # El camino del guerrero
 
 ## Resumen

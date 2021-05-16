@@ -1,5 +1,5 @@
 ---
-title:  "Example"
+title:  "Github Pages Example"
 ---
 
 {% include mermaid.html %}

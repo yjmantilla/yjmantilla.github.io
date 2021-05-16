@@ -3,6 +3,7 @@ from os.path import isfile, join
 import re
 import json
 import yaml
+import yaml
 
 
 #%% CHUNKS
@@ -38,25 +39,34 @@ graph = {'nodes':nodes,'links':links}
 with open("files\graph.json", "w") as out_file:
     json.dump(graph, out_file)
 
-#%% POEMS
-mypath = 'poems'
-extension = '.md' # gotta filter by extension since assets may be in the folder (images ie)
-onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f)) and extension in f]
-urls = ['/poems/'+ x.replace('.md','.html') for x in onlyfiles]
+def get_dicts(onlyfiles,urls,mypath):
+    dicts = []
+    for (this_file,this_url) in zip(onlyfiles,urls):
+        print(this_file)
+        with open(join(mypath,this_file),encoding='utf-8') as f:
+            front_matter = next(yaml.load_all(f, Loader=yaml.FullLoader))
+            #print(front_matter)
+            if 'url' not in front_matter:
+                front_matter['url'] = this_url
+            dicts.append(front_matter)
+    return dicts
 
-dicts = []
-for (this_file,this_url) in zip(onlyfiles,urls):
-    #print(this_file)
-    title = ''
-    go_to = []
-    with open (join(mypath,this_file), "r",encoding='utf-8') as myfile:
-        data=myfile.readlines()
-        #print(data)
-        title = data[1].split('\"')[1]
-    dicts.append({'title':title,'url':this_url})
+def collect_stuff(mypath):
+    extension = '.md' # gotta filter by extension since assets may be in the folder (images ie)
+    onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f)) and extension in f]
+    urls = ['/'+mypath+'/'+ x.replace('.md','.html') for x in onlyfiles]
 
-explicit_start=True
-default_flow_style=False
+    dicts = get_dicts(onlyfiles,urls,mypath)
+    explicit_start=True
+    default_flow_style=False
 
-with open('_data/poem_list.yml', 'w',encoding='utf-8') as yaml_file:
-    yaml.dump(dicts, yaml_file, default_flow_style=default_flow_style,explicit_start=explicit_start,allow_unicode=True,encoding='utf-8')
+    with open('_data/'+mypath+'_list.yml', 'w',encoding='utf-8') as yaml_file:
+        yaml.dump(dicts, yaml_file, default_flow_style=default_flow_style,explicit_start=explicit_start,allow_unicode=True,encoding='utf-8')
+
+#%% Other Collections
+collect_stuff('dirs')
+collect_stuff('poems')
+collect_stuff('tutorials')
+collect_stuff('sims')
+collect_stuff('essays')
+collect_stuff('research')

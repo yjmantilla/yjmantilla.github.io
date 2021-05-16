@@ -1,7 +1,10 @@
+---
+title : Research
+---
 # Research
 
 <ul>
-   {% for item in site.data.research_list.research %}
+   {% for item in site.data.research_list %}
       <li><a href="{{ item.url }}">{{ item.title }}</a></li>
       <img src="{{item.frame}}">
    {% endfor %}

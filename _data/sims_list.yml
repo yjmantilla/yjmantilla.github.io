@@ -1,0 +1,16 @@
+---
+- frame: /images/random_walkers.png
+  title: Random Walkers
+  url: /sims/random_walkers.html
+- frame: /images/pendulum_waves.png
+  title: Pendulum Waves
+  url: /sims/pendulum_waves.html
+- frame: /images/boxcar_spectrum.png
+  title: Boxcar Spectrum
+  url: /sims/boxcar.html
+- frame: /images/campong.png
+  title: Campong!
+  url: https://yjmantilla.github.io/juego-pdi/
+- frame: /images/not_air_hockey.png
+  title: (Not) Air Hockey!
+  url: https://www.youtube.com/watch?v=meLD5UZH6Qk

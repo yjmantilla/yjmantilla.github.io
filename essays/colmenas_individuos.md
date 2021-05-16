@@ -1,4 +1,6 @@
-
+---
+  title : De Colmenas e Individuos
+---
 # De Colmenas e Individuos
 
 <p style='text-align: justify;'>

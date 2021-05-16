@@ -1,3 +1,6 @@
+---
+title : "Mermaid Example"
+---
 <html>
   <body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.5.2/mermaid.min.js"></script>
