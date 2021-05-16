@@ -59,9 +59,9 @@
             }
           })
           .autoPauseRedraw(false) // keep redrawing after engine has stopped
-          .backgroundColor('#101020')
+          .backgroundColor('#000000')
           .nodeId('id')
-          .linkColor(() => 'rgba(0,255,255,0.2)')
+          .linkColor(() => 'rgba(0,0,255,0.2)')
           //.linkDirectionalParticles(1)
           .linkWidth(link => highlightLinks.has(link) ? 5 : 1)
           .linkDirectionalParticles(4)

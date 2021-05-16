@@ -1,1 +1,1 @@
-{"nodes": [{"id": "notetaking"}, {"id": "sorted-automated-yaml-list"}, {"id": "outliers"}], "links": [{"source": "notetaking", "target": "outliers"}, {"source": "outliers", "target": "notetaking"}]}
+{"nodes": [{"id": "notetaking"}, {"id": "outliers"}], "links": [{"source": "notetaking", "target": "outliers"}, {"source": "outliers", "target": "notetaking"}]}

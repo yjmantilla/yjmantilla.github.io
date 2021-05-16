@@ -1,4 +1,4 @@
-# sorted-automated-yaml-list
+# Fixed order for automatic yaml lists
 
 In my approach I make the content yaml list automatically with python. The problem is that any order I had is lost to alphabetical order.
 

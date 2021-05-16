@@ -1,6 +1,8 @@
 ---
 - title: Github Pages Example
   url: /tutorials/example.html
+- title: Fixed order for automatic yaml lists
+  url: /tutorials/fixed-order-for-automatic-yaml-lists.html
 - title: Foam
   url: /tutorials/foam.html
 - frame: /images/music_ica.png
@@ -10,3 +12,5 @@
   url: /tutorials/local_jekyll.html
 - title: Mermaid Example
   url: /tutorials/mermaid.html
+- title: Naming Markdown Docs
+  url: /tutorials/naming_md_docs.html
