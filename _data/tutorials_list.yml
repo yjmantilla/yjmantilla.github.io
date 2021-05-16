@@ -1,16 +1,16 @@
 ---
-- title: Github Pages Example
-  url: /tutorials/example.html
-- title: Fixed order for automatic yaml lists
-  url: /tutorials/fixed-order-for-automatic-yaml-lists.html
-- title: Foam
-  url: /tutorials/foam.html
+- link: /tutorials/example.html
+  title: Github Pages Example
+- link: /tutorials/fixed-order-for-automatic-yaml-lists.html
+  title: Fixed order for automatic yaml lists
+- link: /tutorials/foam.html
+  title: Foam
 - frame: /images/music_ica.png
+  link: https://colab.research.google.com/drive/1O2iRh4E9X_ATGFgRrSEfZwubI7Hcxtpz?usp=sharing
   title: ICA Music Decomposition Example
-  url: https://colab.research.google.com/drive/1O2iRh4E9X_ATGFgRrSEfZwubI7Hcxtpz?usp=sharing
-- title: Run Local Jekyll to preview github-pages
-  url: /tutorials/local_jekyll.html
-- title: Mermaid Example
-  url: /tutorials/mermaid.html
-- title: Naming Markdown Docs
-  url: /tutorials/naming_md_docs.html
+- link: /tutorials/local_jekyll.html
+  title: Run Local Jekyll to preview github-pages
+- link: /tutorials/mermaid.html
+  title: Mermaid Example
+- link: /tutorials/naming_md_docs.html
+  title: Naming Markdown Docs

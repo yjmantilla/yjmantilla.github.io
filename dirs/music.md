@@ -5,7 +5,7 @@ title : Music
 
 <ul>
    {% for item in site.data.song_list.youtube %}
-      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      <li><a href="{{ item.link }}">{{ item.title }}</a></li>
       <img src="{{item.frame}}">
    {% endfor %}
 </ul>
@@ -14,7 +14,7 @@ title : Music
 
 <ul>
    {% for item in site.data.song_list.interactive %}
-      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      <li><a href="{{ item.link }}">{{ item.title }}</a></li>
    {% endfor %}
 </ul>
 
@@ -22,7 +22,7 @@ title : Music
 
 <ul>
    {% for item in site.data.song_list.soundcloud %}
-      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      <li><a href="{{ item.link }}">{{ item.title }}</a></li>
    {% endfor %}
 </ul>
 

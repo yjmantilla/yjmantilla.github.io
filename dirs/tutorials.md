@@ -5,7 +5,7 @@ title : Tutorials
 
 <ul>
    {% for item in site.data.tutorials_list %}
-      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      <li><a href="{{ item.link }}">{{ item.title }}</a></li>
       {% if item.frame %}
       <img src="{{item.frame}}">
       {% endif %}

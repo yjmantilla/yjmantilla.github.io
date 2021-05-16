@@ -1,80 +1,80 @@
 youtube:
 - title: A Cruel Angel Thesis (Piano Latin Jazzy Cover)
   frame: https://img.youtube.com/vi/GLRPbdVJ82I/1.jpg
-  url: https://www.youtube.com/watch?v=GLRPbdVJ82I
+  link: https://www.youtube.com/watch?v=GLRPbdVJ82I
 - title: Venezuela (Gaita Cover)
   frame: https://img.youtube.com/vi/52_sTVznLHk/1.jpg
-  url: https://www.youtube.com/watch?v=52_sTVznLHk
+  link: https://www.youtube.com/watch?v=52_sTVznLHk
 - title: Focus (Musica Experimental y Digital, UdeA, Colaborativo con un compa de la U)
   frame: https://img.youtube.com/vi/mrjxGVZ-ibE/1.jpg
-  url: https://www.youtube.com/watch?v=mrjxGVZ-ibE
+  link: https://www.youtube.com/watch?v=mrjxGVZ-ibE
 - title: Wolfs and Tigers
   frame: https://img.youtube.com/vi/4jhNHBfUcvU/1.jpg
-  url: https://www.youtube.com/watch?v=4jhNHBfUcvU
+  link: https://www.youtube.com/watch?v=4jhNHBfUcvU
 - title: La piragua (Gaita Cover)
   frame: https://img.youtube.com/vi/6nf3X3gznaU/1.jpg
-  url: https://www.youtube.com/watch?v=6nf3X3gznaU
+  link: https://www.youtube.com/watch?v=6nf3X3gznaU
 
 interactive:
 
 - title: Venezuela (Gaita Cover)
-  url: /songs/vzla.html
+  link: /songs/vzla.html
 
 - title: Venezuela (Gaita Cover) lower requirements (ie for mobile)
-  url: /songs/vzla_low.html
+  link: /songs/vzla_low.html
 
 soundcloud:
 
 - title: My soundcloud account
-  url: https://soundcloud.com/yogimgurt
+  link: https://soundcloud.com/yogimgurt
 
 - title: A Cruel Angel Thesis (Piano Latin Jazzy Cover)
-  url: https://soundcloud.com/yogimgurt/a-cruel-angel-thesis-cover-latin-vibe-keyboard
+  link: https://soundcloud.com/yogimgurt/a-cruel-angel-thesis-cover-latin-vibe-keyboard
 
 - title: La piragua (Gaita Cover)
-  url: https://soundcloud.com/yogimgurt/la-piragua
+  link: https://soundcloud.com/yogimgurt/la-piragua
 
 - title: Venezuela (Gaita Cover)
-  url: https://soundcloud.com/yogimgurt/venezuela-cover-gaita
+  link: https://soundcloud.com/yogimgurt/venezuela-cover-gaita
 
 - title: The Crying Universe
-  url: https://soundcloud.com/yogimgurt/the-crying-universe
+  link: https://soundcloud.com/yogimgurt/the-crying-universe
 
 - title: Calle Luna, Calle Sol (Rock Cover)
-  url: https://soundcloud.com/yogimgurt/tributo-a-calle-luna-calle-sol
+  link: https://soundcloud.com/yogimgurt/tributo-a-calle-luna-calle-sol
 
 - title: Lost Sounds
-  url: https://soundcloud.com/yogimgurt/assignment-2
+  link: https://soundcloud.com/yogimgurt/assignment-2
 
 - title: Himno de la Alegría - La Lechuza (Piano Latin Jazzy Cover)
-  url: https://soundcloud.com/yogimgurt/himno-de-la-alegria-la-lechuza-cover
+  link: https://soundcloud.com/yogimgurt/himno-de-la-alegria-la-lechuza-cover
 
 - title: Amor y Fantasías
-  url: https://soundcloud.com/yogimgurt/la-vida-es-amor-y-fantasias
+  link: https://soundcloud.com/yogimgurt/la-vida-es-amor-y-fantasias
 
 - title: Wolfs and Tigers
-  url: https://soundcloud.com/yogimgurt/wolfs-and-tigers
+  link: https://soundcloud.com/yogimgurt/wolfs-and-tigers
 
 - title: Dreams aren't true
-  url: https://soundcloud.com/yogimgurt/dreams-arent-true
+  link: https://soundcloud.com/yogimgurt/dreams-arent-true
 
 - title: They were not made for that
-  url: https://soundcloud.com/yogimgurt/they-were-not-made-for-that
+  link: https://soundcloud.com/yogimgurt/they-were-not-made-for-that
 
 - title: Random Party (Earsketch Randomness Exploration)
-  url: https://soundcloud.com/yogimgurt/random-party
+  link: https://soundcloud.com/yogimgurt/random-party
 
 - title: Coloring Noise
-  url: https://soundcloud.com/yogimgurt/noise-assignment
+  link: https://soundcloud.com/yogimgurt/noise-assignment
 
 - title: Latin Homesick
-  url: https://soundcloud.com/yogimgurt/latin-homesick
+  link: https://soundcloud.com/yogimgurt/latin-homesick
 
 - title: Untitled 2
-  url: https://soundcloud.com/yogimgurt/midi-and-audio
+  link: https://soundcloud.com/yogimgurt/midi-and-audio
 
 - title: Untitled 1 (Electronic)
-  url: https://soundcloud.com/yogimgurt/first
+  link: https://soundcloud.com/yogimgurt/first
 
 - title: Focus (Musica Experimental y Digital, UdeA, Colaborativo con un compa de la U)
-  url: https://soundcloud.com/yogimgurt/proyecto-focus
+  link: https://soundcloud.com/yogimgurt/proyecto-focus

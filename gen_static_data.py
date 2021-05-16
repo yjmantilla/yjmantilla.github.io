@@ -55,14 +55,14 @@ def get_dicts(onlyfiles,urls,mypath):
                 with open(join(mypath,this_file),encoding='utf-8') as f2:
                     front_matter = next(yaml.load_all(f2, Loader=yaml.FullLoader))
                 #print(front_matter)
-                if 'url' not in front_matter:
-                    front_matter['url'] = this_url
+                if 'link' not in front_matter:
+                    front_matter['link'] = this_url
             elif '#' in data[0]: # first line with title
                 title = data[0].replace('# ','').replace('\n','')
-                front_matter = {'title':title,'url':this_url}
+                front_matter = {'title':title,'link':this_url}
             else:
                 title = this_file.replace('.md','')
-                front_matter = {'title':title,'url':this_url}
+                front_matter = {'title':title,'link':this_url}
             dicts.append(front_matter)
     return dicts
 

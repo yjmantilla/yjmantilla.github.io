@@ -1,17 +1,17 @@
 ---
-- title: About Me
-  url: /dirs/about_me.html
-- title: Knowledge Graph
-  url: /dirs/chunks.html
-- title: Essays
-  url: /dirs/essays.html
-- title: Music
-  url: /dirs/music.html
-- title: Poems
-  url: /dirs/poems.html
-- title: Research
-  url: /dirs/research.html
-- title: Interactive Content
-  url: /dirs/sims.html
-- title: Tutorials
-  url: /dirs/tutorials.html
+- link: /dirs/about_me.html
+  title: About Me
+- link: /dirs/chunks.html
+  title: Knowledge Graph
+- link: /dirs/essays.html
+  title: Essays
+- link: /dirs/music.html
+  title: Music
+- link: /dirs/poems.html
+  title: Poems
+- link: /dirs/research.html
+  title: Research
+- link: /dirs/sims.html
+  title: Interactive Content
+- link: /dirs/tutorials.html
+  title: Tutorials

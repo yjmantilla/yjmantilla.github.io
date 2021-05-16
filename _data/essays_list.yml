@@ -1,8 +1,8 @@
 ---
-- title: De Colmenas e Individuos
-  url: /essays/colmenas_individuos.html
-- title: Feminismo - Una primera exploración a propósito de la película "Las brujas
+- link: /essays/colmenas_individuos.html
+  title: De Colmenas e Individuos
+- link: /essays/feminismo.html
+  title: Feminismo - Una primera exploración a propósito de la película "Las brujas
     de Zugarramurdi" de Aléx de la Iglesia
-  url: /essays/feminismo.html
-- title: El camino del guerrero (Peaceful Warrior)
-  url: /essays/peaceful_warrior.html
+- link: /essays/peaceful_warrior.html
+  title: El camino del guerrero (Peaceful Warrior)
