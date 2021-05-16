@@ -1,26 +1,28 @@
+import os
 from os import listdir
 from os.path import isfile, join
 import re
 import json
 import yaml
-import yaml
-
+import ntpath
 
 #%% CHUNKS
 mypath = 'chunks'
 extension = '.md' # gotta filter by extension since assets may be in the folder (images ie)
 def collect_graph(mypath,output_path='files',extension='.md'):
-    onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f)) and extension in f]
-
+    #onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f)) and extension in f]
+    onlyfiles = [os.path.join(path, name) for path, subdirs, files in os.walk(mypath) for name in files if extension in name and '_site' not in path]
+    urls = ['../'+p.replace('\\','/').replace(extension,'.html') for p in onlyfiles]
+    filenames = [ntpath.basename(p).replace(extension,'') for p in onlyfiles]
+    #assert uniqueness
+    assert len(filenames)==len(set(filenames))
     sources = []
     targets = []
-    labels = []
-    for i in range(len(onlyfiles)):
-        this_file = onlyfiles[i]
+    for (this_file,this_fullpath) in zip(filenames,onlyfiles):
         print(this_file)
         title = ''
         go_to = []
-        with open (join(mypath,this_file), "r") as myfile:
+        with open (this_fullpath, "r",encoding='utf-8') as myfile:
             data=myfile.readlines()
             #print(data)
             #title = data[0].replace('# ','').replace('\n','')
@@ -33,8 +35,9 @@ def collect_graph(mypath,output_path='files',extension='.md'):
         print(go_to)
 
     # Get nodes:
-    nodes = set(sources + [item for sublist in targets for item in sublist])
-    nodes = [{'id':x} for x in nodes]
+    # assume all nodes have a file
+    #nodes = set(sources + [item for sublist in targets for item in sublist])
+    nodes = [{'id':x,'url':u} for x,u in zip(sources,urls)]
     links = [[{'source':source,'target':x} for x in target] for (source,target) in zip(sources,targets)]
     links = [item for sublist in links for item in sublist]
     graph = {'nodes':nodes,'links':links}
@@ -76,7 +79,7 @@ def collect_stuff(mypath,extension='.md'):
         yaml.dump(dicts, yaml_file, default_flow_style=default_flow_style,explicit_start=explicit_start,allow_unicode=True,encoding='utf-8')
 
 #%% Collector
-collect_graph('chunks')
+collect_graph('.')
 collect_stuff('dirs')
 collect_stuff('poems')
 collect_stuff('tutorials')
