@@ -96,4 +96,3 @@ x_{21} & x_{22} & \ldots \\
 \end{array} \right)
 $$
 
-{% include home.md %}

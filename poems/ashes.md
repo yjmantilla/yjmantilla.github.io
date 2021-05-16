@@ -1,54 +1,6 @@
 ---
-title:  "Delusional Ashes"
+title:  "Cenizas Delirantes - Delusional Ashes"
 ---
-
-# Delusional Ashes
-
-```markdown
-Let's say then, that between you and me there is no difference,
-that we are both children of the same universe,
-and that the wind that blew... caressing your face
-was the same wind that took away my sighs;
-and hopefully these verses...
-
-
-But what gives...
-What do I really know of air?
-What do I really know of oxygen?
-of carbon dioxide...
-and of the myelin surrounding your nerves;
-I can only suppose they exist;
-but I cannot prove it if I dont get outside of my own self...
-and then you come, and startle me with a kiss,
-and I get out of myself, leaping into you
-and I venture into your mouth.
-I build the bridge at the same time that I cross it.
-I now know that you exist,
-not because of your lips,
-not because of your eyes,
-but because I leapt into you
-... and I found myself
-
-
-We could then
-stand side by side in front of a mirror,
-suddenly smile;
-and in the reflection we won't really know
-who is who.
-
-
-So I go by creating writings
--before they were for someone, now they are for a ghost-.
-Null purpose. I write because I'm text myself.
-I am a book which is written and read by itself.
-I am a paradox divided by 0 without knowing the existence of limits.
-I go and make logical mistakes, and the ashes of that becomes music
-
-
-The ashes,
-            The ashes,
-                        Only the ashes
-```
 
 ## Cenizas Delirantes
 
@@ -97,6 +49,52 @@ La ceniza,
             La ceniza,
                         Tan sólo la ceniza.
 ```
+# Delusional Ashes
+
+```markdown
+Let's say then, that between you and me there is no difference,
+that we are both children of the same universe,
+and that the wind that blew... caressing your face
+was the same wind that took away my sighs;
+and hopefully these verses...
+
+
+But what gives...
+What do I really know of air?
+What do I really know of oxygen?
+of carbon dioxide...
+and of the myelin surrounding your nerves;
+I can only suppose they exist;
+but I cannot prove it if I dont get outside of my own self...
+and then you come, and startle me with a kiss,
+and I get out of myself, leaping into you
+and I venture into your mouth.
+I build the bridge at the same time that I cross it.
+I now know that you exist,
+not because of your lips,
+not because of your eyes,
+but because I leapt into you
+... and I found myself
+
+
+We could then
+stand side by side in front of a mirror,
+suddenly smile;
+and in the reflection we won't really know
+who is who.
+
+
+So I go by creating writings
+-before they were for someone, now they are for a ghost-.
+Null purpose. I write because I'm text myself.
+I am a book which is written and read by itself.
+I am a paradox divided by 0 without knowing the existence of limits.
+I go and make logical mistakes, and the ashes of that becomes music
+
+
+The ashes,
+            The ashes,
+                        Only the ashes
+```
 
 {% include license.md %}
-{% include home.md %}

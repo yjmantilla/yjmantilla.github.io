@@ -70,4 +70,3 @@ La imagen no es mía. Es de Stewart Jones, la pueden  encontrar [aquí](https://
 
 Bueno este es un poema que hice en el 2013 aproximadamente, pero cuando lo fui a publicar aquí (para tener un bendito primer post) se me ocurrieron unas cuantas maneras de modificarlo (y mejorar su consistencia). La versión original la pueden encontrar [aquí](http://yogimgurt.deviantart.com/art/Ella-bailaba-374000649).
 
-{% include home.md %}

@@ -43,4 +43,3 @@ Dicha historia se repitió en 999 iteraciones y de 1024 maneras. Alguna vez un i
 
 Esta vaina fue hecha en 10 minutos en una clase, así que no espere mucho de ella.
 
-{% include home.md %}

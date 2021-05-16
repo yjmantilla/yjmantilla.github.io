@@ -87,4 +87,3 @@ de nuestros sueños y deseos.
 ```
 
 {% include license.md %}
-{% include home.md %}

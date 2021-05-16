@@ -6,4 +6,3 @@
    {% endfor %}
 </ul>
 
-{% include home.md %}

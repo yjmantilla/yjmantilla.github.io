@@ -2,6 +2,10 @@ from os import listdir
 from os.path import isfile, join
 import re
 import json
+import yaml
+
+
+#%% CHUNKS
 mypath = 'chunks'
 extension = '.md' # gotta filter by extension since assets may be in the folder (images ie)
 onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f)) and extension in f]
@@ -33,3 +37,26 @@ graph = {'nodes':nodes,'links':links}
 
 with open("files\graph.json", "w") as out_file:
     json.dump(graph, out_file)
+
+#%% POEMS
+mypath = 'poems'
+extension = '.md' # gotta filter by extension since assets may be in the folder (images ie)
+onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f)) and extension in f]
+urls = ['/poems/'+ x.replace('.md','.html') for x in onlyfiles]
+
+dicts = []
+for (this_file,this_url) in zip(onlyfiles,urls):
+    #print(this_file)
+    title = ''
+    go_to = []
+    with open (join(mypath,this_file), "r",encoding='utf-8') as myfile:
+        data=myfile.readlines()
+        #print(data)
+        title = data[1].split('\"')[1]
+    dicts.append({'title':title,'url':this_url})
+
+explicit_start=True
+default_flow_style=False
+
+with open('_data/poem_list.yml', 'w',encoding='utf-8') as yaml_file:
+    yaml.dump(dicts, yaml_file, default_flow_style=default_flow_style,explicit_start=explicit_start,allow_unicode=True,encoding='utf-8')

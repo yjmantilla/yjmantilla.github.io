@@ -1,34 +1,23 @@
-poems:
-
-- title: Color
-  url: /poems/color.html
-
-- title: La Bailarina
-  url: /poems/bailarina.html
-
-- title: Distillation
-  url: /poems/distillation.html
-
-- title: Pain
-  url: /poems/pain.html
-
+---
 - title: Amor y Fantasías
   url: /poems/amor_y_fantasias.html
-
-- title: Delusional Ashes - Cenizas Delirantes
+- title: Cenizas Delirantes - Delusional Ashes
   url: /poems/ashes.html
-
-- title: De qué vale
-  url: /poems/de_que_vale.html
-
+- title: Bailarina
+  url: /poems/bailarina.html
 - title: Cielos
   url: /poems/cielos.html
-
-- title: Universo
-  url: /poems/universo.html
-
-- title: Descomponerte
-  url: /poems/descomponerte.html
-
+- title: Color
+  url: /poems/color.html
 - title: Corazón Perdido
   url: /poems/corazon_perdido.html
+- title: Descomponerte
+  url: /poems/descomponerte.html
+- title: De qué vale
+  url: /poems/de_que_vale.html
+- title: Distillation
+  url: /poems/distillation.html
+- title: Pain
+  url: /poems/pain.html
+- title: Universo
+  url: /poems/universo.html

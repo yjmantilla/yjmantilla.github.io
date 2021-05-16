@@ -44,4 +44,3 @@ The command ```bundle exec jekyll serve``` should now run. It should be hosted a
 Notice that changes you do in real time will be updated automatically.  
 
 I added `*Gemfile*` to the gitignore because I was unsure if it was going to collide with a possible gemfile in the github workflow.
-{% include home.md %}

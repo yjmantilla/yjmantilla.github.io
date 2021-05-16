@@ -19,4 +19,3 @@ my gift to you.
 ```
 
 {% include license.md %}
-{% include home.md %}

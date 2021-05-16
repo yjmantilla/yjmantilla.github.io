@@ -10,4 +10,3 @@ y ya yo no puedo dejar de volar.
 ```
 
 {% include license.md %}
-{% include home.md %}

@@ -19,4 +19,3 @@ Instagram: https://www.instagram.com/yjmantilla/
 <!-- Prototype Wave Height -->
 [Original image from False Knees](https://tapas.io/episode/954630)
 
-{% include home.md %}
