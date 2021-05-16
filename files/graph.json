@@ -1,1 +1,286 @@
-{"nodes": [{"id": "README", "url": ".././README.html"}, {"id": "notetaking", "url": ".././chunks/notetaking.html"}, {"id": "outliers", "url": ".././chunks/outliers.html"}, {"id": "about_me", "url": ".././dirs/about_me.html"}, {"id": "chunks_", "url": ".././dirs/chunks_.html"}, {"id": "essays", "url": ".././dirs/essays.html"}, {"id": "music", "url": ".././dirs/music.html"}, {"id": "poems", "url": ".././dirs/poems.html"}, {"id": "research", "url": ".././dirs/research.html"}, {"id": "sims", "url": ".././dirs/sims.html"}, {"id": "tutorials", "url": ".././dirs/tutorials.html"}, {"id": "colmenas_individuos", "url": ".././essays/colmenas_individuos.html"}, {"id": "feminismo", "url": ".././essays/feminismo.html"}, {"id": "peaceful_warrior", "url": ".././essays/peaceful_warrior.html"}, {"id": "amor_y_fantasias", "url": ".././poems/amor_y_fantasias.html"}, {"id": "ashes", "url": ".././poems/ashes.html"}, {"id": "bailarina", "url": ".././poems/bailarina.html"}, {"id": "cielos", "url": ".././poems/cielos.html"}, {"id": "color", "url": ".././poems/color.html"}, {"id": "corazon_perdido", "url": ".././poems/corazon_perdido.html"}, {"id": "descomponerte", "url": ".././poems/descomponerte.html"}, {"id": "de_que_vale", "url": ".././poems/de_que_vale.html"}, {"id": "distillation", "url": ".././poems/distillation.html"}, {"id": "pain", "url": ".././poems/pain.html"}, {"id": "pausas_del_baile", "url": ".././poems/pausas_del_baile.html"}, {"id": "universo", "url": ".././poems/universo.html"}, {"id": "normalizacion", "url": ".././research/normalizacion.html"}, {"id": "umbrales", "url": ".././research/umbrales.html"}, {"id": "1random_walkers", "url": ".././sims/1random_walkers.html"}, {"id": "2pendulum_waves", "url": ".././sims/2pendulum_waves.html"}, {"id": "3boxcar", "url": ".././sims/3boxcar.html"}, {"id": "4campong", "url": ".././sims/4campong.html"}, {"id": "5not_air_hockey", "url": ".././sims/5not_air_hockey.html"}, {"id": "example", "url": ".././tutorials/example.html"}, {"id": "fixed-order-for-automatic-yaml-lists", "url": ".././tutorials/fixed-order-for-automatic-yaml-lists.html"}, {"id": "foam", "url": ".././tutorials/foam.html"}, {"id": "ica_music", "url": ".././tutorials/ica_music.html"}, {"id": "local_jekyll", "url": ".././tutorials/local_jekyll.html"}, {"id": "mermaid", "url": ".././tutorials/mermaid.html"}, {"id": "naming_md_docs", "url": ".././tutorials/naming_md_docs.html"}, {"id": "home", "url": ".././_includes/home.html"}, {"id": "license", "url": ".././_includes/license.html"}], "links": [{"source": "notetaking", "target": "outliers"}, {"source": "outliers", "target": "notetaking"}, {"source": "local_jekyll", "target": "foam"}, {"source": "local_jekyll", "target": "notetaking"}]}
+{
+    "nodes": [
+        {
+            "id": "notetaking",
+            "url": ".././chunks/notetaking.html"
+        },
+        {
+            "id": "outliers",
+            "url": ".././chunks/outliers.html"
+        },
+        {
+            "id": "colmenas_individuos",
+            "url": ".././essays/colmenas_individuos.html"
+        },
+        {
+            "id": "feminismo",
+            "url": ".././essays/feminismo.html"
+        },
+        {
+            "id": "peaceful_warrior",
+            "url": ".././essays/peaceful_warrior.html"
+        },
+        {
+            "id": "amor_y_fantasias",
+            "url": ".././poems/amor_y_fantasias.html"
+        },
+        {
+            "id": "ashes",
+            "url": ".././poems/ashes.html"
+        },
+        {
+            "id": "bailarina",
+            "url": ".././poems/bailarina.html"
+        },
+        {
+            "id": "cielos",
+            "url": ".././poems/cielos.html"
+        },
+        {
+            "id": "color",
+            "url": ".././poems/color.html"
+        },
+        {
+            "id": "corazon_perdido",
+            "url": ".././poems/corazon_perdido.html"
+        },
+        {
+            "id": "descomponerte",
+            "url": ".././poems/descomponerte.html"
+        },
+        {
+            "id": "de_que_vale",
+            "url": ".././poems/de_que_vale.html"
+        },
+        {
+            "id": "distillation",
+            "url": ".././poems/distillation.html"
+        },
+        {
+            "id": "pain",
+            "url": ".././poems/pain.html"
+        },
+        {
+            "id": "pausas_del_baile",
+            "url": ".././poems/pausas_del_baile.html"
+        },
+        {
+            "id": "universo",
+            "url": ".././poems/universo.html"
+        },
+        {
+            "id": "normalizacion",
+            "url": ".././research/normalizacion.html"
+        },
+        {
+            "id": "umbrales",
+            "url": ".././research/umbrales.html"
+        },
+        {
+            "id": "1random_walkers",
+            "url": ".././sims/1random_walkers.html"
+        },
+        {
+            "id": "2pendulum_waves",
+            "url": ".././sims/2pendulum_waves.html"
+        },
+        {
+            "id": "3boxcar",
+            "url": ".././sims/3boxcar.html"
+        },
+        {
+            "id": "4campong",
+            "url": ".././sims/4campong.html"
+        },
+        {
+            "id": "5not_air_hockey",
+            "url": ".././sims/5not_air_hockey.html"
+        },
+        {
+            "id": "example",
+            "url": ".././tutorials/example.html"
+        },
+        {
+            "id": "fixed-order-for-automatic-yaml-lists",
+            "url": ".././tutorials/fixed-order-for-automatic-yaml-lists.html"
+        },
+        {
+            "id": "foam",
+            "url": ".././tutorials/foam.html"
+        },
+        {
+            "id": "ica_music",
+            "url": ".././tutorials/ica_music.html"
+        },
+        {
+            "id": "local_jekyll",
+            "url": ".././tutorials/local_jekyll.html"
+        },
+        {
+            "id": "mermaid",
+            "url": ".././tutorials/mermaid.html"
+        },
+        {
+            "id": "naming_md_docs",
+            "url": ".././tutorials/naming_md_docs.html"
+        },
+        {
+            "id": "",
+            "url": ".//.html"
+        },
+        {
+            "id": "research",
+            "url": ".//research.html"
+        },
+        {
+            "id": "essays",
+            "url": ".//essays.html"
+        },
+        {
+            "id": "tutorials",
+            "url": ".//tutorials.html"
+        },
+        {
+            "id": "sims",
+            "url": ".//sims.html"
+        },
+        {
+            "id": "poems",
+            "url": ".//poems.html"
+        }
+    ],
+    "links": [
+        {
+            "source": "notetaking",
+            "target": "outliers"
+        },
+        {
+            "source": "outliers",
+            "target": "notetaking"
+        },
+        {
+            "source": "colmenas_individuos",
+            "target": "essays"
+        },
+        {
+            "source": "feminismo",
+            "target": "essays"
+        },
+        {
+            "source": "peaceful_warrior",
+            "target": "essays"
+        },
+        {
+            "source": "amor_y_fantasias",
+            "target": "poems"
+        },
+        {
+            "source": "ashes",
+            "target": "poems"
+        },
+        {
+            "source": "bailarina",
+            "target": "poems"
+        },
+        {
+            "source": "cielos",
+            "target": "poems"
+        },
+        {
+            "source": "color",
+            "target": "poems"
+        },
+        {
+            "source": "corazon_perdido",
+            "target": "poems"
+        },
+        {
+            "source": "descomponerte",
+            "target": "poems"
+        },
+        {
+            "source": "de_que_vale",
+            "target": "poems"
+        },
+        {
+            "source": "distillation",
+            "target": "poems"
+        },
+        {
+            "source": "pain",
+            "target": "poems"
+        },
+        {
+            "source": "pausas_del_baile",
+            "target": "poems"
+        },
+        {
+            "source": "universo",
+            "target": "poems"
+        },
+        {
+            "source": "normalizacion",
+            "target": "research"
+        },
+        {
+            "source": "umbrales",
+            "target": "research"
+        },
+        {
+            "source": "1random_walkers",
+            "target": "sims"
+        },
+        {
+            "source": "2pendulum_waves",
+            "target": "sims"
+        },
+        {
+            "source": "3boxcar",
+            "target": "sims"
+        },
+        {
+            "source": "4campong",
+            "target": "sims"
+        },
+        {
+            "source": "5not_air_hockey",
+            "target": "sims"
+        },
+        {
+            "source": "example",
+            "target": "tutorials"
+        },
+        {
+            "source": "fixed-order-for-automatic-yaml-lists",
+            "target": "tutorials"
+        },
+        {
+            "source": "foam",
+            "target": "tutorials"
+        },
+        {
+            "source": "ica_music",
+            "target": "tutorials"
+        },
+        {
+            "source": "local_jekyll",
+            "target": "foam"
+        },
+        {
+            "source": "local_jekyll",
+            "target": "notetaking"
+        },
+        {
+            "source": "local_jekyll",
+            "target": "tutorials"
+        },
+        {
+            "source": "mermaid",
+            "target": "tutorials"
+        },
+        {
+            "source": "naming_md_docs",
+            "target": "tutorials"
+        }
+    ]
+}

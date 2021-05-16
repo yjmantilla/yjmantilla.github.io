@@ -5,20 +5,22 @@ import re
 import json
 import yaml
 import ntpath
+import pathlib
 
 #%% CHUNKS
 mypath = 'chunks'
 extension = '.md' # gotta filter by extension since assets may be in the folder (images ie)
-def collect_graph(mypath,output_path='files',extension='.md'):
+def collect_graph(mypath,output_path='files',extension='.md',subdirs=True,ignore_in=['dirs','_site','_includes'],ignore_eq=['chunks','README','.']):
     #onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f)) and extension in f]
-    onlyfiles = [os.path.join(path, name) for path, subdirs, files in os.walk(mypath) for name in files if extension in name and '_site' not in path]
+    onlyfiles = [os.path.join(path, name) for path, subdirs, files in os.walk(mypath) for name in files if extension in name and not any(substring in path for substring in ignore_in)]
+    onlysubdirs= [pathlib.PurePath(p).parent.name for p in onlyfiles]
     urls = ['../'+p.replace('\\','/').replace(extension,'.html') for p in onlyfiles]
     filenames = [ntpath.basename(p).replace(extension,'') for p in onlyfiles]
     #assert uniqueness
     assert len(filenames)==len(set(filenames))
     sources = []
     targets = []
-    for (this_file,this_fullpath) in zip(filenames,onlyfiles):
+    for (this_file,this_fullpath,this_subdir) in zip(filenames,onlyfiles,onlysubdirs):
         print(this_file)
         title = ''
         go_to = []
@@ -29,6 +31,8 @@ def collect_graph(mypath,output_path='files',extension='.md'):
             id = this_file.replace('.md','')
             for line in data:
                 go_to = go_to + re.findall('\[\[(.*?)\]\]',line)
+        if subdirs:
+            go_to.append(this_subdir)
         sources.append(id)
         targets.append(go_to)
         print('id',id)
@@ -37,13 +41,15 @@ def collect_graph(mypath,output_path='files',extension='.md'):
     # Get nodes:
     # assume all nodes have a file
     #nodes = set(sources + [item for sublist in targets for item in sublist])
-    nodes = [{'id':x,'url':u} for x,u in zip(sources,urls)]
-    links = [[{'source':source,'target':x} for x in target] for (source,target) in zip(sources,targets)]
+    nodes = [{'id':x,'url':u} for x,u in zip(sources,urls) if not any(substring == x for substring in ignore_eq)]
+    if subdirs:
+        nodes += [{'id':x,'url':'.//'+x+'.html'} for x in list(set(onlysubdirs)) if not any(substring == x for substring in ignore_eq)]
+    links = [[{'source':source,'target':x} for x in target if not any(substring == x for substring in ignore_eq)] for (source,target) in zip(sources,targets) if not(any(substring == source for substring in ignore_eq) or any(substring == target for substring in ignore_eq))]
     links = [item for sublist in links for item in sublist]
     graph = {'nodes':nodes,'links':links}
 
     with open(output_path+"\graph.json", "w") as out_file:
-        json.dump(graph, out_file)
+        json.dump(graph, out_file,indent=4)
 
 def get_dicts(onlyfiles,urls,mypath):
     dicts = []
@@ -79,7 +85,7 @@ def collect_stuff(mypath,extension='.md'):
         yaml.dump(dicts, yaml_file, default_flow_style=default_flow_style,explicit_start=explicit_start,allow_unicode=True,encoding='utf-8')
 
 #%% Collector
-collect_graph('.')
+collect_graph('./',ignore_in=['_site','_includes','dirs'],ignore_eq=['.','README','chunks'],subdirs=True)
 collect_stuff('dirs')
 collect_stuff('poems')
 collect_stuff('tutorials')
