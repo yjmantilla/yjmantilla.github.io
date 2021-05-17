@@ -1,14 +1,20 @@
 ---
+- link: /tutorials/automatic-unsave-facebook.html
+  title: automatic-unsave-facebook
+- link: /tutorials/bookmark-repository-random-knowledge-system.html
+  title: bookmark-repository-random-knowledge-system
 - link: /tutorials/conda-and-vs-code.html
-  title: conda-and-vs-code
+  title: Conda and vs code
 - link: /tutorials/example.html
   title: Github Pages Example
+- link: /tutorials/export-facebook-saved.html
+  title: export-facebook-saved
 - link: /tutorials/fixed-order-for-automatic-yaml-lists.html
   title: Fixed order for automatic yaml lists
 - link: /tutorials/foam.html
   title: Foam
-- link: /tutorials/git-for-linux-with-conda.html
-  title: git-for-linux-with-conda
+- link: /tutorials/git-for-windows-with-conda.html
+  title: Git for windows with conda
 - frame: /images/music-ica.png
   link: https://colab.research.google.com/drive/1O2iRh4E9X_ATGFgRrSEfZwubI7Hcxtpz?usp=sharing
   title: ICA Music Decomposition Example
@@ -18,3 +24,17 @@
   title: Mermaid Example
 - link: /tutorials/naming-md-docs.html
   title: Naming Markdown Docs
+- link: /tutorials/notepad-pp.html
+  title: Notepad++
+- link: /tutorials/onenote-to-svg.html
+  title: Onenote to svg
+- link: /tutorials/sumatra-pdf-dark-mode.html
+  title: Dark Mode (Modo Oscuro) en el pc para libros
+- link: /tutorials/tags-in-filenames.html
+  title: tags-in-filenames
+- link: /tutorials/traducir-terminos.html
+  title: Traducción de términos
+- link: /tutorials/using-everything-for-searchs.html
+  title: using-everything-for-searchs
+- link: /tutorials/vs-code-run-shortcuts.html
+  title: vs-code-run-shortcuts

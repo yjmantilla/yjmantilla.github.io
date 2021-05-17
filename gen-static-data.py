@@ -7,10 +7,10 @@ import yaml
 import ntpath
 import pathlib
 
-#%% CHUNKS
-mypath = 'chunks'
+#%% bubbles
+mypath = 'bubbles'
 extension = '.md' # gotta filter by extension since assets may be in the folder (images ie)
-def collect_graph(mypath,output_path='files',extension='.md',subdirs=True,ignore_in=['dirs','_site','_includes'],ignore_eq=['chunks','README','.']):
+def collect_graph(mypath,output_path='files\graph.json',extension='.md',subdirs=True,ignore_in=['dirs','_site','_includes'],ignore_eq=['bubbles','README','.']):
     #onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f)) and extension in f]
     onlyfiles = [os.path.join(path, name) for path, subdirs, files in os.walk(mypath) for name in files if extension in name and not any(substring in path for substring in ignore_in)]
     onlysubdirs= [pathlib.PurePath(p).parent.name for p in onlyfiles]
@@ -51,12 +51,12 @@ def collect_graph(mypath,output_path='files',extension='.md',subdirs=True,ignore
     ghost_nodes = set ([item for sublist in targets for item in sublist]) - set([n['id'] for n in nodes])
     ghost_nodes = list(ghost_nodes)
     ghost_nodes = [x for x in ghost_nodes if not any(substring == x for substring in ignore_eq)]
-    nodes += [{'id':n,'url':'.././chunks/stub.html'} for n in ghost_nodes]
+    nodes += [{'id':n,'url':'.././bubbles/stub.html'} for n in ghost_nodes]
     links = [[{'source':source,'target':x} for x in target if not any(substring == x for substring in ignore_eq)] for (source,target) in zip(sources,targets) if not(any(substring == source for substring in ignore_eq) or any(substring == target for substring in ignore_eq))]
     links = [item for sublist in links for item in sublist]
     graph = {'nodes':nodes,'links':links}
 
-    with open(output_path+"\graph.json", "w") as out_file:
+    with open(output_path, "w") as out_file:
         json.dump(graph, out_file,indent=4)
 
 def get_dicts(onlyfiles,urls,mypath):
@@ -99,10 +99,12 @@ def collect_stuff(mypath,extension='.md'):
         yaml.dump(dicts, yaml_file, default_flow_style=default_flow_style,explicit_start=explicit_start,allow_unicode=True,encoding='utf-8')
 
 #%% Collector
-collect_graph('./',ignore_in=['_site','_includes','dirs'],ignore_eq=['.','README','chunks'],subdirs=True)
-collect_stuff('dirs')
+collect_graph('./',output_path='files/graph-subdirs.json',ignore_in=['_site','_includes','dirs'],ignore_eq=['.','README','bubbles'],subdirs=True)
+collect_graph('./',output_path='files/graph.json',ignore_in=['_site','_includes','dirs'],ignore_eq=['.','README','bubbles'],subdirs=False)
 collect_stuff('poems')
 collect_stuff('tutorials')
 collect_stuff('sims')
 collect_stuff('essays')
 collect_stuff('research')
+collect_stuff('bubbles')
+collect_stuff('dirs')

@@ -6,7 +6,7 @@ title:  "Pausas del Baile"
 
 ```markdown
 Y si me pierdo en la clave,
-y enlos movimientos que vos haces,
+y en los movimientos que vos haces,
 en la canción con su mito sonoro,
 en el curvo poema de nuestro baile;
 

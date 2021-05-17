@@ -7,8 +7,8 @@ The fix is to prefix the files with the order you want to show them.
 Example:
 
 ```markdown
-important-file --> 1important-file
-irrelevant-file --> 2irrelevant-file
+important-file --> 1-important-file
+irrelevant-file --> 2-irrelevant-file
 ```
 
 Now, with poems it may be more advantageous to have them in alphabetical order; they look better that way.

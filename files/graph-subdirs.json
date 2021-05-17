@@ -209,6 +209,30 @@
             "url": ".././tutorials/vs-code-run-shortcuts.html"
         },
         {
+            "id": "",
+            "url": ".//.html"
+        },
+        {
+            "id": "sims",
+            "url": ".//sims.html"
+        },
+        {
+            "id": "essays",
+            "url": ".//essays.html"
+        },
+        {
+            "id": "research",
+            "url": ".//research.html"
+        },
+        {
+            "id": "poems",
+            "url": ".//poems.html"
+        },
+        {
+            "id": "tutorials",
+            "url": ".//tutorials.html"
+        },
+        {
             "id": "computation",
             "url": ".././bubbles/stub.html"
         }
@@ -227,12 +251,188 @@
             "target": "computation"
         },
         {
+            "source": "colmenas-individuos",
+            "target": "essays"
+        },
+        {
+            "source": "feminismo",
+            "target": "essays"
+        },
+        {
+            "source": "peaceful-warrior",
+            "target": "essays"
+        },
+        {
+            "source": "veneco",
+            "target": "essays"
+        },
+        {
+            "source": "amor-y-fantasias",
+            "target": "poems"
+        },
+        {
+            "source": "ashes",
+            "target": "poems"
+        },
+        {
+            "source": "bailarina",
+            "target": "poems"
+        },
+        {
+            "source": "cielos",
+            "target": "poems"
+        },
+        {
+            "source": "color",
+            "target": "poems"
+        },
+        {
+            "source": "corazon-perdido",
+            "target": "poems"
+        },
+        {
+            "source": "de-que-vale",
+            "target": "poems"
+        },
+        {
+            "source": "descomponerte",
+            "target": "poems"
+        },
+        {
+            "source": "distillation",
+            "target": "poems"
+        },
+        {
+            "source": "pain",
+            "target": "poems"
+        },
+        {
+            "source": "pausas-del-baile",
+            "target": "poems"
+        },
+        {
+            "source": "romper-un-arcoiris",
+            "target": "poems"
+        },
+        {
+            "source": "su-roja-armonia",
+            "target": "poems"
+        },
+        {
+            "source": "universo",
+            "target": "poems"
+        },
+        {
+            "source": "normalizacion",
+            "target": "research"
+        },
+        {
+            "source": "umbrales",
+            "target": "research"
+        },
+        {
+            "source": "1random-walkers",
+            "target": "sims"
+        },
+        {
+            "source": "2pendulum-waves",
+            "target": "sims"
+        },
+        {
+            "source": "3boxcar",
+            "target": "sims"
+        },
+        {
+            "source": "4campong",
+            "target": "sims"
+        },
+        {
+            "source": "5not-air-hockey",
+            "target": "sims"
+        },
+        {
+            "source": "automatic-unsave-facebook",
+            "target": "tutorials"
+        },
+        {
+            "source": "bookmark-repository-random-knowledge-system",
+            "target": "tutorials"
+        },
+        {
+            "source": "conda-and-vs-code",
+            "target": "tutorials"
+        },
+        {
+            "source": "example",
+            "target": "tutorials"
+        },
+        {
+            "source": "export-facebook-saved",
+            "target": "tutorials"
+        },
+        {
+            "source": "fixed-order-for-automatic-yaml-lists",
+            "target": "tutorials"
+        },
+        {
+            "source": "foam",
+            "target": "tutorials"
+        },
+        {
+            "source": "git-for-windows-with-conda",
+            "target": "tutorials"
+        },
+        {
+            "source": "ica-music",
+            "target": "tutorials"
+        },
+        {
             "source": "local-jekyll",
             "target": "foam"
         },
         {
             "source": "local-jekyll",
             "target": "notetaking"
+        },
+        {
+            "source": "local-jekyll",
+            "target": "tutorials"
+        },
+        {
+            "source": "mermaid",
+            "target": "tutorials"
+        },
+        {
+            "source": "naming-md-docs",
+            "target": "tutorials"
+        },
+        {
+            "source": "notepad-pp",
+            "target": "tutorials"
+        },
+        {
+            "source": "onenote-to-svg",
+            "target": "tutorials"
+        },
+        {
+            "source": "sumatra-pdf-dark-mode",
+            "target": "tutorials"
+        },
+        {
+            "source": "tags-in-filenames",
+            "target": "tutorials"
+        },
+        {
+            "source": "traducir-terminos",
+            "target": "tutorials"
+        },
+        {
+            "source": "using-everything-for-searchs",
+            "target": "tutorials"
+        },
+        {
+            "source": "vs-code-run-shortcuts",
+            "target": "tutorials"
         }
     ]
 }

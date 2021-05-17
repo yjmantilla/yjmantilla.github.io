@@ -1,10 +1,19 @@
 ---
 - link: /dirs/about-me.html
   title: About Me
-- link: /dirs/chunks.html
-  title: Knowledge Graph
+- link: /dirs/bubbles.html
+  title: Bubbles
 - link: /dirs/essays.html
   title: Essays
+- link: /dirs/hoja_de_vida.html
+  title: Hoja de Vida
+- graphs:
+  - link: /graphs/knowledge-graph-subdirs.html
+    title: Graph with Categories
+  - link: /graphs/knowledge-graph.html
+    title: Graph without Categories
+  link: /dirs/knowledge-graphs.html
+  title: Knowledge Graph
 - link: /dirs/music.html
   title: Music
 - link: /dirs/poems.html

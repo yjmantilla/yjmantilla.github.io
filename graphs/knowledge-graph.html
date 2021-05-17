@@ -1,0 +1,20 @@
+---
+title : graph
+---
+{% include do-graph.html %}
+
+<head>
+    <style> body { margin: 5; } </style>
+  
+    <script src="//unpkg.com/force-graph"></script>
+    <!--<script src="../../dist/force-graph.js"></script>-->
+  </head>
+  
+  <body>
+    <div id="graph"></div>
+    <script>
+      do_graph('../files/graph.json');
+    </script>
+
+  </body>
+
