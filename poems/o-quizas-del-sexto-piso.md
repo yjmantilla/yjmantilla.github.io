@@ -1,8 +1,8 @@
 ---
-title:  "Corazón Perdido"
+title:  "O quizás del sexto piso"
 ---
 
-# Corazón Perdido
+# O quizás del sexto piso
 
 ```markdown
 Donde estará mi corazon,
@@ -22,7 +22,7 @@ No lo encuentro ni en mis palabras,
 ni en las hojas pocas que derramo.
 Quizás algun dia lo encuentre moribundo,
 porque le ha caido un rayo;
-o quizas del sexto piso,
+o quizás del sexto piso,
 le cayo desafortunado el piano.
 
 Amigo, amiga, ¿no lo has visto?,

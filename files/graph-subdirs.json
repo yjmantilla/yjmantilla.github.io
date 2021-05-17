@@ -61,16 +61,16 @@
             "url": ".././poems/bailarina.html"
         },
         {
+            "id": "canta-y-pinta",
+            "url": ".././poems/canta-y-pinta.html"
+        },
+        {
             "id": "cielos",
             "url": ".././poems/cielos.html"
         },
         {
             "id": "color",
             "url": ".././poems/color.html"
-        },
-        {
-            "id": "corazon-perdido",
-            "url": ".././poems/corazon-perdido.html"
         },
         {
             "id": "de-que-vale",
@@ -85,6 +85,10 @@
             "url": ".././poems/distillation.html"
         },
         {
+            "id": "o-quizas-del-sexto-piso",
+            "url": ".././poems/o-quizas-del-sexto-piso.html"
+        },
+        {
             "id": "pain",
             "url": ".././poems/pain.html"
         },
@@ -93,8 +97,16 @@
             "url": ".././poems/pausas-del-baile.html"
         },
         {
+            "id": "roloc",
+            "url": ".././poems/roloc.html"
+        },
+        {
             "id": "romper-un-arcoiris",
             "url": ".././poems/romper-un-arcoiris.html"
+        },
+        {
+            "id": "sire",
+            "url": ".././poems/sire.html"
         },
         {
             "id": "su-roja-armonia",
@@ -213,24 +225,24 @@
             "url": ".//.html"
         },
         {
-            "id": "sims",
-            "url": ".//sims.html"
-        },
-        {
-            "id": "essays",
-            "url": ".//essays.html"
-        },
-        {
-            "id": "research",
-            "url": ".//research.html"
-        },
-        {
             "id": "poems",
             "url": ".//poems.html"
         },
         {
             "id": "tutorials",
             "url": ".//tutorials.html"
+        },
+        {
+            "id": "research",
+            "url": ".//research.html"
+        },
+        {
+            "id": "essays",
+            "url": ".//essays.html"
+        },
+        {
+            "id": "sims",
+            "url": ".//sims.html"
         },
         {
             "id": "computation",
@@ -279,15 +291,15 @@
             "target": "poems"
         },
         {
+            "source": "canta-y-pinta",
+            "target": "poems"
+        },
+        {
             "source": "cielos",
             "target": "poems"
         },
         {
             "source": "color",
-            "target": "poems"
-        },
-        {
-            "source": "corazon-perdido",
             "target": "poems"
         },
         {
@@ -303,6 +315,10 @@
             "target": "poems"
         },
         {
+            "source": "o-quizas-del-sexto-piso",
+            "target": "poems"
+        },
+        {
             "source": "pain",
             "target": "poems"
         },
@@ -311,7 +327,15 @@
             "target": "poems"
         },
         {
+            "source": "roloc",
+            "target": "poems"
+        },
+        {
             "source": "romper-un-arcoiris",
+            "target": "poems"
+        },
+        {
+            "source": "sire",
             "target": "poems"
         },
         {

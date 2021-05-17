@@ -61,16 +61,16 @@
             "url": ".././poems/bailarina.html"
         },
         {
+            "id": "canta-y-pinta",
+            "url": ".././poems/canta-y-pinta.html"
+        },
+        {
             "id": "cielos",
             "url": ".././poems/cielos.html"
         },
         {
             "id": "color",
             "url": ".././poems/color.html"
-        },
-        {
-            "id": "corazon-perdido",
-            "url": ".././poems/corazon-perdido.html"
         },
         {
             "id": "de-que-vale",
@@ -85,6 +85,10 @@
             "url": ".././poems/distillation.html"
         },
         {
+            "id": "o-quizas-del-sexto-piso",
+            "url": ".././poems/o-quizas-del-sexto-piso.html"
+        },
+        {
             "id": "pain",
             "url": ".././poems/pain.html"
         },
@@ -93,8 +97,16 @@
             "url": ".././poems/pausas-del-baile.html"
         },
         {
+            "id": "roloc",
+            "url": ".././poems/roloc.html"
+        },
+        {
             "id": "romper-un-arcoiris",
             "url": ".././poems/romper-un-arcoiris.html"
+        },
+        {
+            "id": "sire",
+            "url": ".././poems/sire.html"
         },
         {
             "id": "su-roja-armonia",
