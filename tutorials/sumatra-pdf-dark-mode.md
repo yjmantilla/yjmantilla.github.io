@@ -40,10 +40,13 @@ SelectionColor Magenta --> #FF00FF
 ![](2021-05-16-20-39-35.png)
 
 ### Antes
+
 ![](2021-05-16-20-41-50.png)
+
 De Street-Fighting Mathematics - The Art of Educated Guessing and Opportunistic Problem Solving.pdf
 
 ![](2021-05-16-20-37-20.png)
+
 De Luigi Serafini - Codex Seraphinianus-Abbeville Press (1983).djvu
 
 ### Despues

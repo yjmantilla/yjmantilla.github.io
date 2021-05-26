@@ -106,5 +106,7 @@ collect_stuff('tutorials')
 collect_stuff('sims')
 collect_stuff('essays')
 collect_stuff('research')
+collect_stuff('gsoc')
 collect_stuff('bubbles')
 collect_stuff('dirs')
+
