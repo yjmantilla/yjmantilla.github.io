@@ -265,24 +265,28 @@
             "url": ".././tutorials/vs-code-run-shortcuts.html"
         },
         {
-            "id": "",
-            "url": ".//.html"
+            "id": "wsl2-move-vhdx",
+            "url": ".././tutorials/wsl2-move-vhdx.html"
         },
         {
-            "id": "gsoc",
-            "url": ".//gsoc.html"
+            "id": "",
+            "url": ".//.html"
         },
         {
             "id": "sims",
             "url": ".//sims.html"
         },
         {
+            "id": "tutorials",
+            "url": ".//tutorials.html"
+        },
+        {
             "id": "poems",
             "url": ".//poems.html"
         },
         {
-            "id": "tutorials",
-            "url": ".//tutorials.html"
+            "id": "gsoc",
+            "url": ".//gsoc.html"
         },
         {
             "id": "research",
@@ -548,6 +552,10 @@
         },
         {
             "source": "vs-code-run-shortcuts",
+            "target": "tutorials"
+        },
+        {
+            "source": "wsl2-move-vhdx",
             "target": "tutorials"
         }
     ]

@@ -38,3 +38,5 @@
   title: using-everything-for-searchs
 - link: /tutorials/vs-code-run-shortcuts.html
   title: vs-code-run-shortcuts
+- link: /tutorials/wsl2-move-vhdx.html
+  title: Moving vhdx of WSL2

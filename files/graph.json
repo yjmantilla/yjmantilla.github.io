@@ -265,6 +265,10 @@
             "url": ".././tutorials/vs-code-run-shortcuts.html"
         },
         {
+            "id": "wsl2-move-vhdx",
+            "url": ".././tutorials/wsl2-move-vhdx.html"
+        },
+        {
             "id": "computation",
             "url": ".././bubbles/stub.html"
         }
