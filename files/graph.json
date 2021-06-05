@@ -5,12 +5,20 @@
             "url": ".././bubbles/cannabis-hallucinations.html"
         },
         {
+            "id": "convencion-signos-optica",
+            "url": ".././bubbles/convencion-signos-optica.html"
+        },
+        {
             "id": "cs-lewis-suppose-story-enemy",
             "url": ".././bubbles/cs-lewis-suppose-story-enemy.html"
         },
         {
-            "id": "method-rather-than-topics",
-            "url": ".././bubbles/method-rather-than-topics.html"
+            "id": "filas-y-columnas",
+            "url": ".././bubbles/filas-y-columnas.html"
+        },
+        {
+            "id": "methods-rather-than-topics",
+            "url": ".././bubbles/methods-rather-than-topics.html"
         },
         {
             "id": "notetaking",
@@ -271,9 +279,17 @@
         {
             "id": "computation",
             "url": ".././bubbles/stub.html"
+        },
+        {
+            "id": "intuitive-physics",
+            "url": ".././bubbles/stub.html"
         }
     ],
     "links": [
+        {
+            "source": "convencion-signos-optica",
+            "target": "intuitive-physics"
+        },
         {
             "source": "notetaking",
             "target": "outliers"
