@@ -6,6 +6,7 @@
 - Implemented github actions in sovabids
 - Added test and code coverage functionality and badges
 - Added command line entry point
+- Wrote a function to make a simulated dataset to help with testing
 
 ## 2 What are you planning to do next week?
 
