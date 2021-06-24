@@ -5,6 +5,7 @@
 - Made some discussion in the BIDSCOIN repo with the advances I had on the BRAINHACK
 - Implemented github actions in sovabids
 - Added test and code coverage functionality and badges
+- Added command line entry point
 
 ## 2 What are you planning to do next week?
 
