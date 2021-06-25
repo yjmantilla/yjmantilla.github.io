@@ -7,7 +7,7 @@
 - Added test and code coverage functionality and badges
 - Added command line entry point
 - Wrote a function to make a simulated dataset to help with testing
-- Currently making a test to assert correct bids conversion that runs every time a something is pushed to the main branch of the repository
+- Currently making a test to assert correct bids conversion that runs every time something is pushed to the main branch of the repository
 - Currently finishing the schema of the "rules file" that configures the conversion
 
 ## 2 What are you planning to do next week?
