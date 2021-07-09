@@ -1,6 +1,18 @@
 {
     "nodes": [
         {
+            "id": "ai-and-real-life",
+            "url": ".././bubbles/ai-and-real-life.html"
+        },
+        {
+            "id": "ai-and-science",
+            "url": ".././bubbles/ai-and-science.html"
+        },
+        {
+            "id": "art-and-code",
+            "url": ".././bubbles/art-and-code.html"
+        },
+        {
             "id": "cannabis-hallucinations",
             "url": ".././bubbles/cannabis-hallucinations.html"
         },
@@ -39,6 +51,10 @@
         {
             "id": "stub",
             "url": ".././bubbles/stub.html"
+        },
+        {
+            "id": "thinking-about-code",
+            "url": ".././bubbles/thinking-about-code.html"
         },
         {
             "id": "colmenas-individuos",

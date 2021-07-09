@@ -1,4 +1,10 @@
 ---
+- link: /bubbles/ai-and-real-life.html
+  title: AI and real life
+- link: /bubbles/ai-and-science.html
+  title: AI and science
+- link: /bubbles/art-and-code.html
+  title: Art and code
 - link: /bubbles/cannabis-hallucinations.html
   title: Cannabis Hallucinations
 - link: /bubbles/convencion-signos-optica.html
@@ -19,3 +25,5 @@
   title: Soft and Hard Computing Duality
 - link: /bubbles/stub.html
   title: Stub
+- link: /bubbles/thinking-about-code.html
+  title: Thinking about code
