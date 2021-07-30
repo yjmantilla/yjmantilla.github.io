@@ -25,12 +25,20 @@
             "url": ".././bubbles/cs-lewis-suppose-story-enemy.html"
         },
         {
+            "id": "diagrams-and-their-usage",
+            "url": ".././bubbles/diagrams-and-their-usage.html"
+        },
+        {
             "id": "filas-y-columnas",
             "url": ".././bubbles/filas-y-columnas.html"
         },
         {
             "id": "methods-rather-than-topics",
             "url": ".././bubbles/methods-rather-than-topics.html"
+        },
+        {
+            "id": "movies",
+            "url": ".././bubbles/movies.html"
         },
         {
             "id": "notetaking",
@@ -47,6 +55,10 @@
         {
             "id": "soft-vs-hard-computing",
             "url": ".././bubbles/soft-vs-hard-computing.html"
+        },
+        {
+            "id": "sonic-design",
+            "url": ".././bubbles/sonic-design.html"
         },
         {
             "id": "stub",
@@ -153,6 +165,18 @@
             "url": ".././poems/distillation.html"
         },
         {
+            "id": "fondo",
+            "url": ".././poems/fondo.html"
+        },
+        {
+            "id": "its-different-in-the-rain-though",
+            "url": ".././poems/its-different-in-the-rain-though.html"
+        },
+        {
+            "id": "no-me-importaria",
+            "url": ".././poems/no-me-importaria.html"
+        },
+        {
             "id": "o-quizas-del-sexto-piso",
             "url": ".././poems/o-quizas-del-sexto-piso.html"
         },
@@ -161,8 +185,16 @@
             "url": ".././poems/pain.html"
         },
         {
+            "id": "parada-de-manos",
+            "url": ".././poems/parada-de-manos.html"
+        },
+        {
             "id": "pausas-del-baile",
             "url": ".././poems/pausas-del-baile.html"
+        },
+        {
+            "id": "por-donde-pisas",
+            "url": ".././poems/por-donde-pisas.html"
         },
         {
             "id": "roloc",
@@ -173,12 +205,20 @@
             "url": ".././poems/romper-un-arcoiris.html"
         },
         {
+            "id": "sin",
+            "url": ".././poems/sin.html"
+        },
+        {
             "id": "sire",
             "url": ".././poems/sire.html"
         },
         {
             "id": "su-roja-armonia",
             "url": ".././poems/su-roja-armonia.html"
+        },
+        {
+            "id": "the-timed-arts",
+            "url": ".././poems/the-timed-arts.html"
         },
         {
             "id": "universo",
@@ -269,6 +309,10 @@
             "url": ".././tutorials/onenote-to-svg.html"
         },
         {
+            "id": "sending-automatic-emails-google-forms",
+            "url": ".././tutorials/sending-automatic-emails-google-forms.html"
+        },
+        {
             "id": "sumatra-pdf-dark-mode",
             "url": ".././tutorials/sumatra-pdf-dark-mode.html"
         },
@@ -297,12 +341,12 @@
             "url": ".//.html"
         },
         {
-            "id": "sims",
-            "url": ".//sims.html"
+            "id": "research",
+            "url": ".//research.html"
         },
         {
-            "id": "gsoc",
-            "url": ".//gsoc.html"
+            "id": "essays",
+            "url": ".//essays.html"
         },
         {
             "id": "tutorials",
@@ -313,12 +357,12 @@
             "url": ".//poems.html"
         },
         {
-            "id": "essays",
-            "url": ".//essays.html"
+            "id": "sims",
+            "url": ".//sims.html"
         },
         {
-            "id": "research",
-            "url": ".//research.html"
+            "id": "gsoc",
+            "url": ".//gsoc.html"
         },
         {
             "id": "computation",
@@ -443,6 +487,18 @@
             "target": "poems"
         },
         {
+            "source": "fondo",
+            "target": "poems"
+        },
+        {
+            "source": "its-different-in-the-rain-though",
+            "target": "poems"
+        },
+        {
+            "source": "no-me-importaria",
+            "target": "poems"
+        },
+        {
             "source": "o-quizas-del-sexto-piso",
             "target": "poems"
         },
@@ -451,7 +507,15 @@
             "target": "poems"
         },
         {
+            "source": "parada-de-manos",
+            "target": "poems"
+        },
+        {
             "source": "pausas-del-baile",
+            "target": "poems"
+        },
+        {
+            "source": "por-donde-pisas",
             "target": "poems"
         },
         {
@@ -463,11 +527,19 @@
             "target": "poems"
         },
         {
+            "source": "sin",
+            "target": "poems"
+        },
+        {
             "source": "sire",
             "target": "poems"
         },
         {
             "source": "su-roja-armonia",
+            "target": "poems"
+        },
+        {
+            "source": "the-timed-arts",
             "target": "poems"
         },
         {
@@ -564,6 +636,10 @@
         },
         {
             "source": "onenote-to-svg",
+            "target": "tutorials"
+        },
+        {
+            "source": "sending-automatic-emails-google-forms",
             "target": "tutorials"
         },
         {
