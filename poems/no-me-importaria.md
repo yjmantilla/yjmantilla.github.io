@@ -25,6 +25,7 @@ un instante por vivir.
 ```
 
 [comment]: <> ('infinita quimera' en vez de 'infinita violencia')
+
 [comment]: <> ('para vivir' en vez de 'por vivir')
 
 {% include license.md %}

@@ -54,7 +54,8 @@ que "la vida me venció"...
 Entenderé que no era lucha
     mi camino...
 Ni mi corazón, un guerrero.
-Que podía haber elegido destinos serenos, si hubiese aceptado el misterioso vacío
+Que podía haber elegido destinos serenos, 
+si hubiese aceptado el misterioso vacío
     que ofreció.
 
 No llores más, o llora más;
