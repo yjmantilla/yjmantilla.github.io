@@ -16,7 +16,6 @@ en el amor.
 
 Pero por ratos y ratas parece ser solo ilusión.
 Cada quien atrapado en cuerpos separados.
-
 Nadie sabe exactamente si existe alguien más que el yo.
 Solo sabemos que con el pasar de los años...
 ocurre el afortunado infortunio, y
@@ -42,7 +41,7 @@ sucumbir de la emoción.
 
 Construir túneles en las montañas de dolor
     limitrofes.
-Salir dela ciudad,
+Salir de la ciudad,
 delirar las letras que el valle
     soñó.
 

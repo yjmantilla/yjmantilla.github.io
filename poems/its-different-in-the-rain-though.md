@@ -13,8 +13,11 @@ She said:
 With each droplet, it washed your sorrows away.
 I don't know if you danced to the sound of the rain,
 or if that rain fell down to the sound of your steps.
+
+
                 I believe we danced in a rhythm of our own,.
                 Unheard by those who have never truly experienced that sort of freedom.
+
 
 Was it magic that fell with the rain?
 Or was it your soul going up to sky?
