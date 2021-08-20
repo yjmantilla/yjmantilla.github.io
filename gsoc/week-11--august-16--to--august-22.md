@@ -14,4 +14,8 @@ For the weekend:
 
 ## 2 What are you planning to do next week?
 
+Upload the final code :P
+
 ## 3 Is anything blocking your progress?
+
+No
