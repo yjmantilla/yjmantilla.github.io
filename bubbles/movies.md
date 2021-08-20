@@ -4,5 +4,7 @@
 - 12 angry men
 - The Truman Show
 - Jo Jo rabbit
-- Luca,Coco
 - La la land
+- The departed
+- The last temptation of christ
+- Shutter Island
