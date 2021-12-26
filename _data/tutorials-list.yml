@@ -5,6 +5,8 @@
   title: bookmark-repository-random-knowledge-system
 - link: /tutorials/conda-and-vs-code.html
   title: Conda and vs code
+- link: /tutorials/debug-flask-vscode.html
+  title: Debugging Flask Code Using VSCODE
 - link: /tutorials/example.html
   title: Github Pages Example
 - link: /tutorials/export-facebook-saved.html

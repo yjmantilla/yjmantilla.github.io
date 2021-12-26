@@ -17,10 +17,10 @@ they were after all different words.
 Poetry, music, and dancing;
 the beautiful triad of the timed arts.
 It is time that flows through
-        your body, your ears, and your heart.
+your body, your eyes, your ears, and your heart.
 
 If you wanted, 
-        you coul dance to spoken poetry.
+        you could dance to spoken poetry.
 If you wanted,
         you could make poetry out of dance.
 If I could,

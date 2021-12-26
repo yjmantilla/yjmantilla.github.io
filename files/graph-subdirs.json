@@ -189,10 +189,6 @@
             "url": ".././poems/parada-de-manos.html"
         },
         {
-            "id": "pausas-del-baile",
-            "url": ".././poems/pausas-del-baile.html"
-        },
-        {
             "id": "por-donde-pisas",
             "url": ".././poems/por-donde-pisas.html"
         },
@@ -263,6 +259,10 @@
         {
             "id": "conda-and-vs-code",
             "url": ".././tutorials/conda-and-vs-code.html"
+        },
+        {
+            "id": "debug-flask-vscode",
+            "url": ".././tutorials/debug-flask-vscode.html"
         },
         {
             "id": "example",
@@ -341,12 +341,20 @@
             "url": ".//.html"
         },
         {
+            "id": "sims",
+            "url": ".//sims.html"
+        },
+        {
             "id": "research",
             "url": ".//research.html"
         },
         {
             "id": "essays",
             "url": ".//essays.html"
+        },
+        {
+            "id": "gsoc",
+            "url": ".//gsoc.html"
         },
         {
             "id": "tutorials",
@@ -357,19 +365,11 @@
             "url": ".//poems.html"
         },
         {
-            "id": "sims",
-            "url": ".//sims.html"
-        },
-        {
-            "id": "gsoc",
-            "url": ".//gsoc.html"
-        },
-        {
-            "id": "computation",
+            "id": "intuitive-physics",
             "url": ".././bubbles/stub.html"
         },
         {
-            "id": "intuitive-physics",
+            "id": "computation",
             "url": ".././bubbles/stub.html"
         }
     ],
@@ -511,10 +511,6 @@
             "target": "poems"
         },
         {
-            "source": "pausas-del-baile",
-            "target": "poems"
-        },
-        {
             "source": "por-donde-pisas",
             "target": "poems"
         },
@@ -584,6 +580,10 @@
         },
         {
             "source": "conda-and-vs-code",
+            "target": "tutorials"
+        },
+        {
+            "source": "debug-flask-vscode",
             "target": "tutorials"
         },
         {

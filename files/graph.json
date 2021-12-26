@@ -189,10 +189,6 @@
             "url": ".././poems/parada-de-manos.html"
         },
         {
-            "id": "pausas-del-baile",
-            "url": ".././poems/pausas-del-baile.html"
-        },
-        {
             "id": "por-donde-pisas",
             "url": ".././poems/por-donde-pisas.html"
         },
@@ -263,6 +259,10 @@
         {
             "id": "conda-and-vs-code",
             "url": ".././tutorials/conda-and-vs-code.html"
+        },
+        {
+            "id": "debug-flask-vscode",
+            "url": ".././tutorials/debug-flask-vscode.html"
         },
         {
             "id": "example",
@@ -337,11 +337,11 @@
             "url": ".././tutorials/wsl2-move-vhdx.html"
         },
         {
-            "id": "computation",
+            "id": "intuitive-physics",
             "url": ".././bubbles/stub.html"
         },
         {
-            "id": "intuitive-physics",
+            "id": "computation",
             "url": ".././bubbles/stub.html"
         }
     ],
