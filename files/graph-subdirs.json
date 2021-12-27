@@ -1,8 +1,8 @@
 {
     "nodes": [
         {
-            "id": "ai-and-real-life",
-            "url": ".././bubbles/ai-and-real-life.html"
+            "id": "ai-4-health",
+            "url": ".././bubbles/ai-4-health.html"
         },
         {
             "id": "ai-and-science",
@@ -13,8 +13,20 @@
             "url": ".././bubbles/art-and-code.html"
         },
         {
+            "id": "biomimicry",
+            "url": ".././bubbles/biomimicry.html"
+        },
+        {
+            "id": "brain-as-a-computer",
+            "url": ".././bubbles/brain-as-a-computer.html"
+        },
+        {
             "id": "cannabis-hallucinations",
             "url": ".././bubbles/cannabis-hallucinations.html"
+        },
+        {
+            "id": "cognitive-inspired-vs-biologically-inspired",
+            "url": ".././bubbles/cognitive-inspired-vs-biologically-inspired.html"
         },
         {
             "id": "convencion-signos-optica",
@@ -29,16 +41,32 @@
             "url": ".././bubbles/diagrams-and-their-usage.html"
         },
         {
+            "id": "different-kinds-of-papers",
+            "url": ".././bubbles/different-kinds-of-papers.html"
+        },
+        {
             "id": "filas-y-columnas",
             "url": ".././bubbles/filas-y-columnas.html"
+        },
+        {
+            "id": "literature-matrix",
+            "url": ".././bubbles/literature-matrix.html"
         },
         {
             "id": "methods-rather-than-topics",
             "url": ".././bubbles/methods-rather-than-topics.html"
         },
         {
+            "id": "modularism-vs-holism-in-neuroscience",
+            "url": ".././bubbles/modularism-vs-holism-in-neuroscience.html"
+        },
+        {
             "id": "movies",
             "url": ".././bubbles/movies.html"
+        },
+        {
+            "id": "neuro-ai",
+            "url": ".././bubbles/neuro-ai.html"
         },
         {
             "id": "notetaking",
@@ -51,6 +79,14 @@
         {
             "id": "philosophy-jokes",
             "url": ".././bubbles/philosophy-jokes.html"
+        },
+        {
+            "id": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "url": ".././bubbles/reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta.html"
+        },
+        {
+            "id": "scientific-writing-with-karen-mckee",
+            "url": ".././bubbles/scientific-writing-with-karen-mckee.html"
         },
         {
             "id": "soft-vs-hard-computing",
@@ -345,24 +381,32 @@
             "url": ".//sims.html"
         },
         {
-            "id": "research",
-            "url": ".//research.html"
+            "id": "poems",
+            "url": ".//poems.html"
         },
         {
-            "id": "essays",
-            "url": ".//essays.html"
+            "id": "research",
+            "url": ".//research.html"
         },
         {
             "id": "gsoc",
             "url": ".//gsoc.html"
         },
         {
+            "id": "essays",
+            "url": ".//essays.html"
+        },
+        {
             "id": "tutorials",
             "url": ".//tutorials.html"
         },
         {
-            "id": "poems",
-            "url": ".//poems.html"
+            "id": "building-before-knowing",
+            "url": ".././bubbles/stub.html"
+        },
+        {
+            "id": "inferotemporal-cortex",
+            "url": ".././bubbles/stub.html"
         },
         {
             "id": "intuitive-physics",
@@ -370,6 +414,14 @@
         },
         {
             "id": "computation",
+            "url": ".././bubbles/stub.html"
+        },
+        {
+            "id": "primary-visual-cortex",
+            "url": ".././bubbles/stub.html"
+        },
+        {
+            "id": "connectome",
             "url": ".././bubbles/stub.html"
         }
     ],
@@ -385,6 +437,50 @@
         {
             "source": "outliers",
             "target": "notetaking"
+        },
+        {
+            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "target": "biomimicry"
+        },
+        {
+            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "target": "building-before-knowing"
+        },
+        {
+            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "target": "connectome"
+        },
+        {
+            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "target": "modularism-vs-holism-in-neuroscience"
+        },
+        {
+            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "target": "brain-as-a-computer"
+        },
+        {
+            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "target": "brain-as-a-computer"
+        },
+        {
+            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "target": "biomimicry"
+        },
+        {
+            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "target": "biomimicry"
+        },
+        {
+            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "target": "brain-as-a-computer"
+        },
+        {
+            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "target": "primary-visual-cortex"
+        },
+        {
+            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "target": "inferotemporal-cortex"
         },
         {
             "source": "soft-vs-hard-computing",
