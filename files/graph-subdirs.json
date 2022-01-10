@@ -49,6 +49,10 @@
             "url": ".././bubbles/filas-y-columnas.html"
         },
         {
+            "id": "how-to-read-a-scientific-paper",
+            "url": ".././bubbles/how-to-read-a-scientific-paper.html"
+        },
+        {
             "id": "literature-matrix",
             "url": ".././bubbles/literature-matrix.html"
         },
@@ -381,31 +385,39 @@
             "url": ".//sims.html"
         },
         {
-            "id": "poems",
-            "url": ".//poems.html"
+            "id": "gsoc",
+            "url": ".//gsoc.html"
         },
         {
             "id": "research",
             "url": ".//research.html"
         },
         {
-            "id": "gsoc",
-            "url": ".//gsoc.html"
+            "id": "tutorials",
+            "url": ".//tutorials.html"
         },
         {
             "id": "essays",
             "url": ".//essays.html"
         },
         {
-            "id": "tutorials",
-            "url": ".//tutorials.html"
+            "id": "poems",
+            "url": ".//poems.html"
         },
         {
-            "id": "building-before-knowing",
+            "id": "connectome",
             "url": ".././bubbles/stub.html"
         },
         {
             "id": "inferotemporal-cortex",
+            "url": ".././bubbles/stub.html"
+        },
+        {
+            "id": "primary-visual-cortex",
+            "url": ".././bubbles/stub.html"
+        },
+        {
+            "id": "building-before-knowing",
             "url": ".././bubbles/stub.html"
         },
         {
@@ -414,14 +426,6 @@
         },
         {
             "id": "computation",
-            "url": ".././bubbles/stub.html"
-        },
-        {
-            "id": "primary-visual-cortex",
-            "url": ".././bubbles/stub.html"
-        },
-        {
-            "id": "connectome",
             "url": ".././bubbles/stub.html"
         }
     ],

@@ -49,6 +49,10 @@
             "url": ".././bubbles/filas-y-columnas.html"
         },
         {
+            "id": "how-to-read-a-scientific-paper",
+            "url": ".././bubbles/how-to-read-a-scientific-paper.html"
+        },
+        {
             "id": "literature-matrix",
             "url": ".././bubbles/literature-matrix.html"
         },
@@ -373,15 +377,7 @@
             "url": ".././tutorials/wsl2-move-vhdx.html"
         },
         {
-            "id": "building-before-knowing",
-            "url": ".././bubbles/stub.html"
-        },
-        {
-            "id": "inferotemporal-cortex",
-            "url": ".././bubbles/stub.html"
-        },
-        {
-            "id": "intuitive-physics",
+            "id": "connectome",
             "url": ".././bubbles/stub.html"
         },
         {
@@ -389,11 +385,19 @@
             "url": ".././bubbles/stub.html"
         },
         {
-            "id": "computation",
+            "id": "inferotemporal-cortex",
             "url": ".././bubbles/stub.html"
         },
         {
-            "id": "connectome",
+            "id": "building-before-knowing",
+            "url": ".././bubbles/stub.html"
+        },
+        {
+            "id": "intuitive-physics",
+            "url": ".././bubbles/stub.html"
+        },
+        {
+            "id": "computation",
             "url": ".././bubbles/stub.html"
         }
     ],
