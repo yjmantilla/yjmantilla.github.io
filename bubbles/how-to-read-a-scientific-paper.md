@@ -1,12 +1,20 @@
-# How to Read a Scientific Paper Efficiently and Critically
+# Resources Found for paper reading
+
+## How to Read a Paper - S. Keshav
+
+Not summarized yet.
+
+https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf
+
+## How to Read a Scientific Paper Efficiently and Critically
 
 These are just my notes (almost verbatim) from the video "How to Read a Scientific Paper Efficiently and Critically" of the channel "Scientific Writing with Karen L. McKee".
 
 https://youtu.be/lXJeU2dzzWo
 
-## Scenario 1: Reading a single paper
+### Scenario 1: Reading a single paper
 
-### The general scientific paper structure
+#### The general scientific paper structure
 
 - Abstract
 - Introduction
@@ -15,7 +23,7 @@ https://youtu.be/lXJeU2dzzWo
 - Discussion
 - Conclusions
 
-### First Goal: Get an overview of the paper
+#### First Goal: Get an overview of the paper
 
 Check
 
@@ -27,13 +35,13 @@ Why?
 
 Get overall idea of what was found and why the author thinks it is important.
 
-### Scanning figures and tables
+#### Scanning figures and tables
 
 - Basically check if the figures and tables agree with the conclusions or outcome said by the author.
 
 - Strive to get your own impression of the data/evidence before reading the author's interpreation.
 
-### Reading the introduction
+#### Reading the introduction
 
 Read the instruction trying to find answers to the following questions:
 
@@ -44,7 +52,7 @@ Read the instruction trying to find answers to the following questions:
 
 Write the answers to these questions in your own words after reading the introduction.
 
-### How they went about answering their questions?
+#### How they went about answering their questions?
 
 Basically go to the materials and methods part (the methodology)
 
@@ -71,7 +79,7 @@ After reading the methodology ponder about the following questions for some time
 
 Make note of your answers.
 
-### Skim through the results
+#### Skim through the results
 
 Having already scrutinized the figures and tables you already have an idea of the results. The results section thus, adds details or data summaries not readily apparent on the figures and tables.
 
@@ -82,7 +90,7 @@ Answer these questions:
 
 There is nothing wrong with having results not providing complete answers. Nevertheless, if that happens then in the discussion section there should be details about why was this the case.
 
-### Reading the discussions
+#### Reading the discussions
 
 Read and try to find answers to the following questions.
 
@@ -95,7 +103,7 @@ These questions should have been answered by the author in the discussion.
 
 If they dont, the quality of the work or its writing could be improved.
 
-### Rereading the conclusions
+#### Rereading the conclusions
 
 Reread and answer:
 
@@ -105,23 +113,23 @@ Reread and answer:
 - Do the findings have any practical applications?
 - What additional needs to be done in the future?
 
-### Rereading the whole paper
+#### Rereading the whole paper
 
 Useful to corfirm points based on some sections of subsections of the paper.
 
-### This is just one of the many approaches for paper reading
+#### This is just one of the many approaches for paper reading
 
 So, you know.. it works for her.
 
-### Other strategies
+#### Other strategies
 
 - Reading the paper closer from start to finish, and then go back and ask the questions listed previously.
 
-### Main values of reading papers
+#### Main values of reading papers
 
 Be efficient and discerning
 
-## Scenario 2: Reading multiple papers
+### Scenario 2: Reading multiple papers
 
 Reading a set of papers in preparation for writing a paper.
 
