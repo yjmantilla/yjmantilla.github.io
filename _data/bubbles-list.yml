@@ -7,6 +7,8 @@
   title: Art and code
 - link: /bubbles/biomimicry.html
   title: biomimicry
+- link: /bubbles/books.html
+  title: Books
 - link: /bubbles/brain-as-a-computer.html
   title: The brain as a computer paradigm
 - link: /bubbles/cannabis-hallucinations.html
@@ -24,7 +26,7 @@
 - link: /bubbles/filas-y-columnas.html
   title: Sobre las filas y columnas
 - link: /bubbles/how-to-read-a-scientific-paper.html
-  title: How to Read a Scientific Paper Efficiently and Critically
+  title: Resources Found for paper reading
 - link: /bubbles/literature-matrix.html
   title: Literature Matrix
 - link: /bubbles/methods-rather-than-topics.html
@@ -54,3 +56,5 @@
   title: Stub
 - link: /bubbles/thinking-about-code.html
   title: Thinking about code
+- link: /bubbles/writing-a-paper.html
+  title: Writing a paper

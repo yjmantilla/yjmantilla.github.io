@@ -17,6 +17,10 @@
             "url": ".././bubbles/biomimicry.html"
         },
         {
+            "id": "books",
+            "url": ".././bubbles/books.html"
+        },
+        {
             "id": "brain-as-a-computer",
             "url": ".././bubbles/brain-as-a-computer.html"
         },
@@ -107,6 +111,10 @@
         {
             "id": "thinking-about-code",
             "url": ".././bubbles/thinking-about-code.html"
+        },
+        {
+            "id": "writing-a-paper",
+            "url": ".././bubbles/writing-a-paper.html"
         },
         {
             "id": "colmenas-individuos",
@@ -353,6 +361,10 @@
             "url": ".././tutorials/sending-automatic-emails-google-forms.html"
         },
         {
+            "id": "ssh-win10",
+            "url": ".././tutorials/ssh-win10.html"
+        },
+        {
             "id": "sumatra-pdf-dark-mode",
             "url": ".././tutorials/sumatra-pdf-dark-mode.html"
         },
@@ -377,19 +389,11 @@
             "url": ".././tutorials/wsl2-move-vhdx.html"
         },
         {
-            "id": "connectome",
-            "url": ".././bubbles/stub.html"
-        },
-        {
-            "id": "primary-visual-cortex",
-            "url": ".././bubbles/stub.html"
-        },
-        {
             "id": "inferotemporal-cortex",
             "url": ".././bubbles/stub.html"
         },
         {
-            "id": "building-before-knowing",
+            "id": "connectome",
             "url": ".././bubbles/stub.html"
         },
         {
@@ -398,6 +402,14 @@
         },
         {
             "id": "computation",
+            "url": ".././bubbles/stub.html"
+        },
+        {
+            "id": "primary-visual-cortex",
+            "url": ".././bubbles/stub.html"
+        },
+        {
+            "id": "building-before-knowing",
             "url": ".././bubbles/stub.html"
         }
     ],
