@@ -34,6 +34,10 @@ function add_color(palette,gui){
   i=dict_length(palette);palette[i]=[0,0,0];gui.addColor(palette,i).name('color-'+i.toString())
 }
 
+template_palettes = {
+  'fruitsalad':{0:"#00FE4C",1:"#E307AA",2:"#15ACB8",3:"#00F69A",4:"#2C7EED"}
+}
+
 function redefine_colors(trailColors,palette){
   for (var i=0;i < trailColors.length;i++){
     trailColors[i] = randomColor(palette);
@@ -68,12 +72,19 @@ var back = gui.addColor(walkerSystem,'background');
 back.onChange(function(){background(walkerSystem.background);})
 
 var paletteFolder = gui.addFolder('Color Palette');
+walkerSystem['palette-all']=function(){redefine_colors(walkerSystem.walkers_trailColor,'all')}
+paletteFolder.add(walkerSystem,'palette-all')
+
+for (const [key, value] of Object.entries(template_palettes)) {
+  walkerSystem['palette-'+key]=function(){redefine_colors(walkerSystem.walkers_trailColor,value)}
+  paletteFolder.add(walkerSystem,'palette-'+key)
+}
+
+walkerSystem['palette-custom']=function(){redefine_colors(walkerSystem.walkers_trailColor,palette)}
+paletteFolder.add(walkerSystem,'palette-custom')
 walkerSystem['add_color']=function(){add_color(palette,paletteFolder)};
 palette_control = paletteFolder.add(walkerSystem,'add_color').name('add color')
-walkerSystem['custom-palette']=function(){redefine_colors(walkerSystem.walkers_trailColor,palette)}
-walkerSystem['all-palette']=function(){redefine_colors(walkerSystem.walkers_trailColor,'all')}
-paletteFolder.add(walkerSystem,'custom-palette').name('use custom palette')
-paletteFolder.add(walkerSystem,'all-palette').name('use all colors palette')
+
 window.alert(s);
 }
 
