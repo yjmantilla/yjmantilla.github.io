@@ -13,6 +13,8 @@
 - Hamilton
 - Increible Mr Fox
 - Prisoners
+- Love, Death & Robots (2019) - Beyond the Aquila Rift
+- The lives of others
 
 ## Encanto
 
@@ -29,3 +31,7 @@ Some movies did a good job on perturbing me. So, I like the way they did that, b
 - Joker
 - Parasyte
 - Carnage
+
+## Favorite scenes
+
+https://youtube.com/playlist?list=PLhK4xqnociM-FR5rIFBCW8DPkNyp0diZL

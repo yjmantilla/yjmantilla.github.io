@@ -1,19 +1,56 @@
-var walkers = new Array();
 
 var s = 'Tips:\nweird display on mobile?\n(ie controls dont show completely)\nTry switching back and forth between landscape and portrait\nEnjoy!'
 walkerSystem = {numberOfWalkers : 1000,
   walkerSize : 1,
   walkerSpeed : 1,
   restart: function(){background(this.background);},
-  background : [0,0,0]
+  background : [0,0,0],
+  walkers_x : [],
+  walkers_y : [],
+  walkers_trailColor : [],
+  walkers_trailWeight :[]
 }
 
+function walkerStep(walkerSystem,i){
+  var choices = [-1,0,1];
+  choices = choices.map(x => x * walkerSystem['walkerSpeed']);
+  walkerSystem.walkers_x[i] += (random(choices));//upper limit is not included
+  walkerSystem.walkers_y[i] += (random(choices));//playing with theses limits gives bias
+}
 
+function displayWalker(walkerSystem,i){
+  push()
+  //strokeWeight(this.trailWeight);
+  stroke(walkerSystem.walkers_trailColor[i]);
+  point(walkerSystem.walkers_x[i],walkerSystem.walkers_y[i]);
+  pop()
+}
+
+function dict_length(obj) {
+  return Object.keys(obj).length;
+}
+var palette = {}
+function add_color(palette,gui){
+  i=dict_length(palette);palette[i]=[0,0,0];gui.addColor(palette,i).name('color-'+i.toString())
+}
+
+function redefine_colors(trailColors,palette){
+  for (var i=0;i < trailColors.length;i++){
+    trailColors[i] = randomColor(palette);
+  }
+  background(walkerSystem.background);
+}
+
+function randint(min,max){
+  return Math.floor(Math.random() * (max - min) + min);
+}
 function setup() {
   createCanvas(windowWidth, windowHeight);
 for (var i=0;i < walkerSystem.numberOfWalkers;i++){
-  //walkers.push( new Walker(random(width),random(height),randomColor(),random(1,20)));
-  walkers.push( new Walker(random(width),random(height),randomColor(),walkerSystem.walkerSize));
+  walkerSystem.walkers_x.push(random(width)),
+  walkerSystem.walkers_y.push(random(height)),
+  walkerSystem.walkers_trailColor.push(randomColor(palette)),
+  walkerSystem.walkers_trailWeight.push(random(1,20))
 }
 background(walkerSystem.background);
 strokeWeight(5);
@@ -25,10 +62,18 @@ let gui = new dat.GUI({ autoPlace: true, width: 450 });
 gui.add(walkerSystem,'walkerSize',1,50).step(1).name('Size (also left/right arrow)');
 gui.add(walkerSystem,'walkerSpeed',0,50).step(1).name('Speed (also up/down arrow)');
 gui.add(walkerSystem,'restart').name('restart background');
+
 var back = gui.addColor(walkerSystem,'background');
 
 back.onChange(function(){background(walkerSystem.background);})
 
+var paletteFolder = gui.addFolder('Color Palette');
+walkerSystem['add_color']=function(){add_color(palette,paletteFolder)};
+palette_control = paletteFolder.add(walkerSystem,'add_color').name('add color')
+walkerSystem['custom-palette']=function(){redefine_colors(walkerSystem.walkers_trailColor,palette)}
+walkerSystem['all-palette']=function(){redefine_colors(walkerSystem.walkers_trailColor,'all')}
+paletteFolder.add(walkerSystem,'custom-palette').name('use custom palette')
+paletteFolder.add(walkerSystem,'all-palette').name('use all colors palette')
 window.alert(s);
 }
 
@@ -36,48 +81,31 @@ window.alert(s);
 function draw() {
   strokeWeight(walkerSystem.walkerSize);
 for (var i = 0; i < walkerSystem.numberOfWalkers;i++){
-  walkers[i].step();
-  walkers[i].display();
-}
+  walkerStep(walkerSystem,i);
+  displayWalker(walkerSystem,i);
   }
+}
 
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
   background(walkerSystem.background); // for some reason it restarts everything on window resize
   for (var i = 0; i < walkerSystem.numberOfWalkers;i++){
-    walkers[i].xPos = random(width);
-    walkers[i].yPos = random(height);
+    walkerSystem.walkers_x[i] = random(width);
+    walkerSystem.walkers_y[i] = random(height);
   }
   
 }
 
-class Walker {
-  constructor(xPos,yPos,trailColor,trailWeight) {
-    this.xPos = xPos;
-    this.yPos = yPos;
-    this.trailColor = trailColor;
-    this.trailWeight = trailWeight;
-  }
-  
-  step(){
-    var choices = [-1,0,1];
-    choices = choices.map(x => x * walkerSystem.walkerSpeed);
-    this.xPos += (random(choices));//upper limit is not included
-    this.yPos += (random(choices));//playing with theses limits gives bias
-  }
-  
-  display(){
-    push()
-    //strokeWeight(this.trailWeight);
-    stroke(this.trailColor);
-    point(this.xPos,this.yPos);
-    pop()
-  }
-}
-
-function randomColor(){
+function randomColor(palette){
+  if (dict_length(palette)===0 || palette=='all'){
   return color(random(255),random(255),random(255))
+  }
+  else{
+    return color(palette[randint(0,dict_length(palette))])
+  }
+
+
 }
 
 function keyPressed() {
