@@ -1,5 +1,5 @@
 ---
-  title: Field Hockey (in browser)
+  title: Field Hockey (in browser, in development)
   link: https://yjmantilla.github.io/fields_hockey/
   frame: /images/fields-hockey.png
 ---
