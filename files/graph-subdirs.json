@@ -53,6 +53,10 @@
             "url": ".././bubbles/filas-y-columnas.html"
         },
         {
+            "id": "games",
+            "url": ".././bubbles/games.html"
+        },
+        {
             "id": "how-to-read-a-scientific-paper",
             "url": ".././bubbles/how-to-read-a-scientific-paper.html"
         },
@@ -111,6 +115,10 @@
         {
             "id": "thinking-about-code",
             "url": ".././bubbles/thinking-about-code.html"
+        },
+        {
+            "id": "web-videos",
+            "url": ".././bubbles/web-videos.html"
         },
         {
             "id": "writing-a-paper",
@@ -293,8 +301,12 @@
             "url": ".././sims/4campong.html"
         },
         {
-            "id": "5not-air-hockey",
-            "url": ".././sims/5not-air-hockey.html"
+            "id": "5fields-hockey",
+            "url": ".././sims/5fields-hockey.html"
+        },
+        {
+            "id": "6not-air-hockey",
+            "url": ".././sims/6not-air-hockey.html"
         },
         {
             "id": "automatic-unsave-facebook",
@@ -393,31 +405,31 @@
             "url": ".//.html"
         },
         {
-            "id": "essays",
-            "url": ".//essays.html"
-        },
-        {
-            "id": "sims",
-            "url": ".//sims.html"
-        },
-        {
-            "id": "tutorials",
-            "url": ".//tutorials.html"
+            "id": "research",
+            "url": ".//research.html"
         },
         {
             "id": "poems",
             "url": ".//poems.html"
         },
         {
+            "id": "tutorials",
+            "url": ".//tutorials.html"
+        },
+        {
+            "id": "sims",
+            "url": ".//sims.html"
+        },
+        {
+            "id": "essays",
+            "url": ".//essays.html"
+        },
+        {
             "id": "gsoc",
             "url": ".//gsoc.html"
         },
         {
-            "id": "research",
-            "url": ".//research.html"
-        },
-        {
-            "id": "inferotemporal-cortex",
+            "id": "building-before-knowing",
             "url": ".././bubbles/stub.html"
         },
         {
@@ -425,11 +437,11 @@
             "url": ".././bubbles/stub.html"
         },
         {
-            "id": "intuitive-physics",
+            "id": "computation",
             "url": ".././bubbles/stub.html"
         },
         {
-            "id": "computation",
+            "id": "intuitive-physics",
             "url": ".././bubbles/stub.html"
         },
         {
@@ -437,7 +449,7 @@
             "url": ".././bubbles/stub.html"
         },
         {
-            "id": "building-before-knowing",
+            "id": "inferotemporal-cortex",
             "url": ".././bubbles/stub.html"
         }
     ],
@@ -679,7 +691,11 @@
             "target": "sims"
         },
         {
-            "source": "5not-air-hockey",
+            "source": "5fields-hockey",
+            "target": "sims"
+        },
+        {
+            "source": "6not-air-hockey",
             "target": "sims"
         },
         {

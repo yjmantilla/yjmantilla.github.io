@@ -11,6 +11,9 @@
 - frame: /images/campong.png
   link: https://yjmantilla.github.io/juego-pdi/
   title: Campong!
+- frame: /images/fields-hockey.png
+  link: https://yjmantilla.github.io/fields_hockey/
+  title: Field Hockey (in browser)
 - frame: /images/not-air-hockey.png
   link: https://www.youtube.com/watch?v=meLD5UZH6Qk
   title: (Not) Air Hockey!
