@@ -15,6 +15,8 @@
 - Prisoners
 - Love, Death & Robots (2019) - Beyond the Aquila Rift
 - The lives of others
+- The Secret Life of Walter Mitty
+- Into the Wild
 
 ## Encanto
 
