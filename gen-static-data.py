@@ -103,6 +103,7 @@ collect_graph('./',output_path='files/graph-subdirs.json',ignore_in=['_site','_i
 collect_graph('./',output_path='files/graph.json',ignore_in=['_site','_includes','dirs'],ignore_eq=['.','README','bubbles'],subdirs=False)
 collect_stuff('poems')
 collect_stuff('tutorials')
+collect_stuff('wayward')
 collect_stuff('sims')
 collect_stuff('essays')
 collect_stuff('research')

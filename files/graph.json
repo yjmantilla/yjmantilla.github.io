@@ -29,6 +29,14 @@
             "url": ".././bubbles/cannabis-hallucinations.html"
         },
         {
+            "id": "chaos-magick",
+            "url": ".././bubbles/chaos-magick.html"
+        },
+        {
+            "id": "choose-your-battles",
+            "url": ".././bubbles/choose-your-battles.html"
+        },
+        {
             "id": "cognitive-inspired-vs-biologically-inspired",
             "url": ".././bubbles/cognitive-inspired-vs-biologically-inspired.html"
         },
@@ -49,16 +57,64 @@
             "url": ".././bubbles/different-kinds-of-papers.html"
         },
         {
+            "id": "do-dogs-have-regional-accents",
+            "url": ".././bubbles/do-dogs-have-regional-accents.html"
+        },
+        {
+            "id": "fear-of-failure",
+            "url": ".././bubbles/fear-of-failure.html"
+        },
+        {
             "id": "filas-y-columnas",
             "url": ".././bubbles/filas-y-columnas.html"
+        },
+        {
+            "id": "flight-of-ideas-racing-thoughts",
+            "url": ".././bubbles/flight-of-ideas-racing-thoughts.html"
+        },
+        {
+            "id": "focused-and-diffused",
+            "url": ".././bubbles/focused-and-diffused.html"
+        },
+        {
+            "id": "freedom-and-belonging",
+            "url": ".././bubbles/freedom-and-belonging.html"
         },
         {
             "id": "games",
             "url": ".././bubbles/games.html"
         },
         {
+            "id": "graphs-of-graphs",
+            "url": ".././bubbles/graphs-of-graphs.html"
+        },
+        {
+            "id": "hamilton",
+            "url": ".././bubbles/hamilton.html"
+        },
+        {
+            "id": "how-to-learn",
+            "url": ".././bubbles/how-to-learn.html"
+        },
+        {
             "id": "how-to-read-a-scientific-paper",
             "url": ".././bubbles/how-to-read-a-scientific-paper.html"
+        },
+        {
+            "id": "kids-are-pure-potential",
+            "url": ".././bubbles/kids-are-pure-potential.html"
+        },
+        {
+            "id": "knowledge-graph",
+            "url": ".././bubbles/knowledge-graph.html"
+        },
+        {
+            "id": "la-ilogica-de-las-cosas",
+            "url": ".././bubbles/la-ilogica-de-las-cosas.html"
+        },
+        {
+            "id": "life-authentic",
+            "url": ".././bubbles/life-authentic.html"
         },
         {
             "id": "literature-matrix",
@@ -89,8 +145,28 @@
             "url": ".././bubbles/outliers.html"
         },
         {
+            "id": "paralysis-by-analysis",
+            "url": ".././bubbles/paralysis-by-analysis.html"
+        },
+        {
+            "id": "perfection-is-paralyzing",
+            "url": ".././bubbles/perfection-is-paralyzing.html"
+        },
+        {
             "id": "philosophy-jokes",
             "url": ".././bubbles/philosophy-jokes.html"
+        },
+        {
+            "id": "phrase-compression",
+            "url": ".././bubbles/phrase-compression.html"
+        },
+        {
+            "id": "random-matrices-and-brain",
+            "url": ".././bubbles/random-matrices-and-brain.html"
+        },
+        {
+            "id": "rapt-attention",
+            "url": ".././bubbles/rapt-attention.html"
         },
         {
             "id": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
@@ -113,8 +189,36 @@
             "url": ".././bubbles/stub.html"
         },
         {
+            "id": "the-blessing-is-in-the-breaking",
+            "url": ".././bubbles/the-blessing-is-in-the-breaking.html"
+        },
+        {
+            "id": "the-engineers-methodology",
+            "url": ".././bubbles/the-engineers-methodology.html"
+        },
+        {
+            "id": "the-importance-of-sediment",
+            "url": ".././bubbles/the-importance-of-sediment.html"
+        },
+        {
+            "id": "the-minimal-viable-product",
+            "url": ".././bubbles/the-minimal-viable-product.html"
+        },
+        {
+            "id": "the-power-of-emotional-investment",
+            "url": ".././bubbles/the-power-of-emotional-investment.html"
+        },
+        {
             "id": "thinking-about-code",
             "url": ".././bubbles/thinking-about-code.html"
+        },
+        {
+            "id": "understanding-and-innovation",
+            "url": ".././bubbles/understanding-and-innovation.html"
+        },
+        {
+            "id": "visceralization",
+            "url": ".././bubbles/visceralization.html"
         },
         {
             "id": "web-videos",
@@ -123,6 +227,10 @@
         {
             "id": "writing-a-paper",
             "url": ".././bubbles/writing-a-paper.html"
+        },
+        {
+            "id": "writting-during-vs-after-journey",
+            "url": ".././bubbles/writting-during-vs-after-journey.html"
         },
         {
             "id": "colmenas-individuos",
@@ -401,7 +509,31 @@
             "url": ".././tutorials/wsl2-move-vhdx.html"
         },
         {
+            "id": "2023-01-01",
+            "url": ".././wayward/2023-01-01.html"
+        },
+        {
+            "id": "2023-01-02",
+            "url": ".././wayward/2023-01-02.html"
+        },
+        {
+            "id": "you-research-what-strikes-you-deeply",
+            "url": ".././bubbles/stub.html"
+        },
+        {
+            "id": "inferotemporal-cortex",
+            "url": ".././bubbles/stub.html"
+        },
+        {
+            "id": "intuitive-physics",
+            "url": ".././bubbles/stub.html"
+        },
+        {
             "id": "building-before-knowing",
+            "url": ".././bubbles/stub.html"
+        },
+        {
+            "id": "primary-visual-cortex",
             "url": ".././bubbles/stub.html"
         },
         {
@@ -411,18 +543,6 @@
         {
             "id": "computation",
             "url": ".././bubbles/stub.html"
-        },
-        {
-            "id": "intuitive-physics",
-            "url": ".././bubbles/stub.html"
-        },
-        {
-            "id": "primary-visual-cortex",
-            "url": ".././bubbles/stub.html"
-        },
-        {
-            "id": "inferotemporal-cortex",
-            "url": ".././bubbles/stub.html"
         }
     ],
     "links": [
@@ -431,12 +551,24 @@
             "target": "intuitive-physics"
         },
         {
+            "source": "la-ilogica-de-las-cosas",
+            "target": "chaos-magick"
+        },
+        {
             "source": "notetaking",
             "target": "outliers"
         },
         {
             "source": "outliers",
             "target": "notetaking"
+        },
+        {
+            "source": "perfection-is-paralyzing",
+            "target": "paralysis-by-analysis"
+        },
+        {
+            "source": "perfection-is-paralyzing",
+            "target": "fear-of-failure"
         },
         {
             "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
@@ -487,12 +619,120 @@
             "target": "computation"
         },
         {
+            "source": "the-minimal-viable-product",
+            "target": "paralysis-by-analysis"
+        },
+        {
+            "source": "the-minimal-viable-product",
+            "target": "perfection-is-paralyzing"
+        },
+        {
             "source": "local-jekyll",
             "target": "foam"
         },
         {
             "source": "local-jekyll",
             "target": "notetaking"
+        },
+        {
+            "source": "2023-01-01",
+            "target": "you-research-what-strikes-you-deeply"
+        },
+        {
+            "source": "2023-01-01",
+            "target": "understanding-and-innovation"
+        },
+        {
+            "source": "2023-01-01",
+            "target": "the-power-of-emotional-investment"
+        },
+        {
+            "source": "2023-01-01",
+            "target": "fear-of-failure"
+        },
+        {
+            "source": "2023-01-01",
+            "target": "paralysis-by-analysis"
+        },
+        {
+            "source": "2023-01-01",
+            "target": "kids-are-pure-potential"
+        },
+        {
+            "source": "2023-01-01",
+            "target": "the-blessing-is-in-the-breaking"
+        },
+        {
+            "source": "2023-01-01",
+            "target": "hamilton"
+        },
+        {
+            "source": "2023-01-01",
+            "target": "rapt-attention"
+        },
+        {
+            "source": "2023-01-01",
+            "target": "life-authentic"
+        },
+        {
+            "source": "2023-01-01",
+            "target": "notetaking"
+        },
+        {
+            "source": "2023-01-01",
+            "target": "scientific-writing-with-karen-mckee"
+        },
+        {
+            "source": "2023-01-01",
+            "target": "how-to-learn"
+        },
+        {
+            "source": "2023-01-01",
+            "target": "focused-and-diffused"
+        },
+        {
+            "source": "2023-01-01",
+            "target": "visceralization"
+        },
+        {
+            "source": "2023-01-01",
+            "target": "knowledge-graph"
+        },
+        {
+            "source": "2023-01-01",
+            "target": "phrase-compression"
+        },
+        {
+            "source": "2023-01-01",
+            "target": "flight-of-ideas-racing-thoughts"
+        },
+        {
+            "source": "2023-01-01",
+            "target": "writting-during-vs-after-journey"
+        },
+        {
+            "source": "2023-01-01",
+            "target": "flight-of-ideas-racing-thoughts"
+        },
+        {
+            "source": "2023-01-02",
+            "target": "flight-of-ideas-racing-thoughts"
+        },
+        {
+            "source": "2023-01-02",
+            "target": "perfection-is-paralyzing"
+        },
+        {
+            "source": "2023-01-02",
+            "target": "fear-of-failure"
+        },
+        {
+            "source": "2023-01-02",
+            "target": "the-power-of-emotional-investment"
+        },
+        {
+            "source": "2023-01-02",
+            "target": "2023-01-01"
         }
     ]
 }
