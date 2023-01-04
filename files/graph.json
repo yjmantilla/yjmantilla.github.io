@@ -525,19 +525,11 @@
             "url": ".././wayward/2023-01-03"
         },
         {
-            "id": "connectome",
-            "url": ".././bubbles/stub"
-        },
-        {
             "id": "you-research-what-strikes-you-deeply",
             "url": ".././bubbles/stub"
         },
         {
-            "id": "primary-visual-cortex",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "building-before-knowing",
+            "id": "connectome",
             "url": ".././bubbles/stub"
         },
         {
@@ -545,11 +537,19 @@
             "url": ".././bubbles/stub"
         },
         {
+            "id": "computation",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "primary-visual-cortex",
+            "url": ".././bubbles/stub"
+        },
+        {
             "id": "inferotemporal-cortex",
             "url": ".././bubbles/stub"
         },
         {
-            "id": "computation",
+            "id": "building-before-knowing",
             "url": ".././bubbles/stub"
         }
     ],
