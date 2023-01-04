@@ -12,7 +12,7 @@ Ehh si, instalalo... [este](https://www.sumatrapdfreader.org/free-pdf-reader) es
 
 En mi caso estaba en ```"C:\Users\user\AppData\Roaming\SumatraPDF\SumatraPDF-settings.txt"```
 
-![](2021-05-16-20-16-34.png)
+![](/images/sumatra-pdf-dark-mode/2021-05-16-20-16-34.png)
 
 ## 3. Editar el archivo
 
@@ -22,7 +22,7 @@ Las 3 variables de interes son:
     BackgroundColor = #ffffff
     SelectionColor = #00ff00
 ```
-![](2021-05-16-20-18-19.png)
+![](/images/sumatra-pdf-dark-mode/2021-05-16-20-18-19.png)
 
 El fondo será BackgroundColor. Poner un color oscuro.
 El texto será TextColor. Poner un color que resalte con el fondo, por ejemplo verde claro.
@@ -37,21 +37,21 @@ BackgroundColor Negro --> #000000
 TextColor Verde --> #00FF00
 SelectionColor Magenta --> #FF00FF
 ```
-![](2021-05-16-20-39-35.png)
+![](/images/sumatra-pdf-dark-mode/2021-05-16-20-39-35.png)
 
 ### Antes
 
-![](2021-05-16-20-41-50.png)
+![](/images/sumatra-pdf-dark-mode/2021-05-16-20-41-50.png)
 
 De Street-Fighting Mathematics - The Art of Educated Guessing and Opportunistic Problem Solving.pdf
 
-![](2021-05-16-20-37-20.png)
+![](/images/sumatra-pdf-dark-mode/2021-05-16-20-37-20.png)
 
 De Luigi Serafini - Codex Seraphinianus-Abbeville Press (1983).djvu
 
 ### Despues
-![](2021-05-16-20-34-40.png)
+![](/images/sumatra-pdf-dark-mode/2021-05-16-20-34-40.png)
 
 Esto tambien afecta imágenes:
 
-![](2021-05-16-20-37-01.png)
+![](/images/sumatra-pdf-dark-mode/2021-05-16-20-37-01.png)

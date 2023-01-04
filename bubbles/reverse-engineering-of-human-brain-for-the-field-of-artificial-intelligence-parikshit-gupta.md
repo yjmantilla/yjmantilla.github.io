@@ -52,7 +52,7 @@ Despite the simplification of [humans having only 5 senses](https://www.sciencef
 
 - The author gives a high-level abstraction of the human brain reminiscent of an input/ouput model but using receptor and effector terminology and with feedback loops.
 
-![](reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta/2021-12-27-01-22-49.png)
+![](/images/reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta/2021-12-27-01-22-49.png)
 
 >image from the aforementioned article, CC BY 4.0
 

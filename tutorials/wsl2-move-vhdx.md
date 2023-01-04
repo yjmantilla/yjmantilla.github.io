@@ -28,7 +28,7 @@ wsl -l -v
 
 ## Example
 
-![example](2021-06-03-19-32-22.png)
+![example](/images/wsl2-move-vhdx/2021-06-03-19-32-22.png)
 
 Note you have to put the .tar, otherwise the access is denied at the beginning happens.
 
