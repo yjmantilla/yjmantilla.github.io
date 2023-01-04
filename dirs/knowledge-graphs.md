@@ -8,7 +8,7 @@ graphs :
       title: Graph without Categories
 ---
 
-For Brave browser the graphs dont work correctly (see [[force-graph-in-brave-browser-bug]])
+For Brave browser the graphs dont work correctly, [fix here](.././tutorials/force-graph-in-brave-browser-bug).
 
 <ul>
    {% for item in page.graphs %}
