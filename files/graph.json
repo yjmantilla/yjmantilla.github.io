@@ -521,15 +521,19 @@
             "url": ".././wayward/2023-01-02"
         },
         {
+            "id": "2023-01-03",
+            "url": ".././wayward/2023-01-03"
+        },
+        {
+            "id": "you-research-what-strikes-you-deeply",
+            "url": ".././bubbles/stub"
+        },
+        {
             "id": "building-before-knowing",
             "url": ".././bubbles/stub"
         },
         {
-            "id": "primary-visual-cortex",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "intuitive-physics",
+            "id": "inferotemporal-cortex",
             "url": ".././bubbles/stub"
         },
         {
@@ -541,11 +545,11 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "you-research-what-strikes-you-deeply",
+            "id": "primary-visual-cortex",
             "url": ".././bubbles/stub"
         },
         {
-            "id": "inferotemporal-cortex",
+            "id": "intuitive-physics",
             "url": ".././bubbles/stub"
         }
     ],
@@ -737,6 +741,10 @@
         {
             "source": "2023-01-02",
             "target": "2023-01-01"
+        },
+        {
+            "source": "2023-01-03",
+            "target": "foam"
         }
     ]
 }
