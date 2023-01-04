@@ -529,15 +529,7 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "intuitive-physics",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "computation",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "building-before-knowing",
+            "id": "you-research-what-strikes-you-deeply",
             "url": ".././bubbles/stub"
         },
         {
@@ -545,11 +537,19 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "you-research-what-strikes-you-deeply",
+            "id": "building-before-knowing",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "intuitive-physics",
             "url": ".././bubbles/stub"
         },
         {
             "id": "inferotemporal-cortex",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "computation",
             "url": ".././bubbles/stub"
         }
     ],
@@ -745,6 +745,10 @@
         {
             "source": "2023-01-03",
             "target": "foam"
+        },
+        {
+            "source": "2023-01-03",
+            "target": "2023-01-02"
         }
     ]
 }

@@ -537,43 +537,27 @@
             "url": ".//tutorials"
         },
         {
-            "id": "research",
-            "url": ".//research"
-        },
-        {
             "id": "poems",
             "url": ".//poems"
-        },
-        {
-            "id": "sims",
-            "url": ".//sims"
         },
         {
             "id": "essays",
             "url": ".//essays"
         },
         {
+            "id": "sims",
+            "url": ".//sims"
+        },
+        {
             "id": "gsoc",
             "url": ".//gsoc"
         },
         {
+            "id": "research",
+            "url": ".//research"
+        },
+        {
             "id": "connectome",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "intuitive-physics",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "computation",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "building-before-knowing",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "primary-visual-cortex",
             "url": ".././bubbles/stub"
         },
         {
@@ -581,7 +565,23 @@
             "url": ".././bubbles/stub"
         },
         {
+            "id": "primary-visual-cortex",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "building-before-knowing",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "intuitive-physics",
+            "url": ".././bubbles/stub"
+        },
+        {
             "id": "inferotemporal-cortex",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "computation",
             "url": ".././bubbles/stub"
         }
     ],
@@ -1065,6 +1065,10 @@
         {
             "source": "2023-01-03",
             "target": "foam"
+        },
+        {
+            "source": "2023-01-03",
+            "target": "2023-01-02"
         },
         {
             "source": "2023-01-03",
