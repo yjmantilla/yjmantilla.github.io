@@ -18,6 +18,7 @@ Code
 
 You can find me on yjmantilla@gmail.com
 Instagram: https://www.instagram.com/yjmantilla/
+Google Scholar: https://scholar.google.com/citations?user=9W-bHVkAAAAJ
 ```
 <!-- Prototype Wave Height -->
 [Original image from False Knees](https://tapas.io/episode/954630)

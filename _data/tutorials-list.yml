@@ -15,6 +15,8 @@
   title: Fixed order for automatic yaml lists
 - link: /tutorials/foam.html
   title: Foam
+- link: /tutorials/force-graph-in-brave-browser-bug.html
+  title: Force graph bug in Brave Browser
 - link: /tutorials/git-for-windows-with-conda.html
   title: Git for windows with conda
 - frame: /images/music-ica.png

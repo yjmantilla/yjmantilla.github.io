@@ -449,6 +449,10 @@
             "url": ".././tutorials/foam.html"
         },
         {
+            "id": "force-graph-in-brave-browser-bug",
+            "url": ".././tutorials/force-graph-in-brave-browser-bug.html"
+        },
+        {
             "id": "git-for-windows-with-conda",
             "url": ".././tutorials/git-for-windows-with-conda.html"
         },
@@ -517,11 +521,15 @@
             "url": ".././wayward/2023-01-02.html"
         },
         {
-            "id": "inferotemporal-cortex",
+            "id": "you-research-what-strikes-you-deeply",
             "url": ".././bubbles/stub.html"
         },
         {
-            "id": "primary-visual-cortex",
+            "id": "intuitive-physics",
+            "url": ".././bubbles/stub.html"
+        },
+        {
+            "id": "inferotemporal-cortex",
             "url": ".././bubbles/stub.html"
         },
         {
@@ -533,11 +541,7 @@
             "url": ".././bubbles/stub.html"
         },
         {
-            "id": "you-research-what-strikes-you-deeply",
-            "url": ".././bubbles/stub.html"
-        },
-        {
-            "id": "intuitive-physics",
+            "id": "primary-visual-cortex",
             "url": ".././bubbles/stub.html"
         },
         {

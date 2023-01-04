@@ -449,6 +449,10 @@
             "url": ".././tutorials/foam.html"
         },
         {
+            "id": "force-graph-in-brave-browser-bug",
+            "url": ".././tutorials/force-graph-in-brave-browser-bug.html"
+        },
+        {
             "id": "git-for-windows-with-conda",
             "url": ".././tutorials/git-for-windows-with-conda.html"
         },
@@ -521,14 +525,6 @@
             "url": ".//.html"
         },
         {
-            "id": "poems",
-            "url": ".//poems.html"
-        },
-        {
-            "id": "sims",
-            "url": ".//sims.html"
-        },
-        {
             "id": "tutorials",
             "url": ".//tutorials.html"
         },
@@ -537,23 +533,35 @@
             "url": ".//essays.html"
         },
         {
+            "id": "wayward",
+            "url": ".//wayward.html"
+        },
+        {
+            "id": "poems",
+            "url": ".//poems.html"
+        },
+        {
             "id": "gsoc",
             "url": ".//gsoc.html"
+        },
+        {
+            "id": "sims",
+            "url": ".//sims.html"
         },
         {
             "id": "research",
             "url": ".//research.html"
         },
         {
-            "id": "wayward",
-            "url": ".//wayward.html"
-        },
-        {
-            "id": "inferotemporal-cortex",
+            "id": "you-research-what-strikes-you-deeply",
             "url": ".././bubbles/stub.html"
         },
         {
-            "id": "primary-visual-cortex",
+            "id": "intuitive-physics",
+            "url": ".././bubbles/stub.html"
+        },
+        {
+            "id": "inferotemporal-cortex",
             "url": ".././bubbles/stub.html"
         },
         {
@@ -565,11 +573,7 @@
             "url": ".././bubbles/stub.html"
         },
         {
-            "id": "you-research-what-strikes-you-deeply",
-            "url": ".././bubbles/stub.html"
-        },
-        {
-            "id": "intuitive-physics",
+            "id": "primary-visual-cortex",
             "url": ".././bubbles/stub.html"
         },
         {
@@ -872,6 +876,10 @@
         },
         {
             "source": "foam",
+            "target": "tutorials"
+        },
+        {
+            "source": "force-graph-in-brave-browser-bug",
             "target": "tutorials"
         },
         {
