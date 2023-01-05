@@ -597,24 +597,20 @@
             "url": ".//"
         },
         {
-            "id": "gsoc",
-            "url": ".//gsoc"
-        },
-        {
             "id": "poems",
             "url": ".//poems"
         },
         {
-            "id": "sims",
-            "url": ".//sims"
+            "id": "research",
+            "url": ".//research"
         },
         {
             "id": "essays",
             "url": ".//essays"
         },
         {
-            "id": "research",
-            "url": ".//research"
+            "id": "gsoc",
+            "url": ".//gsoc"
         },
         {
             "id": "tutorials",
@@ -625,11 +621,11 @@
             "url": ".//wayward"
         },
         {
-            "id": "computation",
-            "url": ".././bubbles/stub"
+            "id": "sims",
+            "url": ".//sims"
         },
         {
-            "id": "you-research-what-strikes-you-deeply",
+            "id": "connectome",
             "url": ".././bubbles/stub"
         },
         {
@@ -637,7 +633,7 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "primary-visual-cortex",
+            "id": "you-research-what-strikes-you-deeply",
             "url": ".././bubbles/stub"
         },
         {
@@ -645,11 +641,15 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "connectome",
+            "id": "computation",
             "url": ".././bubbles/stub"
         },
         {
             "id": "intuitive-physics",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "primary-visual-cortex",
             "url": ".././bubbles/stub"
         }
     ],
