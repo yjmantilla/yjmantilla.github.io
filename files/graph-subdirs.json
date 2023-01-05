@@ -597,39 +597,43 @@
             "url": ".//"
         },
         {
-            "id": "poems",
-            "url": ".//poems"
-        },
-        {
-            "id": "wayward",
-            "url": ".//wayward"
-        },
-        {
-            "id": "essays",
-            "url": ".//essays"
-        },
-        {
             "id": "gsoc",
             "url": ".//gsoc"
+        },
+        {
+            "id": "poems",
+            "url": ".//poems"
         },
         {
             "id": "sims",
             "url": ".//sims"
         },
         {
-            "id": "tutorials",
-            "url": ".//tutorials"
+            "id": "essays",
+            "url": ".//essays"
         },
         {
             "id": "research",
             "url": ".//research"
         },
         {
-            "id": "intuitive-physics",
+            "id": "tutorials",
+            "url": ".//tutorials"
+        },
+        {
+            "id": "wayward",
+            "url": ".//wayward"
+        },
+        {
+            "id": "computation",
             "url": ".././bubbles/stub"
         },
         {
             "id": "you-research-what-strikes-you-deeply",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "inferotemporal-cortex",
             "url": ".././bubbles/stub"
         },
         {
@@ -641,15 +645,11 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "inferotemporal-cortex",
-            "url": ".././bubbles/stub"
-        },
-        {
             "id": "connectome",
             "url": ".././bubbles/stub"
         },
         {
-            "id": "computation",
+            "id": "intuitive-physics",
             "url": ".././bubbles/stub"
         }
     ],
@@ -1229,6 +1229,10 @@
         {
             "source": "2023-01-04",
             "target": "curiosity-jumping"
+        },
+        {
+            "source": "2023-01-04",
+            "target": "how-to-learn"
         },
         {
             "source": "2023-01-04",
