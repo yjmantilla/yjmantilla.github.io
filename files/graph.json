@@ -593,19 +593,15 @@
             "url": ".././wayward/2023-01-04"
         },
         {
+            "id": "building-before-knowing",
+            "url": ".././bubbles/stub"
+        },
+        {
             "id": "connectome",
             "url": ".././bubbles/stub"
         },
         {
-            "id": "inferotemporal-cortex",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "you-research-what-strikes-you-deeply",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "building-before-knowing",
+            "id": "computation",
             "url": ".././bubbles/stub"
         },
         {
@@ -617,11 +613,15 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "computation",
+            "id": "primary-visual-cortex",
             "url": ".././bubbles/stub"
         },
         {
-            "id": "primary-visual-cortex",
+            "id": "inferotemporal-cortex",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "you-research-what-strikes-you-deeply",
             "url": ".././bubbles/stub"
         }
     ],

@@ -597,47 +597,39 @@
             "url": ".//"
         },
         {
-            "id": "poems",
-            "url": ".//poems"
-        },
-        {
             "id": "research",
             "url": ".//research"
-        },
-        {
-            "id": "essays",
-            "url": ".//essays"
-        },
-        {
-            "id": "gsoc",
-            "url": ".//gsoc"
         },
         {
             "id": "tutorials",
             "url": ".//tutorials"
         },
         {
+            "id": "poems",
+            "url": ".//poems"
+        },
+        {
             "id": "wayward",
             "url": ".//wayward"
+        },
+        {
+            "id": "gsoc",
+            "url": ".//gsoc"
+        },
+        {
+            "id": "essays",
+            "url": ".//essays"
         },
         {
             "id": "sims",
             "url": ".//sims"
         },
         {
-            "id": "connectome",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "inferotemporal-cortex",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "you-research-what-strikes-you-deeply",
-            "url": ".././bubbles/stub"
-        },
-        {
             "id": "building-before-knowing",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "connectome",
             "url": ".././bubbles/stub"
         },
         {
@@ -650,6 +642,14 @@
         },
         {
             "id": "primary-visual-cortex",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "inferotemporal-cortex",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "you-research-what-strikes-you-deeply",
             "url": ".././bubbles/stub"
         }
     ],
