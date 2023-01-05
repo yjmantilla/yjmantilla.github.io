@@ -597,8 +597,8 @@
             "url": ".//"
         },
         {
-            "id": "research",
-            "url": ".//research"
+            "id": "sims",
+            "url": ".//sims"
         },
         {
             "id": "tutorials",
@@ -609,10 +609,6 @@
             "url": ".//poems"
         },
         {
-            "id": "wayward",
-            "url": ".//wayward"
-        },
-        {
             "id": "gsoc",
             "url": ".//gsoc"
         },
@@ -621,19 +617,15 @@
             "url": ".//essays"
         },
         {
-            "id": "sims",
-            "url": ".//sims"
+            "id": "wayward",
+            "url": ".//wayward"
         },
         {
-            "id": "building-before-knowing",
-            "url": ".././bubbles/stub"
+            "id": "research",
+            "url": ".//research"
         },
         {
-            "id": "connectome",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "computation",
+            "id": "you-research-what-strikes-you-deeply",
             "url": ".././bubbles/stub"
         },
         {
@@ -641,7 +633,15 @@
             "url": ".././bubbles/stub"
         },
         {
+            "id": "building-before-knowing",
+            "url": ".././bubbles/stub"
+        },
+        {
             "id": "primary-visual-cortex",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "connectome",
             "url": ".././bubbles/stub"
         },
         {
@@ -649,7 +649,7 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "you-research-what-strikes-you-deeply",
+            "id": "computation",
             "url": ".././bubbles/stub"
         }
     ],
