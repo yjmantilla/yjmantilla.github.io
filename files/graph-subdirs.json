@@ -1,6 +1,14 @@
 {
     "nodes": [
         {
+            "id": "aesthethic-of-deepness",
+            "url": ".././bubbles/aesthethic-of-deepness"
+        },
+        {
+            "id": "aesthethic-of-failure",
+            "url": ".././bubbles/aesthethic-of-failure"
+        },
+        {
             "id": "ai-4-health",
             "url": ".././bubbles/ai-4-health"
         },
@@ -9,8 +17,16 @@
             "url": ".././bubbles/ai-and-science"
         },
         {
+            "id": "archeology-of-knowledge",
+            "url": ".././bubbles/archeology-of-knowledge"
+        },
+        {
             "id": "art-and-code",
             "url": ".././bubbles/art-and-code"
+        },
+        {
+            "id": "bestiary",
+            "url": ".././bubbles/bestiary"
         },
         {
             "id": "biomimicry",
@@ -49,6 +65,10 @@
             "url": ".././bubbles/cs-lewis-suppose-story-enemy"
         },
         {
+            "id": "curiosity-jumping",
+            "url": ".././bubbles/curiosity-jumping"
+        },
+        {
             "id": "diagrams-and-their-usage",
             "url": ".././bubbles/diagrams-and-their-usage"
         },
@@ -59,6 +79,10 @@
         {
             "id": "do-dogs-have-regional-accents",
             "url": ".././bubbles/do-dogs-have-regional-accents"
+        },
+        {
+            "id": "doodles",
+            "url": ".././bubbles/doodles"
         },
         {
             "id": "fear-of-failure",
@@ -75,6 +99,10 @@
         {
             "id": "focused-and-diffused",
             "url": ".././bubbles/focused-and-diffused"
+        },
+        {
+            "id": "for-the-sake-of-play",
+            "url": ".././bubbles/for-the-sake-of-play"
         },
         {
             "id": "freedom-and-belonging",
@@ -105,6 +133,10 @@
             "url": ".././bubbles/kids-are-pure-potential"
         },
         {
+            "id": "knowledge-cartography",
+            "url": ".././bubbles/knowledge-cartography"
+        },
+        {
             "id": "knowledge-graph",
             "url": ".././bubbles/knowledge-graph"
         },
@@ -119,6 +151,14 @@
         {
             "id": "literature-matrix",
             "url": ".././bubbles/literature-matrix"
+        },
+        {
+            "id": "memory-retention",
+            "url": ".././bubbles/memory-retention"
+        },
+        {
+            "id": "mere-exposure-effect",
+            "url": ".././bubbles/mere-exposure-effect"
         },
         {
             "id": "methods-rather-than-topics",
@@ -137,12 +177,20 @@
             "url": ".././bubbles/neuro-ai"
         },
         {
+            "id": "neuroscience-of-curiosity",
+            "url": ".././bubbles/neuroscience-of-curiosity"
+        },
+        {
             "id": "notetaking",
             "url": ".././bubbles/notetaking"
         },
         {
             "id": "outliers",
             "url": ".././bubbles/outliers"
+        },
+        {
+            "id": "overheating",
+            "url": ".././bubbles/overheating"
         },
         {
             "id": "paralysis-by-analysis",
@@ -159,6 +207,14 @@
         {
             "id": "phrase-compression",
             "url": ".././bubbles/phrase-compression"
+        },
+        {
+            "id": "por-las-ramas",
+            "url": ".././bubbles/por-las-ramas"
+        },
+        {
+            "id": "problem-solvingly",
+            "url": ".././bubbles/problem-solvingly"
         },
         {
             "id": "random-matrices-and-brain",
@@ -213,6 +269,10 @@
             "url": ".././bubbles/thinking-about-code"
         },
         {
+            "id": "to-do",
+            "url": ".././bubbles/to-do"
+        },
+        {
             "id": "understanding-and-innovation",
             "url": ".././bubbles/understanding-and-innovation"
         },
@@ -227,6 +287,10 @@
         {
             "id": "writing-a-paper",
             "url": ".././bubbles/writing-a-paper"
+        },
+        {
+            "id": "writing-and-thinking",
+            "url": ".././bubbles/writing-and-thinking"
         },
         {
             "id": "writting-during-vs-after-journey",
@@ -525,20 +589,12 @@
             "url": ".././wayward/2023-01-03"
         },
         {
+            "id": "2023-01-04",
+            "url": ".././wayward/2023-01-04"
+        },
+        {
             "id": "",
             "url": ".//"
-        },
-        {
-            "id": "tutorials",
-            "url": ".//tutorials"
-        },
-        {
-            "id": "gsoc",
-            "url": ".//gsoc"
-        },
-        {
-            "id": "research",
-            "url": ".//research"
         },
         {
             "id": "poems",
@@ -553,23 +609,27 @@
             "url": ".//essays"
         },
         {
+            "id": "gsoc",
+            "url": ".//gsoc"
+        },
+        {
             "id": "sims",
             "url": ".//sims"
         },
         {
-            "id": "you-research-what-strikes-you-deeply",
-            "url": ".././bubbles/stub"
+            "id": "tutorials",
+            "url": ".//tutorials"
         },
         {
-            "id": "connectome",
-            "url": ".././bubbles/stub"
+            "id": "research",
+            "url": ".//research"
         },
         {
             "id": "intuitive-physics",
             "url": ".././bubbles/stub"
         },
         {
-            "id": "computation",
+            "id": "you-research-what-strikes-you-deeply",
             "url": ".././bubbles/stub"
         },
         {
@@ -577,30 +637,90 @@
             "url": ".././bubbles/stub"
         },
         {
+            "id": "building-before-knowing",
+            "url": ".././bubbles/stub"
+        },
+        {
             "id": "inferotemporal-cortex",
             "url": ".././bubbles/stub"
         },
         {
-            "id": "building-before-knowing",
+            "id": "connectome",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "computation",
             "url": ".././bubbles/stub"
         }
     ],
     "links": [
         {
+            "source": "aesthethic-of-deepness",
+            "target": "curiosity-jumping"
+        },
+        {
+            "source": "aesthethic-of-deepness",
+            "target": "archeology-of-knowledge"
+        },
+        {
             "source": "convencion-signos-optica",
             "target": "intuitive-physics"
         },
         {
+            "source": "curiosity-jumping",
+            "target": "focused-and-diffused"
+        },
+        {
+            "source": "curiosity-jumping",
+            "target": "wayward"
+        },
+        {
+            "source": "curiosity-jumping",
+            "target": "for-the-sake-of-play"
+        },
+        {
+            "source": "how-to-learn",
+            "target": "the-power-of-emotional-investment"
+        },
+        {
+            "source": "how-to-learn",
+            "target": "problem-solvingly"
+        },
+        {
+            "source": "how-to-learn",
+            "target": "aesthethic-of-deepness"
+        },
+        {
+            "source": "how-to-learn",
+            "target": "por-las-ramas"
+        },
+        {
+            "source": "how-to-learn",
+            "target": "flight-of-ideas-racing-thoughts"
+        },
+        {
+            "source": "how-to-learn",
+            "target": "curiosity-jumping"
+        },
+        {
+            "source": "how-to-learn",
+            "target": "mere-exposure-effect"
+        },
+        {
+            "source": "how-to-learn",
+            "target": "focused-and-diffused"
+        },
+        {
+            "source": "how-to-learn",
+            "target": "memory-retention"
+        },
+        {
+            "source": "knowledge-graph",
+            "target": "knowledge-cartography"
+        },
+        {
             "source": "la-ilogica-de-las-cosas",
             "target": "chaos-magick"
-        },
-        {
-            "source": "notetaking",
-            "target": "outliers"
-        },
-        {
-            "source": "outliers",
-            "target": "notetaking"
         },
         {
             "source": "perfection-is-paralyzing",
@@ -655,6 +775,10 @@
             "target": "inferotemporal-cortex"
         },
         {
+            "source": "scientific-writing-with-karen-mckee",
+            "target": "writing-and-thinking"
+        },
+        {
             "source": "soft-vs-hard-computing",
             "target": "computation"
         },
@@ -665,6 +789,18 @@
         {
             "source": "the-minimal-viable-product",
             "target": "perfection-is-paralyzing"
+        },
+        {
+            "source": "the-power-of-emotional-investment",
+            "target": "neuroscience-of-curiosity"
+        },
+        {
+            "source": "to-do",
+            "target": "curiosity-jumping"
+        },
+        {
+            "source": "writing-and-thinking",
+            "target": "knowledge-graph"
         },
         {
             "source": "colmenas-individuos",
@@ -1040,6 +1176,10 @@
         },
         {
             "source": "2023-01-02",
+            "target": "2023-01-01"
+        },
+        {
+            "source": "2023-01-02",
             "target": "flight-of-ideas-racing-thoughts"
         },
         {
@@ -1056,15 +1196,7 @@
         },
         {
             "source": "2023-01-02",
-            "target": "2023-01-01"
-        },
-        {
-            "source": "2023-01-02",
             "target": "wayward"
-        },
-        {
-            "source": "2023-01-03",
-            "target": "foam"
         },
         {
             "source": "2023-01-03",
@@ -1072,6 +1204,34 @@
         },
         {
             "source": "2023-01-03",
+            "target": "foam"
+        },
+        {
+            "source": "2023-01-03",
+            "target": "wayward"
+        },
+        {
+            "source": "2023-01-04",
+            "target": "2023-01-03"
+        },
+        {
+            "source": "2023-01-04",
+            "target": "overheating"
+        },
+        {
+            "source": "2023-01-04",
+            "target": "bestiary"
+        },
+        {
+            "source": "2023-01-04",
+            "target": "archeology-of-knowledge"
+        },
+        {
+            "source": "2023-01-04",
+            "target": "curiosity-jumping"
+        },
+        {
+            "source": "2023-01-04",
             "target": "wayward"
         }
     ]

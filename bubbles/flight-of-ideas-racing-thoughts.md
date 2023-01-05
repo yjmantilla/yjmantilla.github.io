@@ -7,3 +7,6 @@ https://www.huffpost.com/entry/mind-wandering-creativity-mental-illness_n_5818ac
 https://www.verywellmind.com/what-are-racing-thoughts-378823
 
 https://www.verywellmind.com/flight-of-ideas-380318
+
+
+- People on pot cannot focus on faces (once heard from Gustavo.)?

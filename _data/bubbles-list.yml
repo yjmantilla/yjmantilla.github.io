@@ -1,10 +1,18 @@
 ---
+- link: /bubbles/aesthethic-of-deepness.html
+  title: aesthethic-of-deepness
+- link: /bubbles/aesthethic-of-failure.html
+  title: Aesthethic of failure
 - link: /bubbles/ai-4-health.html
   title: AI for health
 - link: /bubbles/ai-and-science.html
   title: AI and science
+- link: /bubbles/archeology-of-knowledge.html
+  title: archeology-of-knowledge
 - link: /bubbles/art-and-code.html
   title: Art and code
+- link: /bubbles/bestiary.html
+  title: bestiary
 - link: /bubbles/biomimicry.html
   title: biomimicry
 - link: /bubbles/books.html
@@ -23,12 +31,16 @@
   title: Una regla fácil para recordar los signos en óptica geométrica
 - link: /bubbles/cs-lewis-suppose-story-enemy.html
   title: cs-lewis-suppose-story-enemy
+- link: /bubbles/curiosity-jumping.html
+  title: Curiosity Jumping
 - link: /bubbles/diagrams-and-their-usage.html
   title: diagrams-and-their-usage
 - link: /bubbles/different-kinds-of-papers.html
   title: Different kinds of papers
 - link: /bubbles/do-dogs-have-regional-accents.html
   title: do-dogs-have-regional-accents
+- link: /bubbles/doodles.html
+  title: Doodles
 - link: /bubbles/fear-of-failure.html
   title: fear-of-failure
 - link: /bubbles/filas-y-columnas.html
@@ -37,6 +49,8 @@
   title: flight-of-ideas-racing-thoughts
 - link: /bubbles/focused-and-diffused.html
   title: focused-and-diffused
+- link: /bubbles/for-the-sake-of-play.html
+  title: for-the-sake-of-play
 - link: /bubbles/freedom-and-belonging.html
   title: freedom-and-belonging
 - link: /bubbles/games.html
@@ -46,11 +60,13 @@
 - link: /bubbles/hamilton.html
   title: hamilton
 - link: /bubbles/how-to-learn.html
-  title: how-to-learn
+  title: How to learn
 - link: /bubbles/how-to-read-a-scientific-paper.html
   title: Resources Found for paper reading
 - link: /bubbles/kids-are-pure-potential.html
   title: kids-are-pure-potential
+- link: /bubbles/knowledge-cartography.html
+  title: knowledge-cartography
 - link: /bubbles/knowledge-graph.html
   title: knowledge-graph
 - link: /bubbles/la-ilogica-de-las-cosas.html
@@ -59,6 +75,10 @@
   title: life-authentic
 - link: /bubbles/literature-matrix.html
   title: Literature Matrix
+- link: /bubbles/memory-retention.html
+  title: memory-retention
+- link: /bubbles/mere-exposure-effect.html
+  title: mere-exposure-effect
 - link: /bubbles/methods-rather-than-topics.html
   title: methods-rather-than-topics
 - link: /bubbles/modularism-vs-holism-in-neuroscience.html
@@ -67,10 +87,14 @@
   title: movies
 - link: /bubbles/neuro-ai.html
   title: Neuro-AI
+- link: /bubbles/neuroscience-of-curiosity.html
+  title: Neuroscience of Curiosity
 - link: /bubbles/notetaking.html
   title: notetaking
 - link: /bubbles/outliers.html
   title: outliers
+- link: /bubbles/overheating.html
+  title: Overheating
 - link: /bubbles/paralysis-by-analysis.html
   title: paralysis-by-analysis
 - link: /bubbles/perfection-is-paralyzing.html
@@ -79,6 +103,10 @@
   title: Philosophy Jokes
 - link: /bubbles/phrase-compression.html
   title: phrase-compression
+- link: /bubbles/por-las-ramas.html
+  title: por-las-ramas
+- link: /bubbles/problem-solvingly.html
+  title: problem-solvingly
 - link: /bubbles/random-matrices-and-brain.html
   title: random-matrices-and-brain
 - link: /bubbles/rapt-attention.html
@@ -106,6 +134,8 @@
   title: The power of emotional investment
 - link: /bubbles/thinking-about-code.html
   title: Thinking about code
+- link: /bubbles/to-do.html
+  title: To Do
 - link: /bubbles/understanding-and-innovation.html
   title: Understanding and Innovation
 - link: /bubbles/visceralization.html
@@ -114,5 +144,7 @@
   title: Web Videos
 - link: /bubbles/writing-a-paper.html
   title: Writing a paper
+- link: /bubbles/writing-and-thinking.html
+  title: writing-and-thinking
 - link: /bubbles/writting-during-vs-after-journey.html
   title: writting-during-vs-after-journey
