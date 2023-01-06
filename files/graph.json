@@ -21,6 +21,10 @@
             "url": ".././bubbles/archeology-of-knowledge"
         },
         {
+            "id": "are_yes_or_no_questions_science",
+            "url": ".././bubbles/are_yes_or_no_questions_science"
+        },
+        {
             "id": "art-and-code",
             "url": ".././bubbles/art-and-code"
         },
@@ -39,6 +43,10 @@
         {
             "id": "brain-as-a-computer",
             "url": ".././bubbles/brain-as-a-computer"
+        },
+        {
+            "id": "burden-of-proof",
+            "url": ".././bubbles/burden-of-proof"
         },
         {
             "id": "cannabis-hallucinations",
@@ -185,6 +193,10 @@
             "url": ".././bubbles/notetaking"
         },
         {
+            "id": "novelty-search",
+            "url": ".././bubbles/novelty-search"
+        },
+        {
             "id": "outliers",
             "url": ".././bubbles/outliers"
         },
@@ -227,6 +239,10 @@
         {
             "id": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
             "url": ".././bubbles/reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta"
+        },
+        {
+            "id": "schema",
+            "url": ".././bubbles/schema"
         },
         {
             "id": "scientific-writing-with-karen-mckee",
@@ -593,16 +609,8 @@
             "url": ".././wayward/2023-01-04"
         },
         {
-            "id": "you-research-what-strikes-you-deeply",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "intuitive-physics",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "building-before-knowing",
-            "url": ".././bubbles/stub"
+            "id": "2023-01-05",
+            "url": ".././wayward/2023-01-05"
         },
         {
             "id": "primary-visual-cortex",
@@ -613,7 +621,7 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "inferotemporal-cortex",
+            "id": "wayward",
             "url": ".././bubbles/stub"
         },
         {
@@ -621,7 +629,23 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "wayward",
+            "id": "building-before-knowing",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "inferotemporal-cortex",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "you-research-what-strikes-you-deeply",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "intuitive-physics",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "burden-of-proof.md",
             "url": ".././bubbles/stub"
         }
     ],
@@ -633,6 +657,10 @@
         {
             "source": "aesthethic-of-deepness",
             "target": "archeology-of-knowledge"
+        },
+        {
+            "source": "are_yes_or_no_questions_science",
+            "target": "burden-of-proof.md"
         },
         {
             "source": "convencion-signos-optica",
@@ -913,6 +941,14 @@
         {
             "source": "2023-01-04",
             "target": "how-to-learn"
+        },
+        {
+            "source": "2023-01-05",
+            "target": "novelty-search"
+        },
+        {
+            "source": "2023-01-05",
+            "target": "are_yes_or_no_questions_science"
         }
     ]
 }
