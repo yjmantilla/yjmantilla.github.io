@@ -56,7 +56,9 @@ def collect_graph(mypath,output_path='files\graph.json',extension='.md',out_exte
     stub_path = [x for x in nodes if x['id']=='stub'][0]['url']
     nodes += [{'id':n,'url':stub_path} for n in ghost_nodes]
     links = [[{'source':source,'target':x} for x in target if not any(substring == x for substring in ignore_eq)] for (source,target) in zip(sources,targets) if not(any(substring == source for substring in ignore_eq) or any(substring == target for substring in ignore_eq))]
+
     links = [item for sublist in links for item in sublist]
+    links += [{'source':'stub','target':n} for n in ghost_nodes]
     graph = {'nodes':nodes,'links':links}
 
     with open(output_path, "w") as out_file:
@@ -151,6 +153,11 @@ graph_subs=collect_graph('./',out_extension=out_extension,output_path='files/gra
 graph_nosubs=collect_graph('./',out_extension=out_extension,output_path='files/graph.json',ignore_in=['_site','_includes','dirs'],ignore_eq=['.','README','bubbles'],subdirs=False)
 generate_link_reference_definitions('./',graph_nosubs,only_clean=True)
 generate_link_reference_definitions('./',graph_nosubs,only_clean=False)
+# Devise a method to extract references without a file (in the graphs they are the ones that link to the stub article)
+# Would be helpful to have a list of them somewhere.
+# Solved--> They are linked to the stub article on the collect graph
+# Should crash because generate_link_reference_definitions works with the source, which is the stub, for the ghost nodes.
+
 collect_stuff('poems')
 collect_stuff('tutorials')
 collect_stuff('wayward')

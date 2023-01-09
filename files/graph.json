@@ -1,6 +1,10 @@
 {
     "nodes": [
         {
+            "id": "abyss-gaze",
+            "url": ".././bubbles/abyss-gaze"
+        },
+        {
             "id": "aesthethic-of-deepness",
             "url": ".././bubbles/aesthethic-of-deepness"
         },
@@ -17,6 +21,10 @@
             "url": ".././bubbles/ai-and-science"
         },
         {
+            "id": "algorithms-as-abstract-representations",
+            "url": ".././bubbles/algorithms-as-abstract-representations"
+        },
+        {
             "id": "archeology-of-knowledge",
             "url": ".././bubbles/archeology-of-knowledge"
         },
@@ -27,6 +35,10 @@
         {
             "id": "art-and-code",
             "url": ".././bubbles/art-and-code"
+        },
+        {
+            "id": "avatar-of-challenge",
+            "url": ".././bubbles/avatar-of-challenge"
         },
         {
             "id": "bestiary",
@@ -91,6 +103,10 @@
         {
             "id": "doodles",
             "url": ".././bubbles/doodles"
+        },
+        {
+            "id": "eyes-i-see-at-close-eyes",
+            "url": ".././bubbles/eyes-i-see-at-close-eyes"
         },
         {
             "id": "fear-of-failure",
@@ -237,6 +253,10 @@
             "url": ".././bubbles/rapt-attention"
         },
         {
+            "id": "representation",
+            "url": ".././bubbles/representation"
+        },
+        {
             "id": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
             "url": ".././bubbles/reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta"
         },
@@ -263,6 +283,10 @@
         {
             "id": "the-blessing-is-in-the-breaking",
             "url": ".././bubbles/the-blessing-is-in-the-breaking"
+        },
+        {
+            "id": "the-can-that-moves",
+            "url": ".././bubbles/the-can-that-moves"
         },
         {
             "id": "the-engineers-methodology",
@@ -293,12 +317,24 @@
             "url": ".././bubbles/understanding-and-innovation"
         },
         {
+            "id": "video-irina-rish-agi-complex-systems-transhumanism",
+            "url": ".././bubbles/video-irina-rish-agi-complex-systems-transhumanism"
+        },
+        {
             "id": "visceralization",
             "url": ".././bubbles/visceralization"
         },
         {
             "id": "web-videos",
             "url": ".././bubbles/web-videos"
+        },
+        {
+            "id": "will-of-places",
+            "url": ".././bubbles/will-of-places"
+        },
+        {
+            "id": "wolf-of-reality",
+            "url": ".././bubbles/wolf-of-reality"
         },
         {
             "id": "writing-a-paper",
@@ -613,23 +649,11 @@
             "url": ".././wayward/2023-01-05"
         },
         {
-            "id": "building-before-knowing",
-            "url": ".././bubbles/stub"
+            "id": "2023-01-06-to-2023-01-08",
+            "url": ".././wayward/2023-01-06-to-2023-01-08"
         },
         {
-            "id": "inferotemporal-cortex",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "burden-of-proof.md",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "computation",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "intuitive-physics",
+            "id": "squire-attire",
             "url": ".././bubbles/stub"
         },
         {
@@ -637,7 +661,7 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "you-research-what-strikes-you-deeply",
+            "id": "computation",
             "url": ".././bubbles/stub"
         },
         {
@@ -645,7 +669,63 @@
             "url": ".././bubbles/stub"
         },
         {
+            "id": "text-libro-de-animales",
+            "url": ".././bubbles/stub"
+        },
+        {
             "id": "connectome",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "text-i-have-no-mouth-and-i-must-scream",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "learn-from-the-machine",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "intuitive-physics",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "phosphenes",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "burden-of-proof.md",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "reverse-engineering-games",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "perspective-reality",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "building-before-knowing",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "imagine-24-balls",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "you-research-what-strikes-you-deeply",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "inferotemporal-cortex",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "text-horizonte-de-sucesos",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "video-the-paradox-of-rules-in-games-and-life",
             "url": ".././bubbles/stub"
         }
     ],
@@ -663,6 +743,18 @@
             "target": "burden-of-proof.md"
         },
         {
+            "source": "avatar-of-challenge",
+            "target": "wolf-of-reality"
+        },
+        {
+            "source": "avatar-of-challenge",
+            "target": "eyes-i-see-at-close-eyes"
+        },
+        {
+            "source": "avatar-of-challenge",
+            "target": "abyss-gaze"
+        },
+        {
             "source": "convencion-signos-optica",
             "target": "intuitive-physics"
         },
@@ -677,6 +769,10 @@
         {
             "source": "curiosity-jumping",
             "target": "for-the-sake-of-play"
+        },
+        {
+            "source": "eyes-i-see-at-close-eyes",
+            "target": "phosphenes"
         },
         {
             "source": "how-to-learn",
@@ -731,6 +827,14 @@
             "target": "fear-of-failure"
         },
         {
+            "source": "representation",
+            "target": "learn-from-the-machine"
+        },
+        {
+            "source": "representation",
+            "target": "imagine-24-balls"
+        },
+        {
             "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
             "target": "biomimicry"
         },
@@ -783,6 +887,10 @@
             "target": "computation"
         },
         {
+            "source": "the-can-that-moves",
+            "target": "reverse-engineering-games"
+        },
+        {
             "source": "the-minimal-viable-product",
             "target": "paralysis-by-analysis"
         },
@@ -797,6 +905,10 @@
         {
             "source": "to-do",
             "target": "curiosity-jumping"
+        },
+        {
+            "source": "wolf-of-reality",
+            "target": "perspective-reality"
         },
         {
             "source": "writing-and-thinking",
@@ -949,6 +1061,122 @@
         {
             "source": "2023-01-05",
             "target": "are_yes_or_no_questions_science"
+        },
+        {
+            "source": "2023-01-06-to-2023-01-08",
+            "target": "avatar-of-challenge"
+        },
+        {
+            "source": "2023-01-06-to-2023-01-08",
+            "target": "will-of-places"
+        },
+        {
+            "source": "2023-01-06-to-2023-01-08",
+            "target": "representation"
+        },
+        {
+            "source": "2023-01-06-to-2023-01-08",
+            "target": "algorithms-as-abstract-representations"
+        },
+        {
+            "source": "2023-01-06-to-2023-01-08",
+            "target": "the-can-that-moves"
+        },
+        {
+            "source": "2023-01-06-to-2023-01-08",
+            "target": "text-horizonte-de-sucesos"
+        },
+        {
+            "source": "2023-01-06-to-2023-01-08",
+            "target": "text-libro-de-animales"
+        },
+        {
+            "source": "2023-01-06-to-2023-01-08",
+            "target": "text-i-have-no-mouth-and-i-must-scream"
+        },
+        {
+            "source": "2023-01-06-to-2023-01-08",
+            "target": "squire-attire"
+        },
+        {
+            "source": "2023-01-06-to-2023-01-08",
+            "target": "video-the-paradox-of-rules-in-games-and-life"
+        },
+        {
+            "source": "stub",
+            "target": "squire-attire"
+        },
+        {
+            "source": "stub",
+            "target": "wayward"
+        },
+        {
+            "source": "stub",
+            "target": "computation"
+        },
+        {
+            "source": "stub",
+            "target": "primary-visual-cortex"
+        },
+        {
+            "source": "stub",
+            "target": "text-libro-de-animales"
+        },
+        {
+            "source": "stub",
+            "target": "connectome"
+        },
+        {
+            "source": "stub",
+            "target": "text-i-have-no-mouth-and-i-must-scream"
+        },
+        {
+            "source": "stub",
+            "target": "learn-from-the-machine"
+        },
+        {
+            "source": "stub",
+            "target": "intuitive-physics"
+        },
+        {
+            "source": "stub",
+            "target": "phosphenes"
+        },
+        {
+            "source": "stub",
+            "target": "burden-of-proof.md"
+        },
+        {
+            "source": "stub",
+            "target": "reverse-engineering-games"
+        },
+        {
+            "source": "stub",
+            "target": "perspective-reality"
+        },
+        {
+            "source": "stub",
+            "target": "building-before-knowing"
+        },
+        {
+            "source": "stub",
+            "target": "imagine-24-balls"
+        },
+        {
+            "source": "stub",
+            "target": "you-research-what-strikes-you-deeply"
+        },
+        {
+            "source": "stub",
+            "target": "inferotemporal-cortex"
+        },
+        {
+            "source": "stub",
+            "target": "text-horizonte-de-sucesos"
+        },
+        {
+            "source": "stub",
+            "target": "video-the-paradox-of-rules-in-games-and-life"
         }
     ]
 }
