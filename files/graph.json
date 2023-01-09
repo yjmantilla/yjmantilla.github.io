@@ -277,8 +277,16 @@
             "url": ".././bubbles/sonic-design"
         },
         {
+            "id": "squire-attire",
+            "url": ".././bubbles/squire-attire"
+        },
+        {
             "id": "stub",
             "url": ".././bubbles/stub"
+        },
+        {
+            "id": "text-libro-de-animales",
+            "url": ".././bubbles/text-libro-de-animales"
         },
         {
             "id": "the-blessing-is-in-the-breaking",
@@ -653,59 +661,7 @@
             "url": ".././wayward/2023-01-06-to-2023-01-08"
         },
         {
-            "id": "squire-attire",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "wayward",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "computation",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "primary-visual-cortex",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "text-libro-de-animales",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "connectome",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "text-i-have-no-mouth-and-i-must-scream",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "learn-from-the-machine",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "intuitive-physics",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "phosphenes",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "burden-of-proof.md",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "reverse-engineering-games",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "perspective-reality",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "building-before-knowing",
+            "id": "you-research-what-strikes-you-deeply",
             "url": ".././bubbles/stub"
         },
         {
@@ -713,7 +669,7 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "you-research-what-strikes-you-deeply",
+            "id": "text-i-have-no-mouth-and-i-must-scream",
             "url": ".././bubbles/stub"
         },
         {
@@ -721,11 +677,55 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "text-horizonte-de-sucesos",
+            "id": "building-before-knowing",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "intuitive-physics",
             "url": ".././bubbles/stub"
         },
         {
             "id": "video-the-paradox-of-rules-in-games-and-life",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "learn-from-the-machine",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "wayward",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "text-horizonte-de-sucesos",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "burden-of-proof.md",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "connectome",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "computation",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "perspective-reality",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "primary-visual-cortex",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "reverse-engineering-games",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "phosphenes",
             "url": ".././bubbles/stub"
         }
     ],
@@ -1056,11 +1056,19 @@
         },
         {
             "source": "2023-01-05",
+            "target": "2023-01-04"
+        },
+        {
+            "source": "2023-01-05",
             "target": "novelty-search"
         },
         {
             "source": "2023-01-05",
             "target": "are_yes_or_no_questions_science"
+        },
+        {
+            "source": "2023-01-06-to-2023-01-08",
+            "target": "2023-01-05"
         },
         {
             "source": "2023-01-06-to-2023-01-08",
@@ -1104,59 +1112,7 @@
         },
         {
             "source": "stub",
-            "target": "squire-attire"
-        },
-        {
-            "source": "stub",
-            "target": "wayward"
-        },
-        {
-            "source": "stub",
-            "target": "computation"
-        },
-        {
-            "source": "stub",
-            "target": "primary-visual-cortex"
-        },
-        {
-            "source": "stub",
-            "target": "text-libro-de-animales"
-        },
-        {
-            "source": "stub",
-            "target": "connectome"
-        },
-        {
-            "source": "stub",
-            "target": "text-i-have-no-mouth-and-i-must-scream"
-        },
-        {
-            "source": "stub",
-            "target": "learn-from-the-machine"
-        },
-        {
-            "source": "stub",
-            "target": "intuitive-physics"
-        },
-        {
-            "source": "stub",
-            "target": "phosphenes"
-        },
-        {
-            "source": "stub",
-            "target": "burden-of-proof.md"
-        },
-        {
-            "source": "stub",
-            "target": "reverse-engineering-games"
-        },
-        {
-            "source": "stub",
-            "target": "perspective-reality"
-        },
-        {
-            "source": "stub",
-            "target": "building-before-knowing"
+            "target": "you-research-what-strikes-you-deeply"
         },
         {
             "source": "stub",
@@ -1164,7 +1120,7 @@
         },
         {
             "source": "stub",
-            "target": "you-research-what-strikes-you-deeply"
+            "target": "text-i-have-no-mouth-and-i-must-scream"
         },
         {
             "source": "stub",
@@ -1172,11 +1128,55 @@
         },
         {
             "source": "stub",
-            "target": "text-horizonte-de-sucesos"
+            "target": "building-before-knowing"
+        },
+        {
+            "source": "stub",
+            "target": "intuitive-physics"
         },
         {
             "source": "stub",
             "target": "video-the-paradox-of-rules-in-games-and-life"
+        },
+        {
+            "source": "stub",
+            "target": "learn-from-the-machine"
+        },
+        {
+            "source": "stub",
+            "target": "wayward"
+        },
+        {
+            "source": "stub",
+            "target": "text-horizonte-de-sucesos"
+        },
+        {
+            "source": "stub",
+            "target": "burden-of-proof.md"
+        },
+        {
+            "source": "stub",
+            "target": "connectome"
+        },
+        {
+            "source": "stub",
+            "target": "computation"
+        },
+        {
+            "source": "stub",
+            "target": "perspective-reality"
+        },
+        {
+            "source": "stub",
+            "target": "primary-visual-cortex"
+        },
+        {
+            "source": "stub",
+            "target": "reverse-engineering-games"
+        },
+        {
+            "source": "stub",
+            "target": "phosphenes"
         }
     ]
 }
