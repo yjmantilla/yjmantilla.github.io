@@ -1,7 +1,7 @@
 ---
 title : "ICA Music Decomposition Example"
 frame : "/images/music-ica.png"
-link : "https://colab.research.google.com/drive/1O2iRh4E9X_ATGFgRrSEfZwubI7Hcxtpz?usp=sharing"
+link : "https://drive.google.com/file/d/1_9PPNA8b1eKY3gHNWtOAg0sQ1onMlpf4/view?usp=sharing"
 ---
 
 <html>

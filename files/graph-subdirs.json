@@ -509,12 +509,28 @@
             "url": ".././poems/universo"
         },
         {
-            "id": "normalizacion",
-            "url": ".././research/normalizacion"
+            "id": "0google-scholar",
+            "url": ".././research/0google-scholar"
         },
         {
-            "id": "umbrales",
-            "url": ".././research/umbrales"
+            "id": "1orcid",
+            "url": ".././research/1orcid"
+        },
+        {
+            "id": "2we-got-your-bacc",
+            "url": ".././research/2we-got-your-bacc"
+        },
+        {
+            "id": "3ica-for-prep-evaluation",
+            "url": ".././research/3ica-for-prep-evaluation"
+        },
+        {
+            "id": "4normalizacion",
+            "url": ".././research/4normalizacion"
+        },
+        {
+            "id": "5umbrales",
+            "url": ".././research/5umbrales"
         },
         {
             "id": "0color-space-lab",
@@ -669,16 +685,12 @@
             "url": ".//"
         },
         {
-            "id": "wayward",
-            "url": ".//wayward"
+            "id": "poems",
+            "url": ".//poems"
         },
         {
             "id": "essays",
             "url": ".//essays"
-        },
-        {
-            "id": "gsoc",
-            "url": ".//gsoc"
         },
         {
             "id": "research",
@@ -689,27 +701,39 @@
             "url": ".//sims"
         },
         {
+            "id": "gsoc",
+            "url": ".//gsoc"
+        },
+        {
             "id": "tutorials",
             "url": ".//tutorials"
         },
         {
-            "id": "poems",
-            "url": ".//poems"
-        },
-        {
-            "id": "burden-of-proof.md",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "intuitive-physics",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "computation",
-            "url": ".././bubbles/stub"
+            "id": "wayward",
+            "url": ".//wayward"
         },
         {
             "id": "text-i-have-no-mouth-and-i-must-scream",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "building-before-knowing",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "reverse-engineering-games",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "primary-visual-cortex",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "connectome",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "text-horizonte-de-sucesos",
             "url": ".././bubbles/stub"
         },
         {
@@ -721,19 +745,7 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "text-horizonte-de-sucesos",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "building-before-knowing",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "connectome",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "primary-visual-cortex",
+            "id": "intuitive-physics",
             "url": ".././bubbles/stub"
         },
         {
@@ -741,11 +753,11 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "phosphenes",
+            "id": "learn-from-the-machine",
             "url": ".././bubbles/stub"
         },
         {
-            "id": "perspective-reality",
+            "id": "phosphenes",
             "url": ".././bubbles/stub"
         },
         {
@@ -753,11 +765,15 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "reverse-engineering-games",
+            "id": "perspective-reality",
             "url": ".././bubbles/stub"
         },
         {
-            "id": "learn-from-the-machine",
+            "id": "burden-of-proof.md",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "computation",
             "url": ".././bubbles/stub"
         }
     ],
@@ -1099,11 +1115,27 @@
             "target": "poems"
         },
         {
-            "source": "normalizacion",
+            "source": "0google-scholar",
             "target": "research"
         },
         {
-            "source": "umbrales",
+            "source": "1orcid",
+            "target": "research"
+        },
+        {
+            "source": "2we-got-your-bacc",
+            "target": "research"
+        },
+        {
+            "source": "3ica-for-prep-evaluation",
+            "target": "research"
+        },
+        {
+            "source": "4normalizacion",
+            "target": "research"
+        },
+        {
+            "source": "5umbrales",
             "target": "research"
         },
         {
@@ -1452,19 +1484,27 @@
         },
         {
             "source": "stub",
-            "target": "burden-of-proof.md"
-        },
-        {
-            "source": "stub",
-            "target": "intuitive-physics"
-        },
-        {
-            "source": "stub",
-            "target": "computation"
-        },
-        {
-            "source": "stub",
             "target": "text-i-have-no-mouth-and-i-must-scream"
+        },
+        {
+            "source": "stub",
+            "target": "building-before-knowing"
+        },
+        {
+            "source": "stub",
+            "target": "reverse-engineering-games"
+        },
+        {
+            "source": "stub",
+            "target": "primary-visual-cortex"
+        },
+        {
+            "source": "stub",
+            "target": "connectome"
+        },
+        {
+            "source": "stub",
+            "target": "text-horizonte-de-sucesos"
         },
         {
             "source": "stub",
@@ -1476,19 +1516,7 @@
         },
         {
             "source": "stub",
-            "target": "text-horizonte-de-sucesos"
-        },
-        {
-            "source": "stub",
-            "target": "building-before-knowing"
-        },
-        {
-            "source": "stub",
-            "target": "connectome"
-        },
-        {
-            "source": "stub",
-            "target": "primary-visual-cortex"
+            "target": "intuitive-physics"
         },
         {
             "source": "stub",
@@ -1496,11 +1524,11 @@
         },
         {
             "source": "stub",
-            "target": "phosphenes"
+            "target": "learn-from-the-machine"
         },
         {
             "source": "stub",
-            "target": "perspective-reality"
+            "target": "phosphenes"
         },
         {
             "source": "stub",
@@ -1508,11 +1536,15 @@
         },
         {
             "source": "stub",
-            "target": "reverse-engineering-games"
+            "target": "perspective-reality"
         },
         {
             "source": "stub",
-            "target": "learn-from-the-machine"
+            "target": "burden-of-proof.md"
+        },
+        {
+            "source": "stub",
+            "target": "computation"
         }
     ]
 }

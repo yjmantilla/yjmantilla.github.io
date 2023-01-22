@@ -509,12 +509,28 @@
             "url": ".././poems/universo"
         },
         {
-            "id": "normalizacion",
-            "url": ".././research/normalizacion"
+            "id": "0google-scholar",
+            "url": ".././research/0google-scholar"
         },
         {
-            "id": "umbrales",
-            "url": ".././research/umbrales"
+            "id": "1orcid",
+            "url": ".././research/1orcid"
+        },
+        {
+            "id": "2we-got-your-bacc",
+            "url": ".././research/2we-got-your-bacc"
+        },
+        {
+            "id": "3ica-for-prep-evaluation",
+            "url": ".././research/3ica-for-prep-evaluation"
+        },
+        {
+            "id": "4normalizacion",
+            "url": ".././research/4normalizacion"
+        },
+        {
+            "id": "5umbrales",
+            "url": ".././research/5umbrales"
         },
         {
             "id": "0color-space-lab",
@@ -665,15 +681,7 @@
             "url": ".././wayward/2023-01-06-to-2023-01-08"
         },
         {
-            "id": "burden-of-proof.md",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "intuitive-physics",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "computation",
+            "id": "building-before-knowing",
             "url": ".././bubbles/stub"
         },
         {
@@ -681,27 +689,7 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "imagine-24-balls",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "text-horizonte-de-sucesos",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "inferotemporal-cortex",
-            "url": ".././bubbles/stub"
-        },
-        {
             "id": "reverse-engineering-games",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "building-before-knowing",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "connectome",
             "url": ".././bubbles/stub"
         },
         {
@@ -709,7 +697,31 @@
             "url": ".././bubbles/stub"
         },
         {
+            "id": "connectome",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "text-horizonte-de-sucesos",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "imagine-24-balls",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "inferotemporal-cortex",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "intuitive-physics",
+            "url": ".././bubbles/stub"
+        },
+        {
             "id": "you-research-what-strikes-you-deeply",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "learn-from-the-machine",
             "url": ".././bubbles/stub"
         },
         {
@@ -717,19 +729,23 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "perspective-reality",
-            "url": ".././bubbles/stub"
-        },
-        {
             "id": "video-the-paradox-of-rules-in-games-and-life",
             "url": ".././bubbles/stub"
         },
         {
-            "id": "wayward",
+            "id": "perspective-reality",
             "url": ".././bubbles/stub"
         },
         {
-            "id": "learn-from-the-machine",
+            "id": "burden-of-proof.md",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "computation",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "wayward",
             "url": ".././bubbles/stub"
         }
     ],
@@ -1116,15 +1132,7 @@
         },
         {
             "source": "stub",
-            "target": "burden-of-proof.md"
-        },
-        {
-            "source": "stub",
-            "target": "intuitive-physics"
-        },
-        {
-            "source": "stub",
-            "target": "computation"
+            "target": "building-before-knowing"
         },
         {
             "source": "stub",
@@ -1132,27 +1140,7 @@
         },
         {
             "source": "stub",
-            "target": "imagine-24-balls"
-        },
-        {
-            "source": "stub",
-            "target": "text-horizonte-de-sucesos"
-        },
-        {
-            "source": "stub",
-            "target": "inferotemporal-cortex"
-        },
-        {
-            "source": "stub",
             "target": "reverse-engineering-games"
-        },
-        {
-            "source": "stub",
-            "target": "building-before-knowing"
-        },
-        {
-            "source": "stub",
-            "target": "connectome"
         },
         {
             "source": "stub",
@@ -1160,7 +1148,31 @@
         },
         {
             "source": "stub",
+            "target": "connectome"
+        },
+        {
+            "source": "stub",
+            "target": "text-horizonte-de-sucesos"
+        },
+        {
+            "source": "stub",
+            "target": "imagine-24-balls"
+        },
+        {
+            "source": "stub",
+            "target": "inferotemporal-cortex"
+        },
+        {
+            "source": "stub",
+            "target": "intuitive-physics"
+        },
+        {
+            "source": "stub",
             "target": "you-research-what-strikes-you-deeply"
+        },
+        {
+            "source": "stub",
+            "target": "learn-from-the-machine"
         },
         {
             "source": "stub",
@@ -1168,19 +1180,23 @@
         },
         {
             "source": "stub",
-            "target": "perspective-reality"
-        },
-        {
-            "source": "stub",
             "target": "video-the-paradox-of-rules-in-games-and-life"
         },
         {
             "source": "stub",
-            "target": "wayward"
+            "target": "perspective-reality"
         },
         {
             "source": "stub",
-            "target": "learn-from-the-machine"
+            "target": "burden-of-proof.md"
+        },
+        {
+            "source": "stub",
+            "target": "computation"
+        },
+        {
+            "source": "stub",
+            "target": "wayward"
         }
     ]
 }
