@@ -517,6 +517,10 @@
             "url": ".././research/umbrales"
         },
         {
+            "id": "0color-space-lab",
+            "url": ".././sims/0color-space-lab"
+        },
+        {
             "id": "1random-walkers",
             "url": ".././sims/1random-walkers"
         },
@@ -661,23 +665,7 @@
             "url": ".././wayward/2023-01-06-to-2023-01-08"
         },
         {
-            "id": "you-research-what-strikes-you-deeply",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "imagine-24-balls",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "text-i-have-no-mouth-and-i-must-scream",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "inferotemporal-cortex",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "building-before-knowing",
+            "id": "burden-of-proof.md",
             "url": ".././bubbles/stub"
         },
         {
@@ -685,15 +673,15 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "video-the-paradox-of-rules-in-games-and-life",
+            "id": "computation",
             "url": ".././bubbles/stub"
         },
         {
-            "id": "learn-from-the-machine",
+            "id": "text-i-have-no-mouth-and-i-must-scream",
             "url": ".././bubbles/stub"
         },
         {
-            "id": "wayward",
+            "id": "imagine-24-balls",
             "url": ".././bubbles/stub"
         },
         {
@@ -701,23 +689,7 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "burden-of-proof.md",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "connectome",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "computation",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "perspective-reality",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "primary-visual-cortex",
+            "id": "inferotemporal-cortex",
             "url": ".././bubbles/stub"
         },
         {
@@ -725,7 +697,39 @@
             "url": ".././bubbles/stub"
         },
         {
+            "id": "building-before-knowing",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "connectome",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "primary-visual-cortex",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "you-research-what-strikes-you-deeply",
+            "url": ".././bubbles/stub"
+        },
+        {
             "id": "phosphenes",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "perspective-reality",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "video-the-paradox-of-rules-in-games-and-life",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "wayward",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "learn-from-the-machine",
             "url": ".././bubbles/stub"
         }
     ],
@@ -1112,23 +1116,7 @@
         },
         {
             "source": "stub",
-            "target": "you-research-what-strikes-you-deeply"
-        },
-        {
-            "source": "stub",
-            "target": "imagine-24-balls"
-        },
-        {
-            "source": "stub",
-            "target": "text-i-have-no-mouth-and-i-must-scream"
-        },
-        {
-            "source": "stub",
-            "target": "inferotemporal-cortex"
-        },
-        {
-            "source": "stub",
-            "target": "building-before-knowing"
+            "target": "burden-of-proof.md"
         },
         {
             "source": "stub",
@@ -1136,15 +1124,15 @@
         },
         {
             "source": "stub",
-            "target": "video-the-paradox-of-rules-in-games-and-life"
+            "target": "computation"
         },
         {
             "source": "stub",
-            "target": "learn-from-the-machine"
+            "target": "text-i-have-no-mouth-and-i-must-scream"
         },
         {
             "source": "stub",
-            "target": "wayward"
+            "target": "imagine-24-balls"
         },
         {
             "source": "stub",
@@ -1152,23 +1140,7 @@
         },
         {
             "source": "stub",
-            "target": "burden-of-proof.md"
-        },
-        {
-            "source": "stub",
-            "target": "connectome"
-        },
-        {
-            "source": "stub",
-            "target": "computation"
-        },
-        {
-            "source": "stub",
-            "target": "perspective-reality"
-        },
-        {
-            "source": "stub",
-            "target": "primary-visual-cortex"
+            "target": "inferotemporal-cortex"
         },
         {
             "source": "stub",
@@ -1176,7 +1148,39 @@
         },
         {
             "source": "stub",
+            "target": "building-before-knowing"
+        },
+        {
+            "source": "stub",
+            "target": "connectome"
+        },
+        {
+            "source": "stub",
+            "target": "primary-visual-cortex"
+        },
+        {
+            "source": "stub",
+            "target": "you-research-what-strikes-you-deeply"
+        },
+        {
+            "source": "stub",
             "target": "phosphenes"
+        },
+        {
+            "source": "stub",
+            "target": "perspective-reality"
+        },
+        {
+            "source": "stub",
+            "target": "video-the-paradox-of-rules-in-games-and-life"
+        },
+        {
+            "source": "stub",
+            "target": "wayward"
+        },
+        {
+            "source": "stub",
+            "target": "learn-from-the-machine"
         }
     ]
 }

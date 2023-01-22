@@ -517,6 +517,10 @@
             "url": ".././research/umbrales"
         },
         {
+            "id": "0color-space-lab",
+            "url": ".././sims/0color-space-lab"
+        },
+        {
             "id": "1random-walkers",
             "url": ".././sims/1random-walkers"
         },
@@ -665,51 +669,35 @@
             "url": ".//"
         },
         {
-            "id": "poems",
-            "url": ".//poems"
-        },
-        {
-            "id": "tutorials",
-            "url": ".//tutorials"
-        },
-        {
-            "id": "gsoc",
-            "url": ".//gsoc"
-        },
-        {
             "id": "wayward",
             "url": ".//wayward"
-        },
-        {
-            "id": "sims",
-            "url": ".//sims"
         },
         {
             "id": "essays",
             "url": ".//essays"
         },
         {
+            "id": "gsoc",
+            "url": ".//gsoc"
+        },
+        {
             "id": "research",
             "url": ".//research"
         },
         {
-            "id": "you-research-what-strikes-you-deeply",
-            "url": ".././bubbles/stub"
+            "id": "sims",
+            "url": ".//sims"
         },
         {
-            "id": "imagine-24-balls",
-            "url": ".././bubbles/stub"
+            "id": "tutorials",
+            "url": ".//tutorials"
         },
         {
-            "id": "text-i-have-no-mouth-and-i-must-scream",
-            "url": ".././bubbles/stub"
+            "id": "poems",
+            "url": ".//poems"
         },
         {
-            "id": "inferotemporal-cortex",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "building-before-knowing",
+            "id": "burden-of-proof.md",
             "url": ".././bubbles/stub"
         },
         {
@@ -717,11 +705,19 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "video-the-paradox-of-rules-in-games-and-life",
+            "id": "computation",
             "url": ".././bubbles/stub"
         },
         {
-            "id": "learn-from-the-machine",
+            "id": "text-i-have-no-mouth-and-i-must-scream",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "imagine-24-balls",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "inferotemporal-cortex",
             "url": ".././bubbles/stub"
         },
         {
@@ -729,7 +725,7 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "burden-of-proof.md",
+            "id": "building-before-knowing",
             "url": ".././bubbles/stub"
         },
         {
@@ -737,7 +733,15 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "computation",
+            "id": "primary-visual-cortex",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "you-research-what-strikes-you-deeply",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "phosphenes",
             "url": ".././bubbles/stub"
         },
         {
@@ -745,7 +749,7 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "primary-visual-cortex",
+            "id": "video-the-paradox-of-rules-in-games-and-life",
             "url": ".././bubbles/stub"
         },
         {
@@ -753,7 +757,7 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "phosphenes",
+            "id": "learn-from-the-machine",
             "url": ".././bubbles/stub"
         }
     ],
@@ -1103,6 +1107,10 @@
             "target": "research"
         },
         {
+            "source": "0color-space-lab",
+            "target": "sims"
+        },
+        {
             "source": "1random-walkers",
             "target": "sims"
         },
@@ -1444,23 +1452,7 @@
         },
         {
             "source": "stub",
-            "target": "you-research-what-strikes-you-deeply"
-        },
-        {
-            "source": "stub",
-            "target": "imagine-24-balls"
-        },
-        {
-            "source": "stub",
-            "target": "text-i-have-no-mouth-and-i-must-scream"
-        },
-        {
-            "source": "stub",
-            "target": "inferotemporal-cortex"
-        },
-        {
-            "source": "stub",
-            "target": "building-before-knowing"
+            "target": "burden-of-proof.md"
         },
         {
             "source": "stub",
@@ -1468,11 +1460,19 @@
         },
         {
             "source": "stub",
-            "target": "video-the-paradox-of-rules-in-games-and-life"
+            "target": "computation"
         },
         {
             "source": "stub",
-            "target": "learn-from-the-machine"
+            "target": "text-i-have-no-mouth-and-i-must-scream"
+        },
+        {
+            "source": "stub",
+            "target": "imagine-24-balls"
+        },
+        {
+            "source": "stub",
+            "target": "inferotemporal-cortex"
         },
         {
             "source": "stub",
@@ -1480,7 +1480,7 @@
         },
         {
             "source": "stub",
-            "target": "burden-of-proof.md"
+            "target": "building-before-knowing"
         },
         {
             "source": "stub",
@@ -1488,7 +1488,15 @@
         },
         {
             "source": "stub",
-            "target": "computation"
+            "target": "primary-visual-cortex"
+        },
+        {
+            "source": "stub",
+            "target": "you-research-what-strikes-you-deeply"
+        },
+        {
+            "source": "stub",
+            "target": "phosphenes"
         },
         {
             "source": "stub",
@@ -1496,7 +1504,7 @@
         },
         {
             "source": "stub",
-            "target": "primary-visual-cortex"
+            "target": "video-the-paradox-of-rules-in-games-and-life"
         },
         {
             "source": "stub",
@@ -1504,7 +1512,7 @@
         },
         {
             "source": "stub",
-            "target": "phosphenes"
+            "target": "learn-from-the-machine"
         }
     ]
 }

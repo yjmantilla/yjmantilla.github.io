@@ -1,4 +1,7 @@
 ---
+- frame: /images/color-space-lab.png
+  link: https://yjmantilla.github.io/color-space-lab/
+  title: Color Space Lab (in browser, in development)
 - frame: /images/random-walkers.png
   link: /sims/random-walkers.html
   title: Random Walkers
