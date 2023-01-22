@@ -685,12 +685,24 @@
             "url": ".//"
         },
         {
-            "id": "poems",
-            "url": ".//poems"
+            "id": "gsoc",
+            "url": ".//gsoc"
         },
         {
             "id": "essays",
             "url": ".//essays"
+        },
+        {
+            "id": "poems",
+            "url": ".//poems"
+        },
+        {
+            "id": "wayward",
+            "url": ".//wayward"
+        },
+        {
+            "id": "tutorials",
+            "url": ".//tutorials"
         },
         {
             "id": "research",
@@ -701,23 +713,7 @@
             "url": ".//sims"
         },
         {
-            "id": "gsoc",
-            "url": ".//gsoc"
-        },
-        {
-            "id": "tutorials",
-            "url": ".//tutorials"
-        },
-        {
-            "id": "wayward",
-            "url": ".//wayward"
-        },
-        {
-            "id": "text-i-have-no-mouth-and-i-must-scream",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "building-before-knowing",
+            "id": "burden-of-proof.md",
             "url": ".././bubbles/stub"
         },
         {
@@ -729,31 +725,15 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "connectome",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "text-horizonte-de-sucesos",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "imagine-24-balls",
-            "url": ".././bubbles/stub"
-        },
-        {
             "id": "inferotemporal-cortex",
             "url": ".././bubbles/stub"
         },
         {
-            "id": "intuitive-physics",
+            "id": "text-i-have-no-mouth-and-i-must-scream",
             "url": ".././bubbles/stub"
         },
         {
-            "id": "you-research-what-strikes-you-deeply",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "learn-from-the-machine",
+            "id": "computation",
             "url": ".././bubbles/stub"
         },
         {
@@ -761,7 +741,19 @@
             "url": ".././bubbles/stub"
         },
         {
+            "id": "intuitive-physics",
+            "url": ".././bubbles/stub"
+        },
+        {
             "id": "video-the-paradox-of-rules-in-games-and-life",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "imagine-24-balls",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "you-research-what-strikes-you-deeply",
             "url": ".././bubbles/stub"
         },
         {
@@ -769,11 +761,19 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "burden-of-proof.md",
+            "id": "text-horizonte-de-sucesos",
             "url": ".././bubbles/stub"
         },
         {
-            "id": "computation",
+            "id": "learn-from-the-machine",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "connectome",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "building-before-knowing",
             "url": ".././bubbles/stub"
         }
     ],
@@ -1484,11 +1484,7 @@
         },
         {
             "source": "stub",
-            "target": "text-i-have-no-mouth-and-i-must-scream"
-        },
-        {
-            "source": "stub",
-            "target": "building-before-knowing"
+            "target": "burden-of-proof.md"
         },
         {
             "source": "stub",
@@ -1500,31 +1496,15 @@
         },
         {
             "source": "stub",
-            "target": "connectome"
-        },
-        {
-            "source": "stub",
-            "target": "text-horizonte-de-sucesos"
-        },
-        {
-            "source": "stub",
-            "target": "imagine-24-balls"
-        },
-        {
-            "source": "stub",
             "target": "inferotemporal-cortex"
         },
         {
             "source": "stub",
-            "target": "intuitive-physics"
+            "target": "text-i-have-no-mouth-and-i-must-scream"
         },
         {
             "source": "stub",
-            "target": "you-research-what-strikes-you-deeply"
-        },
-        {
-            "source": "stub",
-            "target": "learn-from-the-machine"
+            "target": "computation"
         },
         {
             "source": "stub",
@@ -1532,7 +1512,19 @@
         },
         {
             "source": "stub",
+            "target": "intuitive-physics"
+        },
+        {
+            "source": "stub",
             "target": "video-the-paradox-of-rules-in-games-and-life"
+        },
+        {
+            "source": "stub",
+            "target": "imagine-24-balls"
+        },
+        {
+            "source": "stub",
+            "target": "you-research-what-strikes-you-deeply"
         },
         {
             "source": "stub",
@@ -1540,11 +1532,19 @@
         },
         {
             "source": "stub",
-            "target": "burden-of-proof.md"
+            "target": "text-horizonte-de-sucesos"
         },
         {
             "source": "stub",
-            "target": "computation"
+            "target": "learn-from-the-machine"
+        },
+        {
+            "source": "stub",
+            "target": "connectome"
+        },
+        {
+            "source": "stub",
+            "target": "building-before-knowing"
         }
     ]
 }

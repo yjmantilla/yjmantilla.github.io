@@ -1,4 +1,16 @@
 ---
+- link: https://scholar.google.com/citations?user=9W-bHVkAAAAJ&hl=en
+  title: Google Scholar
+- link: https://orcid.org/0000-0003-4473-0876
+  title: (ORCID) 0000-0003-4473-0876
+- frame: /images/your-bacc.png
+  link: https://www.biorxiv.org/content/10.1101/2022.07.18.500262v2.abstract
+  title: (Preprint) Class imbalance should not throw you off balance - Choosing the
+    right classifiers and performance metrics for brain decoding with imbalanced data
+- frame: /images/ica-for-prep.png
+  link: https://revistas.udistrital.edu.co/index.php/revcie/article/view/19068
+  title: Evaluation of Strategies Based on Wavelet-ICA and ICLabel for Artifact Correction
+    in EEG Recordings
 - frame: https://img.youtube.com/vi/sQ5tkBgxo5U/0.jpg
   link: https://youtu.be/sQ5tkBgxo5U
   title: Efectos de la normalización por “constante específica del registro” en la
