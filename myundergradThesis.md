@@ -6,7 +6,7 @@ Moreover, it counted as my undergraduate capstone project/thesis for the degree 
 ## Relevant Links
 - [Related Undergraduate Thesis](https://drive.google.com/file/d/1DBxdYuWOrBxcHbKUoenyRB_PmI1DhNZd/view?usp=sharing)
 - [2023 AES Meeting Poster](https://drive.google.com/file/d/1WVtUo-4-H_rttqZbF2HA0KJW5-oFLS9S/view?usp=sharing)
-- [2023 AES Meeting Poster Video](https://youtu.be/cadb3l1Z9aY)
+- [2023 AES Meeting Poster Video](https://youtu.be/e5jq-_LUmaw)
 
 ## Contact
 
