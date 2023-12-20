@@ -1,0 +1,171 @@
+{
+    "nodes": [
+        {
+            "id": "dummy-article",
+            "url": ".././literature-review/dummy-article",
+            "category": "literature-review",
+            "title": "Deep Learning and the Brain: Neural Network Insights (dummy paper)",
+            "authors": [
+                "Dr. Alex Smith",
+                "Dr. Maria Garcia"
+            ],
+            "year": 2023,
+            "publisher": "Journal of NeuroAI Research",
+            "keywords": [
+                "Deep Learning",
+                "Neuroscience",
+                "Neural Networks",
+                "Brain Function"
+            ],
+            "research_type": "Theoretical Analysis",
+            "relevance": "Highly relevant to my research on NeuroAI parallels.",
+            "sourceurl": "https://www.ijert.org/dummyarticle.pdf",
+            "doi": "10.17577/dummydoi",
+            "content": "```yaml\n---\ntitle: \"Deep Learning and the Brain: Neural Network Insights (dummy paper)\"\nauthors: [\"Dr. Alex Smith\", \"Dr. Maria Garcia\"]\nyear: 2023\npublisher: \"Journal of NeuroAI Research\"\nkeywords: [\"Deep Learning\", \"Neuroscience\", \"Neural Networks\", \"Brain Function\"]\nresearch_type: \"Theoretical Analysis\"\nrelevance: \"Highly relevant to my research on NeuroAI parallels.\"\nsourceurl: \"https://www.ijert.org/dummyarticle.pdf\"\ndoi: \"10.17577/dummydoi\"\n---\n```\n\nThis is a dummy paper to illustrate the format of a literature review entry.\n\n## Abstract\nThis study explores the intersection of deep learning and neuroscience...\n\n## Methodology\nThe methodology involves a comparative analysis...\n\n## Main Findings\nThe study finds significant parallels between...\n\n## Significance\nThis research contributes to the understanding of...\n\n## Personal Notes\nThe paper provides a compelling argument for using AI...\n\n## Future Work\nThe authors suggest empirical studies...\n\n## Quotes\n\"Deep learning models, especially convolutional neural networks...\"\n\n## Extended Notes\n**Key Points:**\n- **Convolutional Neural Networks**: Remarkable similarities...\n- **Pattern Recognition**: Potential insights...\n\n**References for Further Reading:**\n- [Neural Networks and Brain Function](https://example.com/neural-networks)\n- [Cognitive Processing in AI](https://example.com/cognitive-ai)\n\n_Personal Reflection_: The theoretical underpinnings are strong, but empirical evidence is needed.\n"
+        },
+        {
+            "id": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "url": ".././literature-review/reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "category": "literature-review",
+            "title": "Reverse Engineering of Human Brain for the field of Artificial Intelligence - Parikshit Gupta",
+            "author": [
+                "Parikshit Gupta"
+            ],
+            "year": 2020,
+            "publisher": "International Journal of Engineering Research & Technology (IJERT)",
+            "keywords": [
+                "Reverse Engineering of Human Brain",
+                "Artificial Neural Networks(ANN)",
+                "Convolutional Neural Networks(CNN)"
+            ],
+            "research_type": "Review",
+            "relevance": "Unknown",
+            "sourceurl": "https://www.ijert.org/reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence",
+            "doi": "10.17577/IJERTV9IS050169",
+            "content": "```yaml\n---\ntitle: Reverse Engineering of Human Brain for the field of Artificial Intelligence - Parikshit Gupta\nauthor: [\"Parikshit Gupta\"]\nyear: 2020\npublisher: \"International Journal of Engineering Research & Technology (IJERT)\"\nkeywords: [\"Reverse Engineering of Human Brain\", \"Artificial Neural Networks(ANN)\", \"Convolutional Neural Networks(CNN)\"]\nresearch_type: \"Review\"\nrelevance: \"Unknown\"\nsourceurl: \"https://www.ijert.org/reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence\"\ndoi: \"10.17577/IJERTV9IS050169\"\n---\n```\n\nThis document holds my observations for the paper:\n\n```\nReverse Engineering of Human Brain for the field of Artificial Intelligence\n\nAuthor: Parikshit Gupta\n\nURL: \n```\n\n## The author\n\nParikshit Gupta is a software developer from Mumbai with machine learning knowledge. So far (December 2021) he has only published the discussed paper.\n\nYou can find him on twitter as [Anonymous07P](https://twitter.com/anonymous07p).\n\n## TLDR\n\nThis article mainly discusses how the results of \"reverse engineering\" the brain have permeated towards AI, and in particular Artificial Neural Networks (ANNs) and Convolutional Neural Networks (CNNs); along with some comparisons regarding the differences betweens these networks and Biological Neural Networks.\n\n## Introduction\n\n- Defines \"Reverse Engineering\" (the citation is a bit dated as it is from the 90s).\n- Some context of reverse engineering in software. It is not clear why such context is important for a paper in the AI field, I guess it follows from his background in software development.\n- [[biomimicry]] to defend the case of reverse engineering the brain to advance AI.\n- Some intro to the scale and structure of the brain as a network of neurons.\n- Author mentions that \"by reverse engineering neuroscientists have\nbeen able to understand the brain to a pretty good extent\". I think this is debatable as from what I know we are only a surface understanding.\n- Follows the idea of \"doing-before-knowing\" at some point. Basically that one can build something without understanding how it works (ie building planes before understanding how birds fly). I have heard this argument to from the professor Alvaro Gaviria (\"El Mazo\", UdeA) too... although he phrased it as \"se puede porque se pudo\" (it can be done because we could) and he contextualized it as a fundamental difference between the engineering and science approach. Similar perspectives [can be found randomly on the internet](https://www.reddit.com/r/MachineLearning/comments/cs9j5i/comment/exe18d1/). I think this topic ([[building-before-knowing]]) would make a good discussion on epistemology.\n- Ends the intro by shortly defining ANNs and CNNs.\n\n## Reverse engineering of the human brain\n\nThis part is divided in two sections. Overall it is really basic and may be skipped for someone already familiar with neurobiology.\n\n### Working of the human brain\n\n- Some discussion on the [[connectome]], its importance, usefullness, and possible making.\n- Argues for a modular structure of the brain (as it having specialized parts for particular tasks). This is debatable ( [[modularism-vs-holism-in-neuroscience]] ).\n- There is a prevalent view of the [[brain-as-a-computer]] :\n\n>For learning and performing task we need data be it the case of human brain or any machine-based algorithm. Human brain gets these data through five senses: Taste, Touch, Locate, Notice, and Hearing. These sources provide frequently numerous data at one time. The brain collects all these data and stores the important parts into our memory. Depending on the data received it reacts in various circumstances by controlling various functionalities of our body like heart and breathing rates.\n\nDespite the simplification of [humans having only 5 senses](https://www.sciencefocus.com/the-human-body/how-many-senses-do-we-have/), the idea is understood... basically senses=sensors that collect data. I think it would have been nice to acknowledge the [[brain-as-a-computer]] paradigm it takes for granted.\n\n- Views the neuron as the smallest processing unit.\n\n- The author gives a high-level abstraction of the human brain reminiscent of an input/ouput model but using receptor and effector terminology and with feedback loops.\n\n![](/images/reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta/2021-12-27-01-22-49.png)\n\n>image from the aforementioned article, CC BY 4.0\n\n### Working of the Biological Neural Network\n\nThis part basically is a collections of fundamentals of neurobiology: neurons,soma,dendrites,axons,action potential, etc.\n\nAlthough not explicitly mentioned, it refers to the hebbian learning principle when explaining how neurons learn.\n\nIt ends with the idea of layers of neurons.\n\n## Advances In Computer Science As A Result Of Reverse Engineering The Human Brain\n\nIn my view, this is the most important part of the article. First, it remakes the case for [[biomimicry]] and then presents three sections, regarding the influence of brain's reverse engineering on AI, ANNs and CNNs.\n\n### Artificial Intelligence(AI)\n\nThis is the weakest section of the three as the subject matter is too broad. Overall is just a recapitulation of [[biomimicry]], [[brain-as-a-computer]]  and a model of an agent immersed in an environment with whom he interacts.\n\n### Artificial Neural Networks(ANNs)\n\n- It clarifies that the artificial neuron is loosely based on the animal neuron.\n- Has an interesting interpretation of the weights from one of the cited papers:\n\n>The processing ability of the network is stored in the interunit connection strengths, or weights, obtained by a process of adaptation to, or learning from, a set of training patterns.\n\n- Then the author explains some basics of ANNs, their types, the fundamental training algorithm,etc.\n\n- Ends with the real discussion of the paper:\n    - ANNs can be thought of as disentangled models of the BNNs.\n    \n    - For researchers interested in the brain ANNs should try to capture the \"data handling highlights\" of BNNs.\n    - For engineers this constraint is not that important.\n    - The parallel processing nature of ANNs, is interesting for engineers.\n\n### Convolutional Neural Networks(CNNs)\n\nI think this last section is the most interesting of the whole paper.\n\n- Defines (in suggestion of a cited source) the CNNs as \"a specialized ANN for processing data that has a known grid-like topology\".\n\n- Then, some similarities are drawn between CNNs and the [[primary-visual-cortex]] (PVC) and the [[inferotemporal-cortex]] (ITC). See the paper for more clarification as I couldnt summarize it as I dont yet understand it fully. What i took is that the CNN:\n\n    - Has 2D maps as features, similar to the PVC (source?)\n    - Its neuron units imitate the spatially localized receptive field of the PVC. I guess at least in some of the artificial layers.\n    - Apparently those neurons also are a linear function of the image projected to them (not exactly sure why though?), and supposedly this is similar to the PVC.\n    - Cross channel pooling (idk what that is) allow for invariance against linear shifts. Somehow this imitates the PVC too.\n    - The Fully Connected Ouput Layer (FCOL) imitates the ITC.\n    - Apparently the info goes through many layers reminescent of the PVC and then ends with the FCOL as the ITC.\n    - The ITC seems to collect information from ALL of the neurons just before it. Thus inspiring the FCOL.\n\n- After the similarities, goes on with the differences:\n    - The main one, is that CNN is mostly about spatial features. The temporal dimension is not accounted for, which the brain do incorporate. He argues combining CNNs and RNNs into a network supporting spatiotemporal features would be fruitful.\n    - The brain also incoporates and connects information from other senses, not only visual info.\n    - The other similarities exist on the spatial side, even though is the one being imitated:\n        - Human eye is low res (except for the fovea). Not accounted for in CNNs\n        - No context/scenario awareness for the CNNs, which the brain does.\n        - No feedback loops, which are really common in BNNs.\n\n- Finally, the author restates that CNNs are mainly for grid-like data and that they are scalable; making them great for image-based problems. There is a lot of inspiration from the brain, but still lots of differences and possible ways to incorporate more ideas from the brain.\n\n- I feel that this section is missing a lot of relevant literature that could have traced the provenance of these primordial claims; as they constitute the real substance of the paper.\n\n## The conclusion of the author\n\nThe conclusion is somewhat shallow when compared to the last section. Basically, a lot done, very useful and lots of things to explore in the neuro-ai area.\n\n## The references\n\nI think the paper could have explored more references, in example:\n\n- Neuroscience-Inspired Artificial Intelligence, Demis Hassabis et al, 2017.\n\n\n[//begin]: # \"Autogenerated link references for markdown compatibility\"\n[biomimicry]: .././bubbles/biomimicry \"biomimicry\"\n[building-before-knowing]: .././bubbles/stub \"building-before-knowing\"\n[connectome]: .././bubbles/stub \"connectome\"\n[modularism-vs-holism-in-neuroscience]: .././bubbles/modularism-vs-holism-in-neuroscience \"modularism-vs-holism-in-neuroscience\"\n[brain-as-a-computer]: .././bubbles/brain-as-a-computer \"brain-as-a-computer\"\n[brain-as-a-computer]: .././bubbles/brain-as-a-computer \"brain-as-a-computer\"\n[biomimicry]: .././bubbles/biomimicry \"biomimicry\"\n[biomimicry]: .././bubbles/biomimicry \"biomimicry\"\n[brain-as-a-computer]: .././bubbles/brain-as-a-computer \"brain-as-a-computer\"\n[primary-visual-cortex]: .././bubbles/stub \"primary-visual-cortex\"\n[inferotemporal-cortex]: .././bubbles/stub \"inferotemporal-cortex\"\n[//end]: # \"Autogenerated link references\"\n\n"
+        },
+        {
+            "id": "brain-as-a-computer",
+            "url": ".././bubbles/stub",
+            "category": "bubbles",
+            "title": "brain-as-a-computer",
+            "content": "```yaml\n---\ntitle: Stub\n---\n```\n\nYou got here because the node you clicked doesn't exist yet :( .\n\n\n\n\n\n[//begin]: # \"Autogenerated link references for markdown compatibility\"\n[inferotemporal-cortex]: .././bubbles/stub \"inferotemporal-cortex\"\n[text-i-have-no-mouth-and-i-must-scream]: .././bubbles/stub \"text-i-have-no-mouth-and-i-must-scream\"\n[building-before-knowing]: .././bubbles/stub \"building-before-knowing\"\n[primary-visual-cortex]: .././bubbles/stub \"primary-visual-cortex\"\n[computation]: .././bubbles/stub \"computation\"\n[connectome]: .././bubbles/stub \"connectome\"\n[video-the-paradox-of-rules-in-games-and-life]: .././bubbles/stub \"video-the-paradox-of-rules-in-games-and-life\"\n[intuitive-physics]: .././bubbles/stub \"intuitive-physics\"\n[phosphenes]: .././bubbles/stub \"phosphenes\"\n[you-research-what-strikes-you-deeply]: .././bubbles/stub \"you-research-what-strikes-you-deeply\"\n[wayward]: .././bubbles/stub \"wayward\"\n[burden-of-proof.md]: .././bubbles/stub \"burden-of-proof.md\"\n[imagine-24-balls]: .././bubbles/stub \"imagine-24-balls\"\n[reverse-engineering-games]: .././bubbles/stub \"reverse-engineering-games\"\n[text-horizonte-de-sucesos]: .././bubbles/stub \"text-horizonte-de-sucesos\"\n[//end]: # \"Autogenerated link references\"\n\n"
+        },
+        {
+            "id": "inferotemporal-cortex",
+            "url": ".././bubbles/stub",
+            "category": "bubbles",
+            "title": "inferotemporal-cortex",
+            "content": "```yaml\n---\ntitle: Stub\n---\n```\n\nYou got here because the node you clicked doesn't exist yet :( .\n\n\n\n\n\n[//begin]: # \"Autogenerated link references for markdown compatibility\"\n[inferotemporal-cortex]: .././bubbles/stub \"inferotemporal-cortex\"\n[text-i-have-no-mouth-and-i-must-scream]: .././bubbles/stub \"text-i-have-no-mouth-and-i-must-scream\"\n[building-before-knowing]: .././bubbles/stub \"building-before-knowing\"\n[primary-visual-cortex]: .././bubbles/stub \"primary-visual-cortex\"\n[computation]: .././bubbles/stub \"computation\"\n[connectome]: .././bubbles/stub \"connectome\"\n[video-the-paradox-of-rules-in-games-and-life]: .././bubbles/stub \"video-the-paradox-of-rules-in-games-and-life\"\n[intuitive-physics]: .././bubbles/stub \"intuitive-physics\"\n[phosphenes]: .././bubbles/stub \"phosphenes\"\n[you-research-what-strikes-you-deeply]: .././bubbles/stub \"you-research-what-strikes-you-deeply\"\n[wayward]: .././bubbles/stub \"wayward\"\n[burden-of-proof.md]: .././bubbles/stub \"burden-of-proof.md\"\n[imagine-24-balls]: .././bubbles/stub \"imagine-24-balls\"\n[reverse-engineering-games]: .././bubbles/stub \"reverse-engineering-games\"\n[text-horizonte-de-sucesos]: .././bubbles/stub \"text-horizonte-de-sucesos\"\n[//end]: # \"Autogenerated link references\"\n\n"
+        },
+        {
+            "id": "modularism-vs-holism-in-neuroscience",
+            "url": ".././bubbles/stub",
+            "category": "bubbles",
+            "title": "modularism-vs-holism-in-neuroscience",
+            "content": "```yaml\n---\ntitle: Stub\n---\n```\n\nYou got here because the node you clicked doesn't exist yet :( .\n\n\n\n\n\n[//begin]: # \"Autogenerated link references for markdown compatibility\"\n[inferotemporal-cortex]: .././bubbles/stub \"inferotemporal-cortex\"\n[text-i-have-no-mouth-and-i-must-scream]: .././bubbles/stub \"text-i-have-no-mouth-and-i-must-scream\"\n[building-before-knowing]: .././bubbles/stub \"building-before-knowing\"\n[primary-visual-cortex]: .././bubbles/stub \"primary-visual-cortex\"\n[computation]: .././bubbles/stub \"computation\"\n[connectome]: .././bubbles/stub \"connectome\"\n[video-the-paradox-of-rules-in-games-and-life]: .././bubbles/stub \"video-the-paradox-of-rules-in-games-and-life\"\n[intuitive-physics]: .././bubbles/stub \"intuitive-physics\"\n[phosphenes]: .././bubbles/stub \"phosphenes\"\n[you-research-what-strikes-you-deeply]: .././bubbles/stub \"you-research-what-strikes-you-deeply\"\n[wayward]: .././bubbles/stub \"wayward\"\n[burden-of-proof.md]: .././bubbles/stub \"burden-of-proof.md\"\n[imagine-24-balls]: .././bubbles/stub \"imagine-24-balls\"\n[reverse-engineering-games]: .././bubbles/stub \"reverse-engineering-games\"\n[text-horizonte-de-sucesos]: .././bubbles/stub \"text-horizonte-de-sucesos\"\n[//end]: # \"Autogenerated link references\"\n\n"
+        },
+        {
+            "id": "building-before-knowing",
+            "url": ".././bubbles/stub",
+            "category": "bubbles",
+            "title": "building-before-knowing",
+            "content": "```yaml\n---\ntitle: Stub\n---\n```\n\nYou got here because the node you clicked doesn't exist yet :( .\n\n\n\n\n\n[//begin]: # \"Autogenerated link references for markdown compatibility\"\n[inferotemporal-cortex]: .././bubbles/stub \"inferotemporal-cortex\"\n[text-i-have-no-mouth-and-i-must-scream]: .././bubbles/stub \"text-i-have-no-mouth-and-i-must-scream\"\n[building-before-knowing]: .././bubbles/stub \"building-before-knowing\"\n[primary-visual-cortex]: .././bubbles/stub \"primary-visual-cortex\"\n[computation]: .././bubbles/stub \"computation\"\n[connectome]: .././bubbles/stub \"connectome\"\n[video-the-paradox-of-rules-in-games-and-life]: .././bubbles/stub \"video-the-paradox-of-rules-in-games-and-life\"\n[intuitive-physics]: .././bubbles/stub \"intuitive-physics\"\n[phosphenes]: .././bubbles/stub \"phosphenes\"\n[you-research-what-strikes-you-deeply]: .././bubbles/stub \"you-research-what-strikes-you-deeply\"\n[wayward]: .././bubbles/stub \"wayward\"\n[burden-of-proof.md]: .././bubbles/stub \"burden-of-proof.md\"\n[imagine-24-balls]: .././bubbles/stub \"imagine-24-balls\"\n[reverse-engineering-games]: .././bubbles/stub \"reverse-engineering-games\"\n[text-horizonte-de-sucesos]: .././bubbles/stub \"text-horizonte-de-sucesos\"\n[//end]: # \"Autogenerated link references\"\n\n"
+        },
+        {
+            "id": "connectome",
+            "url": ".././bubbles/stub",
+            "category": "bubbles",
+            "title": "connectome",
+            "content": "```yaml\n---\ntitle: Stub\n---\n```\n\nYou got here because the node you clicked doesn't exist yet :( .\n\n\n\n\n\n[//begin]: # \"Autogenerated link references for markdown compatibility\"\n[inferotemporal-cortex]: .././bubbles/stub \"inferotemporal-cortex\"\n[text-i-have-no-mouth-and-i-must-scream]: .././bubbles/stub \"text-i-have-no-mouth-and-i-must-scream\"\n[building-before-knowing]: .././bubbles/stub \"building-before-knowing\"\n[primary-visual-cortex]: .././bubbles/stub \"primary-visual-cortex\"\n[computation]: .././bubbles/stub \"computation\"\n[connectome]: .././bubbles/stub \"connectome\"\n[video-the-paradox-of-rules-in-games-and-life]: .././bubbles/stub \"video-the-paradox-of-rules-in-games-and-life\"\n[intuitive-physics]: .././bubbles/stub \"intuitive-physics\"\n[phosphenes]: .././bubbles/stub \"phosphenes\"\n[you-research-what-strikes-you-deeply]: .././bubbles/stub \"you-research-what-strikes-you-deeply\"\n[wayward]: .././bubbles/stub \"wayward\"\n[burden-of-proof.md]: .././bubbles/stub \"burden-of-proof.md\"\n[imagine-24-balls]: .././bubbles/stub \"imagine-24-balls\"\n[reverse-engineering-games]: .././bubbles/stub \"reverse-engineering-games\"\n[text-horizonte-de-sucesos]: .././bubbles/stub \"text-horizonte-de-sucesos\"\n[//end]: # \"Autogenerated link references\"\n\n"
+        },
+        {
+            "id": "primary-visual-cortex",
+            "url": ".././bubbles/stub",
+            "category": "bubbles",
+            "title": "primary-visual-cortex",
+            "content": "```yaml\n---\ntitle: Stub\n---\n```\n\nYou got here because the node you clicked doesn't exist yet :( .\n\n\n\n\n\n[//begin]: # \"Autogenerated link references for markdown compatibility\"\n[inferotemporal-cortex]: .././bubbles/stub \"inferotemporal-cortex\"\n[text-i-have-no-mouth-and-i-must-scream]: .././bubbles/stub \"text-i-have-no-mouth-and-i-must-scream\"\n[building-before-knowing]: .././bubbles/stub \"building-before-knowing\"\n[primary-visual-cortex]: .././bubbles/stub \"primary-visual-cortex\"\n[computation]: .././bubbles/stub \"computation\"\n[connectome]: .././bubbles/stub \"connectome\"\n[video-the-paradox-of-rules-in-games-and-life]: .././bubbles/stub \"video-the-paradox-of-rules-in-games-and-life\"\n[intuitive-physics]: .././bubbles/stub \"intuitive-physics\"\n[phosphenes]: .././bubbles/stub \"phosphenes\"\n[you-research-what-strikes-you-deeply]: .././bubbles/stub \"you-research-what-strikes-you-deeply\"\n[wayward]: .././bubbles/stub \"wayward\"\n[burden-of-proof.md]: .././bubbles/stub \"burden-of-proof.md\"\n[imagine-24-balls]: .././bubbles/stub \"imagine-24-balls\"\n[reverse-engineering-games]: .././bubbles/stub \"reverse-engineering-games\"\n[text-horizonte-de-sucesos]: .././bubbles/stub \"text-horizonte-de-sucesos\"\n[//end]: # \"Autogenerated link references\"\n\n"
+        },
+        {
+            "id": "biomimicry",
+            "url": ".././bubbles/stub",
+            "category": "bubbles",
+            "title": "biomimicry",
+            "content": "```yaml\n---\ntitle: Stub\n---\n```\n\nYou got here because the node you clicked doesn't exist yet :( .\n\n\n\n\n\n[//begin]: # \"Autogenerated link references for markdown compatibility\"\n[inferotemporal-cortex]: .././bubbles/stub \"inferotemporal-cortex\"\n[text-i-have-no-mouth-and-i-must-scream]: .././bubbles/stub \"text-i-have-no-mouth-and-i-must-scream\"\n[building-before-knowing]: .././bubbles/stub \"building-before-knowing\"\n[primary-visual-cortex]: .././bubbles/stub \"primary-visual-cortex\"\n[computation]: .././bubbles/stub \"computation\"\n[connectome]: .././bubbles/stub \"connectome\"\n[video-the-paradox-of-rules-in-games-and-life]: .././bubbles/stub \"video-the-paradox-of-rules-in-games-and-life\"\n[intuitive-physics]: .././bubbles/stub \"intuitive-physics\"\n[phosphenes]: .././bubbles/stub \"phosphenes\"\n[you-research-what-strikes-you-deeply]: .././bubbles/stub \"you-research-what-strikes-you-deeply\"\n[wayward]: .././bubbles/stub \"wayward\"\n[burden-of-proof.md]: .././bubbles/stub \"burden-of-proof.md\"\n[imagine-24-balls]: .././bubbles/stub \"imagine-24-balls\"\n[reverse-engineering-games]: .././bubbles/stub \"reverse-engineering-games\"\n[text-horizonte-de-sucesos]: .././bubbles/stub \"text-horizonte-de-sucesos\"\n[//end]: # \"Autogenerated link references\"\n\n"
+        }
+    ],
+    "links": [
+        {
+            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "target": "biomimicry"
+        },
+        {
+            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "target": "building-before-knowing"
+        },
+        {
+            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "target": "connectome"
+        },
+        {
+            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "target": "modularism-vs-holism-in-neuroscience"
+        },
+        {
+            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "target": "brain-as-a-computer"
+        },
+        {
+            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "target": "brain-as-a-computer"
+        },
+        {
+            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "target": "biomimicry"
+        },
+        {
+            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "target": "biomimicry"
+        },
+        {
+            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "target": "brain-as-a-computer"
+        },
+        {
+            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "target": "primary-visual-cortex"
+        },
+        {
+            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "target": "inferotemporal-cortex"
+        },
+        {
+            "source": "stub",
+            "target": "brain-as-a-computer"
+        },
+        {
+            "source": "stub",
+            "target": "inferotemporal-cortex"
+        },
+        {
+            "source": "stub",
+            "target": "modularism-vs-holism-in-neuroscience"
+        },
+        {
+            "source": "stub",
+            "target": "building-before-knowing"
+        },
+        {
+            "source": "stub",
+            "target": "connectome"
+        },
+        {
+            "source": "stub",
+            "target": "primary-visual-cortex"
+        },
+        {
+            "source": "stub",
+            "target": "biomimicry"
+        }
+    ]
+}

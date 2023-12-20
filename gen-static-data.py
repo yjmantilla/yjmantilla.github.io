@@ -9,11 +9,19 @@ import pathlib
 
 def has_front_matter(lines):
     """Check if the list of lines contains front matter."""
-    if '---' in lines[0]:
-        end_fm_index = lines[1:].index('---') + 1  # Find the end delimiter
-        return True, lines[:end_fm_index+1]  # Return front matter lines
+    if lines and '---' in lines[0].strip():
+        for i, line in enumerate(lines[1:], 1):
+            if '---' in line.strip():
+                return True, lines[:i+1]  # Return front matter lines
+        return False, []  # In case the end delimiter isn't found
     return False, []
 
+def format_content_with_front_matter(content, front_matter_lines):
+    """Format content by removing front matter and prepending it as a code block."""
+    content_lines = content.split('\n')
+    content_without_fm = '\n'.join(content_lines[len(front_matter_lines):])  # Remove front matter lines
+    front_matter_str = '```yaml\n' + ''.join(front_matter_lines) + '```\n'  # Format as code block
+    return front_matter_str + content_without_fm
 #%% bubbles
 #mypath = 'bubbles'
 #extension = '.md' # gotta filter by extension since assets may be in the folder (images ie)
@@ -81,22 +89,23 @@ def collect_graph(mypath,output_path='files\graph.json',extension='.md',out_exte
         node.update({'category':cat})
 
         try:
-            with open(this_file,encoding='utf-8') as f:
-                data=f.readlines()
+            with open(this_file, encoding='utf-8') as f:
+                data = f.readlines()
                 data2 = ''.join(data)
-                if data != []:
-                    if '---' in data[0]:# first line with front matter, this is a bit of a hack, not robust
-                        with open(join(this_file),encoding='utf-8') as f2:
-                            front_matter = next(yaml.load_all(f2, Loader=yaml.FullLoader))
-                            node.update(front_matter)
-                            if node['id']!='stub' and node['url']==stub_path:
-                                node.update({'title':node['id']})
+                if data:
+                    front_matter_exists, front_matter_lines = has_front_matter(data)
+                    if front_matter_exists:
+                        front_matter_str = ''.join(front_matter_lines)
+                        front_matter = next(yaml.load_all(front_matter_str, Loader=yaml.FullLoader))
+                        node.update(front_matter)
+                        if node['id'] != 'stub' and node['url'] == stub_path:
+                            node.update({'title': node['id']})
+                        node['content'] = format_content_with_front_matter(data2, front_matter_lines)
                     else:
-                        print(node,'has no front matter')
-                node['content']=data2
-        except:
-            print('No file for node',node,'at',this_file)
-            #exit()
+                        print(node, 'has no front matter')
+                        node['content'] = data2
+        except Exception as e:
+            print('Error processing file for node', node, 'at', this_file, ":", e)            #exit()
     with open(output_path, "w") as out_file:
         json.dump(graph, out_file,indent=4)
     return graph
