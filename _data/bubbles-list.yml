@@ -1,100 +1,104 @@
 ---
 - link: /bubbles/abyss-gaze.html
-  title: abyss-gaze
+  title: Abyss Gaze
 - link: /bubbles/aesthethic-of-deepness.html
-  title: aesthethic-of-deepness
+  title: Aesthethic of Deepness
 - link: /bubbles/aesthethic-of-failure.html
-  title: Aesthethic of failure
+  title: Aesthethic of Failure
 - link: /bubbles/ai-4-health.html
-  title: AI for health
+  title: AI for Health
 - link: /bubbles/ai-and-science.html
-  title: AI and science
+  title: AI and Science
 - link: /bubbles/algorithms-as-abstract-representations.html
-  title: algorithms-as-abstract-representations
+  title: Algorithms as Abstract Representations
 - link: /bubbles/archeology-of-knowledge.html
-  title: archeology-of-knowledge
+  title: Archeology of Knowledge
 - link: /bubbles/are_yes_or_no_questions_science.html
-  title: are_yes_or_no_questions_science
+  title: Are Yes or No Questions Science?
 - link: /bubbles/art-and-code.html
-  title: Art and code
+  title: Art and Code
 - link: /bubbles/avatar-of-challenge.html
   title: Avatar of Challenge
 - link: /bubbles/bestiary.html
-  title: bestiary
+  title: Bestiary
 - link: /bubbles/biomimicry.html
-  title: biomimicry
+  title: Biomimicry
 - link: /bubbles/books.html
   title: Books
 - link: /bubbles/brain-as-a-computer.html
-  title: The brain as a computer paradigm
+  title: Brain as a Computer
 - link: /bubbles/burden-of-proof.html
-  title: burden-of-proof
+  title: Burden of Proof
 - link: /bubbles/cannabis-hallucinations.html
   title: Cannabis Hallucinations
 - link: /bubbles/chaos-magick.html
-  title: chaos-magick
+  title: Chaos Magick
 - link: /bubbles/choose-your-battles.html
-  title: choose-your-battles
+  title: Choose your battles
 - link: /bubbles/cognitive-inspired-vs-biologically-inspired.html
-  title: Cognitive-Inspired vs Biologically-Inspired
+  title: Cognitive Inspired vs Biologically Inspired
 - link: /bubbles/convencion-signos-optica.html
-  title: Una regla fácil para recordar los signos en óptica geométrica
+  title: Convención de signos en óptica geométrica
 - link: /bubbles/cs-lewis-suppose-story-enemy.html
-  title: cs-lewis-suppose-story-enemy
+  title: C.S. Lewis on the Story of the Enemy
 - link: /bubbles/curiosity-jumping.html
   title: Curiosity Jumping
 - link: /bubbles/diagrams-and-their-usage.html
-  title: diagrams-and-their-usage
+  title: Diagrams and their usage
 - link: /bubbles/different-kinds-of-papers.html
-  title: Different kinds of papers
+  title: Different Kinds of Papers
 - link: /bubbles/do-dogs-have-regional-accents.html
-  title: do-dogs-have-regional-accents
+  title: Do Dogs Have Regional Accents?
 - link: /bubbles/doodles.html
   title: Doodles
 - link: /bubbles/eyes-i-see-at-close-eyes.html
-  title: eyes-i-see-at-close-eyes
+  title: Eyes I see when close my eyes
 - link: /bubbles/fear-of-failure.html
-  title: fear-of-failure
+  title: Fear of Failure
 - link: /bubbles/filas-y-columnas.html
-  title: Sobre las filas y columnas
+  title: Filas y Columnas
 - link: /bubbles/flight-of-ideas-racing-thoughts.html
-  title: flight-of-ideas-racing-thoughts
+  title: Flight of Ideas - Racing Thoughts
 - link: /bubbles/focused-and-diffused.html
-  title: focused-and-diffused
+  title: Focused and Diffused
 - link: /bubbles/for-the-sake-of-play.html
-  title: for-the-sake-of-play
+  title: For the Sake of Play
 - link: /bubbles/freedom-and-belonging.html
-  title: freedom-and-belonging
+  title: Freedom and Belonging
 - link: /bubbles/games.html
   title: Games
 - link: /bubbles/graphs-of-graphs.html
-  title: graphs-of-graphs
+  title: Graphs of Graphs
 - link: /bubbles/hamilton.html
-  title: hamilton
+  title: Hamilton
 - link: /bubbles/how-to-learn.html
-  title: How to learn
+  title: How to Learn
 - link: /bubbles/how-to-read-a-scientific-paper.html
   title: Resources Found for paper reading
+- link: /bubbles/html-shortcuts.html
+  title: html shortcuts
 - link: /bubbles/kids-are-pure-potential.html
-  title: kids-are-pure-potential
+  title: When you are young you are pure potential
 - link: /bubbles/knowledge-cartography.html
-  title: knowledge-cartography
+  title: Knowledge Cartography
 - link: /bubbles/knowledge-graph.html
-  title: knowledge-graph
+  title: Knowledge Graph
 - link: /bubbles/la-ilogica-de-las-cosas.html
-  title: la-ilogica-de-las-cosas
+  title: La Ilogica de las Cosas
+- link: /bubbles/learn-from-the-machine.html
+  title: learn-from-the-machine
 - link: /bubbles/life-authentic.html
-  title: life-authentic
+  title: Life Authentic
 - link: /bubbles/literature-matrix.html
   title: Literature Matrix
 - link: /bubbles/memory-retention.html
-  title: memory-retention
+  title: Memory Retention
 - link: /bubbles/mere-exposure-effect.html
-  title: mere-exposure-effect
+  title: Mere Exposure Effect
 - link: /bubbles/methods-rather-than-topics.html
-  title: methods-rather-than-topics
+  title: Methods Rather Than Topics
 - link: /bubbles/modularism-vs-holism-in-neuroscience.html
-  title: modularism-vs-holism-in-neuroscience
+  title: Modularism vs Holism in Neuroscience
 - link: /bubbles/movies.html
   title: movies
 - link: /bubbles/neuro-ai.html
@@ -102,29 +106,31 @@
 - link: /bubbles/neuroscience-of-curiosity.html
   title: Neuroscience of Curiosity
 - link: /bubbles/notetaking.html
-  title: notetaking
+  title: Note Taking
 - link: /bubbles/novelty-search.html
-  title: novelty-search
+  title: Novelty Search
 - link: /bubbles/outliers.html
-  title: outliers
+  title: Outliers
 - link: /bubbles/overheating.html
   title: Overheating
 - link: /bubbles/paralysis-by-analysis.html
-  title: paralysis-by-analysis
+  title: Paraslysis by Analysis
 - link: /bubbles/perfection-is-paralyzing.html
-  title: perfection-is-paralyzing
+  title: Perfection is Paralyzing
+- link: /bubbles/perspective-reality.html
+  title: perspective-reality
 - link: /bubbles/philosophy-jokes.html
   title: Philosophy Jokes
 - link: /bubbles/phrase-compression.html
-  title: phrase-compression
+  title: Phrase Compression
 - link: /bubbles/por-las-ramas.html
-  title: por-las-ramas
+  title: Por las Ramas
 - link: /bubbles/problem-solvingly.html
-  title: problem-solvingly
+  title: Problem Solvingly
 - link: /bubbles/random-matrices-and-brain.html
-  title: random-matrices-and-brain
+  title: Random Matrices and the Brain
 - link: /bubbles/rapt-attention.html
-  title: rapt-attention
+  title: Rapt Attention
 - link: /bubbles/representation.html
   title: Representation
 - link: /bubbles/reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta.html
@@ -135,46 +141,46 @@
 - link: /bubbles/scientific-writing-with-karen-mckee.html
   title: Scientific Writing with Karen L. McKee
 - link: /bubbles/soft-vs-hard-computing.html
-  title: Soft and Hard Computing Duality
+  title: Soft vs Hard Computing Duality
 - link: /bubbles/sonic-design.html
-  title: sonic-design
+  title: Sonic Design
 - link: /bubbles/squire-attire.html
-  title: squire-attire
+  title: Squire Attire
 - link: /bubbles/stub.html
   title: Stub
 - link: /bubbles/text-libro-de-animales.html
-  title: text-libro-de-animales
+  title: Libro de Animales
 - link: /bubbles/the-blessing-is-in-the-breaking.html
-  title: the-blessing-is-in-the-breaking
+  title: The Blessing is in the Breaking
 - link: /bubbles/the-can-that-moves.html
-  title: the-can-that-moves
+  title: The Can that Moves
 - link: /bubbles/the-engineers-methodology.html
-  title: The engineer's methodology
+  title: The Engineer's Methodology
 - link: /bubbles/the-importance-of-sediment.html
-  title: The importance of sediment
+  title: The Importance of Sediment
 - link: /bubbles/the-minimal-viable-product.html
-  title: the-minimal-viable-product
+  title: The Minimal Viable Product
 - link: /bubbles/the-power-of-emotional-investment.html
-  title: The power of emotional investment
+  title: The Power of Emotional Investment
 - link: /bubbles/thinking-about-code.html
-  title: Thinking about code
+  title: Thinking About Code
 - link: /bubbles/to-do.html
   title: To Do
 - link: /bubbles/understanding-and-innovation.html
   title: Understanding and Innovation
 - link: /bubbles/video-irina-rish-agi-complex-systems-transhumanism.html
-  title: video-irina-rish-agi-complex-systems-transhumanism
+  title: Irina Rish - AGI, Complex Systems, Transhumanism
 - link: /bubbles/visceralization.html
-  title: visceralization
+  title: Visceralization
 - link: /bubbles/web-videos.html
   title: Web Videos
 - link: /bubbles/will-of-places.html
-  title: will-of-places
+  title: Will of Places
 - link: /bubbles/wolf-of-reality.html
-  title: Wolf of reality
+  title: Wolf of Reality
 - link: /bubbles/writing-a-paper.html
-  title: Writing a paper
+  title: Writing a Paper
 - link: /bubbles/writing-and-thinking.html
-  title: writing-and-thinking
+  title: Writing and Thinking
 - link: /bubbles/writting-during-vs-after-journey.html
-  title: writting-during-vs-after-journey
+  title: Writing During vs After Journey

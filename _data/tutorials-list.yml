@@ -1,22 +1,22 @@
 ---
 - link: /tutorials/automatic-unsave-facebook.html
-  title: automatic-unsave-facebook
+  title: Automatic Unsave Facebook
 - link: /tutorials/bookmark-repository-random-knowledge-system.html
-  title: bookmark-repository-random-knowledge-system
+  title: Bookmark Repository Random Knowledge System
 - link: /tutorials/conda-and-vs-code.html
-  title: Conda and vs code
+  title: Conda and VS Code
 - link: /tutorials/debug-flask-vscode.html
-  title: Debugging Flask Code Using VSCODE
+  title: Debug Flask Code Using VSCODE
 - link: /tutorials/example.html
   title: Github Pages Example
 - link: /tutorials/export-facebook-saved.html
-  title: export-facebook-saved
+  title: Export Facebook Saved
 - link: /tutorials/fixed-order-for-automatic-yaml-lists.html
-  title: Fixed order for automatic yaml lists
+  title: Fixed Order For Automatic Yaml Lists
 - link: /tutorials/foam.html
   title: Foam
 - link: /tutorials/force-graph-in-brave-browser-bug.html
-  title: Force graph bug in Brave Browser
+  title: Force Graph in Brave Browser Bug
 - link: /tutorials/git-for-windows-with-conda.html
   title: Git for windows with conda
 - frame: /images/music-ica.png
@@ -31,20 +31,20 @@
 - link: /tutorials/notepad-pp.html
   title: Notepad++
 - link: /tutorials/onenote-to-svg.html
-  title: Onenote to svg
+  title: OneNote to SVG
 - link: /tutorials/sending-automatic-emails-google-forms.html
-  title: sending-automatic-emails-google-forms
+  title: Sending automatic emails from Google Forms
 - link: /tutorials/ssh-win10.html
-  title: ssh-win10
+  title: SSH in Windows 10
 - link: /tutorials/sumatra-pdf-dark-mode.html
   title: Dark Mode (Modo Oscuro) en el pc para libros
 - link: /tutorials/tags-in-filenames.html
-  title: tags-in-filenames
+  title: Tags in filenames
 - link: /tutorials/traducir-terminos.html
-  title: Traducción de términos
+  title: Traduccion de términos
 - link: /tutorials/using-everything-for-searchs.html
-  title: using-everything-for-searchs
+  title: Using Everything for Searchs
 - link: /tutorials/vs-code-run-shortcuts.html
-  title: vs-code-run-shortcuts
+  title: VS Code Run Shortcuts
 - link: /tutorials/wsl2-move-vhdx.html
-  title: Moving vhdx of WSL2
+  title: Move WSL2 vhdx

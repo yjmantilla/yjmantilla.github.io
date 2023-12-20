@@ -2,13 +2,13 @@
 - link: /dirs/about-me.html
   title: About Me
 - link: /dirs/bubbles.html
-  title: Bubbles
+  title: Bubbles (Random Thoughts)
 - link: /dirs/essays.html
   title: Essays
 - link: /dirs/gsoc.html
-  title: GSOC
+  title: Google Summer of Code 2021
 - link: /dirs/hoja_de_vida.html
-  title: My CV (Hoja de Vida)
+  title: Hoja de Vida - CV
 - graphs:
   - link: /graphs/knowledge-graph-subdirs.html
     title: Graph with Categories

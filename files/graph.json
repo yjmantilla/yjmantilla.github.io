@@ -1,6 +1,10 @@
 {
     "nodes": [
         {
+            "id": "myundergradThesis",
+            "url": ".././myundergradThesis"
+        },
+        {
             "id": "abyss-gaze",
             "url": ".././bubbles/abyss-gaze"
         },
@@ -153,6 +157,10 @@
             "url": ".././bubbles/how-to-read-a-scientific-paper"
         },
         {
+            "id": "html-shortcuts",
+            "url": ".././bubbles/html-shortcuts"
+        },
+        {
             "id": "kids-are-pure-potential",
             "url": ".././bubbles/kids-are-pure-potential"
         },
@@ -167,6 +175,10 @@
         {
             "id": "la-ilogica-de-las-cosas",
             "url": ".././bubbles/la-ilogica-de-las-cosas"
+        },
+        {
+            "id": "learn-from-the-machine",
+            "url": ".././bubbles/learn-from-the-machine"
         },
         {
             "id": "life-authentic",
@@ -227,6 +239,10 @@
         {
             "id": "perfection-is-paralyzing",
             "url": ".././bubbles/perfection-is-paralyzing"
+        },
+        {
+            "id": "perspective-reality",
+            "url": ".././bubbles/perspective-reality"
         },
         {
             "id": "philosophy-jokes",
@@ -681,11 +697,15 @@
             "url": ".././wayward/2023-01-06-to-2023-01-08"
         },
         {
-            "id": "reverse-engineering-games",
+            "id": "2023-01-09-to-2023-12-19",
+            "url": ".././wayward/2023-01-09-to-2023-12-19"
+        },
+        {
+            "id": "wayward",
             "url": ".././bubbles/stub"
         },
         {
-            "id": "burden-of-proof.md",
+            "id": "connectome",
             "url": ".././bubbles/stub"
         },
         {
@@ -693,11 +713,11 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "inferotemporal-cortex",
+            "id": "video-the-paradox-of-rules-in-games-and-life",
             "url": ".././bubbles/stub"
         },
         {
-            "id": "computation",
+            "id": "text-horizonte-de-sucesos",
             "url": ".././bubbles/stub"
         },
         {
@@ -705,7 +725,11 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "wayward",
+            "id": "you-research-what-strikes-you-deeply",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "reverse-engineering-games",
             "url": ".././bubbles/stub"
         },
         {
@@ -713,11 +737,11 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "video-the-paradox-of-rules-in-games-and-life",
+            "id": "inferotemporal-cortex",
             "url": ".././bubbles/stub"
         },
         {
-            "id": "you-research-what-strikes-you-deeply",
+            "id": "building-before-knowing",
             "url": ".././bubbles/stub"
         },
         {
@@ -729,23 +753,11 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "perspective-reality",
+            "id": "computation",
             "url": ".././bubbles/stub"
         },
         {
-            "id": "text-horizonte-de-sucesos",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "learn-from-the-machine",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "connectome",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "building-before-knowing",
+            "id": "burden-of-proof.md",
             "url": ".././bubbles/stub"
         }
     ],
@@ -1132,11 +1144,11 @@
         },
         {
             "source": "stub",
-            "target": "reverse-engineering-games"
+            "target": "wayward"
         },
         {
             "source": "stub",
-            "target": "burden-of-proof.md"
+            "target": "connectome"
         },
         {
             "source": "stub",
@@ -1144,11 +1156,11 @@
         },
         {
             "source": "stub",
-            "target": "inferotemporal-cortex"
+            "target": "video-the-paradox-of-rules-in-games-and-life"
         },
         {
             "source": "stub",
-            "target": "computation"
+            "target": "text-horizonte-de-sucesos"
         },
         {
             "source": "stub",
@@ -1156,7 +1168,11 @@
         },
         {
             "source": "stub",
-            "target": "wayward"
+            "target": "you-research-what-strikes-you-deeply"
+        },
+        {
+            "source": "stub",
+            "target": "reverse-engineering-games"
         },
         {
             "source": "stub",
@@ -1164,11 +1180,11 @@
         },
         {
             "source": "stub",
-            "target": "video-the-paradox-of-rules-in-games-and-life"
+            "target": "inferotemporal-cortex"
         },
         {
             "source": "stub",
-            "target": "you-research-what-strikes-you-deeply"
+            "target": "building-before-knowing"
         },
         {
             "source": "stub",
@@ -1180,23 +1196,11 @@
         },
         {
             "source": "stub",
-            "target": "perspective-reality"
+            "target": "computation"
         },
         {
             "source": "stub",
-            "target": "text-horizonte-de-sucesos"
-        },
-        {
-            "source": "stub",
-            "target": "learn-from-the-machine"
-        },
-        {
-            "source": "stub",
-            "target": "connectome"
-        },
-        {
-            "source": "stub",
-            "target": "building-before-knowing"
+            "target": "burden-of-proof.md"
         }
     ]
 }

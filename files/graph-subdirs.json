@@ -1,6 +1,10 @@
 {
     "nodes": [
         {
+            "id": "myundergradThesis",
+            "url": ".././myundergradThesis"
+        },
+        {
             "id": "abyss-gaze",
             "url": ".././bubbles/abyss-gaze"
         },
@@ -153,6 +157,10 @@
             "url": ".././bubbles/how-to-read-a-scientific-paper"
         },
         {
+            "id": "html-shortcuts",
+            "url": ".././bubbles/html-shortcuts"
+        },
+        {
             "id": "kids-are-pure-potential",
             "url": ".././bubbles/kids-are-pure-potential"
         },
@@ -167,6 +175,10 @@
         {
             "id": "la-ilogica-de-las-cosas",
             "url": ".././bubbles/la-ilogica-de-las-cosas"
+        },
+        {
+            "id": "learn-from-the-machine",
+            "url": ".././bubbles/learn-from-the-machine"
         },
         {
             "id": "life-authentic",
@@ -227,6 +239,10 @@
         {
             "id": "perfection-is-paralyzing",
             "url": ".././bubbles/perfection-is-paralyzing"
+        },
+        {
+            "id": "perspective-reality",
+            "url": ".././bubbles/perspective-reality"
         },
         {
             "id": "philosophy-jokes",
@@ -681,20 +697,12 @@
             "url": ".././wayward/2023-01-06-to-2023-01-08"
         },
         {
+            "id": "2023-01-09-to-2023-12-19",
+            "url": ".././wayward/2023-01-09-to-2023-12-19"
+        },
+        {
             "id": "",
             "url": ".//"
-        },
-        {
-            "id": "gsoc",
-            "url": ".//gsoc"
-        },
-        {
-            "id": "essays",
-            "url": ".//essays"
-        },
-        {
-            "id": "poems",
-            "url": ".//poems"
         },
         {
             "id": "wayward",
@@ -705,19 +713,27 @@
             "url": ".//tutorials"
         },
         {
-            "id": "research",
-            "url": ".//research"
-        },
-        {
             "id": "sims",
             "url": ".//sims"
         },
         {
-            "id": "burden-of-proof.md",
-            "url": ".././bubbles/stub"
+            "id": "essays",
+            "url": ".//essays"
         },
         {
-            "id": "reverse-engineering-games",
+            "id": "gsoc",
+            "url": ".//gsoc"
+        },
+        {
+            "id": "poems",
+            "url": ".//poems"
+        },
+        {
+            "id": "research",
+            "url": ".//research"
+        },
+        {
+            "id": "connectome",
             "url": ".././bubbles/stub"
         },
         {
@@ -725,39 +741,7 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "inferotemporal-cortex",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "text-i-have-no-mouth-and-i-must-scream",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "computation",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "phosphenes",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "intuitive-physics",
-            "url": ".././bubbles/stub"
-        },
-        {
             "id": "video-the-paradox-of-rules-in-games-and-life",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "imagine-24-balls",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "you-research-what-strikes-you-deeply",
-            "url": ".././bubbles/stub"
-        },
-        {
-            "id": "perspective-reality",
             "url": ".././bubbles/stub"
         },
         {
@@ -765,19 +749,51 @@
             "url": ".././bubbles/stub"
         },
         {
-            "id": "learn-from-the-machine",
+            "id": "you-research-what-strikes-you-deeply",
             "url": ".././bubbles/stub"
         },
         {
-            "id": "connectome",
+            "id": "text-i-have-no-mouth-and-i-must-scream",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "phosphenes",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "reverse-engineering-games",
             "url": ".././bubbles/stub"
         },
         {
             "id": "building-before-knowing",
             "url": ".././bubbles/stub"
+        },
+        {
+            "id": "imagine-24-balls",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "inferotemporal-cortex",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "intuitive-physics",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "computation",
+            "url": ".././bubbles/stub"
+        },
+        {
+            "id": "burden-of-proof.md",
+            "url": ".././bubbles/stub"
         }
     ],
     "links": [
+        {
+            "source": "myundergradThesis",
+            "target": ""
+        },
         {
             "source": "aesthethic-of-deepness",
             "target": "curiosity-jumping"
@@ -1483,60 +1499,8 @@
             "target": "wayward"
         },
         {
-            "source": "stub",
-            "target": "burden-of-proof.md"
-        },
-        {
-            "source": "stub",
-            "target": "reverse-engineering-games"
-        },
-        {
-            "source": "stub",
-            "target": "primary-visual-cortex"
-        },
-        {
-            "source": "stub",
-            "target": "inferotemporal-cortex"
-        },
-        {
-            "source": "stub",
-            "target": "text-i-have-no-mouth-and-i-must-scream"
-        },
-        {
-            "source": "stub",
-            "target": "computation"
-        },
-        {
-            "source": "stub",
-            "target": "phosphenes"
-        },
-        {
-            "source": "stub",
-            "target": "intuitive-physics"
-        },
-        {
-            "source": "stub",
-            "target": "video-the-paradox-of-rules-in-games-and-life"
-        },
-        {
-            "source": "stub",
-            "target": "imagine-24-balls"
-        },
-        {
-            "source": "stub",
-            "target": "you-research-what-strikes-you-deeply"
-        },
-        {
-            "source": "stub",
-            "target": "perspective-reality"
-        },
-        {
-            "source": "stub",
-            "target": "text-horizonte-de-sucesos"
-        },
-        {
-            "source": "stub",
-            "target": "learn-from-the-machine"
+            "source": "2023-01-09-to-2023-12-19",
+            "target": "wayward"
         },
         {
             "source": "stub",
@@ -1544,7 +1508,55 @@
         },
         {
             "source": "stub",
+            "target": "primary-visual-cortex"
+        },
+        {
+            "source": "stub",
+            "target": "video-the-paradox-of-rules-in-games-and-life"
+        },
+        {
+            "source": "stub",
+            "target": "text-horizonte-de-sucesos"
+        },
+        {
+            "source": "stub",
+            "target": "you-research-what-strikes-you-deeply"
+        },
+        {
+            "source": "stub",
+            "target": "text-i-have-no-mouth-and-i-must-scream"
+        },
+        {
+            "source": "stub",
+            "target": "phosphenes"
+        },
+        {
+            "source": "stub",
+            "target": "reverse-engineering-games"
+        },
+        {
+            "source": "stub",
             "target": "building-before-knowing"
+        },
+        {
+            "source": "stub",
+            "target": "imagine-24-balls"
+        },
+        {
+            "source": "stub",
+            "target": "inferotemporal-cortex"
+        },
+        {
+            "source": "stub",
+            "target": "intuitive-physics"
+        },
+        {
+            "source": "stub",
+            "target": "computation"
+        },
+        {
+            "source": "stub",
+            "target": "burden-of-proof.md"
         }
     ]
 }
