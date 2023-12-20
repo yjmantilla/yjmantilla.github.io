@@ -46,7 +46,7 @@ function do_graph(path){
         // Adding filter controls to GUI
         const fieldValues = {};
 
-        const blacklist = ['content', 'doi', 'frame', 'id', 'link', 'links', 'neighbors', 'sourceurl','url']; // Replace with your actual keys
+        const blacklist = ['content', 'doi', 'frame', 'id', 'link', 'links', 'neighbors', 'sourceurl'];//,'url']; // Replace with your actual keys
 
         data.nodes.forEach(node => {
             Object.keys(node).forEach(key => {

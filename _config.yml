@@ -27,12 +27,12 @@ remote_theme: jekyll/minima
 header_pages:
   - README.md
 minima:
-  skin: dark
+  skin: solarized-dark
   social_links:
     - { platform: github,  user_url: "https://github.com/yjmantilla" }
+    - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=9W-bHVkAAAAJ" }
     - { platform: twitter, user_url: "https://twitter.com/yjmantilla" }
     - { platform: linkedin, user_url: "https://www.linkedin.com/in/yorguinjose/" }
     - { platform: facebook, user_url: "https://www.facebook.com/yorguin" }
     - { platform: instagram, user_url: "https://www.instagram.com/yjmantilla/" }
-    - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=9W-bHVkAAAAJ" }
     - { platform: youtube, user_url: "https://www.youtube.com/channel/UCsBIZcC9S7qVimvVFExfcUQ" }
