@@ -1,4 +1,3 @@
-
 ---
 title: Favorite Movies
 ---

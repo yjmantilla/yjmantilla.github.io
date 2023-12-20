@@ -7,12 +7,19 @@ import yaml
 import ntpath
 import pathlib
 
+def has_front_matter(lines):
+    """Check if the list of lines contains front matter."""
+    if '---' in lines[0]:
+        end_fm_index = lines[1:].index('---') + 1  # Find the end delimiter
+        return True, lines[:end_fm_index+1]  # Return front matter lines
+    return False, []
+
 #%% bubbles
 #mypath = 'bubbles'
 #extension = '.md' # gotta filter by extension since assets may be in the folder (images ie)
-def collect_graph(mypath,output_path='files\graph.json',extension='.md',out_extension='',subdirs=True,ignore_in=['dirs','_site','_includes'],ignore_eq=['bubbles','README','.']):
+def collect_graph(mypath,output_path='files\graph.json',extension='.md',out_extension='',subdirs=True,ignore_in=['dirs','_site','_includes'],ignore_eq=['bubbles','README','.'],stub_path=None):
     #onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f)) and extension in f]
-    onlyfiles = [os.path.join(path, name) for path, subdirs, files in os.walk(mypath) for name in files if extension in name and not any(substring in path for substring in ignore_in)]
+    onlyfiles = [os.path.join(path, name) for path, subdirs_, files in os.walk(mypath) for name in files if extension in name and not any(substring in path for substring in ignore_in)]
     onlysubdirs= [pathlib.PurePath(p).parent.name for p in onlyfiles]
     # before out_extension ='.html'
     urls = ['../'+p.replace('\\','/').replace(extension,out_extension) for p in onlyfiles]#'../'+ why did i use this?? seems that it was for getting to root in one step
@@ -46,14 +53,15 @@ def collect_graph(mypath,output_path='files\graph.json',extension='.md',out_exte
 
 
     if subdirs:
-        nodes += [{'id':x,'url':'.//'+x+out_extension} for x in list(set(onlysubdirs)) if not any(substring == x for substring in ignore_eq)]
+        nodes += [{'id':x,'url':'.././dirs/'+x+out_extension} for x in list(set(onlysubdirs)) if not any(substring == x for substring in ignore_eq)]
 
 
     #Nodes without files, have to be after since order is important in the previous lines
     ghost_nodes = set ([item for sublist in targets for item in sublist]) - set([n['id'] for n in nodes])
     ghost_nodes = list(ghost_nodes)
     ghost_nodes = [x for x in ghost_nodes if not any(substring == x for substring in ignore_eq)]
-    stub_path = [x for x in nodes if x['id']=='stub'][0]['url']
+    if stub_path is None:
+        stub_path = [x for x in nodes if x['id']=='stub'][0]['url']
     nodes += [{'id':n,'url':stub_path} for n in ghost_nodes]
     links = [[{'source':source,'target':x} for x in target if not any(substring == x for substring in ignore_eq)] for (source,target) in zip(sources,targets) if not(any(substring == source for substring in ignore_eq) or any(substring == target for substring in ignore_eq))]
 
@@ -61,6 +69,34 @@ def collect_graph(mypath,output_path='files\graph.json',extension='.md',out_exte
     links += [{'source':'stub','target':n} for n in ghost_nodes]
     graph = {'nodes':nodes,'links':links}
 
+
+    for node in graph['nodes']:
+        this_file = node['url']+'.md'
+        this_file = this_file.replace('.././','')
+        tree=node['url'].split('/')
+        if len(tree)>3:
+            cat = tree[2]
+        else:
+            cat = 'root'
+        node.update({'category':cat})
+
+        try:
+            with open(this_file,encoding='utf-8') as f:
+                data=f.readlines()
+                data2 = ''.join(data)
+                if data != []:
+                    if '---' in data[0]:# first line with front matter, this is a bit of a hack, not robust
+                        with open(join(this_file),encoding='utf-8') as f2:
+                            front_matter = next(yaml.load_all(f2, Loader=yaml.FullLoader))
+                            node.update(front_matter)
+                            if node['id']!='stub' and node['url']==stub_path:
+                                node.update({'title':node['id']})
+                    else:
+                        print(node,'has no front matter')
+                node['content']=data2
+        except:
+            print('No file for node',node,'at',this_file)
+            #exit()
     with open(output_path, "w") as out_file:
         json.dump(graph, out_file,indent=4)
     return graph
@@ -72,7 +108,7 @@ def get_dicts(onlyfiles,urls,mypath):
         with open(join(mypath,this_file),encoding='utf-8') as f:
             data=f.readlines()
             if data != []:
-                if '---' in data[0]:
+                if '---' in data[0]:# first line with front matter, this is a bit of a hack, not robust
                     with open(join(mypath,this_file),encoding='utf-8') as f2:
                         front_matter = next(yaml.load_all(f2, Loader=yaml.FullLoader))
                     #print(front_matter)
@@ -151,6 +187,7 @@ def generate_link_reference_definitions(mypath,graph,extension='.md',only_clean=
 out_extension=''
 graph_subs=collect_graph('./',out_extension=out_extension,output_path='files/graph-subdirs.json',ignore_in=['_site','_includes','dirs'],ignore_eq=['.','README','bubbles'],subdirs=True)
 graph_nosubs=collect_graph('./',out_extension=out_extension,output_path='files/graph.json',ignore_in=['_site','_includes','dirs'],ignore_eq=['.','README','bubbles'],subdirs=False)
+graph_lit = collect_graph('./literature-review/',out_extension=out_extension,output_path='files/graph_litreview.json',ignore_in=['_site','_includes','dirs'],ignore_eq=['.','README','bubbles'],subdirs=False,stub_path='.././bubbles/stub')
 generate_link_reference_definitions('./',graph_nosubs,only_clean=True)
 generate_link_reference_definitions('./',graph_nosubs,only_clean=False)
 # Devise a method to extract references without a file (in the graphs they are the ones that link to the stub article)
