@@ -2,8 +2,6 @@
 title : Su roja armonía
 ---
 
-# Su roja armonía
-
 ```markdown
 Porque tienes una estaca clavada en el corazón,
 y nada la saca...

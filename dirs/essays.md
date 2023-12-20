@@ -1,7 +1,6 @@
 ---
 title : Essays
 ---
-# Essays
 
 <ul>
    {% for item in site.data.essays-list%}

@@ -1,4 +1,6 @@
-# The importance of sediment
+---
+title: The Importance of Sediment
+---
 
 When I did my first trip to Canada and met with my old school friend J, he told he didnt like to binge watch shows. I dont recall his exacts words but nowadays I conceptualize it as follows:
 

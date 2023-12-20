@@ -1,4 +1,6 @@
-# squire-attire
+---
+title: Squire Attire
+---
 
 https://youtu.be/JbW20JS11TY?t=1747
 

@@ -1,4 +1,6 @@
-# Philosophy Jokes
+---
+title: Philosophy Jokes
+---
 
 ## An engineer, a scientist, a mathematician, and a philosopher
 

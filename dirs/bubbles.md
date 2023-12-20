@@ -1,7 +1,6 @@
 ---
-title : Bubbles
+title : Bubbles (Random Thoughts)
 ---
-# Bubbles (Random Stuff)
 
 <ul>
    {% for item in site.data.bubbles-list %}

@@ -1,4 +1,6 @@
-# Different kinds of papers
+---
+title: Different Kinds of Papers
+---
 
 Apparently there are different kind of papers.
 

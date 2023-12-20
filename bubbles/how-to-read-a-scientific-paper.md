@@ -1,4 +1,6 @@
-# Resources Found for paper reading
+---
+title: Resources Found for paper reading
+---
 
 ## How to Read a Paper - S. Keshav
 

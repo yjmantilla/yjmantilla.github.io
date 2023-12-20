@@ -2,8 +2,6 @@
 title:  "Sin"
 ---
 
-# Sin
-
 ```markdown
 Quiero que sueñes tan bonita,
 y que sonrias relajada.

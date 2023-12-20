@@ -1,4 +1,6 @@
-# Books
+---
+title: Books
+---
 
 ## Books I have read
 

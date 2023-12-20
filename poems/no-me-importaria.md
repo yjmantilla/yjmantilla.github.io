@@ -2,8 +2,6 @@
 title:  "No me importaría"
 ---
 
-# No me importaría
-
 ```markdown
 Y si me pierdo en la clave,
 y en los movimientos que vos haces,

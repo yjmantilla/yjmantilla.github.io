@@ -1,7 +1,6 @@
 ---
 title : Tutorials
 ---
-# Tutorials
 
 <ul>
    {% for item in site.data.tutorials-list %}

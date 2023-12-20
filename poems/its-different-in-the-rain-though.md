@@ -2,8 +2,6 @@
 title:  "It's different in the rain though"
 ---
 
-# It's different in the rain though
-
 ```markdown
 She said:
                 It's different in the rain though.

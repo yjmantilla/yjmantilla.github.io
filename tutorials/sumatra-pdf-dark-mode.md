@@ -1,4 +1,6 @@
-# Dark Mode (Modo Oscuro) en el pc para libros
+---
+title: Dark Mode (Modo Oscuro) en el pc para libros
+---
 
 El dark mode para leer libros es habitual en Android (por ejemplo con ebook reader). En pc se puede hacer con adobe acrobat (uck!), y con Microsoft Edge si tienes el tema de alto contraste de windows.
 

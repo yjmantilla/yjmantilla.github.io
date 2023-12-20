@@ -2,8 +2,6 @@
 title : Por donde pisas
 ---
 
-# Por donde pisas
-
 ```markdown
 Si vos vas creando agravios,
 por dónde caes muerto y desolado,

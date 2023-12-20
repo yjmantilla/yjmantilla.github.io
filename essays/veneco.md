@@ -1,4 +1,6 @@
-# Sobre el híbrido colombo-venezolano
+---
+title: Sobre el híbrido colombo-venezolano
+---
 
 >So if I'm not *black* enough and if I'm not *white* enough, then tell me, Tony, what am I?
 

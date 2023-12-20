@@ -2,8 +2,6 @@
 title:  "The timed arts"
 ---
 
-# The timed arts
-
 ```markdown
 Poetry like music...
         needs cadence.

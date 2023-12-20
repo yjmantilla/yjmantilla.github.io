@@ -1,4 +1,6 @@
-# Force graph bug in Brave Browser
+---
+title: Force Graph in Brave Browser Bug
+---
 
 In Brave force graph has some bugs with onNodeHover and onNodeClick: https://github.com/vasturiano/force-graph/issues/177
 

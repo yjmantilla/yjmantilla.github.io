@@ -1,4 +1,6 @@
-# Onenote to svg
+---
+title: OneNote to SVG
+---
 
 - Print it to pdf
 - Use [this page](https://cloudconvert.com/pdf-to-svg)

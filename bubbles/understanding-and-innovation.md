@@ -1,4 +1,6 @@
-# Understanding and Innovation
+---
+title: Understanding and Innovation
+---
 
 > El que no entiende no innova
 

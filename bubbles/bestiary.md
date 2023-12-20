@@ -1,3 +1,6 @@
+---
+title: Bestiary
+---
 
 https://en.wikipedia.org/wiki/Bestiary
 

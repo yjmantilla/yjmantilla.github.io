@@ -1,4 +1,6 @@
-# Moving vhdx of WSL2
+---
+title: Move WSL2 vhdx
+---
 
 ## The problem
 

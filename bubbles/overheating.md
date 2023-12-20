@@ -1,4 +1,6 @@
-# Overheating
+---
+title: Overheating
+---
 
 I have overheating problems (computer shuts down with no error message suggests so). Currently my approach to solve this problem was to:
 

@@ -1,3 +1,7 @@
+---
+title: Rapt Attention
+---
+
 Cal Newport on Deep Work.
 
 My rarified approach, my rapt attention.

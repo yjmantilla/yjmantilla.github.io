@@ -1,4 +1,6 @@
-ssh windows 10
+---
+title: SSH in Windows 10
+---
 
 https://github.com/PowerShell/Win32-OpenSSH/issues/1625
 

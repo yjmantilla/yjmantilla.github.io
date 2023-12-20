@@ -1,4 +1,6 @@
-# Naming Markdown Docs
+---
+title: Naming Markdown Docs
+---
 
 This jekyll sites uses 3 possible naming configurations:
 

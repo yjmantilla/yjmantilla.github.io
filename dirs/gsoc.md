@@ -1,7 +1,6 @@
 ---
-title : GSOC
+title : Google Summer of Code 2021
 ---
-# Google Summer of Code 2021
 
 <ul>
    {% for item in site.data.gsoc-list%}

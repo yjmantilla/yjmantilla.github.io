@@ -2,8 +2,6 @@
 title:  "Bailarina"
 ---
 
-# Bailarina
-
 ![Ballerina](/images/ballerina.jpg)
 
 ```markdown

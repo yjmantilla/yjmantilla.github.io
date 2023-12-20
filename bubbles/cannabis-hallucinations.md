@@ -1,6 +1,8 @@
-# Cannabis Hallucinations
+---
+title: Cannabis Hallucinations
+---
 
-La única vez que me drogue fue con unos brownies...
+La única vez que me mal-viaje fue con unos brownies...
 
 La experiencia quizás algun día la relate acá pero por ahora la anecdota más cercana que encontré en internet proviene de [acá](https://www.quora.com/Could-cannabis-cause-hallucinations/answers/111997945)
 

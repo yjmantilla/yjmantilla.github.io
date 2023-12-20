@@ -1,3 +1,7 @@
+---
+title: Irina Rish - AGI, Complex Systems, Transhumanism
+---
+
 https://www.youtube.com/watch?v=8-ilcF0R7mI
 
 

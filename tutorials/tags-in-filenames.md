@@ -1,3 +1,6 @@
+---
+title: Tags in filenames
+---
 
 This idea comes from tagspaces software (but without the software).
 

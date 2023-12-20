@@ -2,8 +2,6 @@
 title:  "Descomponerte"
 ---
 
-# Descomponerte
-
 ```markdown
 Descomponerte en tus partes más simples
 Convertirte en sueño, transformarte en lágrima

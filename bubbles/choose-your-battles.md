@@ -1,3 +1,7 @@
+---
+title: Choose your battles
+---
+
 You have a limited supply of fucks to give. 
 Mark Manson, The subtle art of not giving a fuck
 

@@ -1,2 +1,4 @@
-# notetaking
+---
+title: Note Taking
+---
 

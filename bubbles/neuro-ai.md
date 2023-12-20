@@ -1,4 +1,6 @@
-# Neuro-AI
+---
+title: Neuro-AI
+---
 
 I was always looking for this concept by myself but lately it seems it has gained some momentum to become an area by itself. Check the MAIN 2021 conference:
 

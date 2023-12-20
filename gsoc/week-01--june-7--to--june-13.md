@@ -1,4 +1,6 @@
-# week-01--june-7--to--june-13
+---
+title: week-01--june-7--to--june-13
+---
 
 ## 1 What have you been doing this week?
 

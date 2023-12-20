@@ -1,2 +1,4 @@
-# outliers
+---
+title: Outliers
+---
 

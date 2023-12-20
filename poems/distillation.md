@@ -2,8 +2,6 @@
 title:  "Distillation"
 ---
 
-# Distillation
-
 ```markdown
 So it has been a really really bumpy road,
 that of distilling my feelings.

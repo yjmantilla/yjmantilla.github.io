@@ -2,8 +2,6 @@
 title:  "Parada de manos"
 ---
 
-# Parada de manos
-
 ```markdown
 Si algo arde, si algo arde...
 Si tienes cenizas en el cuerpo.

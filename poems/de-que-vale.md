@@ -2,8 +2,6 @@
 title:  "De qué vale"
 ---
 
-# De qué vale
-
 ## I
 
 ```markdown

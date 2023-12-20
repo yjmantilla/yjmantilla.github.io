@@ -1,4 +1,6 @@
-# Git for windows with conda
+---
+title: Git for windows with conda
+---
 
 How to use a bash style terminal in windows with conda commands activated.
 

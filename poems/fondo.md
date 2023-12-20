@@ -2,8 +2,6 @@
 title:  "Fondo"
 ---
 
-# Fondo
-
 ```markdown
 Uno no sabe si ha tocado el fondo,
 o si acaso puede seguir y seguir,

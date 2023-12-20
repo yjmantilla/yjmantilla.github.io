@@ -2,8 +2,6 @@
 title:  "Pain"
 ---
 
-# Pain
-
 ```markdown
 Maybe for example
 one should decompose

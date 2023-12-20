@@ -1,4 +1,6 @@
-# modularism-vs-holism-in-neuroscience
+---
+title: Modularism vs Holism in Neuroscience
+---
 
 For some reason this dichotomy is not mentioned in english as much as it is in spanish. For now I just leave some literature I have seen regarding it in both languages:
 

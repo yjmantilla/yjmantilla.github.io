@@ -1,4 +1,6 @@
-# Cognitive-Inspired vs Biologically-Inspired
+---
+title: Cognitive Inspired vs Biologically Inspired
+---
 
 Check out the comment here:
 

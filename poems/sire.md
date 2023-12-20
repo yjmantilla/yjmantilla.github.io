@@ -2,8 +2,6 @@
 title:  "Sire"
 ---
 
-# Sire
-
 ```markdown
 ¿Quién eres hoy?
 Quizás polvo de estrellas,

@@ -2,8 +2,6 @@
 title:  "O quizás del sexto piso"
 ---
 
-# O quizás del sexto piso
-
 ```markdown
 Donde estará mi corazon,
 donde será que esta metido.

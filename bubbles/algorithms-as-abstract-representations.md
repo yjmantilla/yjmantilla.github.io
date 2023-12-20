@@ -1,4 +1,6 @@
-# algorithms-as-abstract-representations
+---
+title: "Algorithms as Abstract Representations"
+---
 
 - What if algorithms are a better representation of reality than formulas (math)
 - Is there a math of the algorithms?

@@ -2,8 +2,6 @@
 title:  "Universo"
 ---
 
-# Universo
-
 ```markdown
 
 El universo lloraba

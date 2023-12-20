@@ -1,9 +1,9 @@
 ---
   title : El camino del guerrero (Peaceful Warrior)
 ---
-# El camino del guerrero
 
 ## Resumen
+
 <p style='text-align: justify;'>
 El camino del guerrero (Peaceful Warrior) es una película del 2006 dirigida por Victor Salva, escrita por Kevin Bernhardt y basada en la novela Way of the Peaceful Warrior de Dan Millman. Como tal tanto la película como la novela son semi-autobiográficas, narrando la propia historia de Dan Millman pero agregando varios elementos ficticios. Así, el protagonista de la película hereda directamente el nombre del autor del libro: Dan Millman, y al comienzo de la película se muestra como un joven gimnasta con un prometedor futuro rebosante de éxito. Su sueño es ganar la medalla de oro en los juegos olímpicos y para ello entrena muy duro, a menudo sobreexigiendo su cuerpo.
 <br/>

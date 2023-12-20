@@ -1,4 +1,6 @@
-# Traducción de términos
+---
+title: Traduccion de términos
+---
 
 A veces traducir términos en un ambiente acádemico es complicado, ya que la traducción no suele ser literal sino que en español se conoce con otro nombre. Dos formas que he encontrado para solventar esto son:
 
@@ -9,6 +11,10 @@ Este [link](https://www.proz.com/search/) sirve para traducir términos de algú
 2. Wikipedia
 
 La idea es ir a la página del concepto en wikipedia en un idioma y luego en esa página cambiar el idioma. 
+
+3. LLMs
+
+Hoy en dia los LLMs son muy buenos para traducir términos.
 
 ## Sitios para traducción
 Tomado de [este post en facebook](https://www.facebook.com/CienciaLabu/posts/690276574980687)

@@ -1,7 +1,6 @@
 ---
 title : About Me
 ---
-# Probably Wrong Hub
 
 ![Bird](/images/bird.png)<br/>
 
@@ -14,9 +13,7 @@ Math
 Science
 Engineering
 Code
-(Bad) Poetry
-
-
+(cringe) Poetry
 ```
 
 ## Contact

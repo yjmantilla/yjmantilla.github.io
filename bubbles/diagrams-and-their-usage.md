@@ -1,3 +1,6 @@
+---
+title: Diagrams and their usage
+---
 
 - Controllability and observability:
 diagrams and duality Jason Michael Erbele

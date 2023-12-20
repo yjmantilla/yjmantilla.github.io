@@ -1,3 +1,7 @@
+---
+title: Writing During vs After Journey
+---
+
 RMB had some comments and books about this...
 
 Bolívar wrote during... Something like that.

@@ -1,4 +1,6 @@
-# will-of-places
+---
+title: Will of Places
+---
 
 I feel like places kind of have a will. Some places actively root for you, for example, universities. I feel them like that.
 

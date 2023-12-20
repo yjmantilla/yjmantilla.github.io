@@ -1,3 +1,7 @@
+---
+title: Flight of Ideas - Racing Thoughts
+---
+
 https://en.wikipedia.org/wiki/Racing_thoughts
 
 https://www.sciencedaily.com/releases/2016/11/161101151952.htm

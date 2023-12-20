@@ -1,4 +1,6 @@
-# Debugging Flask Code Using VSCODE
+---
+title: Debug Flask Code Using VSCODE
+---
 
 You can debug flask apps by running the app launcher in debug mode and placing debug points wherever you want.
 

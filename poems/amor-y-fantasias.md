@@ -2,8 +2,6 @@
 title:  "Amor y Fantasías"
 ---
 
-# Amor y Fantasías
-
 ```markdown
 Mi vida se reflejaba en tus ojos
 y la luz se escapaba por tus pupilas.

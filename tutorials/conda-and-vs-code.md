@@ -1,4 +1,6 @@
-# Conda and vs code
+---
+title: Conda and VS Code
+---
 
 I used to have some problems when importing numpy in vscode with the conda environment.
 

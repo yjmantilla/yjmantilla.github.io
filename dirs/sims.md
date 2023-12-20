@@ -1,7 +1,6 @@
 ---
 title : Interactive Content
 ---
-# Interactive Content
 
 <ul>
    {% for item in site.data.sims-list %}

@@ -2,8 +2,6 @@
 title:  "Canta y pinta"
 ---
 
-# Canta y pinta
-
 ```markdown
 Canta y pinta
 tanto como puedas.

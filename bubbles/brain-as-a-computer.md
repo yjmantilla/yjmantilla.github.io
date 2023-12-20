@@ -1,4 +1,6 @@
-# The brain as a computer paradigm
+---
+title: Brain as a Computer
+---
 
 ## Counterarguments
 

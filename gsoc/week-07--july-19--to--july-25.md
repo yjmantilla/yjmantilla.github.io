@@ -1,4 +1,6 @@
-# week-07--july-19--to--july-25
+---
+title: week-07--july-19--to--july-25
+---
 
 ## 1 What have you been doing this week?
 

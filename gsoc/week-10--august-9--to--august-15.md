@@ -1,4 +1,6 @@
-# week-10--august-9--to--august-15
+---
+title: week-10--august-9--to--august-15
+---
 
 ## 1 What have you been doing this week?
 

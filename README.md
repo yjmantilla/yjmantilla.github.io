@@ -1,5 +1,3 @@
-# Probably Wrong Hub
-
 ![Spectrum Banner](/images/spectrum-banner.png)<br/>
 
 > crear y errar tienen la misma naturaleza.

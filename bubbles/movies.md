@@ -1,5 +1,7 @@
 
-# Favorite Movies
+---
+title: Favorite Movies
+---
 
 - 12 angry men
 - The Truman Show

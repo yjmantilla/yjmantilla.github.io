@@ -1,7 +1,6 @@
 ---
 title : Research
 ---
-# Research
 
 <ul>
    {% for item in site.data.research-list %}

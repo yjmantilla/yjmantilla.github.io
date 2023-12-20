@@ -1,4 +1,6 @@
-# Neuroscience of Curiosity
+---
+title: Neuroscience of Curiosity
+---
 
 ```markdown
 URL list from Wednesday, Jan. 4 2023 23:58 PM

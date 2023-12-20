@@ -2,8 +2,6 @@
 title:  "Color"
 ---
 
-# Color
-
 ```markdown
 Yo sé que a vos te gusta
 dar color a las paredes

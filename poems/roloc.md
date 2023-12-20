@@ -2,8 +2,6 @@
 title:  "Roloc"
 ---
 
-# Roloc
-
 ```markdown
 Verde
 si alguna vez

@@ -1,7 +1,6 @@
 ---
   title : De Colmenas e Individuos
 ---
-# De Colmenas e Individuos
 
 <p style='text-align: justify;'>
 Erase una vez tres seres sin nombre y completamente iguales. Estos tenían sexo y por alguna extraña razón, del acto se producían seres iguales a ellos. La primera vez se crearon 9, la segunda 99, la tercera 999; y así se generó la primera colmena, sin nombre alguno. Los seres hasta ahora solo tenían sexo porque no sabían hacer más nada, no tenían ninguna otra necesidad: no había hambre, no había enfermedades,  ni guerras, ni muerte.

@@ -1,1 +1,38 @@
-theme: jekyll-theme-hacker
+title: yjmantilla.github.io
+author:
+  name: Yorguin-Jose Mantilla-Ramos
+  email: yjmantilla@gmail.com
+# Minima
+
+#theme: minima
+#theme: jekyll-theme-simplex
+remote_theme: jekyll/minima
+#remote_theme: pages-themes/cayman@v0.2.0
+#pages-themes/hacker@v0.2.0
+# architect
+# cayman
+# dinky
+# hacker
+# Leap day
+# Merlot
+# Midnight
+# Minimal
+# Modernist
+# Slate
+# Tactile
+# Time machine
+# plugins:
+# - jekyll-remote-theme # add this line to the plugins list if you already have one
+
+header_pages:
+  - README.md
+minima:
+  skin: dark
+  social_links:
+    - { platform: github,  user_url: "https://github.com/yjmantilla" }
+    - { platform: twitter, user_url: "https://twitter.com/yjmantilla" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/yorguinjose/" }
+    - { platform: facebook, user_url: "https://www.facebook.com/yorguin" }
+    - { platform: instagram, user_url: "https://www.instagram.com/yjmantilla/" }
+    - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=9W-bHVkAAAAJ" }
+    - { platform: youtube, user_url: "https://www.youtube.com/channel/UCsBIZcC9S7qVimvVFExfcUQ" }

@@ -1,7 +1,8 @@
 ---
 title : Music
 ---
-# Youtube
+
+## Youtube
 
 <ul>
    {% for item in site.data.song-list.youtube %}
@@ -10,7 +11,7 @@ title : Music
    {% endfor %}
 </ul>
 
-# Interactive
+## Interactive
 
 <ul>
    {% for item in site.data.song-list.interactive %}
@@ -18,11 +19,10 @@ title : Music
    {% endfor %}
 </ul>
 
-# Soundcloud
+## Soundcloud
 
 <ul>
    {% for item in site.data.song-list.soundcloud %}
       <li><a href="{{ item.link }}">{{ item.title }}</a></li>
    {% endfor %}
 </ul>
-
