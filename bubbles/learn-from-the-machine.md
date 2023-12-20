@@ -1,2 +1,4 @@
-# learn-from-the-machine
+---
+title: Learn from the machine
+---
 

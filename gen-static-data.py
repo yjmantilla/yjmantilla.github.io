@@ -76,7 +76,11 @@ def collect_graph(mypath,output_path='files\graph.json',extension='.md',out_exte
     links = [item for sublist in links for item in sublist]
     links += [{'source':'stub','target':n} for n in ghost_nodes]
     graph = {'nodes':nodes,'links':links}
-
+    for link in graph['links']:
+        if link['source'] == "":
+            link['source'] = "dirs"
+        if link['target'] == "":
+            link['target'] = "dirs"
 
     for node in graph['nodes']:
         this_file = node['url']+'.md'
@@ -88,6 +92,9 @@ def collect_graph(mypath,output_path='files\graph.json',extension='.md',out_exte
             cat = 'root'
         node.update({'category':cat})
 
+        if node['id'] == "":
+            node['id'] = 'dirs'
+            this_file = 'dirs.md'
         try:
             with open(this_file, encoding='utf-8') as f:
                 data = f.readlines()
@@ -196,7 +203,6 @@ def generate_link_reference_definitions(mypath,graph,extension='.md',only_clean=
 out_extension=''
 graph_subs=collect_graph('./',out_extension=out_extension,output_path='files/graph-subdirs.json',ignore_in=['_site','_includes','dirs'],ignore_eq=['.','README','bubbles'],subdirs=True)
 graph_nosubs=collect_graph('./',out_extension=out_extension,output_path='files/graph.json',ignore_in=['_site','_includes','dirs'],ignore_eq=['.','README','bubbles'],subdirs=False)
-graph_lit = collect_graph('./literature-review/',out_extension=out_extension,output_path='files/graph_litreview.json',ignore_in=['_site','_includes','dirs'],ignore_eq=['.','README','bubbles'],subdirs=False,stub_path='.././bubbles/stub')
 generate_link_reference_definitions('./',graph_nosubs,only_clean=True)
 generate_link_reference_definitions('./',graph_nosubs,only_clean=False)
 # Devise a method to extract references without a file (in the graphs they are the ones that link to the stub article)
@@ -209,6 +215,7 @@ collect_stuff('tutorials')
 collect_stuff('wayward')
 collect_stuff('sims')
 collect_stuff('essays')
+collect_stuff('literature-review')
 collect_stuff('research')
 collect_stuff('gsoc')
 collect_stuff('bubbles')

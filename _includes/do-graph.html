@@ -38,49 +38,182 @@ function do_graph(path){
       const gui = new dat.GUI();
       const settings = {enableTooltip: false};
       const uniqueCategories = new Set();
+      const delimiter = '~';
+      const lowUnique=20;
+      const midUnique=50;
       gui.add(settings, 'enableTooltip').name('Enable Preview');
-      const categoriesFolder = gui.addFolder('Categories');
 
-        // Collect unique categories
+        // Adding filter controls to GUI
+        const fieldValues = {};
+
+        const blacklist = ['content', 'doi', 'frame', 'id', 'link', 'links', 'neighbors', 'sourceurl','url']; // Replace with your actual keys
+
         data.nodes.forEach(node => {
-            uniqueCategories.add(node.category);
-        });
-
-        // Initialize settings object
-        uniqueCategories.forEach(category => {
-            settings[category] = true; // default all categories to true
-        });
-
-
-      // Toggle All function
-        function toggleAll(value) {
-            uniqueCategories.forEach(category => {
-                settings[category] = value;
+            Object.keys(node).forEach(key => {
+                if (blacklist.includes(key)) {
+                    return;
+                }
+                if (!fieldValues[key]) {
+                    fieldValues[key] = new Set();
+                }
+                const value = node[key];
+                if (Array.isArray(value)) {
+                    value.forEach(item => fieldValues[key].add(item));
+                } else {
+                    fieldValues[key].add(value);
+                }
             });
-            updateGraph();
-            gui.updateDisplay(); // Update GUI display
-        }
+        });
+        //console.log(fieldValues);
 
-        // Add Toggle All and Detoggle All buttons
-        categoriesFolder.add({ toggleAll: () => toggleAll(true) }, 'toggleAll').name("Toggle All");
-        categoriesFolder.add({ toggleAll: () => toggleAll(false) }, 'toggleAll').name("Detoggle All");
 
-          // Add category controls to GUI
-          uniqueCategories.forEach(category => {
-          categoriesFolder.add(settings, category).onChange(updateGraph);
-      });
+        Object.keys(fieldValues).forEach(key => {
+            if (blacklist.includes(key) && fieldValues.includes(key)) {
+                delete fieldValues[key];
+            }
+        });
 
-        // Update function for filtering
+        // Now fieldValues will only contain keys that are not in the blacklist
+        function filterNodes(setting,node){
+                  const [field, value] = setting.split(delimiter);
+                  const fieldValue = node[field];
+
+                  // If the field does not exist in the node, filter it out
+                  if (fieldValue === undefined) {
+                      return true;
+                  }
+
+                  // For range filters
+                  if (typeof filterSettings[setting] === 'object' && filterSettings[setting] !== null) {
+                      return fieldValue >= filterSettings[setting].min && fieldValue <= filterSettings[setting].max;
+                  }
+
+                  // For string filters (dropdowns and search boxes)
+                  if (typeof filterSettings[setting] === 'string') {
+                      return filterSettings[setting] === '' || fieldValue.includes(filterSettings[setting]);
+                  }
+
+                  // For toggle filters
+                  if (typeof filterSettings[setting] === 'boolean') {
+                      return !(filterSettings[setting] === false && fieldValue.includes(value));
+                      //filterSettings[setting] === false || fieldValue.includes(value);
+                      //
+                  }
+
+                  return true;
+              }
         function updateGraph() {
-            const filteredNodes = data.nodes.filter(node => 
-                settings[node.category]
-            );
-            const filteredLinks = data.links.filter(link => 
+
+          // const filteredNodes = data.nodes.filter(node => {
+          //     return Object.keys(filterSettings).every(setting => filterNodes(setting,node));
+          // });
+
+          const filteredNodes = [];
+
+          for (let node of data.nodes) {
+              let includeNode = true;
+
+              for (let setting of Object.keys(filterSettings)) {
+                  if (!filterNodes(setting, node)) {
+                      includeNode = false;
+                      //console.log(`Node ${node.id} excluded by setting: ${setting}`); // Debugging log
+                      break; // Stop checking further settings for this node
+                  }
+              }
+
+              if (includeNode) {
+                  filteredNodes.push(node);
+              } else {
+                "pass";
+                  //console.log(`Node ${node.id} excluded from the filtered set`); // Debugging log
+              }
+          }
+          const filteredLinks = data.links.filter(link => 
                 filteredNodes.includes(link.source) && filteredNodes.includes(link.target)
             );
 
-            Graph.graphData({ nodes: filteredNodes, links: filteredLinks });
+
+          // Now use `filteredNodes` to update your graph
+          Graph.graphData({ nodes: filteredNodes, links: filteredLinks }); // Example update call
+          //console.log(filteredNodes);
+          //console.log(filteredLinks);
+      }
+
+        const filterSettings = {};
+
+        Object.keys(fieldValues).forEach(field => {
+            const values = Array.from(fieldValues[field]);
+
+            if (values.every(val => typeof val === 'number')) {
+                // Range filter
+                filterSettings[field] = { min: Math.min(...values), max: Math.max(...values) };
+                const folder = gui.addFolder(`Filter: ${field}`);
+                folder.add(filterSettings[field], 'min').onChange(updateGraph);
+                folder.add(filterSettings[field], 'max').onChange(updateGraph);
+            } else {
+                const flatValues = values.some(val => Array.isArray(val))
+                    ? [].concat(...values.filter(val => Array.isArray(val)))
+                    : values;
+                const uniqueFlatValues = Array.from(new Set(flatValues));
+
+                filterSettings[field] = '';
+
+                if (uniqueFlatValues.length > midUnique) {
+                    // Search box filter
+                    gui.add(filterSettings, field).onChange(updateGraph);
+                } else if (uniqueFlatValues.length > lowUnique) {
+                    // Dropdown filter
+                    const folder = gui.addFolder(`Filter: ${field}`);
+                    uniqueFlatValues.unshift(''); // Add a default 'all' option
+                    folder.add(filterSettings, field, uniqueFlatValues).onChange(updateGraph);
+                } else {
+                    // Toggle filters
+                    const folder = gui.addFolder(`Filter: ${field}`);
+                    uniqueFlatValues.forEach(value => {
+                        filterSettings[`${field}${delimiter}${value}`] = true;
+                        folder.add(filterSettings, `${field}${delimiter}${value}`).onChange(updateGraph);
+                    });
+
+                    // Add Toggle All and Detoggle All functionality
+                    folder.add({toggleAll: () => setAllToggles(folder, field, true)}, 'toggleAll').name("Toggle All");
+                    folder.add({toggleAll: () => setAllToggles(folder, field, false)}, 'toggleAll').name("Detoggle All");
+                  }
+            }
+        });
+
+        function setAllToggles(folder, field, value) {
+        folder.__controllers.forEach(controller => {
+            if (controller.property.startsWith(field + delimiter)) {
+                controller.setValue(value);
+            }
+        });
+        updateGraph();
+    }
+
+    defaultSettings = JSON.parse(JSON.stringify(filterSettings));
+    defaultSettings.enableTooltip = false;
+
+    function resetSettings() {
+    Object.keys(defaultSettings).forEach(key => {
+        if (typeof defaultSettings[key] === 'object' && defaultSettings[key] !== null) {
+            // For objects, reset each property
+            Object.assign(filterSettings[key], defaultSettings[key]);
+        } else {
+            // For other types, reset directly
+            filterSettings[key] = defaultSettings[key];
         }
+    });
+
+    // Update the GUI to reflect the default settings
+    for (let i = 0; i < gui.__controllers.length; i++) {
+        gui.__controllers[i].updateDisplay();
+    }
+
+    // Update the graph with the reset settings
+    updateGraph();
+}
+
+    gui.add({ resetSettings }, 'resetSettings').name('Reset');
 
       const elem = document.getElementById('graph');
       const Graph = ForceGraph()(elem)
