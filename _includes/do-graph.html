@@ -37,9 +37,9 @@ function do_graph(path){
       // dat.gui setup
       const gui = new dat.GUI();
       const settings = {enableTooltip: false};
-        const uniqueCategories = new Set();
+      const uniqueCategories = new Set();
       gui.add(settings, 'enableTooltip').name('Enable Preview');
-
+      const categoriesFolder = gui.addFolder('Categories');
 
         // Collect unique categories
         data.nodes.forEach(node => {
@@ -51,11 +51,8 @@ function do_graph(path){
             settings[category] = true; // default all categories to true
         });
 
-        // Add category controls to GUI
-        uniqueCategories.forEach(category => {
-            gui.add(settings, category).onChange(updateGraph);
-        });
-        // Toggle All function
+
+      // Toggle All function
         function toggleAll(value) {
             uniqueCategories.forEach(category => {
                 settings[category] = value;
@@ -65,8 +62,13 @@ function do_graph(path){
         }
 
         // Add Toggle All and Detoggle All buttons
-        gui.add({ toggleAll: () => toggleAll(true) }, 'toggleAll').name("Toggle All");
-        gui.add({ toggleAll: () => toggleAll(false) }, 'toggleAll').name("Detoggle All");
+        categoriesFolder.add({ toggleAll: () => toggleAll(true) }, 'toggleAll').name("Toggle All");
+        categoriesFolder.add({ toggleAll: () => toggleAll(false) }, 'toggleAll').name("Detoggle All");
+
+          // Add category controls to GUI
+          uniqueCategories.forEach(category => {
+          categoriesFolder.add(settings, category).onChange(updateGraph);
+      });
 
         // Update function for filtering
         function updateGraph() {
