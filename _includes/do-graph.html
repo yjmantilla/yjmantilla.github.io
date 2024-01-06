@@ -166,6 +166,7 @@ function do_graph(path){
                     const folder = gui.addFolder(`Filter: ${field}`);
                     uniqueFlatValues.unshift(''); // Add a default 'all' option
                     folder.add(filterSettings, field, uniqueFlatValues).onChange(updateGraph);
+                    //TODO: some fields like authors should filter if any of the authors match, not all at the same time
                 } else {
                     // Toggle filters
                     const folder = gui.addFolder(`Filter: ${field}`);

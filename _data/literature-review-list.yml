@@ -20,6 +20,7 @@
   relevance: Low
   research_type: Review
   sourceurl: https://www.frontiersin.org/articles/10.3389/fnhum.2019.00267/full
+  status: read-done
   title: 'Concrete vs. Abstract Semantics: From Mental Representations to Functional
     Brain Mapping'
   year: 2019
@@ -37,7 +38,24 @@
   relevance: Highly relevant to my research on NeuroAI parallels.
   research_type: Theoretical Analysis
   sourceurl: https://www.ijert.org/dummyarticle.pdf
+  status: read-done
   title: 'Deep Learning and the Brain: Neural Network Insights (dummy paper)'
+  year: 2023
+- authors:
+  - Curt Tigges
+  - Oskar John Hollinsworth
+  - Atticus Geiger
+  - Neel Nanda
+  doi: https://doi.org/10.48550/arXiv.2310.15154
+  keywords:
+  - interpretability
+  link: /literature-review/linear-representations-of-sentiment-in-large-language-models.html
+  publisher: arxiv
+  relevance: High
+  research_type: Experimental
+  sourceurl: https://arxiv.org/abs/2310.15154
+  status: to-read
+  title: Linear Representations of Sentiment in Large Language Models
   year: 2023
 - authors:
   - Parikshit Gupta
@@ -51,6 +69,7 @@
   relevance: Unknown
   research_type: Review
   sourceurl: https://www.ijert.org/reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence
+  status: read-done
   title: Reverse Engineering of Human Brain for the field of Artificial Intelligence
     - Parikshit Gupta
   year: 2020

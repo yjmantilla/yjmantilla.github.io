@@ -8,6 +8,7 @@ research_type: "Theoretical Analysis"
 relevance: "Highly relevant to my research on NeuroAI parallels."
 sourceurl: "https://www.ijert.org/dummyarticle.pdf"
 doi: "10.17577/dummydoi"
+status: "read-done"
 ---
 
 This is a dummy paper to illustrate the format of a literature review entry.

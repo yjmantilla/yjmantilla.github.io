@@ -8,6 +8,7 @@ research_type: "Review"
 relevance: "Low"
 sourceurl: "https://www.frontiersin.org/articles/10.3389/fnhum.2019.00267/full"
 doi: "https://doi.org/10.3389/fnhum.2019.00267"
+status: "read-done"
 ---
 
 Relevant to me is the "Defining Concreteness and Abstractness" section.

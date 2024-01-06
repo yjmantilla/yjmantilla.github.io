@@ -8,6 +8,7 @@ research_type: "Review"
 relevance: "Unknown"
 sourceurl: "https://www.ijert.org/reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence"
 doi: "10.17577/IJERTV9IS050169"
+status: "read-done"
 ---
 
 This document holds my observations for the paper:
@@ -132,6 +133,10 @@ The conclusion is somewhat shallow when compared to the last section. Basically,
 I think the paper could have explored more references, in example:
 
 - Neuroscience-Inspired Artificial Intelligence, Demis Hassabis et al, 2017.
+
+
+
+
 
 
 
