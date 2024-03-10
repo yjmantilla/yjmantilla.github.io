@@ -1,32 +1,34 @@
 ---
-- link: /dirs/about-me.html
+- link: ./../dirs/about-me.html
   title: About Me
-- link: /dirs/bubbles.html
+- link: ./../dirs/bubbles.html
   title: Bubbles (Random Thoughts)
-- link: /dirs/essays.html
+- link: ./../dirs/dirs.html
+  title: Directories
+- link: ./../dirs/essays.html
   title: Essays
-- link: /dirs/gsoc.html
+- link: ./../dirs/gsoc.html
   title: Google Summer of Code 2021
-- link: /dirs/hoja_de_vida.html
+- link: ./../dirs/hoja_de_vida.html
   title: CV - Curriculum Vitae
 - graphs:
   - link: /graphs/knowledge-graph-subdirs.html
     title: Graph with Categories
   - link: /graphs/knowledge-graph.html
     title: Graph without Categories
-  link: /dirs/knowledge-graphs.html
+  link: ./../dirs/knowledge-graphs.html
   title: Knowledge Graph
-- link: /dirs/literature-review.html
+- link: ./../dirs/literature-review.html
   title: Literature Review
-- link: /dirs/music.html
+- link: ./../dirs/music.html
   title: Music
-- link: /dirs/poems.html
+- link: ./../dirs/poems.html
   title: Poems
-- link: /dirs/research.html
+- link: ./../dirs/research.html
   title: Research
-- link: /dirs/sims.html
+- link: ./../dirs/sims.html
   title: Interactive Content
-- link: /dirs/tutorials.html
+- link: ./../dirs/tutorials.html
   title: Tutorials
-- link: /dirs/wayward.html
+- link: ./../dirs/wayward.html
   title: Wayward

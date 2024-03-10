@@ -15,7 +15,7 @@
   - memory trace
   - psycholinguistics
   - functional brain mapping
-  link: /literature-review/concrete-vs-abstract-semantics-from-mental-representations-to-functional-brain-mapping.html
+  link: ./../literature-review/concrete-vs-abstract-semantics-from-mental-representations-to-functional-brain-mapping.html
   publisher: Frontiers in Human Neuroscience
   relevance: Low
   research_type: Review
@@ -33,7 +33,7 @@
   - Neuroscience
   - Neural Networks
   - Brain Function
-  link: /literature-review/dummy-article.html
+  link: ./../literature-review/dummy-article.html
   publisher: Journal of NeuroAI Research
   relevance: Highly relevant to my research on NeuroAI parallels.
   research_type: Theoretical Analysis
@@ -49,7 +49,7 @@
   doi: https://doi.org/10.48550/arXiv.2310.15154
   keywords:
   - interpretability
-  link: /literature-review/linear-representations-of-sentiment-in-large-language-models.html
+  link: ./../literature-review/linear-representations-of-sentiment-in-large-language-models.html
   publisher: arxiv
   relevance: High
   research_type: Experimental
@@ -64,7 +64,7 @@
   - Reverse Engineering of Human Brain
   - Artificial Neural Networks(ANN)
   - Convolutional Neural Networks(CNN)
-  link: /literature-review/reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta.html
+  link: ./../literature-review/reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta.html
   publisher: International Journal of Engineering Research & Technology (IJERT)
   relevance: Unknown
   research_type: Review

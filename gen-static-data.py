@@ -7,6 +7,8 @@ import yaml
 import ntpath
 import pathlib
 
+GRAPHS_URL_RULE=('./','./../')
+SUBDIRS_URL_RULE=('./','./../')
 def has_front_matter(lines):
     """Check if the list of lines contains front matter."""
     if lines and '---' in lines[0].strip():
@@ -30,14 +32,14 @@ def collect_graph(mypath,output_path='files\graph.json',extension='.md',out_exte
     onlyfiles = [os.path.join(path, name) for path, subdirs_, files in os.walk(mypath) for name in files if extension in name and not any(substring in path for substring in ignore_in)]
     onlysubdirs= [pathlib.PurePath(p).parent.name for p in onlyfiles]
     # before out_extension ='.html'
-    urls = ['../'+p.replace('\\','/').replace(extension,out_extension) for p in onlyfiles]#'../'+ why did i use this?? seems that it was for getting to root in one step
+    urls = [p.replace('\\','/').replace(extension,out_extension).replace(*GRAPHS_URL_RULE) for p in onlyfiles]# [1:] skip the first dot, to make it /path/to/file.html which is from the root
     filenames = [ntpath.basename(p).replace(extension,'') for p in onlyfiles]
     #assert uniqueness
     assert len(filenames)==len(set(filenames))
     sources = []
     targets = []
     for (this_file,this_fullpath,this_subdir) in zip(filenames,onlyfiles,onlysubdirs):
-        print(this_file)
+        print(this_fullpath,this_file)
         title = ''
         go_to = []
         
@@ -60,12 +62,12 @@ def collect_graph(mypath,output_path='files\graph.json',extension='.md',out_exte
     nodes = [{'id':x,'url':u} for x,u in zip(sources,urls) if not any(substring == x for substring in ignore_eq)]
 
 
-    if subdirs:
-        nodes += [{'id':x,'url':'.././dirs/'+x+out_extension} for x in list(set(onlysubdirs)) if not any(substring == x for substring in ignore_eq)]
+    # if subdirs:
+    #     nodes += [{'id':x,'url':'/dirs/'+x+out_extension} for x in list(set(onlysubdirs)) if not any(substring == x for substring in ignore_eq)]
 
 
     #Nodes without files, have to be after since order is important in the previous lines
-    ghost_nodes = set ([item for sublist in targets for item in sublist]) - set([n['id'] for n in nodes])
+    ghost_nodes = set ([item  for sublist in targets  for item in sublist if item!='']) - set([n['id'] for n in nodes])
     ghost_nodes = list(ghost_nodes)
     ghost_nodes = [x for x in ghost_nodes if not any(substring == x for substring in ignore_eq)]
     if stub_path is None:
@@ -84,7 +86,7 @@ def collect_graph(mypath,output_path='files\graph.json',extension='.md',out_exte
 
     for node in graph['nodes']:
         this_file = node['url']+'.md'
-        this_file = this_file.replace('.././','')
+        this_file = this_file.replace(*reversed(GRAPHS_URL_RULE))
         tree=node['url'].split('/')
         if len(tree)>3:
             cat = tree[2]
@@ -93,8 +95,8 @@ def collect_graph(mypath,output_path='files\graph.json',extension='.md',out_exte
         node.update({'category':cat})
 
         if node['id'] == "":
-            node['id'] = 'dirs'
-            this_file = 'dirs.md'
+            node['id'] = 'index'
+            #this_file = './index.md' # why is this here?
         try:
             with open(this_file, encoding='utf-8') as f:
                 data = f.readlines()
@@ -106,7 +108,8 @@ def collect_graph(mypath,output_path='files\graph.json',extension='.md',out_exte
                         front_matter = next(yaml.load_all(front_matter_str, Loader=yaml.FullLoader))
                         node.update(front_matter)
                         if node['id'] != 'stub' and node['url'] == stub_path:
-                            node.update({'title': node['id']})
+                            node.update({'title': node['id'].lower()})
+                        node['title']=node['title'].lower() # make it more easy to search as search is case sensitive
                         node['content'] = format_content_with_front_matter(data2, front_matter_lines)
                     else:
                         print(node, 'has no front matter')
@@ -147,8 +150,8 @@ def get_dicts(onlyfiles,urls,mypath):
 def collect_stuff(mypath,extension='.md'):
     # gotta filter by extension since assets may be in the folder (images ie)
     onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f)) and extension in f]
-    urls = ['/'+mypath+'/'+ x.replace('.md','.html') for x in onlyfiles]
-
+    urls = ['./../'+mypath+'/'+ x.replace('.md','.html') for x in onlyfiles]
+    # this is for when you are in root/dirs/
     dicts = get_dicts(onlyfiles,urls,mypath)
     explicit_start=True
     default_flow_style=False
@@ -160,14 +163,14 @@ def generate_link_reference_definitions(mypath,graph,extension='.md',only_clean=
     #onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f)) and extension in f]
     onlyfiles = [os.path.join(path, name) for path, subdirs, files in os.walk(mypath) for name in files if extension in name and not any(substring in path for substring in ignore_in)]
     onlysubdirs= [pathlib.PurePath(p).parent.name for p in onlyfiles]
-    urls = ['../'+p.replace('\\','/').replace(extension,'.html') for p in onlyfiles]
+    urls = [p.replace('\\','/').replace(extension,'.html').replace(*SUBDIRS_URL_RULE) for p in onlyfiles]
     filenames = [ntpath.basename(p).replace(extension,'') for p in onlyfiles]
     #assert uniqueness
     assert len(filenames)==len(set(filenames))
     sources = []
     targets = []
-    begin = '\n\n[//begin]: # "Autogenerated link references for markdown compatibility"\n'     # the two linebreaks are really important for github pages to grab these as references
-    end = '\n[//end]: # "Autogenerated link references"\n\n'
+    begin = '\n[//begin]: # "Autogenerated link references for markdown compatibility"\n'     # the two linebreaks are really important for github pages to grab these as references
+    end = '\n[//end]: # "Autogenerated link references"'
     for (this_file,this_fullpath,this_subdir) in zip(filenames,onlyfiles,onlysubdirs):
         print(this_file)
         # Get references of this file (all links with this file as the source)
@@ -201,10 +204,13 @@ def generate_link_reference_definitions(mypath,graph,extension='.md',only_clean=
 
 #%% Collector
 out_extension=''
-graph_subs=collect_graph('./',out_extension=out_extension,output_path='files/graph-subdirs.json',ignore_in=['_site','_includes','dirs'],ignore_eq=['.','README','bubbles'],subdirs=True)
-graph_nosubs=collect_graph('./',out_extension=out_extension,output_path='files/graph.json',ignore_in=['_site','_includes','dirs'],ignore_eq=['.','README','bubbles'],subdirs=False)
+ignore_in = ['_site','_includes','.github','.vscode','docs','packages','README']
+ignore_eq = ['.','README','bubbles']
+graph_subs=collect_graph('./',out_extension=out_extension,output_path='graphs/graph-subdirs.json',ignore_in=ignore_in,ignore_eq=ignore_eq,subdirs=True)
+graph_nosubs=collect_graph('./',out_extension=out_extension,output_path='graphs/graph.json',ignore_in=ignore_in,ignore_eq=ignore_eq,subdirs=False)
 generate_link_reference_definitions('./',graph_nosubs,only_clean=True)
 generate_link_reference_definitions('./',graph_nosubs,only_clean=False)
+
 # Devise a method to extract references without a file (in the graphs they are the ones that link to the stub article)
 # Would be helpful to have a list of them somewhere.
 # Solved--> They are linked to the stub article on the collect graph
