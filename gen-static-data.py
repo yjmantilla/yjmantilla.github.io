@@ -204,7 +204,7 @@ def generate_link_reference_definitions(mypath,graph,extension='.md',only_clean=
 
 #%% Collector
 out_extension=''
-ignore_in = ['_site','_includes','.github','.vscode','docs','packages','README']
+ignore_in = ['_site','_includes','.github','.vscode','docs','packages','README','poems']
 ignore_eq = ['.','README','bubbles']
 graph_subs=collect_graph('./',out_extension=out_extension,output_path='graphs/graph-subdirs.json',ignore_in=ignore_in,ignore_eq=ignore_eq,subdirs=True)
 graph_nosubs=collect_graph('./',out_extension=out_extension,output_path='graphs/graph.json',ignore_in=ignore_in,ignore_eq=ignore_eq,subdirs=False)
@@ -216,7 +216,7 @@ generate_link_reference_definitions('./',graph_nosubs,only_clean=False)
 # Solved--> They are linked to the stub article on the collect graph
 # Should crash because generate_link_reference_definitions works with the source, which is the stub, for the ghost nodes.
 
-collect_stuff('poems')
+#collect_stuff('poems')
 collect_stuff('tutorials')
 collect_stuff('wayward')
 collect_stuff('sims')
