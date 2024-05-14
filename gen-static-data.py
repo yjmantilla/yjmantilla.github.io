@@ -147,9 +147,10 @@ def get_dicts(onlyfiles,urls,mypath):
 
     return dicts
 
-def collect_stuff(mypath,extension='.md'):
+def collect_stuff(mypath,extension='.md',ignore=[]):
     # gotta filter by extension since assets may be in the folder (images ie)
     onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f)) and extension in f]
+    onlyfiles = [f for f in onlyfiles if not any(substring in f for substring in ignore)]
     urls = ['./../'+mypath+'/'+ x.replace('.md','.html') for x in onlyfiles]
     # this is for when you are in root/dirs/
     dicts = get_dicts(onlyfiles,urls,mypath)
@@ -225,5 +226,5 @@ collect_stuff('literature-review')
 collect_stuff('research')
 collect_stuff('gsoc')
 collect_stuff('bubbles')
-collect_stuff('dirs')
+collect_stuff('dirs',ignore=['poems'])
 
