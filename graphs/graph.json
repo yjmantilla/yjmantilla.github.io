@@ -1554,35 +1554,19 @@
     "links": [
         {
             "source": "2023-01-01",
-            "target": "you-research-what-strikes-you-deeply"
-        },
-        {
-            "source": "2023-01-01",
-            "target": "vasopressin-bonding-effect"
-        },
-        {
-            "source": "2023-01-01",
-            "target": "understanding-and-innovation"
-        },
-        {
-            "source": "2023-01-01",
-            "target": "the-power-of-emotional-investment"
-        },
-        {
-            "source": "2023-01-01",
             "target": "fear-of-failure"
         },
         {
             "source": "2023-01-01",
-            "target": "paralysis-by-analysis"
+            "target": "flight-of-ideas-racing-thoughts"
         },
         {
             "source": "2023-01-01",
-            "target": "kids-are-pure-potential"
+            "target": "flight-of-ideas-racing-thoughts"
         },
         {
             "source": "2023-01-01",
-            "target": "the-blessing-is-in-the-breaking"
+            "target": "focused-and-diffused"
         },
         {
             "source": "2023-01-01",
@@ -1590,7 +1574,15 @@
         },
         {
             "source": "2023-01-01",
-            "target": "rapt-attention"
+            "target": "how-to-learn"
+        },
+        {
+            "source": "2023-01-01",
+            "target": "kids-are-pure-potential"
+        },
+        {
+            "source": "2023-01-01",
+            "target": "knowledge-graph"
         },
         {
             "source": "2023-01-01",
@@ -1602,23 +1594,7 @@
         },
         {
             "source": "2023-01-01",
-            "target": "scientific-writing-with-karen-mckee"
-        },
-        {
-            "source": "2023-01-01",
-            "target": "how-to-learn"
-        },
-        {
-            "source": "2023-01-01",
-            "target": "focused-and-diffused"
-        },
-        {
-            "source": "2023-01-01",
-            "target": "visceralization"
-        },
-        {
-            "source": "2023-01-01",
-            "target": "knowledge-graph"
+            "target": "paralysis-by-analysis"
         },
         {
             "source": "2023-01-01",
@@ -1626,7 +1602,31 @@
         },
         {
             "source": "2023-01-01",
-            "target": "flight-of-ideas-racing-thoughts"
+            "target": "rapt-attention"
+        },
+        {
+            "source": "2023-01-01",
+            "target": "scientific-writing-with-karen-mckee"
+        },
+        {
+            "source": "2023-01-01",
+            "target": "the-blessing-is-in-the-breaking"
+        },
+        {
+            "source": "2023-01-01",
+            "target": "the-power-of-emotional-investment"
+        },
+        {
+            "source": "2023-01-01",
+            "target": "understanding-and-innovation"
+        },
+        {
+            "source": "2023-01-01",
+            "target": "vasopressin-bonding-effect"
+        },
+        {
+            "source": "2023-01-01",
+            "target": "visceralization"
         },
         {
             "source": "2023-01-01",
@@ -1634,11 +1634,15 @@
         },
         {
             "source": "2023-01-01",
-            "target": "flight-of-ideas-racing-thoughts"
+            "target": "you-research-what-strikes-you-deeply"
         },
         {
             "source": "2023-01-02",
             "target": "2023-01-01"
+        },
+        {
+            "source": "2023-01-02",
+            "target": "fear-of-failure"
         },
         {
             "source": "2023-01-02",
@@ -1647,10 +1651,6 @@
         {
             "source": "2023-01-02",
             "target": "perfection-is-paralyzing"
-        },
-        {
-            "source": "2023-01-02",
-            "target": "fear-of-failure"
         },
         {
             "source": "2023-01-02",
@@ -1670,15 +1670,11 @@
         },
         {
             "source": "2023-01-04",
-            "target": "overheating"
+            "target": "archeology-of-knowledge"
         },
         {
             "source": "2023-01-04",
             "target": "bestiary"
-        },
-        {
-            "source": "2023-01-04",
-            "target": "archeology-of-knowledge"
         },
         {
             "source": "2023-01-04",
@@ -1689,16 +1685,20 @@
             "target": "how-to-learn"
         },
         {
+            "source": "2023-01-04",
+            "target": "overheating"
+        },
+        {
             "source": "2023-01-05",
             "target": "2023-01-04"
         },
         {
             "source": "2023-01-05",
-            "target": "novelty-search"
+            "target": "are_yes_or_no_questions_science"
         },
         {
             "source": "2023-01-05",
-            "target": "are_yes_or_no_questions_science"
+            "target": "novelty-search"
         },
         {
             "source": "2023-01-06-to-2023-01-08",
@@ -1706,11 +1706,11 @@
         },
         {
             "source": "2023-01-06-to-2023-01-08",
-            "target": "avatar-of-challenge"
+            "target": "algorithms-as-abstract-representations"
         },
         {
             "source": "2023-01-06-to-2023-01-08",
-            "target": "will-of-places"
+            "target": "avatar-of-challenge"
         },
         {
             "source": "2023-01-06-to-2023-01-08",
@@ -1718,11 +1718,7 @@
         },
         {
             "source": "2023-01-06-to-2023-01-08",
-            "target": "algorithms-as-abstract-representations"
-        },
-        {
-            "source": "2023-01-06-to-2023-01-08",
-            "target": "the-can-that-moves"
+            "target": "squire-attire"
         },
         {
             "source": "2023-01-06-to-2023-01-08",
@@ -1730,19 +1726,23 @@
         },
         {
             "source": "2023-01-06-to-2023-01-08",
-            "target": "text-libro-de-animales"
-        },
-        {
-            "source": "2023-01-06-to-2023-01-08",
             "target": "text-i-have-no-mouth-and-i-must-scream"
         },
         {
             "source": "2023-01-06-to-2023-01-08",
-            "target": "squire-attire"
+            "target": "text-libro-de-animales"
+        },
+        {
+            "source": "2023-01-06-to-2023-01-08",
+            "target": "the-can-that-moves"
         },
         {
             "source": "2023-01-06-to-2023-01-08",
             "target": "video-the-paradox-of-rules-in-games-and-life"
+        },
+        {
+            "source": "2023-01-06-to-2023-01-08",
+            "target": "will-of-places"
         },
         {
             "source": "2023-01-09-to-2023-12-18",
@@ -1770,15 +1770,15 @@
         },
         {
             "source": "2023-12-21",
-            "target": "the-curious-phenomena-that-arise-from-LLMs"
-        },
-        {
-            "source": "2023-12-21",
             "target": "ChainForge"
         },
         {
             "source": "2023-12-21",
-            "target": "patterns"
+            "target": "becoming-a-professor"
+        },
+        {
+            "source": "2023-12-21",
+            "target": "becoming-a-researcher"
         },
         {
             "source": "2023-12-21",
@@ -1790,19 +1790,19 @@
         },
         {
             "source": "2023-12-21",
-            "target": "vasopressin-bonding-effect"
-        },
-        {
-            "source": "2023-12-21",
-            "target": "becoming-a-researcher"
-        },
-        {
-            "source": "2023-12-21",
-            "target": "becoming-a-professor"
+            "target": "patterns"
         },
         {
             "source": "2023-12-21",
             "target": "psychedelics"
+        },
+        {
+            "source": "2023-12-21",
+            "target": "the-curious-phenomena-that-arise-from-LLMs"
+        },
+        {
+            "source": "2023-12-21",
+            "target": "vasopressin-bonding-effect"
         },
         {
             "source": "2024-01-03",
@@ -1818,11 +1818,11 @@
         },
         {
             "source": "aesthethic-of-deepness",
-            "target": "curiosity-jumping"
+            "target": "archeology-of-knowledge"
         },
         {
             "source": "aesthethic-of-deepness",
-            "target": "archeology-of-knowledge"
+            "target": "curiosity-jumping"
         },
         {
             "source": "are_yes_or_no_questions_science",
@@ -1830,7 +1830,7 @@
         },
         {
             "source": "avatar-of-challenge",
-            "target": "wolf-of-reality"
+            "target": "abyss-gaze"
         },
         {
             "source": "avatar-of-challenge",
@@ -1838,7 +1838,7 @@
         },
         {
             "source": "avatar-of-challenge",
-            "target": "abyss-gaze"
+            "target": "wolf-of-reality"
         },
         {
             "source": "becoming-a-researcher",
@@ -1854,11 +1854,11 @@
         },
         {
             "source": "curiosity-jumping",
-            "target": "wayward"
+            "target": "for-the-sake-of-play"
         },
         {
             "source": "curiosity-jumping",
-            "target": "for-the-sake-of-play"
+            "target": "wayward"
         },
         {
             "source": "eyes-i-see-at-close-eyes",
@@ -1866,23 +1866,7 @@
         },
         {
             "source": "how-to-learn",
-            "target": "the-power-of-emotional-investment"
-        },
-        {
-            "source": "how-to-learn",
-            "target": "problem-solvingly"
-        },
-        {
-            "source": "how-to-learn",
             "target": "aesthethic-of-deepness"
-        },
-        {
-            "source": "how-to-learn",
-            "target": "por-las-ramas"
-        },
-        {
-            "source": "how-to-learn",
-            "target": "flight-of-ideas-racing-thoughts"
         },
         {
             "source": "how-to-learn",
@@ -1890,7 +1874,7 @@
         },
         {
             "source": "how-to-learn",
-            "target": "mere-exposure-effect"
+            "target": "flight-of-ideas-racing-thoughts"
         },
         {
             "source": "how-to-learn",
@@ -1899,6 +1883,22 @@
         {
             "source": "how-to-learn",
             "target": "memory-retention"
+        },
+        {
+            "source": "how-to-learn",
+            "target": "mere-exposure-effect"
+        },
+        {
+            "source": "how-to-learn",
+            "target": "por-las-ramas"
+        },
+        {
+            "source": "how-to-learn",
+            "target": "problem-solvingly"
+        },
+        {
+            "source": "how-to-learn",
+            "target": "the-power-of-emotional-investment"
         },
         {
             "source": "knowledge-graph",
@@ -1922,7 +1922,7 @@
         },
         {
             "source": "my-research-programme",
-            "target": "author-Grace-Lindsay"
+            "target": "author-Anna-Ivanova"
         },
         {
             "source": "my-research-programme",
@@ -1934,7 +1934,7 @@
         },
         {
             "source": "my-research-programme",
-            "target": "author-Anna-Ivanova"
+            "target": "author-Grace-Lindsay"
         },
         {
             "source": "my-research-programme",
@@ -1946,19 +1946,11 @@
         },
         {
             "source": "perfection-is-paralyzing",
-            "target": "paralysis-by-analysis"
-        },
-        {
-            "source": "perfection-is-paralyzing",
             "target": "fear-of-failure"
         },
         {
-            "source": "psychedelics",
-            "target": "psychedelic-cryptography"
-        },
-        {
-            "source": "psychedelics",
-            "target": "cognition-and-myths"
+            "source": "perfection-is-paralyzing",
+            "target": "paralysis-by-analysis"
         },
         {
             "source": "psychedelics",
@@ -1966,11 +1958,19 @@
         },
         {
             "source": "psychedelics",
+            "target": "cognition-and-myths"
+        },
+        {
+            "source": "psychedelics",
+            "target": "psychedelic-cryptography"
+        },
+        {
+            "source": "psychedelics",
             "target": "psychedelics-and-criticality"
         },
         {
             "source": "representation",
-            "target": "learn-from-the-machine"
+            "target": "algorithms-as-abstract-representations"
         },
         {
             "source": "representation",
@@ -1978,11 +1978,31 @@
         },
         {
             "source": "representation",
-            "target": "algorithms-as-abstract-representations"
+            "target": "learn-from-the-machine"
         },
         {
             "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
             "target": "biomimicry"
+        },
+        {
+            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "target": "biomimicry"
+        },
+        {
+            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "target": "biomimicry"
+        },
+        {
+            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "target": "brain-as-a-computer"
+        },
+        {
+            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "target": "brain-as-a-computer"
+        },
+        {
+            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "target": "brain-as-a-computer"
         },
         {
             "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
@@ -1994,35 +2014,15 @@
         },
         {
             "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
+            "target": "inferotemporal-cortex"
+        },
+        {
+            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
             "target": "modularism-vs-holism-in-neuroscience"
         },
         {
             "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
-            "target": "brain-as-a-computer"
-        },
-        {
-            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
-            "target": "brain-as-a-computer"
-        },
-        {
-            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
-            "target": "biomimicry"
-        },
-        {
-            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
-            "target": "biomimicry"
-        },
-        {
-            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
-            "target": "brain-as-a-computer"
-        },
-        {
-            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
             "target": "primary-visual-cortex"
-        },
-        {
-            "source": "reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta",
-            "target": "inferotemporal-cortex"
         },
         {
             "source": "scientific-writing-with-karen-mckee",
@@ -2034,39 +2034,11 @@
         },
         {
             "source": "stub",
-            "target": "you-research-what-strikes-you-deeply"
-        },
-        {
-            "source": "stub",
-            "target": "intuitive-physics"
-        },
-        {
-            "source": "stub",
             "target": "ChainForge"
         },
         {
             "source": "stub",
-            "target": "computation"
-        },
-        {
-            "source": "stub",
             "target": "ai-and-myths"
-        },
-        {
-            "source": "stub",
-            "target": "video-the-paradox-of-rules-in-games-and-life"
-        },
-        {
-            "source": "stub",
-            "target": "reverse-engineering-games"
-        },
-        {
-            "source": "stub",
-            "target": "psychedelic-cryptography"
-        },
-        {
-            "source": "stub",
-            "target": "text-horizonte-de-sucesos"
         },
         {
             "source": "stub",
@@ -2078,7 +2050,7 @@
         },
         {
             "source": "stub",
-            "target": "connectome"
+            "target": "building-before-knowing"
         },
         {
             "source": "stub",
@@ -2086,7 +2058,55 @@
         },
         {
             "source": "stub",
+            "target": "computation"
+        },
+        {
+            "source": "stub",
+            "target": "connectome"
+        },
+        {
+            "source": "stub",
             "target": "imagine-24-balls"
+        },
+        {
+            "source": "stub",
+            "target": "inferotemporal-cortex"
+        },
+        {
+            "source": "stub",
+            "target": "intuitive-physics"
+        },
+        {
+            "source": "stub",
+            "target": "phosphenes"
+        },
+        {
+            "source": "stub",
+            "target": "primary-visual-cortex"
+        },
+        {
+            "source": "stub",
+            "target": "psychedelic-cryptography"
+        },
+        {
+            "source": "stub",
+            "target": "psychedelics-and-criticality"
+        },
+        {
+            "source": "stub",
+            "target": "recognition-vs-recall thing"
+        },
+        {
+            "source": "stub",
+            "target": "reverse-engineering-games"
+        },
+        {
+            "source": "stub",
+            "target": "semantics"
+        },
+        {
+            "source": "stub",
+            "target": "text-horizonte-de-sucesos"
         },
         {
             "source": "stub",
@@ -2098,31 +2118,11 @@
         },
         {
             "source": "stub",
-            "target": "psychedelics-and-criticality"
+            "target": "video-the-paradox-of-rules-in-games-and-life"
         },
         {
             "source": "stub",
-            "target": "building-before-knowing"
-        },
-        {
-            "source": "stub",
-            "target": "recognition-vs-recall thing"
-        },
-        {
-            "source": "stub",
-            "target": "primary-visual-cortex"
-        },
-        {
-            "source": "stub",
-            "target": "phosphenes"
-        },
-        {
-            "source": "stub",
-            "target": "semantics"
-        },
-        {
-            "source": "stub",
-            "target": "inferotemporal-cortex"
+            "target": "you-research-what-strikes-you-deeply"
         },
         {
             "source": "the-can-that-moves",
@@ -2130,11 +2130,11 @@
         },
         {
             "source": "the-curious-phenomena-that-arise-from-LLMs",
-            "target": "thinking-fast-and-slow of Kahneman"
+            "target": "linear-representations-of-sentiment-in-large-language-models"
         },
         {
             "source": "the-curious-phenomena-that-arise-from-LLMs",
-            "target": "linear-representations-of-sentiment-in-large-language-models"
+            "target": "thinking-fast-and-slow of Kahneman"
         },
         {
             "source": "the-minimal-viable-product",

@@ -128,7 +128,7 @@ def collect_graph(mypath,output_path='files\graph.json',extension='.md',out_exte
             print('Error processing file for node', node, 'at', this_file, ":", e)            #exit()
     # sort nodes and links by id
     graph['nodes'] = sorted(graph['nodes'], key=lambda x: x['id'])
-    graph['links'] = sorted(graph['links'], key=lambda x: x['source'])
+    graph['links'] = sorted(graph['links'], key=lambda x: x['source']+x['target'])
     graph.update(additional_keys)
 
     with open(output_path, "w") as out_file:
