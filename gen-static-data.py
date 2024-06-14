@@ -212,9 +212,10 @@ graph_subs=collect_graph('./',out_extension=out_extension,output_path='graphs/gr
 # collect all attributes and unique values
 unique_values = {}
 ignored_attributes = ['content','url','id','title']
+ignored_substring = ['_link','excalidraw-']
 for node in graph_subs['nodes']:
     for key, value in node.items():
-        if '_' == key[0] or key in ignored_attributes:
+        if '_' == key[0] or key in ignored_attributes or any(substring in key for substring in ignored_substring):
             continue
         if key not in unique_values:
             unique_values[key] = []
