@@ -4,75 +4,75 @@ title: Attributes
 
 ## category
 
-- root
 - bubbles
 - dirs
 - essays
 - gsoc
 - literature-review
 - research
+- root
 - sims
 - tutorials
 - wayward
 
 ## authors
 
-- Nadezhda Mkrtychian
-- Evgeny Blagovechtchenski
-- Diana Kurmakaeva
+- Atticus Geiger
+- Curt Tigges
 - Daria Gnedykh
-- Svetlana Kostromina
-- Yury Shtyrov
+- Diana Kurmakaeva
 - Dr. Alex Smith
 - Dr. Maria Garcia
-- Curt Tigges
-- Oskar John Hollinsworth
-- Atticus Geiger
+- Evgeny Blagovechtchenski
+- Nadezhda Mkrtychian
 - Neel Nanda
+- Oskar John Hollinsworth
 - Parikshit Gupta
+- Svetlana Kostromina
+- Yury Shtyrov
 
 ## year
 
 - 2019
-- 2023
 - 2020
+- 2023
 
 ## publisher
 
 - Frontiers in Human Neuroscience
+- International Journal of Engineering Research & Technology (IJERT)
 - Journal of NeuroAI Research
 - arxiv
-- International Journal of Engineering Research & Technology (IJERT)
 
 ## keywords
 
+- Artificial Neural Networks(ANN)
+- Brain Function
+- Convolutional Neural Networks(CNN)
+- Deep Learning
+- Neural Networks
+- Neuroscience
+- Reverse Engineering of Human Brain
+- brain
 - concrete and abstract semantics
 - concreteness effect
-- mental representation
-- brain
-- memory trace
-- psycholinguistics
 - functional brain mapping
-- Deep Learning
-- Neuroscience
-- Neural Networks
-- Brain Function
 - interpretability
-- Reverse Engineering of Human Brain
-- Artificial Neural Networks(ANN)
-- Convolutional Neural Networks(CNN)
+- memory trace
+- mental representation
+- psycholinguistics
 
 ## research_type
 
+- Experimental
 - Review
 - Theoretical Analysis
-- Experimental
 
 ## relevance
 
-- Low
-- Highly relevant to my research on NeuroAI parallels.
 - High
+- Highly relevant to my research on NeuroAI parallels.
+- Low
 - Unknown
 
 ## status
