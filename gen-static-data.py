@@ -219,6 +219,8 @@ def generate_link_reference_definitions(mypath,graph,extension='.md',only_clean=
                     url = [x for x in graph['nodes'] if x['id']==tg][0]['url']
                     refs.append(f'[{tg}]: {url} "{tg}"')
                 newtext =  '\n'.join(refs)
+                # the two linebreaks are really important for github pages to grab these as references
+                #TODO: check if that is true
                 newtext = '\n\n'+begin+'\n'+newtext+'\n'+end+'\n'
                 if not only_clean:
                     newdata = newdata+newtext
