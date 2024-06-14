@@ -1,4 +1,3 @@
-
 GRAPHS_URL_RULE:
   - './'
   - './../'
