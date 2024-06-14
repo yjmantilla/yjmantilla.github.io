@@ -23,7 +23,7 @@ remote_theme: jekyll/minima
 # Time machine
 # plugins:
 # - jekyll-remote-theme # add this line to the plugins list if you already have one
-
+destination: Y:/code/jekyll/yjmantilla.github.io
 header_pages:
   - README.md
 minima:

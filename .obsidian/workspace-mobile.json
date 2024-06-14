@@ -1,0 +1,140 @@
+{
+  "main": {
+    "id": "fc94caa4a9e0af17",
+    "type": "split",
+    "children": [
+      {
+        "id": "70a1d939d5bb85b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "209e0f3dade7c0a6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1fddcac7687d020b",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "22851f79bbf1efc4",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "81de87af6ab0ae2f",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "b89fb2b99ba2a440",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "40dd639808d7dac0",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "c101ced10fe844ca",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "d2477cf47cfacb68",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "f6225645a0adfd9f",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "474e146a401cca36",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "209e0f3dade7c0a6",
+  "lastOpenFiles": [
+    "bubbles/_site/novelty-search.html",
+    "_includes/capture.html",
+    "sims",
+    "poems",
+    "dirs",
+    "bubbles/_site",
+    "bubbles",
+    "graphs",
+    "_data",
+    "tutorials",
+    "gsoc"
+  ]
+}

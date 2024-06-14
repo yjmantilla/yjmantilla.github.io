@@ -36,12 +36,14 @@ function do_graph(path){
 
       // dat.gui setup
       const gui = new dat.GUI();
-      const settings = {enableTooltip: false};
+      const settings = {enableTooltip: false, orSearch: false};
       const uniqueCategories = new Set();
       const delimiter = '~';
-      const lowUnique=20;
-      const midUnique=50;
+      const lowUnique=0;
+      const midUnique=0;
       gui.add(settings, 'enableTooltip').name('Enable Preview');
+      gui.add(settings, 'orSearch').name('OR search');
+
 
         // Adding filter controls to GUI
         const fieldValues = {};
@@ -90,7 +92,17 @@ function do_graph(path){
 
                   // For string filters (dropdowns and search boxes)
                   if (typeof filterSettings[setting] === 'string') {
-                      return filterSettings[setting] === '' || fieldValue.includes(filterSettings[setting]);
+                      if (filterSettings[setting] === '') {
+                          return true;
+                      }
+
+                      const searchWords = filterSettings[setting].toLowerCase().split(' ');
+                      const fieldValueLowerCase = fieldValue.toLowerCase();
+
+                      if (settings.orSearch) {
+                          return searchWords.some(word => fieldValueLowerCase.includes(word));
+                      }
+                      return searchWords.every(word => fieldValueLowerCase.includes(word));
                   }
 
                   // For toggle filters
@@ -193,6 +205,7 @@ function do_graph(path){
 
     defaultSettings = JSON.parse(JSON.stringify(filterSettings));
     defaultSettings.enableTooltip = false;
+    defaultSettings.orSearch = false;
 
     function resetSettings() {
     Object.keys(defaultSettings).forEach(key => {
