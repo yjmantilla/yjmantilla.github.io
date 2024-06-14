@@ -120,11 +120,11 @@ def collect_graph(mypath,output_path='files\graph.json',extension='.md',out_exte
                             node['title']=node['title'].lower() # make it more easy to search as search is case sensitive
                         else:
                             node['title'] = node['id'].lower()
-                        node['content'] = format_content_with_front_matter(data2, front_matter_lines)
+                        node['content'] = format_content_with_front_matter(data2, front_matter_lines).rstrip()
                     else:
                         print(node, 'has no front matter')
                         node['title'] = node['id'].lower()
-                        node['content'] = data2
+                        node['content'] = data2.rstrip()
         except Exception as e:
             print('Error processing file for node', node, 'at', this_file, ":", e)            #exit()
     # sort nodes and links by id
