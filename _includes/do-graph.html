@@ -39,10 +39,10 @@ function do_graph(path){
       const settings = {enableTooltip: false, orSearch: false};
       const uniqueCategories = new Set();
       const delimiter = '~';
-      const lowUnique=0;
-      const midUnique=0;
+      const lowUnique=5;
+      const midUnique=10;
       gui.add(settings, 'enableTooltip').name('Enable Preview');
-      gui.add(settings, 'orSearch').name('OR search');
+      gui.add(settings, 'orSearch').name('OR search').onChange(updateGraph);
 
 
         // Adding filter controls to GUI
@@ -79,9 +79,8 @@ function do_graph(path){
         function filterNodes(setting,node){
                   const [field, value] = setting.split(delimiter);
                   const fieldValue = node[field];
-
                   // If the field does not exist in the node, filter it out
-                  if (fieldValue === undefined) {
+                  if (fieldValue === undefined || fieldValue === null || fieldValue === '') {
                       return true;
                   }
 
@@ -95,7 +94,6 @@ function do_graph(path){
                       if (filterSettings[setting] === '') {
                           return true;
                       }
-
                       const searchWords = filterSettings[setting].toLowerCase().split(' ');
                       const fieldValueLowerCase = fieldValue.toLowerCase();
 
@@ -106,11 +104,12 @@ function do_graph(path){
                   }
 
                   // For toggle filters
-                  if (typeof filterSettings[setting] === 'boolean') {
+                  if (typeof filterSettings[setting] === 'boolean' && fieldValue !== undefined && fieldValue !== null && fieldValue !== '') {
                       return !(filterSettings[setting] === false && fieldValue.includes(value));
                       //filterSettings[setting] === false || fieldValue.includes(value);
                       //
                   }
+
 
                   return true;
               }
@@ -124,15 +123,14 @@ function do_graph(path){
 
           for (let node of data.nodes) {
               let includeNode = true;
-
+              
               for (let setting of Object.keys(filterSettings)) {
-                  if (!filterNodes(setting, node)) {
+                if (!filterNodes(setting, node)) {
                       includeNode = false;
                       //console.log(`Node ${node.id} excluded by setting: ${setting}`); // Debugging log
                       break; // Stop checking further settings for this node
                   }
-              }
-
+            }
               if (includeNode) {
                   filteredNodes.push(node);
               } else {
@@ -155,7 +153,10 @@ function do_graph(path){
 
         Object.keys(fieldValues).forEach(field => {
             const values = Array.from(fieldValues[field]);
-
+            if (field.startsWith('_')) {
+                "pass";
+            }else
+            {
             if (values.every(val => typeof val === 'number')) {
                 // Range filter
                 filterSettings[field] = { min: Math.min(...values), max: Math.max(...values) };
@@ -191,7 +192,7 @@ function do_graph(path){
                     folder.add({toggleAll: () => setAllToggles(folder, field, true)}, 'toggleAll').name("Toggle All");
                     folder.add({toggleAll: () => setAllToggles(folder, field, false)}, 'toggleAll').name("Detoggle All");
                   }
-            }
+            }}
         });
 
         function setAllToggles(folder, field, value) {
