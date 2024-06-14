@@ -2282,55 +2282,7 @@
         },
         {
             "source": "stub",
-            "target": "text-horizonte-de-sucesos"
-        },
-        {
-            "source": "stub",
-            "target": "ChainForge"
-        },
-        {
-            "source": "stub",
-            "target": "video-the-paradox-of-rules-in-games-and-life"
-        },
-        {
-            "source": "stub",
-            "target": "cognition-and-myths"
-        },
-        {
-            "source": "stub",
-            "target": "author-Anna-Ivanova"
-        },
-        {
-            "source": "stub",
-            "target": "connectome"
-        },
-        {
-            "source": "stub",
-            "target": "semantics"
-        },
-        {
-            "source": "stub",
-            "target": "ai-and-myths"
-        },
-        {
-            "source": "stub",
-            "target": "primary-visual-cortex"
-        },
-        {
-            "source": "stub",
-            "target": "recognition-vs-recall thing"
-        },
-        {
-            "source": "stub",
-            "target": "reverse-engineering-games"
-        },
-        {
-            "source": "stub",
             "target": "you-research-what-strikes-you-deeply"
-        },
-        {
-            "source": "stub",
-            "target": "psychedelic-cryptography"
         },
         {
             "source": "stub",
@@ -2338,11 +2290,35 @@
         },
         {
             "source": "stub",
-            "target": "inferotemporal-cortex"
+            "target": "ChainForge"
         },
         {
             "source": "stub",
-            "target": "psychedelics-and-criticality"
+            "target": "computation"
+        },
+        {
+            "source": "stub",
+            "target": "ai-and-myths"
+        },
+        {
+            "source": "stub",
+            "target": "video-the-paradox-of-rules-in-games-and-life"
+        },
+        {
+            "source": "stub",
+            "target": "reverse-engineering-games"
+        },
+        {
+            "source": "stub",
+            "target": "psychedelic-cryptography"
+        },
+        {
+            "source": "stub",
+            "target": "text-horizonte-de-sucesos"
+        },
+        {
+            "source": "stub",
+            "target": "author-Anna-Ivanova"
         },
         {
             "source": "stub",
@@ -2350,15 +2326,15 @@
         },
         {
             "source": "stub",
+            "target": "connectome"
+        },
+        {
+            "source": "stub",
+            "target": "cognition-and-myths"
+        },
+        {
+            "source": "stub",
             "target": "imagine-24-balls"
-        },
-        {
-            "source": "stub",
-            "target": "thinking-fast-and-slow of Kahneman"
-        },
-        {
-            "source": "stub",
-            "target": "phosphenes"
         },
         {
             "source": "stub",
@@ -2366,11 +2342,35 @@
         },
         {
             "source": "stub",
+            "target": "thinking-fast-and-slow of Kahneman"
+        },
+        {
+            "source": "stub",
+            "target": "psychedelics-and-criticality"
+        },
+        {
+            "source": "stub",
             "target": "building-before-knowing"
         },
         {
             "source": "stub",
-            "target": "computation"
+            "target": "recognition-vs-recall thing"
+        },
+        {
+            "source": "stub",
+            "target": "primary-visual-cortex"
+        },
+        {
+            "source": "stub",
+            "target": "phosphenes"
+        },
+        {
+            "source": "stub",
+            "target": "semantics"
+        },
+        {
+            "source": "stub",
+            "target": "inferotemporal-cortex"
         },
         {
             "source": "sumatra-pdf-dark-mode",
