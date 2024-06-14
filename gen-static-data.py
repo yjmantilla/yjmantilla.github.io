@@ -127,8 +127,8 @@ def collect_graph(mypath,output_path='files\graph.json',extension='.md',out_exte
         except Exception as e:
             print('Error processing file for node', node, 'at', this_file, ":", e)            #exit()
     # sort nodes and links by id
-    graph['nodes'] = sorted(graph['nodes'], key=lambda x: x['id'])
-    graph['links'] = sorted(graph['links'], key=lambda x: x['source']+x['target'])
+    graph['nodes'] = sorted(graph['nodes'], key=lambda x: x['id'].lower())
+    graph['links'] = sorted(graph['links'], key=lambda x: x['source'].lower()+x['target'].lower())
     graph.update(additional_keys)
 
     with open(output_path, "w") as out_file:
@@ -193,7 +193,7 @@ def generate_link_reference_definitions(mypath,graph,extension='.md',only_clean=
         # Get references of this file (all links with this file as the source)
         current_links = [x for x in graph['links'] if x['source']==this_file]
         #sort links by target
-        current_links = sorted(current_links, key=lambda x: x['target'])
+        current_links = sorted(current_links, key=lambda x: x['target'].lower())
         if current_links:
 
             with open (this_fullpath, "r",encoding='utf-8') as myfile:
@@ -248,7 +248,7 @@ for node in graph_subs['nodes']:
 
 # sort the values
 for key, values in unique_values.items():
-    unique_values[key] = sorted(values)
+    unique_values[key] = sorted(values, key=lambda x: str(x).lower())
 
 # create markdown file with the list of unique values per attribute
 ontology_name=CFG['ontology_name']

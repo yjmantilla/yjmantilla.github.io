@@ -39,28 +39,28 @@ title: Attributes
 
 ## publisher
 
+- arxiv
 - Frontiers in Human Neuroscience
 - International Journal of Engineering Research & Technology (IJERT)
 - Journal of NeuroAI Research
-- arxiv
 
 ## keywords
 
 - Artificial Neural Networks(ANN)
-- Brain Function
-- Convolutional Neural Networks(CNN)
-- Deep Learning
-- Neural Networks
-- Neuroscience
-- Reverse Engineering of Human Brain
 - brain
+- Brain Function
 - concrete and abstract semantics
 - concreteness effect
+- Convolutional Neural Networks(CNN)
+- Deep Learning
 - functional brain mapping
 - interpretability
 - memory trace
 - mental representation
+- Neural Networks
+- Neuroscience
 - psycholinguistics
+- Reverse Engineering of Human Brain
 
 ## research_type
 
