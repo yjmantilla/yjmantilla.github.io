@@ -226,9 +226,10 @@ graph_subs=collect_graph('./',out_extension=out_extension,output_path='graphs/gr
 unique_values = {}
 ignored_attributes = CFG['ignored_attributes']
 ignored_substring = CFG['ignored_substring']
+ontology_only_ignore=CFG['ontology_only_ignore']
 for node in graph_subs['nodes']:
     for key, value in node.items():
-        if '_' == key[0] or key in ignored_attributes or any(substring in key for substring in ignored_substring):
+        if '_' == key[0] or key in ontology_only_ignore or any(substring in key for substring in ignored_substring):
             continue
         if key not in unique_values:
             unique_values[key] = []

@@ -12,9 +12,10 @@ out_extension : ''
 ignore_in : ['_site','_includes','.github','.vscode','docs','packages','README','poems']
 ignore_eq : ['.','README','bubbles']
 
-ignored_attributes : ['content','url','id','title']
+ignored_attributes : ['content']
 ignored_substring : ['_link','excalidraw-']
 ontology_name : 'attributes'
+ontology_only_ignore : ['content','title','id','url']
 
 collect_stuff:
   - ['tutorials']
