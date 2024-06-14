@@ -192,6 +192,8 @@ def generate_link_reference_definitions(mypath,graph,extension='.md',only_clean=
         print(this_file)
         # Get references of this file (all links with this file as the source)
         current_links = [x for x in graph['links'] if x['source']==this_file]
+        #sort links by target
+        current_links = sorted(current_links, key=lambda x: x['target'])
         if current_links:
 
             with open (this_fullpath, "r",encoding='utf-8') as myfile:
