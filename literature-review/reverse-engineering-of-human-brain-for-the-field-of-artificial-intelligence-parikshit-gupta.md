@@ -6,8 +6,8 @@ publisher: "International Journal of Engineering Research & Technology (IJERT)"
 keywords: ["Reverse Engineering of Human Brain", "Artificial Neural Networks(ANN)", "Convolutional Neural Networks(CNN)"]
 research_type: "Review"
 relevance: "Unknown"
-sourceurl: "https://www.ijert.org/reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence"
-doi: "10.17577/IJERTV9IS050169"
+_sourceurl: "https://www.ijert.org/reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence"
+_doi: "10.17577/IJERTV9IS050169"
 status: "read-done"
 ---
 

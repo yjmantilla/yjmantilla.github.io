@@ -1,12 +1,12 @@
 ---
   title: Boxcar Spectrum
-  link: /sims/boxcar.html
-  frame: /images/boxcar-spectrum.png
+  _link: /sims/boxcar.html
+  _frame: /images/boxcar-spectrum.png
 ---
 
 <html>
     <head>
-        <meta http-equiv="refresh" content="0; url={{ page.link }}" />
+        <meta http-equiv="refresh" content="0; url={{ page._link }}" />
     </head>
     <body>
     </body>

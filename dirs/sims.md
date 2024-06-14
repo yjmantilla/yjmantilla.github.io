@@ -4,9 +4,9 @@ title : Interactive Content
 
 <ul>
    {% for item in site.data.sims-list %}
-      <li><a href="{{ item.link }}">{{ item.title }}</a></li>
+      <li><a href="{{ item._link }}">{{ item.title }}</a></li>
       <div style="width:150px;height:auto">
-               <img src="{{item.frame}}">
+               <img src="{{item._frame}}">
       </div>
    {% endfor %}
 </ul>

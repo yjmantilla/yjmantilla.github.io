@@ -1,12 +1,12 @@
 ---
   title: Campong!
-  link: https://yjmantilla.github.io/juego-pdi/
-  frame: /images/campong.png
+  _link: https://yjmantilla.github.io/juego-pdi/
+  _frame: /images/campong.png
 ---
 
 <html>
     <head>
-        <meta http-equiv="refresh" content="0; url={{ page.link }}" />
+        <meta http-equiv="refresh" content="0; url={{ page._link }}" />
     </head>
     <body>
     </body>

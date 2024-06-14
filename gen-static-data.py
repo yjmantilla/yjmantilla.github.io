@@ -208,6 +208,38 @@ out_extension=''
 ignore_in = ['_site','_includes','.github','.vscode','docs','packages','README','poems']
 ignore_eq = ['.','README','bubbles']
 graph_subs=collect_graph('./',out_extension=out_extension,output_path='graphs/graph-subdirs.json',ignore_in=ignore_in,ignore_eq=ignore_eq,subdirs=True)
+
+# collect all attributes and unique values
+unique_values = {}
+ignored_attributes = ['content','url','id','title']
+for node in graph_subs['nodes']:
+    for key, value in node.items():
+        if '_' == key[0] or key in ignored_attributes:
+            continue
+        if key not in unique_values:
+            unique_values[key] = []
+        if isinstance(value, list):
+            for v in value:
+                if v not in unique_values[key]:
+                    unique_values[key]+=[v]
+        elif value not in unique_values[key]:
+            unique_values[key]+=[value]
+
+# create markdown file with the list of unique values per attribute
+with open('attributes.md', 'w',encoding='utf-8') as f:
+    # add yaml front matter
+    f.write('---\n')
+    f.write('title: Attributes\n')
+    f.write('---\n')
+    f.write('\n')
+    for attribute, values in unique_values.items():
+        f.write(f'## {attribute}\n')
+        f.write(f'\n')
+        for value in values:
+            f.write(f'- {value}\n')
+        f.write('\n')
+
+graph_subs=collect_graph('./',out_extension=out_extension,output_path='graphs/graph-subdirs.json',ignore_in=ignore_in,ignore_eq=ignore_eq,subdirs=True)
 graph_nosubs=collect_graph('./',out_extension=out_extension,output_path='graphs/graph.json',ignore_in=ignore_in,ignore_eq=ignore_eq,subdirs=False)
 generate_link_reference_definitions('./',graph_nosubs,only_clean=True)
 generate_link_reference_definitions('./',graph_nosubs,only_clean=False)

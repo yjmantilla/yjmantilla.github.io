@@ -1,12 +1,12 @@
 ---
   title: Random Walkers
-  link: /sims/random-walkers.html
-  frame: /images/random-walkers.png
+  _link: /sims/random-walkers.html
+  _frame: /images/random-walkers.png
 ---
 
 <html>
     <head>
-        <meta http-equiv="refresh" content="0; url={{ page.link }}" />
+        <meta http-equiv="refresh" content="0; url={{ page._link }}" />
     </head>
     <body>
     </body>

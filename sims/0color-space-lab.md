@@ -1,12 +1,12 @@
 ---
   title: Color Space Lab (in browser, in development)
-  link: https://yjmantilla.github.io/color-space-lab/
-  frame: /images/color-space-lab.png
+  _link: https://yjmantilla.github.io/color-space-lab/
+  _frame: /images/color-space-lab.png
 ---
 
 <html>
     <head>
-        <meta http-equiv="refresh" content="0; url={{ page.link }}" />
+        <meta http-equiv="refresh" content="0; url={{ page._link }}" />
     </head>
     <body>
     </body>

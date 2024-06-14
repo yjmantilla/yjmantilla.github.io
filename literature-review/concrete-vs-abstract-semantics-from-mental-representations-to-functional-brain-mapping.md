@@ -6,8 +6,8 @@ publisher: "Frontiers in Human Neuroscience"
 keywords: ["concrete and abstract semantics", "concreteness effect", "mental representation", "brain", "memory trace","psycholinguistics", "functional brain mapping"]
 research_type: "Review"
 relevance: "Low"
-sourceurl: "https://www.frontiersin.org/articles/10.3389/fnhum.2019.00267/full"
-doi: "https://doi.org/10.3389/fnhum.2019.00267"
+_sourceurl: "https://www.frontiersin.org/articles/10.3389/fnhum.2019.00267/full"
+_doi: "https://doi.org/10.3389/fnhum.2019.00267"
 status: "read-done"
 ---
 
@@ -25,8 +25,8 @@ Concepts can be thought as:
 
 where,
 
-Barsalou: Barsalou, L. W., Simmons, W. K., Barbey, A. K., and Wilson, C. D. (2003). Grounding conceptual knowledge in modality-specific systems. Trends Cogn. Sci. 7, 84–91. doi: 10.1016/s1364-6613(02)00029-3
-Payne: Payne, P. R. O., Mendonça, E. A., Johnson, S. B., and Starren, J. B. (2007). Conceptual knowledge acquisition in biomedicine: a methodological review. J. Biomed. Inform. 40, 582–602. doi: 10.1016/j.jbi.2007.03.005
+Barsalou: Barsalou, L. W., Simmons, W. K., Barbey, A. K., and Wilson, C. D. (2003). Grounding conceptual knowledge in modality-specific systems. Trends Cogn. Sci. 7, 84–91. _doi: 10.1016/s1364-6613(02)00029-3
+Payne: Payne, P. R. O., Mendonça, E. A., Johnson, S. B., and Starren, J. B. (2007). Conceptual knowledge acquisition in biomedicine: a methodological review. J. Biomed. Inform. 40, 582–602. _doi: 10.1016/j.jbi.2007.03.005
 Smith: Smith, E. E. (1989). “Concepts and induction,” in Foundations of Cognitive Science, ed. M. I. Posner (Cambridge, MA: The MIT Press), 501–526.
 
 It seems though that:

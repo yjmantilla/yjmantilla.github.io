@@ -11,8 +11,12 @@
             "id": "209e0f3dade7c0a6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "bubbles/knowledge-graph.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -40,7 +44,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "Node",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -69,7 +73,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "c101ced10fe844ca",
@@ -81,6 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "bubbles/knowledge-graph.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "bubbles/knowledge-graph.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -107,7 +113,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "bubbles/knowledge-graph.md"
+          }
         }
       }
     ],
@@ -125,16 +133,51 @@
   },
   "active": "209e0f3dade7c0a6",
   "lastOpenFiles": [
-    "bubbles/_site/novelty-search.html",
-    "_includes/capture.html",
-    "sims",
-    "poems",
-    "dirs",
-    "bubbles/_site",
-    "bubbles",
-    "graphs",
-    "_data",
-    "tutorials",
-    "gsoc"
+    "bubbles/learn-from-the-machine.md",
+    "tutorials/force-graph-in-brave-browser-bug.md",
+    "_config.yml",
+    "dirs/wayward.md",
+    "poems/romper-un-arcoiris.md",
+    "songs/round-point.js",
+    "bubbles/knowledge-graph.md",
+    "bubbles/abstract-representations.md",
+    "bubbles/representation.md",
+    "wayward/2023-01-02.md",
+    "_data/gsoc-list.yml",
+    "wayward/2023-12-21.md",
+    "bubbles/aesthethic-of-failure.md",
+    "tutorials/foam.md",
+    "tutorials/traducir-terminos.md",
+    "poems/amor-y-fantasias.md",
+    "gsoc/week-06--july-12--to--july-18.md",
+    "tutorials/sumatra-pdf-dark-mode.md",
+    "gsoc/week-04--june-28--to--july-4.md",
+    "gsoc/week-08--july-26--to--august-1.md",
+    "poems/sire.md",
+    "bubbles/bestiary.md",
+    "sims/6not-air-hockey.md",
+    "dirs/bubbles.md",
+    "dirs/tutorials.md",
+    "tutorials/ica-music.md",
+    "graphs/knowledge-graph-subdirs.html",
+    "sims/0color-space-lab.md",
+    "dirs/gsoc.md",
+    "tutorials/onenote-to-svg.md",
+    "cv.html",
+    "_includes/mermaid.html",
+    "audio/venezuela-percussion-cuatro.mp3",
+    "audio/venezuela-harmonyNoBass.mp3",
+    "images/interests.svg",
+    "sims/spike-train.js",
+    "_data/wayward-list.yml",
+    "images/random-walkers.png",
+    "images/sovabids.png",
+    "images/music-ica.png",
+    "images/sumatra-pdf-dark-mode/2021-05-16-20-39-35.png",
+    "images/campong.png",
+    "images/foam/2021-05-15-03-25-31.png",
+    "images/foam/2023-01-04-02-28-49.png",
+    "images/sumatra-pdf-dark-mode/2021-05-16-20-41-50.png",
+    "images/pendulum-waves.png"
   ]
 }

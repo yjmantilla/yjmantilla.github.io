@@ -11,10 +11,10 @@
   title: Google Summer of Code 2021
 - link: ./../dirs/hoja_de_vida.html
   title: CV - Curriculum Vitae
-- graphs:
-  - link: /graphs/knowledge-graph-subdirs.html
+- _graphs:
+  - _link: /graphs/knowledge-graph-subdirs.html
     title: Graph with Categories
-  - link: /graphs/knowledge-graph.html
+  - _link: /graphs/knowledge-graph.html
     title: Graph without Categories
   link: ./../dirs/knowledge-graphs.html
   title: Knowledge Graph

@@ -16,6 +16,6 @@ More on: https://www.yourdictionary.com/wayward , https://ahdictionary.com/word/
 
 <ul>
    {% for item in site.data.wayward-list%}
-      <li><a href="{{ item.link }}">{{ item.title }}</a></li>
+      <li><a href="{{ item._link }}">{{ item.title }}</a></li>
    {% endfor %}
 </ul>

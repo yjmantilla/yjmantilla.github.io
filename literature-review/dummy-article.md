@@ -6,8 +6,8 @@ publisher: "Journal of NeuroAI Research"
 keywords: ["Deep Learning", "Neuroscience", "Neural Networks", "Brain Function"]
 research_type: "Theoretical Analysis"
 relevance: "Highly relevant to my research on NeuroAI parallels."
-sourceurl: "https://www.ijert.org/dummyarticle.pdf"
-doi: "10.17577/dummydoi"
+_sourceurl: "https://www.ijert.org/dummyarticle.pdf"
+_doi: "10.17577/dummydoi"
 status: "read-done"
 ---
 
