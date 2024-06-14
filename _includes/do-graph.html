@@ -13,7 +13,12 @@ document.addEventListener('mousemove', (event) => {
 function do_graph(path){
 
   fetch(path).then(res => res.json()).then(data => {
-      
+      const ignored_substring=data.ignored_substring;
+      const ignored_attributes=data.ignored_attributes;
+      const unique_values=data.unique_values;
+      console.log(ignored_substring);
+      console.log(ignored_attributes);
+      console.log(unique_values);
       nodes_ = data.nodes.map(t => t.id);
       data.links.forEach(link => {
         const a = data.nodes[nodes_.indexOf(link.source)];
@@ -36,14 +41,14 @@ function do_graph(path){
 
       // dat.gui setup
       const gui = new dat.GUI();
-      const settings = {enableTooltip: false, orSearch: false};
+      const settings = {enableTooltip: false, orSearch: false, keepMissing: true};
       const uniqueCategories = new Set();
       const delimiter = '~';
       const lowUnique=5;
       const midUnique=10;
       gui.add(settings, 'enableTooltip').name('Enable Preview');
       gui.add(settings, 'orSearch').name('OR search').onChange(updateGraph);
-
+      gui.add(settings, 'keepMissing').name('Keep empty nodes').onChange(updateGraph);
 
         // Adding filter controls to GUI
         const fieldValues = {};
@@ -81,7 +86,7 @@ function do_graph(path){
                   const fieldValue = node[field];
                   // If the field does not exist in the node, filter it out
                   if (fieldValue === undefined || fieldValue === null || fieldValue === '') {
-                      return true;
+                      return settings.keepMissing;
                   }
 
                   // For range filters
@@ -153,7 +158,8 @@ function do_graph(path){
 
         Object.keys(fieldValues).forEach(field => {
             const values = Array.from(fieldValues[field]);
-            if (field.startsWith('_')) {
+
+            if (field.startsWith('_') || ignored_attributes.includes(field) || ignored_substring.some(substring => field.includes(substring))){
                 "pass";
             }else
             {
@@ -207,6 +213,7 @@ function do_graph(path){
     defaultSettings = JSON.parse(JSON.stringify(filterSettings));
     defaultSettings.enableTooltip = false;
     defaultSettings.orSearch = false;
+    defaultSettings.keepMissing = true;
 
     function resetSettings() {
     Object.keys(defaultSettings).forEach(key => {
@@ -226,6 +233,7 @@ function do_graph(path){
 
     // Update the graph with the reset settings
     updateGraph();
+    
 }
 
     gui.add({ resetSettings }, 'resetSettings').name('Reset');
