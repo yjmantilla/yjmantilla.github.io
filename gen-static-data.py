@@ -201,7 +201,7 @@ def generate_link_reference_definitions(mypath,graph,extension='.md',only_clean=
                 if begin in data and end in data:
                     # Assume these tags appear only ONCE
                     a, b = data.find(begin), data.find(end)+len(end)
-                    newdata = data[:a] + data[b:]
+                    newdata = data[:a] #+ data[b:] # assume there is nothing after the end tag
                 else:
                     newdata = data
                 refs = []
