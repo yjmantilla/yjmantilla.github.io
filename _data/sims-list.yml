@@ -1,29 +1,22 @@
 ---
 - _frame: /images/color-space-lab.png
   _link: https://yjmantilla.github.io/color-space-lab/
-  link: ./../sims/0color-space-lab.html
   title: Color Space Lab (in browser, in development)
 - _frame: /images/random-walkers.png
   _link: /sims/random-walkers.html
-  link: ./../sims/1random-walkers.html
   title: Random Walkers
 - _frame: /images/pendulum-waves.png
   _link: /sims/pendulum-waves.html
-  link: ./../sims/2pendulum-waves.html
   title: Pendulum Waves
 - _frame: /images/boxcar-spectrum.png
   _link: /sims/boxcar.html
-  link: ./../sims/3boxcar.html
   title: Boxcar Spectrum
 - _frame: /images/campong.png
   _link: https://yjmantilla.github.io/juego-pdi/
-  link: ./../sims/4campong.html
   title: Campong!
 - _frame: /images/fields-hockey.png
   _link: https://yjmantilla.github.io/fields_hockey/
-  link: ./../sims/5fields-hockey.html
   title: Field Hockey (in browser, in development)
 - _frame: /images/not-air-hockey.png
   _link: https://www.youtube.com/watch?v=meLD5UZH6Qk
-  link: ./../sims/6not-air-hockey.html
   title: (Not) Air Hockey!

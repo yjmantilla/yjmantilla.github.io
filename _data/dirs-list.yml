@@ -1,32 +1,32 @@
 ---
-- link: ./../dirs/about-me.html
+- _link: ./../dirs/about-me.html
   title: About Me
-- link: ./../dirs/bubbles.html
+- _link: ./../dirs/bubbles.html
   title: Bubbles (Random Thoughts)
-- link: ./../dirs/dirs.html
+- _link: ./../dirs/dirs.html
   title: Directories
-- link: ./../dirs/essays.html
+- _link: ./../dirs/essays.html
   title: Essays
-- link: ./../dirs/gsoc.html
+- _link: ./../dirs/gsoc.html
   title: Google Summer of Code 2021
-- link: ./../dirs/hoja_de_vida.html
+- _link: ./../dirs/hoja_de_vida.html
   title: CV - Curriculum Vitae
 - _graphs:
   - _link: /graphs/knowledge-graph-subdirs.html
     title: Graph with Categories
   - _link: /graphs/knowledge-graph.html
     title: Graph without Categories
-  link: ./../dirs/knowledge-graphs.html
+  _link: ./../dirs/knowledge-graphs.html
   title: Knowledge Graph
-- link: ./../dirs/literature-review.html
+- _link: ./../dirs/literature-review.html
   title: Literature Review
-- link: ./../dirs/music.html
+- _link: ./../dirs/music.html
   title: Music
-- link: ./../dirs/research.html
+- _link: ./../dirs/research.html
   title: Research
-- link: ./../dirs/sims.html
+- _link: ./../dirs/sims.html
   title: Interactive Content
-- link: ./../dirs/tutorials.html
+- _link: ./../dirs/tutorials.html
   title: Tutorials
-- link: ./../dirs/wayward.html
+- _link: ./../dirs/wayward.html
   title: Wayward

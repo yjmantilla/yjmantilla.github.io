@@ -1,5 +1,6 @@
 ---
 - _doi: https://doi.org/10.3389/fnhum.2019.00267
+  _link: ./../literature-review/concrete-vs-abstract-semantics-from-mental-representations-to-functional-brain-mapping.html
   _sourceurl: https://www.frontiersin.org/articles/10.3389/fnhum.2019.00267/full
   authors:
   - Nadezhda Mkrtychian
@@ -16,7 +17,6 @@
   - memory trace
   - psycholinguistics
   - functional brain mapping
-  link: ./../literature-review/concrete-vs-abstract-semantics-from-mental-representations-to-functional-brain-mapping.html
   publisher: Frontiers in Human Neuroscience
   relevance: Low
   research_type: Review
@@ -25,6 +25,7 @@
     Brain Mapping'
   year: 2019
 - _doi: 10.17577/dummydoi
+  _link: ./../literature-review/dummy-article.html
   _sourceurl: https://www.ijert.org/dummyarticle.pdf
   authors:
   - Dr. Alex Smith
@@ -34,7 +35,6 @@
   - Neuroscience
   - Neural Networks
   - Brain Function
-  link: ./../literature-review/dummy-article.html
   publisher: Journal of NeuroAI Research
   relevance: Highly relevant to my research on NeuroAI parallels.
   research_type: Theoretical Analysis
@@ -42,6 +42,7 @@
   title: 'Deep Learning and the Brain: Neural Network Insights (dummy paper)'
   year: 2023
 - _doi: https://doi.org/10.48550/arXiv.2310.15154
+  _link: ./../literature-review/linear-representations-of-sentiment-in-large-language-models.html
   _sourceurl: https://arxiv.org/abs/2310.15154
   authors:
   - Curt Tigges
@@ -50,7 +51,6 @@
   - Neel Nanda
   keywords:
   - interpretability
-  link: ./../literature-review/linear-representations-of-sentiment-in-large-language-models.html
   publisher: arxiv
   relevance: High
   research_type: Experimental
@@ -58,6 +58,7 @@
   title: Linear Representations of Sentiment in Large Language Models
   year: 2023
 - _doi: 10.17577/IJERTV9IS050169
+  _link: ./../literature-review/reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta.html
   _sourceurl: https://www.ijert.org/reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence
   authors:
   - Parikshit Gupta
@@ -65,7 +66,6 @@
   - Reverse Engineering of Human Brain
   - Artificial Neural Networks(ANN)
   - Convolutional Neural Networks(CNN)
-  link: ./../literature-review/reverse-engineering-of-human-brain-for-the-field-of-artificial-intelligence-parikshit-gupta.html
   publisher: International Journal of Engineering Research & Technology (IJERT)
   relevance: Unknown
   research_type: Review
