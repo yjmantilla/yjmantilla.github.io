@@ -2,18 +2,26 @@ youtube:
 - title: A Cruel Angel Thesis (Piano Latin Jazzy Cover)
   _frame: https://img.youtube.com/vi/GLRPbdVJ82I/1.jpg
   _link: https://www.youtube.com/watch?v=GLRPbdVJ82I
-- title: Venezuela (Gaita Cover)
-  _frame: https://img.youtube.com/vi/52_sTVznLHk/1.jpg
-  _link: https://www.youtube.com/watch?v=52_sTVznLHk
-- title: Focus (Musica Experimental y Digital, UdeA, Colaborativo con un compa de la U)
-  _frame: https://img.youtube.com/vi/mrjxGVZ-ibE/1.jpg
-  _link: https://www.youtube.com/watch?v=mrjxGVZ-ibE
+- title: Venezuela Gaita Cover (Live Version)
+  _frame: https://img.youtube.com/vi/mR_swN61vqc/1.jpg
+  _link: https://www.youtube.com/watch?v=mR_swN61vqc
 - title: Wolfs and Tigers
   _frame: https://img.youtube.com/vi/4jhNHBfUcvU/1.jpg
   _link: https://www.youtube.com/watch?v=4jhNHBfUcvU
 - title: La piragua (Gaita Cover)
   _frame: https://img.youtube.com/vi/6nf3X3gznaU/1.jpg
   _link: https://www.youtube.com/watch?v=6nf3X3gznaU
+= title: Sketch Reptilia Salsa (cover The Strokes)
+  _link: https://www.youtube.com/shorts/NZjSdk-QRrc
+= title: Pequeño cover acústico de Nightcall - Kavinsky
+  _frame: https://img.youtube.com/vi/QfFQF-pkWBw/1.jpg
+  _link: https://www.youtube.com/watch?v=QfFQF-pkWBw
+= title: Cariñito Sketch (Rodolfo Aicardi) with Launchkey Mini MK3
+  _frame: https://img.youtube.com/vi/IwVubXMye78/1.jpg
+  _link: https://www.youtube.com/watch?v=IwVubXMye78
+- title: Focus (Musica Experimental y Digital, UdeA, Colaborativo con un compa de la U)
+  _frame: https://img.youtube.com/vi/mrjxGVZ-ibE/1.jpg
+  _link: https://www.youtube.com/watch?v=mrjxGVZ-ibE
 
 interactive:
 
@@ -22,6 +30,10 @@ interactive:
 
 - title: Venezuela (Gaita Cover) lower requirements (ie for mobile)
   _link: /songs/vzla-low.html
+
+- title: Venezuela (Gaita Cover) (Frozen Video, not interactive) 
+  _frame: https://img.youtube.com/vi/52_sTVznLHk/1.jpg
+  _link: https://www.youtube.com/watch?v=52_sTVznLHk
 
 soundcloud:
 
