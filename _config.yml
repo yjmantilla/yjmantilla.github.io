@@ -6,7 +6,7 @@ author:
 
 #theme: minima
 #theme: jekyll-theme-simplex
-remote_theme: jekyll/minima
+remote_theme: jekyll/minima@93b1921
 #remote_theme: pages-themes/cayman@v0.2.0
 #pages-themes/hacker@v0.2.0
 # architect
