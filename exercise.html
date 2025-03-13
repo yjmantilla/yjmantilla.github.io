@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Diagonal Arrow</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            font-size: 5rem;
+            margin-top: 20%;
+        }
+        #arrow {
+            font-size: 8rem;
+            display: block;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <p id="arrow">↗</p>
+    <p id="direction">Up Right</p>
+
+    <script>
+        // List of diagonal arrows and their corresponding directions
+        const arrows = [
+            { symbol: '↖', text: 'Up Left' },
+            { symbol: '↗', text: 'Up Right' },
+            { symbol: '↘', text: 'Down Right' },
+            { symbol: '↙', text: 'Down Left' }
+        ];
+
+        function speak(text) {
+            const speech = new SpeechSynthesisUtterance(text);
+            speech.lang = 'en-US';  // Adjust language if needed
+            speechSynthesis.speak(speech);
+        }
+
+        function changeArrow() {
+            const randomArrow = arrows[Math.floor(Math.random() * arrows.length)];
+            document.getElementById("arrow").innerText = randomArrow.symbol;
+            document.getElementById("direction").innerText = randomArrow.text;
+            speak(randomArrow.text);
+        }
+
+        // Change arrow every 2 seconds
+        setInterval(changeArrow, 2000);
+    </script>
+
+</body>
+</html>
