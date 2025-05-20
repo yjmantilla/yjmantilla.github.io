@@ -4,7 +4,6 @@ title: Attributes
 
 ## category
 
-- bubbles
 - dirs
 - essays
 - gsoc
@@ -13,7 +12,7 @@ title: Attributes
 - root
 - sims
 - tutorials
-- wayward
+- uncategorized
 
 ## authors
 
