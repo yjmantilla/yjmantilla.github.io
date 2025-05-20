@@ -1,8 +1,6 @@
 ---
 - _link: ./../dirs/about-me.html
   title: About Me
-- _link: ./../dirs/dirs.html
-  title: Directories
 - _link: ./../dirs/essays.html
   title: Essays
 - _link: ./../dirs/hoja_de_vida.html

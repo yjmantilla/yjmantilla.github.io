@@ -8,11 +8,13 @@ title: Attributes
 - essays
 - gsoc
 - literature-review
+- poems
 - research
 - root
 - sims
 - tutorials
 - uncategorized
+- wayward
 
 ## authors
 
@@ -78,4 +80,8 @@ title: Attributes
 
 - read-done
 - to-read
+
+## background-color
+
+- green
 
