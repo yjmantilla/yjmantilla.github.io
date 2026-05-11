@@ -1,6 +1,8 @@
 #Folders
 .vscode/
 
+build/
+
 # Jekyll
 _site/
 .sass-cache/

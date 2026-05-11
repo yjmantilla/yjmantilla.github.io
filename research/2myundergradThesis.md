@@ -1,6 +1,5 @@
 ---
 title: SEEG-based Localization of the Epileptogenic Zone from Complexity Measures Using Machine Learning
-_frame: /images/ugthesis.png
 _link: /research/2myundergradThesis
 ---
 

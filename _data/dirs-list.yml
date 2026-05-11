@@ -16,11 +16,11 @@
   title: Literature Review
 - _link: ./../dirs/music.html
   title: Music
-- _link: ./../dirs/research.html
-  title: Research
 - _link: ./../dirs/sims.html
   title: Interactive Content
 - _link: ./../dirs/tutorials.html
   title: Tutorials
 - _link: ./../dirs/uncategorized.html
   title: Uncategorized Notes
+- _link: ./../dirs/research.html
+  title: Research

@@ -116,9 +116,8 @@
             "url": "./../research/2myundergradThesis",
             "category": "research",
             "title": "seeg-based localization of the epileptogenic zone from complexity measures using machine learning",
-            "_frame": "/images/ugthesis.png",
             "_link": "/research/2myundergradThesis",
-            "content": "```yaml\n---\ntitle: SEEG-based Localization of the Epileptogenic Zone from Complexity Measures Using Machine Learning\n_frame: /images/ugthesis.png\n_link: /research/2myundergradThesis\n---\n```\n\n---\n\nThis project was carried out during my visit as a research assistant to the Biomedical Imaging Lab at the University of Southern California.\nMoreover, it counted as my undergraduate capstone project/thesis for the degree of Electronics Engineer at Universidad de Antioquia.\n\n## Relevant Links\n\n- [Related Undergraduate Thesis Backup PDF](https://drive.google.com/file/d/1DBxdYuWOrBxcHbKUoenyRB_PmI1DhNZd/view?usp=sharing)\n- [Item in the UdeA Repository](https://hdl.handle.net/10495/37371)\n- [If above link is broken, use this one](https://bibliotecadigital.udea.edu.co/entities/publication/eecc8d97-d1f3-47ff-ba9c-9234efe19a67)\n- [2023 AES Meeting Poster](https://drive.google.com/file/d/1WVtUo-4-H_rttqZbF2HA0KJW5-oFLS9S/view?usp=sharing)\n- [2023 AES Meeting Poster Video](https://youtu.be/T70ZVLpQb2k)\n\n## Contact\n\nYou can find me on:\n\n- Email: yjmantilla@gmail.com\n- [Instagram: yjmantilla](https://www.instagram.com/yjmantilla/)\n- Mattermost: yjmantilla\n- Linkedin: yorguinjose\n- Twitter: @yjmantilla\n- [orcid](https://orcid.org/0000-0003-4473-0876)\n- [cvlac](https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001659280)\n- [Google Scholar](https://scholar.google.com/citations?user=9W-bHVkAAAAJ)"
+            "content": "```yaml\n---\ntitle: SEEG-based Localization of the Epileptogenic Zone from Complexity Measures Using Machine Learning\n_link: /research/2myundergradThesis\n---\n```\n\n---\n\nThis project was carried out during my visit as a research assistant to the Biomedical Imaging Lab at the University of Southern California.\nMoreover, it counted as my undergraduate capstone project/thesis for the degree of Electronics Engineer at Universidad de Antioquia.\n\n## Relevant Links\n\n- [Related Undergraduate Thesis Backup PDF](https://drive.google.com/file/d/1DBxdYuWOrBxcHbKUoenyRB_PmI1DhNZd/view?usp=sharing)\n- [Item in the UdeA Repository](https://hdl.handle.net/10495/37371)\n- [If above link is broken, use this one](https://bibliotecadigital.udea.edu.co/entities/publication/eecc8d97-d1f3-47ff-ba9c-9234efe19a67)\n- [2023 AES Meeting Poster](https://drive.google.com/file/d/1WVtUo-4-H_rttqZbF2HA0KJW5-oFLS9S/view?usp=sharing)\n- [2023 AES Meeting Poster Video](https://youtu.be/T70ZVLpQb2k)\n- [2025 ICTALS Montreal](https://canva.link/tgqrs60rps3bjg0)\n\n## Contact\n\nYou can find me on:\n\n- Email: yjmantilla@gmail.com\n- [Instagram: yjmantilla](https://www.instagram.com/yjmantilla/)\n- Mattermost: yjmantilla\n- Linkedin: yorguinjose\n- Twitter: @yjmantilla\n- [orcid](https://orcid.org/0000-0003-4473-0876)\n- [cvlac](https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001659280)\n- [Google Scholar](https://scholar.google.com/citations?user=9W-bHVkAAAAJ)"
         },
         {
             "id": "2pendulum-waves",
@@ -1028,6 +1027,14 @@
             "content": "```yaml\n---\ntitle: Neuro-AI\n---\n```\n\nI was always looking for this concept by myself but lately it seems it has gained some momentum to become an area by itself. Check the MAIN 2021 conference:\n\n- Student Panel discussion: Career paths in Neuro-AI /  Raymond Chua (McGill University), Jean-Baptiste Poline (McGill University), Irina Rish (Universit\u00e9 de Montr\u00e9al & Mila), Hao Ting Wang (Universit\u00e9 de Montr\u00e9al) [Moderator: Charlotte Maschke (McGill University)]\n\n- Panel discussion: Inspiring the future : Activism and Advocacy in Neuro-AI  / Ahmed El Hady (University of Konstanz / Princeton University), Jordan Harrod (Harvard-MIT Program in Health Sciences and Technology, MA, USA), LLana James (AI, Medicine and Data Justice Post-Doctoral Fellow - Queen's University), Jason E. Lewis (Concordia University) - [Co-moderators: Danielle Nadin (Black In Neuro) & Karim Jerbi (Universit\u00e9 de Montr\u00e9al & Mila)]\n\n\n## Some discussion on reddit and other places:\n\nI have also found people discussing the concept indirectly:\n\n- [How are computational neuroscience and machine learning overalapping?](https://www.reddit.com/r/MachineLearning/comments/o644ei/d_how_are_computational_neuroscience_and_machine/)\n- [Is Neuroscience background useful for ML research?](https://www.reddit.com/r/MachineLearning/comments/cs9j5i/d_is_neuroscience_background_useful_for_ml/)\n- [Future Career: Computational Neuroscience vs Computer Science](https://www.reddit.com/r/compmathneuro/comments/g7qamh/future_career_computational_neuroscience_vs/)\n- [Are the connections between deep learning and neuroscience still relevant?](https://www.reddit.com/r/MachineLearning/comments/ayvxvc/d_are_the_connections_between_deep_learning_and/)\n- [What Can AI Get from Neuroscience?, Steve M. Potter](https://cpn-us-w2.wpmucdn.com/sites.gatech.edu/dist/f/516/files/2016/11/Potter-2007-What-can-AI-get-from-Neuroscience.pdf)\n- [November Edition: On Neuroscience and Its Connections to AI and Machine Learning] (https://towardsdatascience.com/november-edition-on-neuroscience-and-its-connections-to-ai-and-machine-learning-1006edbcda5a)\n\nIt is also related to biologically plausible ml\n\n- [References on biologically inspired/plausible machine learning](https://www.reddit.com/r/MachineLearning/comments/fsaj3r/research_references_on_biologically/fm1tufl/)"
         },
         {
+            "id": "neurodags",
+            "url": "./../research/neurodags",
+            "category": "research",
+            "title": "neurodags",
+            "_link": "/research/neurodags",
+            "content": "```yaml\n---\ntitle: neurodags\n_link: /research/neurodags\n---\n```\n\n## Relevant Links\n\n- [Website](https://yjmantilla.github.io/neurodags/index.html)\n- [GitHub](https://github.com/yjmantilla/neurodags)\n- [Poster BRaIN Symposium 2026 Montreal](https://canva.link/c2b2fm0mk2wotwq)"
+        },
+        {
             "id": "neuroscience-of-curiosity",
             "url": "./../uncategorized/neuroscience-of-curiosity",
             "category": "uncategorized",
@@ -1249,7 +1256,7 @@
             "url": "./../dirs/research",
             "category": "dirs",
             "title": "research",
-            "content": "```yaml\n---\ntitle : Research\n---\n```\n\n<ul>\n   {% for item in site.data.research-list %}\n      <li><a href=\"{{ item._link }}\">{{ item.title }}</a></li>\n      {% if item._frame %}\n         <img src=\"{{item._frame}}\">\n      {% endif %}\n   {% endfor %}\n</ul>"
+            "content": "```yaml\n---\ntitle : Research\n---\n```\n\n<ul>\n   {% for item in site.data.research-list %}\n      <li><a href=\"{{ item._link }}\">{{ item.title }}</a></li>\n   {% endfor %}\n</ul>"
         },
         {
             "id": "reverse-engineering-games",
@@ -1356,6 +1363,14 @@
             "category": "uncategorized",
             "title": "sonic design",
             "content": "```yaml\n---\ntitle: Sonic Design\n---\n```\n\nFrom Alice Gebura @ https://youtu.be/Kr3quGh7pJA\n\n>I enjoyed watching it but I also disagree with some of it.\n \n>What I like \u2013 the overview of various schools of theory, the correlation of music and dance (I have always believed movement should be part of music education and vice versa), demonstrating the shallowness and ignorance of the \u201cBen Shapiro argument,\u201d Owen Pallett and their ilk, the limitations of Schenkerian analysis. \n \n>What I don\u2019t like \u2013 the generalization that music degree programs are missing all the things mentioned. While music programs at liberal arts colleges are skimpy, this isn\u2019t true of conservatories and dedicated music schools. I started out in 1972 at a liberal arts college and learned a lot from the traditional courses offered which were robust and enlightening, but limited in scope. All it took was some research on my part \u2013 in the 1970s\u2013to find Berklee and then NEC, the 2 schools I ended up getting degrees from. Berklee covers all the jazz harmony systems the video mentions and more, and George Russell was at NEC teaching his Lydian chromatic system. (I enjoyed seeing a very young George in this video!!)  And you could study global music systems by taking Ethnomusicology classes at both schools. Any one of the theory systems discussed in the video are lacking in one or more dimensions. A passionate musician looks at all of the theory systems and realizes this. \n \n>Also I disagree with the premise that we are better off analyzing Chopin with the Lydian Chromatic system rather than traditional harmony. I would argue that both systems shed some light on what Chopin is doing with musical language but limiting your view of Chopin to musical language is to miss what is at the heart of Chopin - musical space and tone color, as he was exploiting recent technical innovations that expanded the range and frequency saturations of the piano. \n \n>In fact, Sonic Design by Cogan and Escot (1976) -which isn\u2019t mentioned in the video - does exactly what you are advocating \u2013 looking at all music systems to come up with a set of parameters that can be applied towards understanding all music. The video refers to cross cultural music analysis but it focuses  on \u201cscales/chords\u201d and rhythm \u2013 what Cogan and Escot called musical languages and time.  The video ignores musical space and color \u2013 two parameters Cogan and Escot deal with extensively.\n \n>The video mentions consonance/dissonance theory and articulation. For example, it says staccato is a form of \u201cdissonance.\u201d What isn't said is that articulation greatly influences spectral result. Technically, plucking introduces noise artifacts that disrupt overtones (spectra). But to whom is this dissonant? \u201cDissonance\u201d is a judgement call - which you don't point out. \n \n>I disagree that Schenkerian analysis is the root of all music theory [white male/western european]. Berklee had no Schenker analysis classes and NEC had only one. Schacter was on the list of books to read in undergrad but it was used to understand a specific era, and it was almost invisible at Berklee. There are certainly specialists in Schenkerian analysis but my observation is that few musicians even know what it is. As you point out Schenkerian analysis is useful for understanding a specific body of music and where I studied no one ever claimed it was more than that, in fact my teachers pointed out its limitations \u2013 in the 1970s. Schenkerian analysis is limiting even within the arena it purports to explain. It certainly can\u2019t explain Chopin. Schenker was a racist but the video doesn't make it clear that he was not an anomaly, belief in white superiority was the basis for politics, science, and the arts in that place and time. That shouldn\u2019t be news to anyone with a basic education in history.  \n \n>The video narrator complains the white male perspective limits the field of music theory. I suppose there are music depts. where that\u2019s true. But to make a sweeping generalization that this is the case everywhere is simply not accurate. \n \n>What is true is that you can\u2019t rely on every college or university to have as much depth in the music dept. as you get at a dedicated music school. As someone with 2 music degrees I had an excellent education at the 3 schools I attended. Each one presented a unique perspective and environment. I was exposed to traditional western harmony, jazz harmony, Asian music systems, Native American systems, and a boatload of contemporary/20th century music. We read linguistics, anthropology and physics texts to supplement our understanding of music and its analysis. I wouldn\u2019t trade it for anything.\n\n>Obviously I'm from a previous generation and my teachers have either passed away or are retired. I don't know what goes on today in my alma maters. I will say that back in the day the administration at NEC never seemed to appreciate the jazz dept. or the innovation going on in the theory dept. Society's problems with social justice and the treatment of women were certainly in evidence in the schools I attended. I could burn your ears with some of the stories. But the topic is music theory...."
+        },
+        {
+            "id": "sovabids",
+            "url": "./../research/sovabids",
+            "category": "research",
+            "title": "sovabids",
+            "_link": "/research/sovabids",
+            "content": "```yaml\n---\ntitle: sovabids\n_link: /research/sovabids\n---\n```\n\nsovabids is a tool for converting EEG data to BIDS format. Developed during Google Summer of Code 2021 with the MNE-Python organization.\n\n## Relevant Links\n\n- [Website](https://sovabids.readthedocs.io/en/latest/)\n- [GitHub](https://github.com/yjmantilla/sovabids)\n- [Google Summer of Code 2021](https://summerofcode.withgoogle.com/archive/2021/projects/6615935850381312)\n- [Poster for the Big Data Neuroscience Workshop 2022 (Austin, Texas)](https://canva.link/n96b5zngko5hdrg)\n- [Poster for OHBM 2022 Annual Meeting](https://canva.link/i4dunn18hm8mezk)\n- [Video for OHBM 2022 Annual Meeting](https://youtu.be/7M7JLrl6KAk)\n- [Poster for the eResearch Australasia Conference 2021](https://canva.link/00tfwmoi7idsoud)"
         },
         {
             "id": "squire-attire",
@@ -2369,6 +2384,10 @@
             "target": "tutorials"
         },
         {
+            "source": "neurodags",
+            "target": "research"
+        },
+        {
             "source": "no-me-importaria",
             "target": "poems"
         },
@@ -2527,6 +2546,10 @@
         {
             "source": "soft-vs-hard-computing",
             "target": "computation"
+        },
+        {
+            "source": "sovabids",
+            "target": "research"
         },
         {
             "source": "ssh-win10",

@@ -3,10 +3,6 @@
   title: Google Scholar
 - _link: https://orcid.org/0000-0003-4473-0876
   title: (ORCID) 0000-0003-4473-0876
-- _frame: /images/ugthesis.png
-  _link: /research/2myundergradThesis
-  title: SEEG-based Localization of the Epileptogenic Zone from Complexity Measures
-    Using Machine Learning
 - _frame: /images/your-bacc.png
   _link: https://www.biorxiv.org/content/10.1101/2022.07.18.500262v2.abstract
   title: (Preprint) Class imbalance should not throw you off balance - Choosing the
@@ -25,3 +21,10 @@
     en señales EEG - Un enfoque estadístico centrado en los conjuntos de datos
 - _link: /research/gsoc
   title: Google Summer of Code 2021
+- _link: /research/sovabids
+  title: sovabids
+- _link: /research/neurodags
+  title: neurodags
+- _link: /research/2myundergradThesis
+  title: SEEG-based Localization of the Epileptogenic Zone from Complexity Measures
+    Using Machine Learning
