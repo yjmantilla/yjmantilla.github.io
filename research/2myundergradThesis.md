@@ -16,6 +16,7 @@ Moreover, it counted as my undergraduate capstone project/thesis for the degree 
 - [If above link is broken, use this one](https://bibliotecadigital.udea.edu.co/entities/publication/eecc8d97-d1f3-47ff-ba9c-9234efe19a67)
 - [2023 AES Meeting Poster](https://drive.google.com/file/d/1WVtUo-4-H_rttqZbF2HA0KJW5-oFLS9S/view?usp=sharing)
 - [2023 AES Meeting Poster Video](https://youtu.be/T70ZVLpQb2k)
+- [2025 ICTALS Montreal](https://canva.link/tgqrs60rps3bjg0)
 
 ## Contact
 
