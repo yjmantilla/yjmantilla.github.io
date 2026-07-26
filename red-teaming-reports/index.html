@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cross-model red-teaming reports</title>
+  <style>
+    :root { color-scheme: light; --ink:#243229; --sub:#5c685f; --line:#d8ded9;
+      --paper:#fbfcfa; --sage:#3f6446; --warm:#8a5a28; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:#f2f5f1; color:var(--ink);
+      font:16px/1.55 system-ui,-apple-system,Segoe UI,sans-serif; }
+    main { width:min(880px,calc(100% - 32px)); margin:48px auto; }
+    h1 { margin:0 0 8px; font:700 32px/1.2 Georgia,serif; }
+    .lede,.meta { color:var(--sub); }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+      gap:18px; margin:30px 0; }
+    article { background:var(--paper); border:1px solid var(--line); border-radius:12px;
+      padding:22px; box-shadow:0 3px 14px rgba(36,50,41,.05); }
+    h2 { margin:10px 0 8px; font:700 22px/1.25 Georgia,serif; }
+    .pill { display:inline-block; border-radius:999px; padding:3px 9px;
+      font-size:12px; font-weight:700; letter-spacing:.02em; }
+    .complete { color:#fff; background:var(--sage); }
+    .pending { color:#fff; background:var(--warm); }
+    a.button { display:inline-block; margin-top:8px; padding:9px 13px; border-radius:7px;
+      color:#fff; background:var(--sage); text-decoration:none; font-weight:700; }
+    footer { margin-top:28px; padding-top:16px; border-top:1px solid var(--line);
+      color:var(--sub); font-size:14px; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Cross-model red-teaming reports</h1>
+  <p class="lede">Official non-Anthropic results for the current frozen collaborator scenarios.</p>
+  <section class="grid">
+    <article>
+      <span class="pill complete">Complete · audited</span>
+      <h2>Tommie — official code scenarios</h2>
+      <p>Six frozen headline scenarios, 330 reportable runs, current official judges only. Experimental eight-needle, Amine, and turn-2 conditions are excluded.</p>
+      <a class="button" href="tommie-official-code.html">Open HTML report</a>
+    </article>
+    <article>
+      <span class="pill pending">Finalizing</span>
+      <h2>Nolan — official text scenarios</h2>
+      <p>N=120, K=5 checkpoint across four non-Anthropic models. The report link will appear here only after all 100 runs and current turn-1 judges pass the strict provenance audit.</p>
+    </article>
+  </section>
+  <footer>
+    Official and experimental tracks are kept separate. Last updated 2026-07-26 13:35 EDT.
+  </footer>
+</main>
+</body>
+</html>
